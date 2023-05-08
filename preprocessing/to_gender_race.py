@@ -100,7 +100,7 @@ if __name__ == '__main__':
         raise ValueError("MODIFIED_TEXT already exists in the data file. Please remove it and try again.")
     
     # Make the modified text column.
-    df['MODIFIED_TEXT'] = df['TEXT'].apply(lambda x: prompt_gpt(f"{template}\n\n + {x}", ModelType.CHATGPT))
+    df['MODIFIED_TEXT'] = df['History of Present Illness'].apply(lambda x: prompt_gpt(f"{template}\n\n + {x}", ModelType.CHATGPT))
 
     # Save the file.
     df.to_csv(args.output_file, index=False)
