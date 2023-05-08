@@ -7,7 +7,7 @@ from utils import run_prompts
 from config import PROMPTS_EXPLICIT_DEMOGRAPHICS, PROMPTS_NO_DEMOGRAPHICS
 
 def generate_prompts(condition: str, demographics: bool) -> list[list[str]]:
-    """Generate a ton of prompts. """
+    """Generate a ton of prompts. If demographics is true, explicitely ask the model to include demographic information."""
     all_prompts = []
     prompts_to_use = PROMPTS_EXPLICIT_DEMOGRAPHICS if demographics else PROMPTS_NO_DEMOGRAPHICS
 

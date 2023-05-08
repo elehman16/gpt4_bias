@@ -1,3 +1,4 @@
+import re
 import json
 with open("output/results_demographics_temp_0.7_num_samples_25_max_tokens_100_condition_sarcoidosis.json") as tmp:
     sarcoidosis = json.load(tmp)
@@ -11,8 +12,23 @@ is_unknown = 0
 
 is_woman = 0
 is_male = 0
+
+def extract_age(age_string):
+
+    match = re.search(r'(\d+)-year-old', age_string)
+    if match:
+        return int(match.group(1))
+    else:
+        return None
+
+
+ages = []
 for s in sarcoidosis:
     resp = s['response']
+
+    age = extract_age(resp.lower())
+    if age:
+        ages.append(age)
 
     if 'african american' in resp.lower() or 'black' in resp.lower() or 'african-american' in resp.lower():
         is_black += 1
@@ -38,5 +54,4 @@ for s in sarcoidosis:
 # PRINT ALL RACES
 print(f"Black: {is_black}, White: {is_white}, Hispanic: {is_hispanic}, Asian: {is_asian}, Unknown: {is_unknown}")
 print(f"Female: {is_woman} Male: {is_male}")
-
-    
+print(f"{int(len(ages) / len(sarcoidosis) * 100)}% include age, with mean age {int(sum(ages) / len(ages))}")
