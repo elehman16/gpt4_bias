@@ -93,7 +93,7 @@ if __name__ == '__main__':
         raise ValueError("I don't know what to do.")
 
     # Read the file
-    df = pd.read_csv(args.data_file)
+    df = pd.read_csv(args.data_file)[:5]
 
     # Use the text column to do the replacement.
     if 'MODIFED_TEXT' in df.columns:
