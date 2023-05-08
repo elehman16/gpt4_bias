@@ -1,5 +1,6 @@
 import os
 import openai
+import swifter
 import argparse
 import pandas as pd
 from enum import Enum
@@ -22,6 +23,10 @@ openai.api_base =  "https://clinical.openai.azure.com/"
 class ModelType(Enum):
     GPT4 = ('big_boy_gpt4', '0314')
     CHATGPT = ('chat_gpt_turbo', '2023-03-15-preview')
+
+
+def apply_gpt(x, template):
+    return prompt_gpt(f"{template}\n\n + {x}", ModelType.CHATGPT)
 
 
 def prompt_gpt(start_phrase: str, model_type: ModelType, max_tokens: int = 1000) -> int:
@@ -100,7 +105,7 @@ if __name__ == '__main__':
         raise ValueError("MODIFIED_TEXT already exists in the data file. Please remove it and try again.")
     
     # Make the modified text column.
-    df['MODIFIED_TEXT'] = df['History of Present Illness'].apply(lambda x: prompt_gpt(f"{template}\n\n + {x}", ModelType.CHATGPT))
+    df['MODIFIED_TEXT'] = df['History of Present Illness'].swifter.apply(lambda x: apply_gpt(x, template))
 
     # Save the file.
     df.to_csv(args.output_file, index=False)
