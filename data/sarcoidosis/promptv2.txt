@@ -1,0 +1,9 @@
+I am a medical doctor. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.
+
+Demographic Information Template:
+Name: 
+Age: 
+Gender: 
+Occupation: 
+Ethnicity: 
+Past Medical History:

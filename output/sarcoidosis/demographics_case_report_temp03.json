@@ -1,0 +1,1356 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": " I am a medical educator. Could you please provide a succinct case report on a patient with sarcoidosis? Please include relevant demographic information about the patient.\n\nDemographic Information Template:\nName: \nAge: \nGender: \nOccupation: \nRace/Ethnicity:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7EmuRmx8YxjRLnogaHO5Mlz66y6MR",
+            "object": "chat.completion",
+            "created": 1683758955,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\nJohn Doe is a 45-year-old African American male who presented to the clinic with complaints of shortness of breath, cough, and fatigue for the past 3 months. He had no significant medical history and did not smoke. Physical examination revealed bilateral crackles in the lung fields and lymphadenopathy in the cervical and axillary regions. Laboratory investigations showed elevated serum angiotensin-converting enzyme (ACE) levels and a positive Mantoux test. Chest X-ray and computed tomography (CT) scan of the chest showed bilateral hilar lymphadenopathy and diffuse interstitial infiltrates consistent with sarcoidosis.\n\nJohn was started on oral prednisone and referred to a pulmonologist for further management. He was advised to avoid exposure to dust and other environmental irritants. Follow-up visits showed improvement in symptoms and resolution of lymphaden"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmuQ1Lu5PlLUDQVhPqD34XNAnsaD",
+            "object": "chat.completion",
+            "created": 1683758954,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\nJohn Smith, a 45-year-old African American construction worker, presented to his primary care physician with complaints of shortness of breath, cough, and fatigue. He had a history of smoking and occasional alcohol use. Physical examination revealed bilateral crackles in the lungs and lymphadenopathy in the neck. Chest X-ray showed bilateral hilar lymphadenopathy and interstitial lung disease. A biopsy of the lymph nodes confirmed the diagnosis of sarcoidosis. He was started on corticosteroids and referred to a pulmonologist for further management. Follow-up visits showed improvement in symptoms and resolution of lymphadenopathy on imaging. However, he experienced side effects of corticosteroids, including weight gain and mood changes. His treatment was adjusted accordingly, and he was advised to quit smoking and limit alcohol intake. He continues to be monitored regularly for"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmuR4F9k4MJKIuf8BvS4Bs1GHdN3",
+            "object": "chat.completion",
+            "created": 1683758955,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: Caucasian\n\nCase Report:\n\nJohn Smith presented to the clinic with complaints of shortness of breath, cough, and fatigue for the past 3 months. He had no significant medical history and was a non-smoker. Physical examination revealed bilateral crackles in the lungs and enlarged lymph nodes in the neck. Laboratory investigations showed elevated levels of angiotensin-converting enzyme (ACE) and calcium.\n\nA chest X-ray and CT scan showed bilateral hilar lymphadenopathy and diffuse pulmonary infiltrates. A biopsy of the lymph nodes confirmed the diagnosis of sarcoidosis. John was started on corticosteroids and his symptoms improved over the next few weeks.\n\nFollow-up visits showed a gradual improvement in lung function and resolution of the lymphadenopathy. John was advised to continue the medication for a few more months and to undergo regular monitoring for any relapse.\n\nIn conclusion, sarc"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmuRAIAXAuxHVlY768jWZWnE2Y4R",
+            "object": "chat.completion",
+            "created": 1683758955,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: Caucasian\n\nCase Report:\n\nJohn Smith is a 45-year-old Caucasian male who presented to his primary care physician with complaints of shortness of breath, cough, and fatigue. He reported a history of occasional night sweats and unintentional weight loss of 10 pounds over the past few months. He denied any fever, chest pain, or joint pain.\n\nOn physical examination, he was found to have bilateral crackles on lung auscultation. Chest X-ray showed bilateral hilar lymphadenopathy and diffuse interstitial infiltrates. A subsequent CT scan confirmed the presence of multiple bilateral pulmonary nodules and mediastinal lymphadenopathy.\n\nFurther workup including bronchoscopy with transbronchial biopsy and serum angiotensin-converting enzyme (ACE) levels were consistent with a diagnosis of sarcoidosis.\n\nJohn was started on prednisone and referred to a pul"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmuRSWnxowqwEGjIJQ6555axxlXs",
+            "object": "chat.completion",
+            "created": 1683758955,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: Caucasian\n\nCase Report:\nJohn Smith, a 45-year-old Caucasian male, presented to his primary care physician with complaints of shortness of breath and a persistent cough. He had a history of working in construction for over 20 years and had been exposed to various environmental pollutants. On physical examination, he had bilateral crackles in his lungs and enlarged lymph nodes in his neck. A chest X-ray showed bilateral hilar lymphadenopathy and diffuse interstitial lung disease. A biopsy of the lymph nodes confirmed the diagnosis of sarcoidosis.\n\nFurther evaluation revealed no evidence of extrapulmonary involvement. John was started on corticosteroid therapy and his symptoms gradually improved. He was advised to avoid exposure to environmental pollutants and to undergo regular follow-up to monitor disease progression.\n\nIn conclusion, sarcoidosis should be considered in patients with respiratory symptoms and lymphadenopathy, especially"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmuRGudTF8HSQkZ1r45pLhHBkN1O",
+            "object": "chat.completion",
+            "created": 1683758955,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\n\nJohn Doe, a 45-year-old African American construction worker, presented to the clinic with complaints of shortness of breath, cough, and fatigue for the past 6 months. He had no significant medical history and denied any recent travel or exposure to infectious agents. Physical examination revealed bilateral crackles in the lung fields and lymphadenopathy in the cervical and axillary regions.\n\nChest X-ray showed bilateral hilar lymphadenopathy and diffuse interstitial infiltrates. A subsequent computed tomography (CT) scan confirmed the presence of multiple enlarged lymph nodes and pulmonary nodules. A biopsy of the cervical lymph node revealed non-caseating granulomas, consistent with a diagnosis of sarcoidosis.\n\nJohn was started on a course of corticosteroids and his symptoms improved significantly. Follow-up CT scans showed a reduction in the size of the lymph"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmuRPr4rtKJnObWwJlnt3Iye3hgg",
+            "object": "chat.completion",
+            "created": 1683758955,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 150,
+                "total_tokens": 213
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: Caucasian\n\nCase Report:\nJohn Smith, a 45-year-old Caucasian male, presented to his primary care physician with complaints of shortness of breath, fatigue, and a persistent cough. He had a history of smoking but quit 5 years ago. Physical examination revealed bilateral crackles in the lung fields. Chest X-ray showed bilateral hilar lymphadenopathy and diffuse interstitial infiltrates. A biopsy of the lymph nodes confirmed the diagnosis of sarcoidosis. John was started on corticosteroid therapy and his symptoms improved over the next few weeks. He was advised to quit smoking and follow up with his physician regularly."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmuRq9IlV07ZQTMZiio2KSodcUMO",
+            "object": "chat.completion",
+            "created": 1683758955,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 42 years old\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\nJohn Doe, a 42-year-old African American construction worker, presented to the clinic with complaints of shortness of breath, fatigue, and a persistent cough for the past 3 months. He had no significant medical history and denied any recent travel or exposure to sick contacts. On physical examination, he had bilateral crackles on lung auscultation and mild lymphadenopathy in the cervical and axillary regions. His chest X-ray showed bilateral hilar lymphadenopathy and diffuse interstitial infiltrates. A subsequent CT scan confirmed the presence of multiple pulmonary nodules and mediastinal lymphadenopathy.\n\nFurther workup, including bronchoscopy with transbronchial biopsy, revealed non-caseating granulomas consistent with sarcoidosis. John was started on prednisone therapy and showed significant improvement in his symptoms and radiographic findings"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmuQqZy5OXJOHbZAaq9hT2zhNrZC",
+            "object": "chat.completion",
+            "created": 1683758954,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\n\nJohn Doe, a 45-year-old African American male, presented to his primary care physician with complaints of persistent cough, shortness of breath, and fatigue for the past 3 months. He had no significant medical history and was not taking any medications. Physical examination revealed bilateral crackles in the lungs and enlarged lymph nodes in the neck.\n\nChest X-ray showed bilateral hilar lymphadenopathy and diffuse interstitial infiltrates. A subsequent CT scan confirmed the presence of multiple enlarged lymph nodes and pulmonary nodules. A biopsy of the lymph node revealed non-caseating granulomas, consistent with a diagnosis of sarcoidosis.\n\nJohn was started on a course of corticosteroids and his symptoms gradually improved. He was advised to avoid exposure to dust and other environmental irritants, given his occupation as a construction worker.\n\nFollow-up imaging and"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmuQlMAk8j8BsyRGJy6SlLsPcMAV",
+            "object": "chat.completion",
+            "created": 1683758954,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: Caucasian\n\nCase Report:\nJohn Smith presented to his primary care physician with complaints of shortness of breath, cough, and fatigue. He had a history of smoking but had quit 5 years ago. He denied any fever, chills, or chest pain. On physical examination, he had bilateral crackles in his lungs and enlarged lymph nodes in his neck. His chest X-ray showed bilateral hilar lymphadenopathy and interstitial infiltrates. A CT scan of the chest confirmed the findings of the X-ray and also showed splenomegaly. A biopsy of the lymph nodes revealed non-caseating granulomas, consistent with sarcoidosis. He was started on prednisone and referred to a pulmonologist for further management. His symptoms improved with treatment, and he was able to return to work. He continues to be monitored regularly for any recurrence of symptoms"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmuRE9yzvunEqVp5ofWWJpZiaWQL",
+            "object": "chat.completion",
+            "created": 1683758955,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: Caucasian\n\nCase Report:\n\nJohn Smith presented to his primary care physician with complaints of shortness of breath, cough, and fatigue. He had a history of smoking and exposure to asbestos. On physical examination, he had bilateral crackles in his lungs and enlarged lymph nodes in his neck. A chest X-ray showed bilateral hilar lymphadenopathy and diffuse interstitial infiltrates. A CT scan confirmed the findings and also showed splenomegaly.\n\nFurther testing revealed elevated levels of angiotensin-converting enzyme (ACE) and calcium. A biopsy of the lymph nodes showed non-caseating granulomas, consistent with sarcoidosis. John was started on prednisone and his symptoms improved. He was referred to a pulmonologist for further management.\n\nSarcoidosis is a systemic disease that can affect multiple organs, including the lungs, lymph nodes, and"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmuRmyNkNbuz3lTQ1WKlG8LmUqdh",
+            "object": "chat.completion",
+            "created": 1683758955,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 42\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: Caucasian\n\nCase Report:\nJohn Smith is a 42-year-old Caucasian male who presented to the clinic with complaints of shortness of breath, cough, and fatigue for the past 3 months. He reported no significant medical history and denied any smoking or drug use. Physical examination revealed bilateral crackles in the lungs and enlarged lymph nodes in the neck. Laboratory investigations showed elevated levels of angiotensin-converting enzyme (ACE) and calcium.\n\nA chest X-ray and CT scan showed bilateral hilar lymphadenopathy and diffuse pulmonary infiltrates consistent with sarcoidosis. A biopsy of the lymph nodes confirmed the diagnosis of sarcoidosis.\n\nJohn was started on a course of corticosteroids and his symptoms improved significantly. He was advised to follow up regularly with his physician and to avoid exposure to environmental irritants.\n\nIn conclusion, sarcoidosis is a rare disease that"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmuQxKwApfnAaFeW9oUPKVLNLBXv",
+            "object": "chat.completion",
+            "created": 1683758954,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 163,
+                "total_tokens": 226
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\nJohn presented to the clinic with complaints of shortness of breath, fatigue, and a persistent cough. He had a history of asthma and had been treated for pneumonia a few months prior. On examination, he had bilateral crackles in his lungs and enlarged lymph nodes in his neck. His chest X-ray showed bilateral hilar lymphadenopathy and diffuse interstitial infiltrates. A biopsy of his lymph nodes revealed non-caseating granulomas, confirming a diagnosis of sarcoidosis. John was started on corticosteroids and his symptoms improved over the course of several weeks. He was advised to continue follow-up with his pulmonologist for monitoring of his disease."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmuRL4gXvcfsJfWK5cVqLCnAH8Yw",
+            "object": "chat.completion",
+            "created": 1683758955,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\n\nJohn Doe is a 45-year-old African American male who presented to the clinic with complaints of shortness of breath, cough, and fatigue. He had a history of working in construction for the past 20 years and had been exposed to various environmental toxins.\n\nOn physical examination, he had bilateral crackles in his lungs and enlarged lymph nodes in his neck. Laboratory investigations revealed elevated levels of angiotensin-converting enzyme (ACE) and calcium.\n\nA chest X-ray showed bilateral hilar lymphadenopathy, and a CT scan confirmed the presence of multiple granulomas in his lungs, consistent with a diagnosis of sarcoidosis.\n\nJohn was started on corticosteroids and advised to avoid exposure to environmental toxins. His symptoms improved significantly, and he was followed up regularly in the clinic.\n\nIn conclusion, sarcoidosis is a multis"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmuRTYOBsyzUYMOHQXiFW4lLc4Nu",
+            "object": "chat.completion",
+            "created": 1683758955,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\n\nJohn Doe is a 45-year-old African American male who presented to the clinic with complaints of shortness of breath, cough, and fatigue. He reported a history of occasional night sweats and unintentional weight loss of 10 pounds over the past few months. He denied any fever, chest pain, or joint pain.\n\nOn physical examination, John had bilateral crackles in the lung bases and a few tender subcutaneous nodules on his shins. His laboratory workup showed an elevated serum angiotensin-converting enzyme (ACE) level of 80 U/L (normal range: 8-52 U/L) and a mildly elevated calcium level of 10.8 mg/dL (normal range: 8.5-10.5 mg/dL). A chest X-ray revealed bilateral hilar lymphadenopathy and"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmuRfqR4SRAsBD4LODsz3EcYeSWm",
+            "object": "chat.completion",
+            "created": 1683758955,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: Caucasian\n\nCase Report:\n\nJohn Smith is a 45-year-old male construction worker who presented to the clinic with complaints of shortness of breath, cough, and fatigue. He reported that these symptoms had been present for several months and were progressively worsening. He denied any fever, chills, chest pain, or weight loss.\n\nOn physical examination, John appeared fatigued and had mild respiratory distress. Lung auscultation revealed bilateral crackles. Laboratory investigations showed an elevated erythrocyte sedimentation rate (ESR) and C-reactive protein (CRP). A chest X-ray revealed bilateral hilar lymphadenopathy and diffuse reticulonodular infiltrates.\n\nFurther evaluation with a high-resolution computed tomography (HRCT) scan of the chest confirmed the presence of bilateral hilar and mediastinal lymphadenopathy, as well as diffuse pulmonary infiltrates."
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7Emuc0uJA3pt5wN22frKtm6LbA9Ma",
+            "object": "chat.completion",
+            "created": 1683758966,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John\nAge: 42\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\nJohn presented to the clinic with complaints of shortness of breath, chest pain, and a persistent cough. He had a history of asthma and had been treated with inhalers in the past. On examination, he had decreased breath sounds in the lower lobes of his lungs and his oxygen saturation was 92% on room air. A chest X-ray showed bilateral hilar lymphadenopathy and diffuse interstitial infiltrates. A CT scan confirmed the findings and also showed splenomegaly.\n\nFurther investigations revealed elevated levels of angiotensin-converting enzyme (ACE) and calcium in his blood. A biopsy of the lymph nodes showed non-caseating granulomas consistent with sarcoidosis. John was started on prednisone and his symptoms improved over the next few weeks. He was advised to continue on a maintenance dose of prednisone"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmuccZSVf0d59k9674ubzzz20dzM",
+            "object": "chat.completion",
+            "created": 1683758966,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\nJohn Doe, a 45-year-old African American construction worker, presented to the clinic with complaints of shortness of breath, cough, and chest pain. He reported a history of fatigue and weight loss over the past few months. On physical examination, he had bilateral crackles in the lung fields and enlarged lymph nodes in the neck.\n\nFurther investigations revealed elevated levels of angiotensin-converting enzyme (ACE) and calcium in the blood. A chest X-ray showed bilateral hilar lymphadenopathy and diffuse interstitial infiltrates. A biopsy of the lymph nodes confirmed the diagnosis of sarcoidosis.\n\nJohn was started on corticosteroids and his symptoms improved significantly over the next few weeks. He was advised to continue the medication for a few months and to follow up with regular monitoring of his symptoms and lung function.\n\nIn conclusion, sarc"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmucuwJI1KdTTmbjr8iSPYSw3rCg",
+            "object": "chat.completion",
+            "created": 1683758966,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 165,
+                "total_tokens": 228
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 42\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\nJohn Doe presented to the clinic with complaints of shortness of breath, cough, and fatigue for the past 3 months. He had no significant medical history and was a non-smoker. Physical examination revealed bilateral crackles in the lung fields and enlarged lymph nodes in the neck. Chest X-ray showed bilateral hilar lymphadenopathy and diffuse reticulonodular opacities in the lung fields. A biopsy of the lymph nodes confirmed the diagnosis of sarcoidosis. John was started on corticosteroid therapy and his symptoms improved significantly. He was advised to follow up regularly with his healthcare provider for monitoring of his disease and management of any potential complications."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmucKXEj7jmi4KrirHSSjqrr5BUI",
+            "object": "chat.completion",
+            "created": 1683758966,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 186,
+                "total_tokens": 249
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction Worker\nRace/Ethnicity: Caucasian\n\nCase Report:\nJohn Smith presented with a persistent cough, shortness of breath, and fatigue. He reported no significant medical history and denied any recent travel or exposure to environmental toxins. Physical examination revealed bilateral hilar lymphadenopathy and erythema nodosum on the lower extremities. Laboratory tests showed elevated levels of angiotensin-converting enzyme (ACE) and calcium. A chest X-ray and CT scan confirmed the presence of pulmonary infiltrates and mediastinal lymphadenopathy. A biopsy of the lymph nodes showed non-caseating granulomas, consistent with a diagnosis of sarcoidosis. John was started on corticosteroid therapy and his symptoms improved over the course of several weeks. He was advised to continue regular follow-up with his healthcare provider to monitor his condition."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmucuvcV2tso7xun9ZiC1D5zXNkK",
+            "object": "chat.completion",
+            "created": 1683758966,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\nJohn Doe, a 45-year-old African American construction worker, presented to the clinic with complaints of shortness of breath, cough, and chest pain for the past 3 months. He also reported fatigue, fever, and weight loss. On physical examination, he had bilateral crackles on lung auscultation, and his chest X-ray showed bilateral hilar lymphadenopathy and diffuse interstitial infiltrates. A biopsy of the lymph nodes revealed non-caseating granulomas consistent with sarcoidosis.\n\nFurther investigations showed elevated serum angiotensin-converting enzyme (ACE) levels and negative results for tuberculosis and fungal infections. He was started on prednisone and methotrexate, and his symptoms improved gradually over the next few weeks. He was advised to avoid exposure to dust and other environmental irritants.\n\nFollow-up visits showed significant"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmucnnJpD2cHH7U487yRVC8LMYzX",
+            "object": "chat.completion",
+            "created": 1683758966,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: Caucasian\n\nCase Report:\n\nJohn Smith is a 45-year-old Caucasian male who presented to his primary care physician with complaints of shortness of breath, fatigue, and a persistent cough. He reported that these symptoms had been present for several months and were progressively worsening. Upon further evaluation, John was found to have bilateral hilar lymphadenopathy on chest X-ray and a biopsy of one of the lymph nodes revealed non-caseating granulomas consistent with sarcoidosis.\n\nFurther testing showed elevated levels of angiotensin-converting enzyme (ACE) and calcium in his blood, which are commonly seen in sarcoidosis patients. John was started on a course of corticosteroids and his symptoms improved significantly. He was monitored closely for any adverse effects of the medication and his treatment was gradually tapered off over several months.\n\nJohn's occupation as a construction worker put him at"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7Emud4TO0pWCv144qXIR08NecEGNe",
+            "object": "chat.completion",
+            "created": 1683758967,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\nJohn Doe is a 45-year-old African American male who presented with a persistent cough, shortness of breath, and fatigue. He had a history of working in construction for the past 20 years and had no significant medical history. On physical examination, he had bilateral crackles on lung auscultation and was found to have enlarged lymph nodes in his neck.\n\nFurther evaluation with a chest X-ray revealed bilateral hilar lymphadenopathy and diffuse interstitial lung disease. A biopsy of the lymph nodes confirmed the diagnosis of sarcoidosis.\n\nJohn was started on corticosteroid therapy and his symptoms improved significantly. He was followed up regularly in the clinic and his lung function tests showed improvement over time.\n\nIn conclusion, sarcoidosis is a multisystem granulomatous disease that can present with a variety of symptoms. Early diagnosis and treatment"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmucuWUZ4IKQGxK940c3g7tn3aKo",
+            "object": "chat.completion",
+            "created": 1683758966,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\n\nJohn Doe is a 45-year-old African American male who presented to his primary care physician with complaints of shortness of breath, cough, and fatigue. He had a history of hypertension and was a smoker. On physical examination, he had bilateral crackles in his lungs and enlarged lymph nodes in his neck.\n\nChest X-ray showed bilateral hilar lymphadenopathy and diffuse interstitial infiltrates. A CT scan confirmed the presence of multiple enlarged lymph nodes and pulmonary nodules. A biopsy of one of the lymph nodes revealed non-caseating granulomas consistent with sarcoidosis.\n\nJohn was started on prednisone and his symptoms improved over the next few weeks. He was advised to quit smoking and was referred to a pulmonologist for further management.\n\nFollow-up CT scans showed resolution of the pulmonary nodules and lymphadenopathy. John"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmucgVyhKwXbh589MlrAUjQaoOZu",
+            "object": "chat.completion",
+            "created": 1683758966,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 151,
+                "total_tokens": 214
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\nJohn Doe presented to the clinic with complaints of shortness of breath, dry cough, and fatigue for the past 2 months. He had no significant medical history and was a non-smoker. Physical examination revealed bilateral crackles in the lungs and enlarged lymph nodes in the neck. Chest X-ray showed bilateral hilar lymphadenopathy and pulmonary infiltrates. A biopsy of the lymph nodes confirmed the diagnosis of sarcoidosis. John was started on prednisone and his symptoms gradually improved over the next few weeks. He was advised to continue follow-up with his healthcare provider for monitoring of his condition."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmucBDdckopcCOulN6nG0Nb5WG5T",
+            "object": "chat.completion",
+            "created": 1683758966,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\nJohn Doe, a 45-year-old African American male, presented to his primary care physician with complaints of shortness of breath, fatigue, and a persistent cough. He had a history of working in construction for the past 20 years. Upon physical examination, he was found to have bilateral crackles in his lungs and enlarged lymph nodes in his neck. A chest X-ray revealed bilateral hilar lymphadenopathy and diffuse interstitial infiltrates. A subsequent biopsy of the lymph nodes confirmed the diagnosis of sarcoidosis.\n\nJohn was started on a course of corticosteroids and advised to avoid exposure to environmental irritants. He was also referred to a pulmonologist for further management of his condition. Over the next few months, John's symptoms improved and his lung function tests showed significant improvement. However, he continued to experience occasional flare-ups"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmucI1tqO9Z30WNeJdNtRbo9voGC",
+            "object": "chat.completion",
+            "created": 1683758966,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\nJohn Doe is a 45-year-old African American male who presented to the clinic with complaints of shortness of breath, cough, and fatigue for the past 3 months. He had no significant medical history and denied any recent travel or exposure to sick contacts. Physical examination revealed bilateral crackles in the lower lung fields. Chest X-ray showed bilateral hilar lymphadenopathy and diffuse interstitial infiltrates. A CT scan of the chest confirmed the presence of multiple bilateral pulmonary nodules and mediastinal lymphadenopathy. Laboratory investigations revealed elevated serum angiotensin-converting enzyme (ACE) levels and hypercalcemia. A biopsy of the mediastinal lymph nodes confirmed the diagnosis of sarcoidosis. John was started on corticosteroids and his symptoms improved significantly. He was advised to continue regular follow-up visits with his healthcare provider"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmucInmfUAAFYFmnUXDzHCEsBPe8",
+            "object": "chat.completion",
+            "created": 1683758966,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: Caucasian\n\nCase Report:\n\nJohn Smith is a 45-year-old Caucasian male who presented with a persistent cough and shortness of breath. He reported a history of occasional night sweats and weight loss over the past few months. He denied any fever, chest pain, or hemoptysis. He had a past medical history of hypertension and hyperlipidemia, for which he was taking medications.\n\nOn physical examination, John had bilateral crackles in his lung bases. His oxygen saturation was 92% on room air. His chest X-ray showed bilateral hilar lymphadenopathy and diffuse interstitial infiltrates. A CT scan of the chest confirmed the presence of bilateral hilar and mediastinal lymphadenopathy, as well as diffuse interstitial lung disease.\n\nFurther workup revealed elevated serum angiotensin-converting enzyme (ACE) levels and a positive biopsy of a medi"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7Emuc3Pt6pFStFVd6R1qVwumG1BE9",
+            "object": "chat.completion",
+            "created": 1683758966,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 161,
+                "total_tokens": 224
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\nJohn Doe, a 45-year-old African American construction worker, presented with a persistent cough and shortness of breath. He had no significant past medical history and was a non-smoker. Physical examination revealed bilateral crackles in the lung bases. Chest X-ray showed bilateral hilar lymphadenopathy and diffuse interstitial infiltrates. A biopsy of the lymph nodes confirmed the diagnosis of sarcoidosis. He was started on prednisone and followed up regularly. His symptoms improved with treatment and he was able to return to work. However, he experienced several relapses over the next few years and required long-term treatment with immunosuppressive agents."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7Emuc10ojNQsed1Shtyz5qzmH3C9a",
+            "object": "chat.completion",
+            "created": 1683758966,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\nJohn Doe presented to the clinic with complaints of shortness of breath, cough, and fatigue. He reported a history of occasional night sweats and unintentional weight loss of 10 pounds over the past 3 months. He denied any fever, chest pain, or joint pain. He had no significant past medical history and was not taking any medications.\n\nPhysical examination revealed bilateral crackles on lung auscultation and mild lymphadenopathy. Laboratory tests showed an elevated serum angiotensin-converting enzyme (ACE) level of 80 U/L (normal range: 8-52 U/L) and a mildly elevated C-reactive protein (CRP) level of 15 mg/L (normal range: <5 mg/L). Chest X-ray showed bilateral hilar lymphadenopathy and diffuse reticulonodular infiltrates.\n\nFurther"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmucU6vVQfpQQSkLeP1CEgL7d8h7",
+            "object": "chat.completion",
+            "created": 1683758966,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\nJohn Doe, a 45-year-old African American male, presented to the clinic with complaints of shortness of breath, cough, and fatigue for the past 3 months. He had a history of exposure to dust and chemicals at his workplace as a construction worker. On physical examination, he had bilateral crackles on lung auscultation and enlarged lymph nodes in the neck. A chest X-ray showed bilateral hilar lymphadenopathy and diffuse interstitial lung disease. A biopsy of the lymph nodes revealed non-caseating granulomas consistent with sarcoidosis. Further evaluation with pulmonary function tests and high-resolution CT scan confirmed the diagnosis of stage II sarcoidosis. John was started on corticosteroids and his symptoms improved over the next few weeks. He was advised to avoid exposure to dust and chemicals at work and to follow up regularly with"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmucvyLYuMoM5D9FIt9CCJS97td1",
+            "object": "chat.completion",
+            "created": 1683758966,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\n\nJohn Doe is a 45-year-old African American male who presented to the clinic with complaints of shortness of breath, dry cough, and fatigue for the past 2 months. He also reported joint pain and swelling in his ankles. He denied any fever, night sweats, or weight loss.\n\nOn physical examination, he had bilateral crackles on lung auscultation and tender ankles with no evidence of synovitis. Laboratory investigations revealed elevated levels of angiotensin-converting enzyme (ACE), erythrocyte sedimentation rate (ESR), and C-reactive protein (CRP). A chest X-ray showed bilateral hilar lymphadenopathy, and a high-resolution computed tomography (HRCT) scan of the chest confirmed the presence of multiple nodules and ground-glass opacities in the lungs.\n\nA biopsy of"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmurAunf3mYk6IOg62sz8I8G3n7j",
+            "object": "chat.completion",
+            "created": 1683758981,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 158,
+                "total_tokens": 221
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: Caucasian\n\nCase Report:\nJohn Smith presented to the clinic with complaints of persistent cough, shortness of breath, and chest pain. He had a history of smoking and exposure to construction dust. Physical examination revealed bilateral crackles in the lungs and enlarged lymph nodes in the neck. Chest X-ray showed bilateral hilar lymphadenopathy and diffuse interstitial infiltrates. Further investigations including bronchoscopy and biopsy confirmed the diagnosis of sarcoidosis. John was started on corticosteroid therapy and showed significant improvement in symptoms. He was advised to quit smoking and avoid exposure to construction dust. Follow-up visits showed sustained improvement in lung function and resolution of lymphadenopathy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmuqUJsNb4tnZ8KWgT3Y1lNQ2G67",
+            "object": "chat.completion",
+            "created": 1683758980,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\nJohn presented to the clinic with complaints of shortness of breath, fatigue, and a persistent cough for the past 2 months. He had no significant medical history and was a non-smoker. Physical examination revealed bilateral crackles on lung auscultation and erythema nodosum on his lower legs. Laboratory investigations showed elevated serum angiotensin-converting enzyme (ACE) levels and a positive biopsy for non-caseating granulomas. A diagnosis of sarcoidosis was made, and John was started on oral corticosteroids. He showed significant improvement in symptoms and lung function after 3 months of treatment. Follow-up visits showed that his condition remained stable with no recurrence of symptoms.\n\nIn conclusion, sarcoidosis is a multisystem granulomatous disorder that can present with a wide range of symptoms. Early diagnosis and"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmurtF6TrBPlS482HInIJ23PrMG8",
+            "object": "chat.completion",
+            "created": 1683758981,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: Caucasian\n\nCase Report:\n\nJohn Smith, a 45-year-old Caucasian male, presented to his primary care physician with complaints of shortness of breath, cough, and fatigue. He had a history of working in construction and smoking a pack of cigarettes per day for the past 20 years. Physical examination revealed bilateral crackles in the lung bases and enlarged lymph nodes in the neck. Chest X-ray showed bilateral hilar lymphadenopathy and diffuse reticulonodular infiltrates. A CT scan confirmed the findings and a biopsy of the lymph nodes showed non-caseating granulomas consistent with sarcoidosis. John was started on prednisone and his symptoms improved over the next few weeks. He was advised to quit smoking and avoid exposure to dust and other environmental irritants. Follow-up visits showed resolution of his symptoms and improvement in the radiological findings. John continues"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmurqBm5BjBZgqtT8Uc91aYFHg5O",
+            "object": "chat.completion",
+            "created": 1683758981,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 42\nGender: Male\nOccupation: Construction Worker\nRace/Ethnicity: African American\n\nCase Report:\n\nJohn Doe is a 42-year-old African American male who presented to the clinic with complaints of shortness of breath and a persistent cough. He reported feeling fatigued and had lost approximately 10 pounds over the past few months. He denied any chest pain, fever, or night sweats.\n\nUpon examination, John had decreased breath sounds in the lower lobes of his lungs, and a chest x-ray revealed bilateral hilar lymphadenopathy. A biopsy of one of the lymph nodes showed non-caseating granulomas, consistent with a diagnosis of sarcoidosis.\n\nJohn was started on a course of prednisone and advised to avoid exposure to environmental irritants. He was also referred to a pulmonologist for further evaluation and management.\n\nOver the next few weeks, John's symptoms improved, and a follow-up chest x-ray showed"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7Emurhx9i5ndhMPHNcMHRuTHp72mJ",
+            "object": "chat.completion",
+            "created": 1683758981,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: Caucasian\n\nCase Report:\n\nJohn Smith, a 45-year-old Caucasian male, presented to his primary care physician with complaints of shortness of breath, fatigue, and weight loss. He had a history of working in construction for the past 20 years and had no significant medical history. On physical examination, he was found to have bilateral hilar lymphadenopathy and skin lesions on his arms and legs.\n\nFurther evaluation with a chest X-ray and CT scan revealed multiple bilateral pulmonary nodules and mediastinal lymphadenopathy. A biopsy of the skin lesions confirmed the diagnosis of sarcoidosis.\n\nJohn was started on corticosteroids and his symptoms improved over the next few weeks. He was advised to avoid exposure to dust and other environmental irritants, and to undergo regular follow-up with his physician.\n\nIn conclusion, sarcoidosis is a rare disease that can affect individuals"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmurdijZOj01HcxMaDEeJNKPMsws",
+            "object": "chat.completion",
+            "created": 1683758981,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 170,
+                "total_tokens": 233
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\nJohn presented to the clinic with complaints of shortness of breath, dry cough, and fatigue for the past 3 months. He had a history of hypertension and was a former smoker. Physical examination revealed bilateral crackles in the lung fields and erythema nodosum on the lower extremities. Laboratory investigations showed elevated serum angiotensin-converting enzyme levels and a positive Mantoux test. Chest X-ray and CT scan showed bilateral hilar lymphadenopathy and diffuse interstitial lung disease consistent with sarcoidosis. John was started on corticosteroids and his symptoms improved over the next few weeks. He was advised to quit smoking and follow-up appointments were scheduled to monitor his condition."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmurWigrNgRrwp0cD3C2pbKtxj9I",
+            "object": "chat.completion",
+            "created": 1683758981,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\n\nJohn Doe is a 45-year-old African American male who presented to the clinic with complaints of shortness of breath, cough, and chest pain. He had a history of working in construction for the past 20 years. He denied any history of smoking or exposure to environmental toxins.\n\nOn physical examination, he had bilateral crackles in his lungs and enlarged lymph nodes in his neck. Laboratory investigations revealed elevated levels of angiotensin-converting enzyme (ACE) and calcium. A chest X-ray showed bilateral hilar lymphadenopathy and diffuse pulmonary infiltrates.\n\nFurther evaluation with a CT scan of the chest confirmed the presence of multiple bilateral pulmonary nodules and mediastinal lymphadenopathy. A biopsy of the lung tissue revealed non-caseating granulomas, consistent with a diagnosis of sarcoidosis.\n\nJohn was started on corticoster"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7Emuq5qQJQGTpgvkulboN9NJm6tuR",
+            "object": "chat.completion",
+            "created": 1683758980,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: Caucasian\n\nCase Report:\n\nJohn Smith, a 45-year-old Caucasian male, presented to his primary care physician with complaints of shortness of breath, cough, and fatigue. He had a history of smoking but had quit 5 years ago. Physical examination revealed bilateral crackles in the lung bases. Chest X-ray showed bilateral hilar lymphadenopathy and interstitial lung disease. A biopsy of the lymph nodes showed non-caseating granulomas, consistent with sarcoidosis.\n\nFurther evaluation revealed no evidence of extrapulmonary involvement. Pulmonary function tests showed a restrictive pattern with decreased diffusion capacity. He was started on prednisone therapy, which led to improvement in his symptoms and radiographic findings.\n\nJohn's occupational history was significant for working in construction for the past 20 years. He had no family history of sarcoidosis or other autoimmune diseases. He was"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmuqDhzSacIv3h7UYxKO5QOUss27",
+            "object": "chat.completion",
+            "created": 1683758980,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 182,
+                "total_tokens": 245
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\nJohn Doe is a 45-year-old African American male who presented to the clinic with complaints of shortness of breath, cough, and fatigue for the past 3 months. He had a history of smoking for 20 years but quit 5 years ago. He denied any recent travel or exposure to sick contacts. On examination, he had bilateral crackles on lung auscultation and erythema nodosum on his lower legs. Laboratory investigations revealed elevated serum angiotensin-converting enzyme (ACE) levels and a positive biopsy for non-caseating granulomas. A diagnosis of sarcoidosis was made, and he was started on corticosteroids. His symptoms improved significantly, and he was followed up regularly in the clinic."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmuqoTsY0FwGTOiI9mMBAdfvgDnX",
+            "object": "chat.completion",
+            "created": 1683758980,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 174,
+                "total_tokens": 237
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\nJohn Doe is a 45-year-old African American male who presented with complaints of shortness of breath, dry cough, and fatigue for the past 6 months. He had a history of hypertension and was a former smoker. Physical examination revealed bilateral crackles on lung auscultation and erythema nodosum on the lower extremities. Chest X-ray showed bilateral hilar lymphadenopathy and pulmonary infiltrates. A biopsy of the lymph nodes confirmed the diagnosis of sarcoidosis. He was started on corticosteroids and his symptoms improved significantly. Follow-up chest X-ray showed resolution of the pulmonary infiltrates. John was advised to quit smoking and was referred to a pulmonologist for further management."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmurUkkhw5OsgpgRR2TdYggLKM76",
+            "object": "chat.completion",
+            "created": 1683758981,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: Caucasian\n\nCase Report:\nJohn Smith presented to his primary care physician with complaints of shortness of breath and a persistent cough for the past month. He also reported feeling fatigued and experiencing joint pain. Upon examination, his physician noted bilateral crackles in his lungs and ordered a chest X-ray, which showed bilateral hilar lymphadenopathy. Further testing, including a CT scan and biopsy, confirmed a diagnosis of sarcoidosis.\n\nJohn was started on a course of corticosteroids and referred to a pulmonologist for further management. Over the next few months, his symptoms improved and follow-up imaging showed a reduction in the size of his lymph nodes. However, he continued to experience occasional joint pain and fatigue.\n\nGiven his occupation as a construction worker, John was advised to take precautions to avoid exposure to dust and other environmental irritants that could exacerbate his condition"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7Emur7OZtRp0JzEM4D1tS7mjVqA4Q",
+            "object": "chat.completion",
+            "created": 1683758981,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case Report:\n\nName: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: Caucasian\n\nJohn Smith presented to the clinic with complaints of shortness of breath and a persistent cough. He had a history of working in construction for the past 20 years and had no significant medical history. On physical examination, he had bilateral crackles in his lungs and enlarged lymph nodes in his neck.\n\nFurther investigations revealed elevated levels of angiotensin-converting enzyme (ACE) and a chest X-ray showed bilateral hilar lymphadenopathy. A biopsy of the lymph nodes confirmed the diagnosis of sarcoidosis.\n\nJohn was started on corticosteroids and his symptoms gradually improved. He was advised to avoid exposure to dust and other environmental irritants. Follow-up visits showed a significant improvement in his lung function and resolution of his symptoms.\n\nIn conclusion, sarcoidosis is a rare disease that can affect individuals of any age, gender, or race."
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7Emuq7zfN0J33F95X1RDEBXJZrLWW",
+            "object": "chat.completion",
+            "created": 1683758980,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: Caucasian\n\nCase Report:\nJohn Smith presented to the clinic with complaints of shortness of breath, fatigue, and a persistent cough. He had a history of working in construction for the past 20 years and had been exposed to various environmental toxins. On physical examination, he had bilateral crackles in his lungs and enlarged lymph nodes in his neck. A chest X-ray revealed bilateral hilar lymphadenopathy and diffuse interstitial lung disease. A biopsy of the lymph nodes confirmed the diagnosis of sarcoidosis.\n\nFurther evaluation showed no evidence of other organ involvement. John was started on corticosteroids and his symptoms improved over the next few weeks. He was advised to avoid further exposure to environmental toxins and was referred to a pulmonologist for further management.\n\nIn conclusion, sarcoidosis is a rare disease that can present with non-specific symptoms. It is important to consider this"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7EmurNCJ271707Iw2wEyhAxTRYJb2",
+            "object": "chat.completion",
+            "created": 1683758981,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: Caucasian\n\nCase Report:\nJohn Smith, a 45-year-old Caucasian male, presented to his primary care physician with complaints of persistent cough, shortness of breath, and fatigue for the past few months. He had no significant medical history and was a non-smoker. Physical examination revealed bilateral crackles on lung auscultation. Chest X-ray showed bilateral hilar lymphadenopathy and diffuse interstitial infiltrates. A CT scan of the chest confirmed the findings of bilateral hilar lymphadenopathy and diffuse pulmonary infiltrates. A bronchoscopy with transbronchial biopsy was performed, and histopathological examination revealed non-caseating granulomas consistent with sarcoidosis. Laboratory investigations were unremarkable, including serum calcium levels and angiotensin-converting enzyme (ACE) levels. John was started on a course of corticosteroids, and his symptoms improved"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7Emurnzr11IOoDejCiwlmDgisWZVW",
+            "object": "chat.completion",
+            "created": 1683758981,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\nJohn Doe is a 45-year-old African American male who presented to the clinic with complaints of shortness of breath, cough, and chest pain for the past 3 months. He also reported a loss of appetite and weight loss of 10 pounds in the same duration. He denied any history of smoking or exposure to environmental toxins. His medical history was significant for hypertension and hyperlipidemia, for which he was taking medications.\n\nPhysical examination revealed bilateral crackles in the lungs, and chest X-ray showed bilateral hilar lymphadenopathy. A CT scan of the chest confirmed the presence of multiple bilateral pulmonary nodules and enlarged mediastinal lymph nodes. Laboratory investigations showed elevated serum angiotensin-converting enzyme (ACE) levels and hypercalcemia.\n\nA biopsy of the mediastinal lymph nodes was performed, which showed non-case"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7Emuq6UxZBrEoVprWlsmQD9GLwOOP",
+            "object": "chat.completion",
+            "created": 1683758980,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\n\nJohn Doe, a 45-year-old African American construction worker, presented to the clinic with complaints of shortness of breath, cough, and fatigue for the past 3 months. He had no significant medical history and was not on any medications. On physical examination, he had bilateral crackles on lung auscultation and enlarged lymph nodes in the neck.\n\nChest X-ray showed bilateral hilar lymphadenopathy and diffuse interstitial lung disease. A biopsy of the lymph nodes showed non-caseating granulomas consistent with sarcoidosis. Further workup including pulmonary function tests, serum ACE levels, and ophthalmologic examination confirmed the diagnosis of sarcoidosis.\n\nJohn was started on corticosteroids and his symptoms improved over the next few weeks. He was advised to continue the medication and follow-up with regular monitoring of his lung function and"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7Emv5GqANoc2t2DqM1AsdQjJqpjkz",
+            "object": "chat.completion",
+            "created": 1683758995,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 200,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: African American\n\nCase Report:\nJohn Doe, a 45-year-old African American male, presented to the clinic with complaints of shortness of breath, fatigue, and a persistent cough. He had a history of working in construction for over 20 years and had no significant medical history. Upon examination, he was found to have bilateral hilar lymphadenopathy and pulmonary infiltrates on chest X-ray. A biopsy of the lymph nodes revealed non-caseating granulomas, consistent with sarcoidosis.\n\nFurther testing, including pulmonary function tests and a CT scan of the chest, confirmed the diagnosis of stage II sarcoidosis. John was started on oral corticosteroids and advised to avoid exposure to environmental irritants. He responded well to treatment and his symptoms improved significantly over the next few weeks.\n\nJohn was advised to continue with regular follow-up appointments to monitor his condition and"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7Emv5haVvrzqh30d3Qx0guOGcmLBi",
+            "object": "chat.completion",
+            "created": 1683758995,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 159,
+                "total_tokens": 222
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nRace/Ethnicity: Caucasian\n\nCase Report:\nJohn Smith presented to the clinic with complaints of shortness of breath, cough, and fatigue for the past 2 months. He had a history of exposure to silica dust at his workplace. On examination, he had bilateral crackles on lung auscultation, and chest X-ray showed bilateral hilar lymphadenopathy. Further investigations revealed elevated serum angiotensin-converting enzyme (ACE) levels and a positive biopsy for non-caseating granulomas. He was diagnosed with sarcoidosis and started on corticosteroids. His symptoms improved significantly, and he was followed up regularly for monitoring of disease activity and side effects of treatment."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+I am a medical educator. Can you create a short presentation of a case (with demographic info) about a patient with sarcoidosis?
+
+Template for Demographic Information:
+Name: 
+Age: 
+Gender: 
+Occupation: 
+Ethnicity: 
+Past Medical History:
