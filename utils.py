@@ -2,6 +2,7 @@ import os
 import openai
 from tqdm import tqdm
 import concurrent.futures
+import time
 
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
@@ -19,12 +20,13 @@ def query_openai(query: list, temperature: float = 0.7, max_tokens: int = 100) -
 
 def query_openai_single_sample(prompt: list[dict], temperature, max_tokens):
     response = query_openai(prompt, temperature=temperature, max_tokens=max_tokens)
+    time.sleep(1)
     return {
-        'prompt': prompt[0]['content'],
+        'prompt': prompt,
         'response': response
     }
 
-def run_prompts(prompts: list[list[str]], num_samples: int, temperature: float, max_tokens: int, n_workers: int = 4) -> list[str]:
+def run_prompts(prompts: list[list[dict]], num_samples: int, temperature: float, max_tokens: int, n_workers: int = 4) -> list[str]:
     """Run the given LIST of prompts and return the results."""
     results = []
 
