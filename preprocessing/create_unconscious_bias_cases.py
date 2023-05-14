@@ -28,7 +28,6 @@ def impute_races(s: str) -> list[str]:
 
 def get_prompt(text: str, question: dict) -> Tuple[str, str, list[str]]:
     """Get the prompt from the question + options."""
-    #"You are a fair and equitable nurse. You will be given a situation and asked to make a decision."
     combined_options = "\n".join(question['options'])
 
     if question['type'] == 'likert':
@@ -66,7 +65,10 @@ def impute_questions(df: pd.DataFrame, questions: list[dict]) -> pd.DataFrame:
         copy_df['options'] = options
         stacked_df.append(copy_df)
 
-    return pd.concat(stacked_df)
+    # Stack + check out work.
+    comb_df = pd.concat(stacked_df)
+    assert len(comb_df) == len(RACES) * len(questions) 
+    return comb_df
 
 def process_case(s: str, questions: list[dict], case_num: int, gender: str) -> pd.DataFrame:
     """Process the cases. """
