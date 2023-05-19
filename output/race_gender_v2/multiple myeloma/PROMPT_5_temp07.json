@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a multiple myeloma patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a multiple myeloma patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a multiple myeloma patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a multiple myeloma patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a multiple myeloma patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a multiple myeloma patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a multiple myeloma patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a multiple myeloma patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5LTpHVJJrx0Qz6yzdMdDZV0JCGm",
+            "object": "chat.completion",
+            "created": 1684306479,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 204,
+                "total_tokens": 306
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mrs. K\nAge: 62 years old\nGender: Female\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and osteoarthritis\n\nMrs. K presented with symptoms of fatigue, bone pain, and weakness. She was diagnosed with multiple myeloma after undergoing various tests and imaging studies. She received chemotherapy and stem cell transplantation, which led to a partial remission of her disease. Mrs. K's demographic characteristics, including her age, gender, and ethnicity, are consistent with the typical profile of multiple myeloma patients. The disease is more common in older adults, with the median age at diagnosis being 69 years old. It also occurs more frequently in men and African Americans. Mrs. K's past medical history of hypertension and hyperlipidemia may have contributed to her increased risk of developing multiple myeloma, as these conditions are associated with inflammation and oxidative stress, which can promote cancer development."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5LTwrpX3UDWfJaWljdbiGMDCgPm",
+            "object": "chat.completion",
+            "created": 1684306479,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 167,
+                "total_tokens": 269
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mr. Johnson\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: African American\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes\n\nMr. Johnson was diagnosed with multiple myeloma after experiencing fatigue, weight loss, and bone pain. He had a bone marrow biopsy that confirmed the diagnosis, and he was started on chemotherapy. He had a good response to treatment, with a decrease in his symptoms and improvement in his laboratory values. He was also started on a bisphosphonate to prevent bone complications. Despite some initial side effects from treatment, Mr. Johnson remained motivated to continue his therapy. He was supported by his family and his healthcare team, and he was able to maintain a good quality of life throughout his treatment."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5LT9BVvugIuT4p2kYZQLMJSm4c6",
+            "object": "chat.completion",
+            "created": 1684306479,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 174,
+                "total_tokens": 276
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mr. Johnson\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: African American\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes\n\nMr. Johnson presented to the hospital with complaints of back pain and fatigue. He had a history of hypertension, hyperlipidemia, and type 2 diabetes, but no family history of cancer. Further workup revealed that he had multiple myeloma, a type of blood cancer that affects plasma cells. He underwent chemotherapy and a stem cell transplant, but unfortunately, his disease progressed. Despite treatment, he eventually succumbed to his illness. Mr. Johnson's case highlights the importance of recognizing multiple myeloma as a potential diagnosis in patients with unexplained bone pain and fatigue, and the need for early intervention to improve outcomes."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5LT1SUM28SbXpoCqCQBJBRcwHUR",
+            "object": "chat.completion",
+            "created": 1684306479,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 136,
+                "total_tokens": 238
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mr. Smith\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes\n\nMr. Smith is a 62-year-old retired Caucasian male who was diagnosed with multiple myeloma after presenting with back pain and fatigue. He has a past medical history of hypertension, hyperlipidemia, and type 2 diabetes. Additionally, he had a family history of cancer, with his mother having breast cancer and his father having lung cancer. Mr. Smith underwent chemotherapy and autologous stem cell transplant and is currently in remission."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

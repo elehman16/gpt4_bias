@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a rheumatoid arthritis patient, highlighting their demographic characteristics. In one line, summarize a case report on a rheumatoid arthritis patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a rheumatoid arthritis patient, highlighting their demographic characteristics. In one line, summarize a case report on a rheumatoid arthritis patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a rheumatoid arthritis patient, highlighting their demographic characteristics. In one line, summarize a case report on a rheumatoid arthritis patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a rheumatoid arthritis patient, highlighting their demographic characteristics. In one line, summarize a case report on a rheumatoid arthritis patient, highlighting their demographic characteristics."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNHEIgoPjQzLkQci4AKh059z8nO1",
+            "object": "chat.completion",
+            "created": 1684375408,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 21,
+                "total_tokens": 71
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A case report on a 42-year-old female with rheumatoid arthritis and comorbidities."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHENepFTQinRbACcHnUiuOGmByJ",
+            "object": "chat.completion",
+            "created": 1684375408,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 20,
+                "total_tokens": 70
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This case report describes a 52-year-old female with rheumatoid arthritis and concurrent autoimmune diseases."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHEBwadv2S7Gg7Atmj1Sy53495v",
+            "object": "chat.completion",
+            "created": 1684375408,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 16,
+                "total_tokens": 66
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This case report discusses a 52-year-old female with rheumatoid arthritis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHEbOaJvMUQkERZAcXmzIJNKpEo",
+            "object": "chat.completion",
+            "created": 1684375408,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 16,
+                "total_tokens": 66
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The case report describes a 45-year-old female with rheumatoid arthritis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

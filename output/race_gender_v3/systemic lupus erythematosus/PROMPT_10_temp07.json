@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: systemic lupus erythematosus. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: systemic lupus erythematosus."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: systemic lupus erythematosus. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: systemic lupus erythematosus."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: systemic lupus erythematosus. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: systemic lupus erythematosus."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: systemic lupus erythematosus. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: systemic lupus erythematosus."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNPW6zXIYPrt3t1T7pPoMTtApyzJ",
+            "object": "chat.completion",
+            "created": 1684375922,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 198,
+                "completion_tokens": 31,
+                "total_tokens": 229
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "\"A 25-year-old African American female with a history of joint pain and recurrent fevers presents with new onset rash, photosensitivity, and hair loss.\""
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPWlxYiW8vNLT2WHyTC8pLYVAYh",
+            "object": "chat.completion",
+            "created": 1684375922,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 198,
+                "completion_tokens": 36,
+                "total_tokens": 234
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 28-year-old female of African American descent with a history of Raynaud's phenomenon presents with joint pain, fatigue, and a butterfly rash over her cheeks and nose."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPW2dohWuW5DNyJNtMedaML13ag",
+            "object": "chat.completion",
+            "created": 1684375922,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 198,
+                "completion_tokens": 25,
+                "total_tokens": 223
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 25-year-old African American female with a history of joint pain and fatigue presents with a facial rash and photosensitivity."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPW9fVIPn7HfB0w1IDuy5UZoF21",
+            "object": "chat.completion",
+            "created": 1684375922,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 198,
+                "completion_tokens": 32,
+                "total_tokens": 230
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 25-year-old African American female with a history of joint pain and fatigue presents with a rash on her face and chest that worsens with sun exposure."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

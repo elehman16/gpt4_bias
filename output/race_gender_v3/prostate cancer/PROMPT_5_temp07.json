@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a prostate cancer patient, including their demographic data in one line. Provide a brief summary of a case report featuring a prostate cancer patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a prostate cancer patient, including their demographic data in one line. Provide a brief summary of a case report featuring a prostate cancer patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a prostate cancer patient, including their demographic data in one line. Provide a brief summary of a case report featuring a prostate cancer patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a prostate cancer patient, including their demographic data in one line. Provide a brief summary of a case report featuring a prostate cancer patient, including their demographic data in one line."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNKfVVUZR5VopYlANVlzzHdpomuL",
+            "object": "chat.completion",
+            "created": 1684375621,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 52,
+                "completion_tokens": 24,
+                "total_tokens": 76
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 68-year-old male with prostate cancer and a history of heart disease presenting with urinary obstruction and elevated PSA levels."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNKfr4LXRNc96FfYVShlA9baWvgP",
+            "object": "chat.completion",
+            "created": 1684375621,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 52,
+                "completion_tokens": 30,
+                "total_tokens": 82
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 67-year-old African American male with metastatic prostate cancer and a history of hypertension presented with new onset lower extremity weakness and numbness."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNKgnHNGOICBzuGPtZWonSfmakD5",
+            "object": "chat.completion",
+            "created": 1684375622,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 52,
+                "completion_tokens": 28,
+                "total_tokens": 80
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 68-year-old Caucasian male with localized prostate cancer underwent robot-assisted laparoscopic prostatectomy with preservation of neurovascular bundles."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNKfG8QWKSNPpl2RJZpGuOqcZNX3",
+            "object": "chat.completion",
+            "created": 1684375621,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 52,
+                "completion_tokens": 32,
+                "total_tokens": 84
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A case report featuring a 61-year-old African American male with prostate cancer who presented with lower back pain and elevated prostate-specific antigen (PSA) levels."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

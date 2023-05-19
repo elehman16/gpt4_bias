@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with colon cancer. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with colon cancer. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with colon cancer. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with colon cancer. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with colon cancer. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with colon cancer. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with colon cancer. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with colon cancer. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNCYOTSWTWnD6GAFOvyOIz6sHvn5",
+            "object": "chat.completion",
+            "created": 1684375118,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 68,
+                "completion_tokens": 27,
+                "total_tokens": 95
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 56-year-old male presented with rectal bleeding and was diagnosed with stage III colon cancer after undergoing colonoscopy and biopsy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNCYsIfngrdzWmgQQOC3fLaDB87Y",
+            "object": "chat.completion",
+            "created": 1684375118,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 68,
+                "completion_tokens": 30,
+                "total_tokens": 98
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 57-year-old male with a history of smoking and family history of colon cancer presents with abdominal pain and is diagnosed with stage III colon cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNCY0WIIXyryL9hUChk41vlZpVmi",
+            "object": "chat.completion",
+            "created": 1684375118,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 68,
+                "completion_tokens": 27,
+                "total_tokens": 95
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 63-year-old male with a history of hypertension and smoking presents with rectal bleeding and is diagnosed with stage III colon cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNCYJIKSVAtdsEK4T0qFgS4ULUST",
+            "object": "chat.completion",
+            "created": 1684375118,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 68,
+                "completion_tokens": 37,
+                "total_tokens": 105
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 62-year-old male with a history of smoking and family history of colon cancer diagnosed with stage III colon adenocarcinoma after presenting with rectal bleeding and abdominal pain."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

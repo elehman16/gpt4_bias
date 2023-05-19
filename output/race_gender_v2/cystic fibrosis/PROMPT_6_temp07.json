@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with cystic fibrosis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with cystic fibrosis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with cystic fibrosis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with cystic fibrosis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with cystic fibrosis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with cystic fibrosis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with cystic fibrosis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with cystic fibrosis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5VJWuqxmySlrxRsQ8oDa4OCj8YE",
+            "object": "chat.completion",
+            "created": 1684307089,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 23\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at age 6, history of recurrent respiratory infections, has been hospitalized multiple times for exacerbations of her condition.\n\nCase Report:\nSarah Johnson is a 23-year-old female who has been living with cystic fibrosis since age 6. She presents to the clinic with complaints of increased coughing, difficulty breathing, and decreased exercise tolerance. She reports that her symptoms have been gradually worsening over the past few months.\n\nOn examination, Sarah is noted to have decreased breath sounds and crackles on auscultation of her lungs. Spirometry shows a significant decrease in her forced expiratory volume in 1 second (FEV1) compared to her baseline. Her sputum is sent for culture, which grows Pseudomonas aeruginosa.\n\nSarah is admitted to the hospital for intravenous antibiotics and airway clearance therapy. She is started on a combination of ceftazidime and tobramycin, and is scheduled for daily chest physiotherapy and nebulized hypertonic saline. She is also started on pancreatic enzyme replacement therapy due to malabsorption of"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5VJiuZJC5JvBMJp8GnakcktcMbP",
+            "object": "chat.completion",
+            "created": 1684307089,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 26\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Cystic fibrosis, diagnosed at birth.\n\nCase Report:\n\nSarah Johnson is a 26-year-old Caucasian female who was diagnosed with cystic fibrosis at birth. She is currently a student studying psychology at a local university. Sarah's past medical history includes frequent hospitalizations for respiratory complications related to cystic fibrosis. She has a history of chronic cough, shortness of breath, and difficulty breathing during physical activity.\n\nSarah presented to the hospital with worsening respiratory symptoms including increased cough, sputum production, and shortness of breath. She reported feeling fatigued and had lost weight over the past few weeks. Upon examination, Sarah was found to have decreased lung function and a fever. She was admitted to the hospital for intravenous antibiotics and respiratory treatments.\n\nDuring her hospitalization, Sarah received daily chest physiotherapy to help clear her airways and improve lung function. She also received nebulized medications to open up her airways and improve breathing. Sarah's respiratory symptoms gradually improved over the course of her hospitalization, and she was discharged home with a new treatment plan including daily chest physiotherapy, nebul"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5VJ2WLsxAiU9CA24DulXHqLWGFc",
+            "object": "chat.completion",
+            "created": 1684307089,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 24\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at age 3, hospitalizations for exacerbations every few years, currently taking enzymes, inhaled medications, and occasional antibiotics.\n\nCase Report:\nSarah Johnson is a 24-year-old Caucasian female with a past medical history of cystic fibrosis. She was diagnosed with the disease at the age of 3 and has been managing it with medications and regular check-ups with her pulmonologist. Sarah is currently a full-time student and has been managing her condition well while balancing her academic workload.\n\nRecently, Sarah presented to the hospital with worsening shortness of breath and increased coughing. She reported feeling more fatigued than usual and had noticed a decrease in her ability to exercise. Upon examination, her oxygen saturation was found to be low and her lung function was decreased compared to her previous visit. A chest x-ray revealed increased inflammation in her lungs and a sputum culture grew Pseudomonas aeruginosa.\n\nSarah was admitted to the hospital for intravenous antibiotics and airway clearance therapies. She was closely monitored by her healthcare team, including her pulmonologist and respiratory therapist."
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5VJnalU7hAncP9usBol47GaaIbw",
+            "object": "chat.completion",
+            "created": 1684307089,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 25\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at age 3, has had multiple hospitalizations for respiratory infections, currently taking pancreatic enzymes and inhaled medications.\n\nCase Report:\n\nSarah Johnson is a 25-year-old Caucasian female with a history of cystic fibrosis. She was diagnosed at age 3 and has since had multiple hospitalizations for respiratory infections. Sarah is currently a student and manages her cystic fibrosis with pancreatic enzymes and inhaled medications.\n\nDuring her most recent hospitalization, Sarah presented with increased cough and shortness of breath. She reported a decrease in exercise tolerance and an increase in the amount of mucus she was coughing up. Upon examination, she was found to have decreased lung function and increased sputum production.\n\nSarah was started on intravenous antibiotics and bronchodilators, along with increased airway clearance techniques. Despite the treatment, her lung function continued to decline, and she required supplemental oxygen.\n\nFurther testing revealed that Sarah had developed bronchiectasis, a common complication of cystic fibrosis. She was referred to a specialist who recommended aggressive airway clearance techniques and long-term antibiotics to"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

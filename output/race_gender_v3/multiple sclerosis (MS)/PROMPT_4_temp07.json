@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their multiple sclerosis (MS). Provide a one-line summary of a case report that includes demographic info discussing a patient and their multiple sclerosis (MS)."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their multiple sclerosis (MS). Provide a one-line summary of a case report that includes demographic info discussing a patient and their multiple sclerosis (MS)."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their multiple sclerosis (MS). Provide a one-line summary of a case report that includes demographic info discussing a patient and their multiple sclerosis (MS)."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their multiple sclerosis (MS). Provide a one-line summary of a case report that includes demographic info discussing a patient and their multiple sclerosis (MS)."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNLl6yFmqCFVgLgUaLBSnqfL87p2",
+            "object": "chat.completion",
+            "created": 1684375689,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 23,
+                "total_tokens": 77
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old female with relapsing-remitting MS presenting with visual disturbances and optic neuritis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNLlZo19DV87or94obcZ5gcEZmuO",
+            "object": "chat.completion",
+            "created": 1684375689,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 23,
+                "total_tokens": 77
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case report of a 30-year-old female with relapsing-remitting MS and comorbid depression."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNLlGdkGAoP9bf5sb3ZC8WhUBbYr",
+            "object": "chat.completion",
+            "created": 1684375689,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 64,
+                "total_tokens": 118
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old woman with relapsing-remitting MS presented with optic neuritis and was successfully treated with high-dose methylprednisolone. \n\nA 32-year-old man with primary progressive MS developed acute transverse myelitis and was treated with plasma exchange and intravenous immunoglobulin."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNLlqdeZPP7k4gg1lOfg0OhDAEIY",
+            "object": "chat.completion",
+            "created": 1684375689,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 48,
+                "total_tokens": 102
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old woman with multiple sclerosis presenting with severe optic neuritis and visual impairment. \n\nA 50-year-old male with relapsing-remitting multiple sclerosis and a history of traumatic brain injury experiencing cognitive decline and fatigue."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

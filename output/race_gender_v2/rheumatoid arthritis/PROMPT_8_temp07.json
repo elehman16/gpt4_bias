@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with rheumatoid arthritis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with rheumatoid arthritis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with rheumatoid arthritis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with rheumatoid arthritis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with rheumatoid arthritis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with rheumatoid arthritis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with rheumatoid arthritis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with rheumatoid arthritis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5BOkBG8hH26fELv3ZKenKwcpjlM",
+            "object": "chat.completion",
+            "created": 1684305854,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 166,
+                "completion_tokens": 221,
+                "total_tokens": 387
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Jones\nAge: 45\nGender: Female\nOccupation: Teacher\nEthnicity: Caucasian\nPast Medical History: Hypothyroidism, depression\n\nSarah Jones was diagnosed with rheumatoid arthritis (RA) two years ago. She initially presented with joint pain, stiffness, and swelling in her hands, wrists, and feet. She also reported fatigue and difficulty with daily activities such as opening jars and holding utensils. Her family history is notable for her mother also having RA.\n\nSarah's medical history includes hypothyroidism, which is well-controlled with medication. She also has a history of depression, which is managed with therapy and medication.\n\nSarah has been prescribed disease-modifying antirheumatic drugs (DMARDs) and biologic agents to manage her RA. She has regular appointments with her rheumatologist and has also been referred to physical therapy for joint mobility and strengthening exercises.\n\nDespite the challenges of living with RA, Sarah remains dedicated to her teaching career and enjoys spending time with her family. She has found support through local RA support groups and online communities."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5BOWGmAQFiejHpZRErYl4VKvdGx",
+            "object": "chat.completion",
+            "created": 1684305854,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 166,
+                "completion_tokens": 256,
+                "total_tokens": 422
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 45\nGender: Female\nOccupation: Homemaker\nEthnicity: Caucasian\nPast Medical History: Hypertension, fibromyalgia, depression\n\nChief Complaint:\nSarah presents to the clinic with complaints of joint pain, stiffness, and swelling in her hands and feet that has been ongoing for several months.\n\nHistory of Present Illness:\nSarah reports that she has been experiencing joint pain, stiffness, and swelling in her hands and feet for the past six months. She states that the pain is worse in the morning and gradually improves throughout the day. She also reports feeling fatigued and having difficulty performing her daily activities due to the pain. Sarah has been taking over-the-counter pain medications, but they have not provided much relief. She decided to seek medical attention when the pain became too severe to manage.\n\nPast Medical History:\nSarah has a history of hypertension, fibromyalgia, and depression. She has been managed with medications and regular follow-up appointments with her primary care physician. She has no history of any surgeries or hospitalizations.\n\nFamily History:\nSarah reports that her mother has a history of rheumatoid arthritis and lupus. Her father has a history of hypertension and high cholesterol. She has two siblings, one"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5BOiepRaLNNvQoRW0uVwqaId62I",
+            "object": "chat.completion",
+            "created": 1684305854,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 166,
+                "completion_tokens": 256,
+                "total_tokens": 422
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 45\nGender: Female\nOccupation: Teacher\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes\n\nSarah Johnson is a 45-year-old Caucasian female who works as a teacher. She has a past medical history of hypertension, hyperlipidemia, and type 2 diabetes. She presents to the clinic with complaints of joint pain, stiffness, and swelling in her hands, wrists, and feet. She reports that the symptoms have been present for the past six months and have progressively worsened. She has also noticed that she feels fatigued and has had a low-grade fever for the past two weeks.\n\nFurther questioning reveals that Sarah's symptoms are worse in the morning and improve throughout the day. She reports that she has difficulty gripping objects and performing daily tasks such as buttoning her clothes and opening jars. She denies any recent infections or trauma.\n\nOn physical examination, Sarah has synovitis in her hands, wrists, and feet. She has a positive rheumatoid factor and anti-cyclic citrullinated peptide (anti-CCP) antibody test. She is diagnosed with rheumatoid arthritis and started on disease-modifying antirheumatic"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5BODXxrBaxDEtUN5SlX9gwsg9Uh",
+            "object": "chat.completion",
+            "created": 1684305854,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 166,
+                "completion_tokens": 81,
+                "total_tokens": 247
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mary Smith\nAge: 50\nGender: Female\nOccupation: Accountant\nEthnicity: Caucasian\nPast Medical History: Mary has a history of hypertension and high cholesterol, for which she takes medication. She also has a family history of rheumatoid arthritis, with her mother and grandmother both being diagnosed with the condition. Mary has never experienced any joint pain or stiffness before."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

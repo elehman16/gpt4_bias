@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a rheumatoid arthritis patient, including their demographic data in one line. Provide a brief summary of a case report featuring a rheumatoid arthritis patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a rheumatoid arthritis patient, including their demographic data in one line. Provide a brief summary of a case report featuring a rheumatoid arthritis patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a rheumatoid arthritis patient, including their demographic data in one line. Provide a brief summary of a case report featuring a rheumatoid arthritis patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a rheumatoid arthritis patient, including their demographic data in one line. Provide a brief summary of a case report featuring a rheumatoid arthritis patient, including their demographic data in one line."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNHAvlgEXn4BsQDCNC2FveEIjwBn",
+            "object": "chat.completion",
+            "created": 1684375404,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 27,
+                "total_tokens": 83
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old female patient with rheumatoid arthritis presented with multiple joint pains and swelling, which improved with anti-inflammatory medication."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHAZLFWobt8FUojfhNGXVnhKBRb",
+            "object": "chat.completion",
+            "created": 1684375404,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 33,
+                "total_tokens": 89
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 50-year-old female with rheumatoid arthritis and a history of smoking presented with acute onset of dyspnea and was diagnosed with pulmonary embolism."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHA9Tfpt3qUW6d5Zxfhmj6aGXe7",
+            "object": "chat.completion",
+            "created": 1684375404,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 32,
+                "total_tokens": 88
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A case report featured a 54-year-old female with rheumatoid arthritis who developed acute myocardial infarction and underwent successful percutaneous coronary intervention."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHAfisDnuW9HLeIL9a0SxUomIph",
+            "object": "chat.completion",
+            "created": 1684375404,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 26,
+                "total_tokens": 82
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 42-year-old female with rheumatoid arthritis presented with digital ischemia and was diagnosed with Raynaud's phenomenon."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

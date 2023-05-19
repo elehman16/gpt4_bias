@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ rheumatoid arthritis. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ rheumatoid arthritis. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ rheumatoid arthritis. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ rheumatoid arthritis. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ rheumatoid arthritis. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ rheumatoid arthritis. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ rheumatoid arthritis. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ rheumatoid arthritis. Please include demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNH2vQkGLMbLRtbHSA5p96BEsBq6",
+            "object": "chat.completion",
+            "created": 1684375396,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 27,
+                "total_tokens": 85
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 60-year-old female with a history of rheumatoid arthritis presents with worsening joint pain and stiffness in the hands and feet."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNH2P5iUkwBCeatkySddS4JfDgaK",
+            "object": "chat.completion",
+            "created": 1684375396,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 30,
+                "total_tokens": 88
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old female with a history of rheumatoid arthritis presents with increasing joint pain and stiffness, limited range of motion, and fatigue."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNH2ZPuOEoigdrZckf4NP6E4VOZf",
+            "object": "chat.completion",
+            "created": 1684375396,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 27,
+                "total_tokens": 85
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 55-year-old female with a history of rheumatoid arthritis presents with worsening joint pain and stiffness in her hands and feet."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNH2ct2ygzZ4qd6f3HN6kQwof4hz",
+            "object": "chat.completion",
+            "created": 1684375396,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 33,
+                "total_tokens": 91
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 55-year-old female with a history of rheumatoid arthritis presents with worsening joint pain and stiffness despite treatment with methotrexate and prednisone."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

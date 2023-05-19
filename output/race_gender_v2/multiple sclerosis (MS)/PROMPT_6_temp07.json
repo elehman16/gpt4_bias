@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with multiple sclerosis (MS). A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with multiple sclerosis (MS). A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with multiple sclerosis (MS). A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with multiple sclerosis (MS). A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with multiple sclerosis (MS). A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with multiple sclerosis (MS). A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with multiple sclerosis (MS). A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with multiple sclerosis (MS). A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5SI8EeeNpGQoVgsGeLLJxNwJNey",
+            "object": "chat.completion",
+            "created": 1684306902,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Smith\nAge: 35\nGender: Female\nOccupation: Teacher\nEthnicity: Caucasian\nPast Medical History: Asthma, seasonal allergies\n\nCase Report:\n\nSarah Smith is a 35-year-old female teacher who was diagnosed with multiple sclerosis (MS) three years ago. She initially presented with symptoms of numbness and tingling in her arms and legs, along with blurred vision and difficulty with balance and coordination. She was referred to a neurologist for further evaluation and was ultimately diagnosed with relapsing-remitting MS.\n\nSarah's past medical history was notable for asthma and seasonal allergies, but she had no prior history of neurological conditions. She was started on disease-modifying therapy with interferon beta-1a, which has helped to reduce the frequency and severity of her relapses. She has also undergone physical therapy to improve her balance and coordination.\n\nDespite these treatments, Sarah continues to experience occasional relapses and has had to take time off from work to manage her symptoms. She has been able to maintain her job as a teacher, but has had to make accommodations such as using a cane and taking frequent breaks.\n\nOverall, Sarah's prognosis is uncertain, as MS is a chronic and progressive condition with varying degrees of disability. However,"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5SIsf95rrH7xQqAhX3yLwkuNLqr",
+            "object": "chat.completion",
+            "created": 1684306902,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 42\nGender: Male\nOccupation: Engineer\nEthnicity: Caucasian\nPast Medical History: None significant\n\nCase Report:\nJohn Smith is a 42-year-old male engineer who was diagnosed with multiple sclerosis (MS) six months ago. He presented to his primary care physician with complaints of numbness and tingling in his right arm and leg, as well as difficulty walking. He also reported fatigue and blurred vision in his right eye.\n\nFurther evaluation, including an MRI of the brain and spinal cord, confirmed the diagnosis of MS. John was started on disease-modifying therapy and referred to a neurologist for further management.\n\nOver the past six months, John has experienced several relapses, with worsening of his symptoms. He has had to take time off work due to the fatigue and difficulty walking. He has also had to make adjustments to his daily routine, such as using a cane for support and avoiding activities that require prolonged standing or walking.\n\nJohn has been working closely with his neurologist and physical therapist to manage his symptoms. He has also made changes to his diet and exercise routine to improve his overall health and well-being.\n\nDespite the challenges of living with MS, John remains optimistic and determined to maintain his quality of"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5SIywGol8sIOSbr0tMo1KBiOjpx",
+            "object": "chat.completion",
+            "created": 1684306902,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 32\nGender: Female\nOccupation: Marketing Manager\nEthnicity: Caucasian\nPast Medical History: None significant\n\nCase Report:\n\nSarah Johnson is a 32-year-old Caucasian female who presented to the neurology clinic with complaints of weakness in her right leg and difficulty walking for the past few weeks. She also reported experiencing tingling and numbness in her arms and legs intermittently over the past year. She denied any recent infections or traumatic events.\n\nOn examination, Sarah had a mild right-sided weakness with hyperreflexia and positive Babinski reflex. She also had decreased sensation to light touch and pinprick in her right leg. Her cranial nerves, coordination, and gait were intact.\n\nMagnetic resonance imaging (MRI) of the brain and spinal cord revealed multiple T2 hyperintense lesions in the periventricular and juxtacortical regions consistent with demyelination. Cerebrospinal fluid analysis showed elevated immunoglobulin G (IgG) index and oligoclonal bands, supporting the diagnosis of multiple sclerosis (MS).\n\nSarah was started on intravenous corticosteroids for a week followed by oral steroids and disease-modifying therapy with interferon-beta. She reported"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5SIfaS53MFUsiKs1Cvcq83YeusG",
+            "object": "chat.completion",
+            "created": 1684306902,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 113,
+                "total_tokens": 221
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 32\nGender: Female\nOccupation: Marketing Manager\nEthnicity: Caucasian\nPast Medical History: Sarah was diagnosed with multiple sclerosis (MS) five years ago. She experiences symptoms such as fatigue, muscle weakness, and difficulty with coordination and balance. Sarah has been receiving treatment with disease-modifying therapies, including interferon beta-1a injections and oral medications, to manage her MS symptoms. She has also undergone physical therapy to improve her mobility. Sarah has no other significant medical history and takes no other medications."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

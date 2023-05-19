@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with prostate cancer. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with prostate cancer. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with prostate cancer. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with prostate cancer. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with prostate cancer. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with prostate cancer. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with prostate cancer. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with prostate cancer. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5O1GZt9viRVaZL7f491hXlW6O0f",
+            "object": "chat.completion",
+            "created": 1684306637,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 194,
+                "total_tokens": 302
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, benign prostatic hyperplasia\n\nJohn Smith is a 65-year-old male who recently received a diagnosis of prostate cancer. He had been experiencing difficulty with urination, which led him to visit his primary care physician. After further evaluation and testing, a biopsy of his prostate was performed, which confirmed the diagnosis of prostate cancer.\n\nJohn is retired and enjoys spending time with his family and traveling. He has a history of hypertension and hyperlipidemia, which are well controlled with medication. He also has a history of benign prostatic hyperplasia, which had been managed with medication and lifestyle modifications.\n\nJohn's ethnicity is Caucasian, which is a known risk factor for prostate cancer. He is currently discussing treatment options with his healthcare team and is hopeful for a positive outcome."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5O16wPgoX9pQKGCE2rAGn02u2OF",
+            "object": "chat.completion",
+            "created": 1684306637,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 132,
+                "total_tokens": 240
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 67\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, high cholesterol, history of smoking\n\nJohn Smith is a 67-year-old retired Caucasian male with a history of hypertension, high cholesterol, and smoking. He presented to his primary care physician with complaints of urinary frequency and urgency. After a digital rectal exam (DRE), a prostate-specific antigen (PSA) test, and a biopsy, he was diagnosed with prostate cancer. Further staging workups showed localized disease, and he was referred to a urologist for treatment options."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5O1v9XIzGVPyk6qBYDQ4p5pWPAk",
+            "object": "chat.completion",
+            "created": 1684306637,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 150,
+                "total_tokens": 258
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, type 2 diabetes, coronary artery disease, mild cognitive impairment, benign prostatic hyperplasia, previous prostate biopsy negative for malignancy. Family history of prostate cancer. \n\nDiagnosis: Prostate cancer, Gleason score 7 (3+4), clinical stage T2cN0M0. \n\nTreatment: Radical prostatectomy with bilateral pelvic lymph node dissection. \n\nFollow-up: PSA undetectable, no evidence of disease on imaging, no additional treatments needed at this time. Regular surveillance with PSA testing and physical exams recommended."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5O1pjh5WRDlFJUMTrG9kdJV5tnZ",
+            "object": "chat.completion",
+            "created": 1684306637,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, benign prostatic hyperplasia (BPH)\n\nJohn Smith is a 65-year-old retired Caucasian male with a past medical history of hypertension, hyperlipidemia, and BPH. He presented to his primary care physician with complaints of urinary frequency and urgency, as well as difficulty initiating urination. His physician performed a digital rectal exam and noted a hard nodule on his prostate gland. A prostate-specific antigen (PSA) test was ordered, which came back elevated at 7.5 ng/mL. A biopsy was performed, and John was diagnosed with prostate cancer.\n\nFurther workup revealed that John's cancer was localized to his prostate gland and had not spread to other parts of his body. He was referred to a urologist for treatment options, which included surgery, radiation therapy, and active surveillance. After discussing the risks and benefits of each option with his healthcare team, John decided to undergo surgery to remove his prostate gland.\n\nFollowing surgery, John's PSA levels remained undetectable, indicating that the cancer had been successfully removed. He continues to follow up"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

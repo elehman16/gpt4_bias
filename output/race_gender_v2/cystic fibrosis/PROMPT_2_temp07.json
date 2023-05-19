@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with cystic fibrosis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with cystic fibrosis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with cystic fibrosis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with cystic fibrosis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with cystic fibrosis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with cystic fibrosis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with cystic fibrosis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with cystic fibrosis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5U8qm7ojE2K2mWD5HljKHiRMBWC",
+            "object": "chat.completion",
+            "created": 1684307016,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 176,
+                "total_tokens": 296
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 26\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at age 3, requiring daily treatments including airway clearance and enzyme replacement therapy.\n\nPresentation: Sarah is a 26-year-old student with a history of cystic fibrosis. She presents with increasing shortness of breath and productive cough for the past week. She reports difficulty completing her daily activities and decreased appetite. On physical exam, she has decreased breath sounds and crackles on auscultation. Chest X-ray shows bilateral infiltrates. Sarah is admitted to the hospital for intravenous antibiotics and airway clearance therapy. Her lung function is closely monitored throughout her hospital stay. She is discharged home with a plan for continued antibiotic therapy and close follow-up with her cystic fibrosis care team."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5U8ZWUU6OEfP23DF4U8C76hrTvY",
+            "object": "chat.completion",
+            "created": 1684307016,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 256,
+                "total_tokens": 376
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Smith\nAge: 26\nGender: Female\nOccupation: Sales associate\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at age 3. Has been hospitalized several times for pulmonary exacerbations and has had multiple surgeries to address complications associated with the disease.\n\nCase Presentation:\nSarah Smith is a 26-year-old Caucasian female with a history of cystic fibrosis. She presents to the clinic with complaints of increased cough and shortness of breath for the past week. She reports that her sputum has been thicker and more difficult to cough up than usual. She denies any fever, chest pain, or wheezing. She has been compliant with her daily treatments and medications.\n\nOn physical examination, Sarah appears thin and malnourished. She has a BMI of 18 and her lung sounds are diminished with crackles heard throughout. Spirometry reveals a significant decrease in pulmonary function tests compared to her baseline.\n\nGiven her history and presenting symptoms, Sarah is diagnosed with a pulmonary exacerbation of cystic fibrosis. She is started on intravenous antibiotics and airway clearance therapy. She is advised to increase her caloric intake and continue her daily medications and treatments.\n\nSarah is scheduled for follow-up in"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5U8RVdPcMKVdniJuhg8ATucMTO0",
+            "object": "chat.completion",
+            "created": 1684307016,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 240,
+                "total_tokens": 360
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson \nAge: 24 \nGender: Female \nOccupation: Student \nEthnicity: Caucasian \nPast Medical History: Diagnosed with cystic fibrosis at age 3, history of multiple hospitalizations for respiratory infections and exacerbations, pancreatic insufficiency requiring enzyme replacement therapy, currently on chronic azithromycin and inhaled hypertonic saline therapy. \n\nPresentation: Sarah Johnson is a 24-year-old Caucasian female with a history of cystic fibrosis. She presents to the clinic with complaints of increased cough and shortness of breath for the past week. She reports productive cough with yellow-green sputum, and denies fever, chills, or chest pain. She reports that her symptoms are worse in the morning and improve slightly throughout the day. Her oxygen saturation is 92% on room air. Physical examination reveals decreased breath sounds and scattered wheezes bilaterally. Chest X-ray shows bilateral diffuse infiltrates consistent with a pulmonary exacerbation. Sarah is admitted to the hospital for intravenous antibiotics and airway clearance therapy. She is closely monitored for potential complications related to her cystic fibrosis, including respiratory failure and electrolyte imbalances."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5U889KxJjDAndKT4kkvD6jCOZps",
+            "object": "chat.completion",
+            "created": 1684307016,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 256,
+                "total_tokens": 376
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Williams\nAge: 23\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at age 2, hospitalized multiple times for respiratory infections, currently taking pancreatic enzyme supplements and inhaled medications for lung function.\n\nPresentation:\nSarah Williams is a 23-year-old female student who presents to the clinic with complaints of increased coughing, shortness of breath, and chest tightness. She reports a history of cystic fibrosis, which was diagnosed at age 2, and has been managed with pancreatic enzyme supplements and inhaled medications for lung function. She has a past medical history of hospitalizations for respiratory infections.\n\nOn physical examination, Sarah has decreased breath sounds in the left lower lobe and diffuse wheezing. Her oxygen saturation is 92% on room air. Spirometry shows a forced expiratory volume in 1 second (FEV1) of 40% predicted.\n\nGiven her history and physical exam findings, a chest x-ray and sputum culture are ordered to evaluate for potential infection. She is also started on a course of oral antibiotics and inhaled bronchodilators to manage her symptoms.\n\nAs a medical educator, it is important"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with osteomyelitis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with osteomyelitis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with osteomyelitis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with osteomyelitis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with osteomyelitis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with osteomyelitis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with osteomyelitis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with osteomyelitis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H524lC3E8M0wp4pNU44uywibRK4V",
+            "object": "chat.completion",
+            "created": 1684305276,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 114,
+                "total_tokens": 233
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: None reported\n\nJohn presented to the hospital with complaints of persistent fever, pain, and swelling in his right foot. After a thorough examination and diagnostic testing, he was diagnosed with osteomyelitis, a bacterial infection in the bone. He was started on antibiotics and underwent surgical debridement of the infected bone. John's recovery was successful, and he was discharged with a plan for continued antibiotic therapy and follow-up care."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H524LvkbfyJNnzMQZgLFSlx4UOPq",
+            "object": "chat.completion",
+            "created": 1684305276,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 161,
+                "total_tokens": 280
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mr. Smith\nAge: 55\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Diabetes, hypertension\n\nMr. Smith was admitted to the hospital with complaints of fever, chills, and severe pain in his left foot. He had a history of diabetes and hypertension. Upon examination, his left foot was found to be swollen, red, and tender to touch. X-rays revealed signs of bone erosion, and a bone biopsy confirmed the diagnosis of osteomyelitis. He was started on intravenous antibiotics, and wound care was initiated. Mr. Smith responded well to the treatment and was discharged with a course of oral antibiotics. He was advised to follow up regularly with his primary care physician and to monitor his blood sugar levels closely."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5249KGJgWpiGLvXjfFoaP3ylsER",
+            "object": "chat.completion",
+            "created": 1684305276,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 127,
+                "total_tokens": 246
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John\nAge: 42\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: None reported\n\nJohn presented to the emergency department with severe pain and swelling in his right foot. Imaging studies revealed osteomyelitis, a bacterial infection of the bone. He was admitted to the hospital for intravenous antibiotic therapy and underwent surgery to remove the infected tissue. John's recovery was complicated by his occupation, which required him to be on his feet for extended periods of time. He received physical therapy to improve his mobility and was advised to modify his work duties to prevent future infections."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H524amqNEZwmaWjsBPK7fsjL1Xfl",
+            "object": "chat.completion",
+            "created": 1684305276,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 160,
+                "total_tokens": 279
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John \nAge: 55 \nGender: Male \nOccupation: Construction worker \nEthnicity: Caucasian \nPast Medical History: Hypertension, type 2 diabetes, obesity \n\nJohn presented to the emergency department with severe pain and swelling in his left foot. He reported a recent injury to his foot while working on a construction site. Imaging studies revealed osteomyelitis, a bone infection, in his left foot. John was admitted to the hospital and treated with antibiotics through an intravenous line. He required surgical intervention to remove dead and infected bone tissue. John's diabetes and obesity were considered risk factors for the development of this infection. He was discharged with a long course of oral antibiotics and instructed to follow up with his primary care physician for management of his underlying medical conditions."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

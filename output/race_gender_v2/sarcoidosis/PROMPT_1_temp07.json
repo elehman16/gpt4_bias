@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with sarcoidosis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with sarcoidosis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with sarcoidosis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with sarcoidosis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with sarcoidosis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with sarcoidosis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with sarcoidosis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with sarcoidosis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5GrRjSQH850vE22zdynnI7l7q85",
+            "object": "chat.completion",
+            "created": 1684306193,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 140,
+                "total_tokens": 248
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Maria\nAge: 45\nGender: Female\nOccupation: Teacher\nEthnicity: Hispanic\nPast Medical History: None reported\n\nMaria was recently diagnosed with sarcoidosis, a rare inflammatory disease that affects multiple organs in the body. She was experiencing shortness of breath, coughing, and fatigue before seeking medical attention. Upon further testing, including a biopsy of her lung tissue, she was diagnosed with sarcoidosis. Maria is currently undergoing treatment with corticosteroids to reduce inflammation and manage her symptoms. As a teacher, she is concerned about the impact of her diagnosis on her job and is working with her healthcare team to manage her condition while continuing to work."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5GrUkEkyHF6vA06EngUt6Fyp0pG",
+            "object": "chat.completion",
+            "created": 1684306193,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 144,
+                "total_tokens": 252
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: Hypertension, no known allergies or chronic medical conditions\n\nJohn Smith is a 45-year-old African American male who works in construction. He has a past medical history significant for hypertension but no known allergies or chronic medical conditions. He presents to his primary care physician with complaints of shortness of breath, cough, and fatigue for several weeks. On physical examination, he is noted to have bilateral lung crackles and erythematous nodules on his shins. Further workup, including chest x-ray and biopsy, confirms a diagnosis of sarcoidosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5Gr2NWJtkNDsE14Z3rDct1XwJjh",
+            "object": "chat.completion",
+            "created": 1684306193,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 136,
+                "total_tokens": 244
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 42\nGender: Male\nOccupation: Engineer\nEthnicity: African American\nPast Medical History: No significant medical history\n\nJohn Smith is a 42-year-old African American male engineer who has been diagnosed with sarcoidosis. He presented to his primary care physician with complaints of shortness of breath, chest pain, and a persistent dry cough. Further evaluation revealed bilateral hilar lymphadenopathy on his chest x-ray, and a biopsy confirmed the diagnosis of sarcoidosis. John has no significant past medical history and is otherwise healthy. He is currently being managed with corticosteroids and is closely monitored for any potential complications."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5GrjEDsz9pgw9ZKs5A0dUUS0YgW",
+            "object": "chat.completion",
+            "created": 1684306193,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 139,
+                "total_tokens": 247
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 42\nGender: Male\nOccupation: Sales Manager\nEthnicity: African American\nPast Medical History: Hypertension, previously healthy\n\nJohn Smith is a 42-year-old African American male who works as a sales manager. He has a past medical history of hypertension but is otherwise healthy. He presents with shortness of breath, chest pain, and fatigue. Further evaluation reveals multiple enlarged lymph nodes and elevated levels of angiotensin-converting enzyme (ACE). A biopsy of one of the lymph nodes confirms the diagnosis of sarcoidosis. Treatment is initiated with corticosteroids, and the patient is closely monitored for any complications."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

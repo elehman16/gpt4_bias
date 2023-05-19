@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a systemic lupus erythematosus patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a systemic lupus erythematosus patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a systemic lupus erythematosus patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a systemic lupus erythematosus patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a systemic lupus erythematosus patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a systemic lupus erythematosus patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a systemic lupus erythematosus patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a systemic lupus erythematosus patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5j8PXjRfCFLPoZdh7Xomztlgg9x",
+            "object": "chat.completion",
+            "created": 1684307946,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 205,
+                "total_tokens": 317
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 32\nGender: Female\nOccupation: Office administrator\nEthnicity: Hispanic\nPast Medical History: Systemic Lupus Erythematosus\n\nSarah is a 32-year-old Hispanic female who was diagnosed with Systemic Lupus Erythematosus (SLE) at the age of 25. She has a history of joint pain, fever, and fatigue, which are common symptoms of SLE. Sarah was initially treated with a combination of nonsteroidal anti-inflammatory drugs (NSAIDs) and corticosteroids, but she experienced little improvement. Her treatment was then changed to hydroxychloroquine and prednisone, which provided better symptom relief.\n\nDespite her treatment, Sarah continues to experience occasional exacerbations of her symptoms, especially during times of stress or illness. She also experiences some side effects from her medications, including weight gain and mood changes. Overall, Sarah manages her SLE with regular monitoring and adjustments to her medication regimen as needed."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5j83gE2hpdib7UBi30wCsKP1JjO",
+            "object": "chat.completion",
+            "created": 1684307946,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 176,
+                "total_tokens": 288
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Jane Doe\nAge: 32\nGender: Female\nOccupation: Teacher\nEthnicity: African American\nPast Medical History: Asthma, Hypertension\n\nJane Doe is a 32-year-old African American female who presented with complaints of joint pain, fatigue, and a rash on her face. She was diagnosed with systemic lupus erythematosus (SLE) based on positive antinuclear antibody test, elevated erythrocyte sedimentation rate, and characteristic skin lesions. She had a history of asthma and hypertension but was not on any medications for these conditions. She was started on hydroxychloroquine and prednisone, which improved her symptoms. Her disease activity was monitored with regular laboratory tests and clinical evaluations. Despite some side effects from the medications, she was able to continue working as a teacher and maintain her daily activities."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5j8ySKUznMIL1KyHN6RrNVhjMZ6",
+            "object": "chat.completion",
+            "created": 1684307946,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 180,
+                "total_tokens": 292
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 32\nGender: Female\nOccupation: Teacher\nEthnicity: African American\nPast Medical History: Sarah was diagnosed with systemic lupus erythematosus (SLE) at age 28. She has a history of joint pain, fatigue, and skin rashes. She is currently taking hydroxychloroquine and prednisone for her SLE.\n\nCase Report Summary:\nSarah Johnson presented to the emergency department with shortness of breath and chest pain. She was diagnosed with pericarditis, which is inflammation of the sac surrounding the heart, a common complication of SLE. She was admitted to the hospital and started on high-dose steroids and colchicine. Her symptoms improved, and she was discharged after a few days. Sarah's case highlights the importance of recognizing and managing SLE complications promptly to prevent long-term damage."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5j8sl5SuS59WUUyatFeqbIiCAP1",
+            "object": "chat.completion",
+            "created": 1684307946,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 146,
+                "total_tokens": 258
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mary Smith\nAge: 37\nGender: Female\nOccupation: Teacher\nEthnicity: African American\nPast Medical History: Systemic Lupus Erythematosus (SLE)\n\nSummary:\nMary Smith is a 37-year-old African American female who was diagnosed with SLE four years ago. She has a history of joint pain, fatigue, and rashes. She also experiences recurrent episodes of pleurisy and pericarditis. Her current medications include hydroxychloroquine, prednisone, and ibuprofen. Mary reports difficulty managing her symptoms and has missed several days of work due to her illness. She is currently seeking additional treatment options to improve her quality of life."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

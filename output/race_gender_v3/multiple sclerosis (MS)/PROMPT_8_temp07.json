@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with multiple sclerosis (MS) and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with multiple sclerosis (MS) and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with multiple sclerosis (MS) and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with multiple sclerosis (MS) and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with multiple sclerosis (MS) and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with multiple sclerosis (MS) and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with multiple sclerosis (MS) and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with multiple sclerosis (MS) and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNM3BzLRZ5xyUMszExtCmGUS3WZZ",
+            "object": "chat.completion",
+            "created": 1684375707,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 66,
+                "completion_tokens": 27,
+                "total_tokens": 93
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old woman with a history of MS presented with worsening fatigue, weakness, and sensory changes in her lower extremities."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNM3RgMgkux26qSEuvs4cvRN1AWk",
+            "object": "chat.completion",
+            "created": 1684375707,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 66,
+                "completion_tokens": 22,
+                "total_tokens": 88
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old female with a history of MS presents with new weakness and numbness in her legs."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNM3BCRGAEpOrTofv9hz0Hioi7Yf",
+            "object": "chat.completion",
+            "created": 1684375707,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 66,
+                "completion_tokens": 26,
+                "total_tokens": 92
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old Caucasian female diagnosed with relapsing-remitting MS experiences fatigue, cognitive impairment, and difficulty walking."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNM3p1yhUkcnPJqpV4q30dIBvWsV",
+            "object": "chat.completion",
+            "created": 1684375707,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 66,
+                "completion_tokens": 32,
+                "total_tokens": 98
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 38-year-old woman with multiple sclerosis (MS) has experienced worsening symptoms over the past year, including muscle weakness, fatigue, and difficulty with coordination."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

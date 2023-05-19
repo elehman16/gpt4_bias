@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with prostate cancer. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with prostate cancer. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with prostate cancer. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with prostate cancer. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with prostate cancer. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with prostate cancer. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with prostate cancer. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with prostate cancer. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5PBQi6ERZfcTTQIAxZ9dthyQrja",
+            "object": "chat.completion",
+            "created": 1684306709,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 104,
+                "completion_tokens": 256,
+                "total_tokens": 360
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 68\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, benign prostatic hyperplasia (BPH)\n\nCase Report:\n\nJohn Smith is a 68-year-old Caucasian male who presented to his primary care physician with complaints of urinary frequency, urgency, and difficulty initiating urination. He reported that these symptoms had been progressively worsening over the past few months. Mr. Smith had a history of hypertension and benign prostatic hyperplasia (BPH), for which he had been taking medication for several years.\n\nUpon physical examination, his prostate was enlarged and nodular, and a prostate-specific antigen (PSA) test was ordered. The PSA level was found to be elevated at 12 ng/mL (normal range: 0-4 ng/mL). A transrectal ultrasound-guided biopsy of the prostate gland was performed, and the results showed adenocarcinoma of the prostate.\n\nMr. Smith was referred to a urologist, who discussed treatment options with him. After discussing the risks and benefits of each treatment option, Mr. Smith decided to undergo a radical prostatectomy. The surgery was successful, and the pathology report showed that the cancer was"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5PBPMM9zVTXUO4So0BtHpipTqG1",
+            "object": "chat.completion",
+            "created": 1684306709,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 104,
+                "completion_tokens": 252,
+                "total_tokens": 356
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 67\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, benign prostatic hyperplasia (BPH)\n\nCase Report:\nJohn Smith is a 67-year-old Caucasian male who presented to his primary care physician with complaints of difficulty urinating and blood in his urine. Upon further evaluation, he was found to have an enlarged prostate and underwent a biopsy which revealed adenocarcinoma of the prostate. His prostate-specific antigen (PSA) level was 12 ng/mL.\n\nFurther imaging studies revealed no evidence of metastatic disease. He was referred to a urologist for further management. After discussing treatment options, he opted for robotic-assisted laparoscopic prostatectomy. The surgery was successful, and pathology revealed a Gleason score of 7 (3+4) with negative surgical margins.\n\nHe was then referred to an oncologist for adjuvant radiation therapy. He completed a course of radiation therapy without any significant side effects.\n\nFollow-up PSA levels were monitored closely and remained undetectable. John continues to be monitored by his urologist and oncologist regularly for any signs of recurrence."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5PBdVF1QdQSdROEIqrHAo3YK3Mi",
+            "object": "chat.completion",
+            "created": 1684306709,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 104,
+                "completion_tokens": 256,
+                "total_tokens": 360
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and benign prostatic hyperplasia\n\nCase Report:\nJohn Smith is a 62-year-old retired Caucasian male who presented to his primary care physician with complaints of difficulty urinating for the past few months. He also reported a decrease in the force of his urine stream and occasional blood in his urine. On physical examination, his prostate was enlarged and firm to the touch.\n\nFurther evaluation with a prostate-specific antigen (PSA) blood test and a transrectal ultrasound-guided biopsy revealed a diagnosis of prostate adenocarcinoma. The biopsy results showed a Gleason score of 7 (3+4), indicating an intermediate-risk prostate cancer.\n\nJohn was referred to a urologist who discussed the treatment options with him, including surgery, radiation therapy, and active surveillance. After considering the potential benefits and risks of each treatment, John decided to undergo surgery to remove the prostate gland.\n\nThe surgery was successful, and John had an uneventful recovery. Follow-up PSA tests showed undetectable levels, indicating that the cancer had been completely removed. He continues to receive regular"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5PBtuYITIkemvkmqRwEN8ZM4vpg",
+            "object": "chat.completion",
+            "created": 1684306709,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 104,
+                "completion_tokens": 256,
+                "total_tokens": 360
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, benign prostatic hyperplasia (BPH)\n\nChief Complaint:\nJohn Smith presented to his primary care physician with complaints of difficulty urinating and blood in his urine. He reported feeling fatigued and experiencing back pain.\n\nHistory of Present Illness:\nJohn reported that he had been experiencing urinary symptoms for several months, including hesitancy, dribbling, and a weak urine stream. He also noticed blood in his urine on several occasions. He had been taking medication for BPH, but it did not seem to be helping. Additionally, he had been experiencing fatigue and back pain, which he attributed to his age.\n\nPhysical Examination:\nOn physical examination, John appeared fatigued and had a slightly enlarged prostate on digital rectal examination. There were no other significant findings on examination.\n\nDiagnostic Tests:\nJohn underwent a prostate-specific antigen (PSA) test, which was significantly elevated at 25 ng/mL (normal range: 0-4 ng/mL). A biopsy confirmed the diagnosis of prostate cancer, with a Gleason score of 7 (3+4).\n\nTreatment:\nJohn"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

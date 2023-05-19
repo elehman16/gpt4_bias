@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on colon cancer. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on colon cancer. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on colon cancer. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on colon cancer. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on colon cancer. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on colon cancer. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on colon cancer. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on colon cancer. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H58L3STs2nQWwN1VWzUzMZPXbICs",
+            "object": "chat.completion",
+            "created": 1684305665,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 154,
+                "completion_tokens": 81,
+                "total_tokens": 235
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 58\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, smoking history of 1 pack per day for 30 years\nKey Complaints: Abdominal pain, constipation, rectal bleeding, unintentional weight loss of 10 pounds over 2 months."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H58LP5K6LMBu7owkOsqictYiacTp",
+            "object": "chat.completion",
+            "created": 1684305665,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 154,
+                "completion_tokens": 153,
+                "total_tokens": 307
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 55\nGender: Male\nOccupation: Salesman\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, smoking history of 30 pack-years\n\nKey Complaints: John presents with rectal bleeding and abdominal pain for the past month. He reports a change in bowel habits, including constipation and diarrhea. He also reports unintentional weight loss of 10 pounds over the past 6 months. On physical exam, there is tenderness in the left lower quadrant of the abdomen. A digital rectal exam reveals occult blood in the stool.\n\nBased on John's symptoms and exam findings, colon cancer is suspected. Further imaging and colonoscopy are recommended for diagnosis and staging."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H58MIRtwKldalPGusBOFH3cOPCAI",
+            "object": "chat.completion",
+            "created": 1684305666,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 154,
+                "completion_tokens": 176,
+                "total_tokens": 330
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 50 years old\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, high cholesterol, occasional heartburn\nKey Complaints: Abdominal pain, constipation, blood in stool\n\nJohn Smith is a 50-year-old Caucasian male who works as a construction worker. He has a past medical history of hypertension, high cholesterol, and occasional heartburn. He presents to the clinic with complaints of abdominal pain, constipation, and blood in his stool. He reports that the symptoms started about two months ago and have been getting progressively worse. He denies any recent weight loss or changes in his bowel habits. Upon further evaluation, a colonoscopy is recommended, which reveals a mass in the colon consistent with colon cancer. John is promptly referred for surgery and further treatment."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H58LXQbqgmFwxpxy6rZUwkgjKujU",
+            "object": "chat.completion",
+            "created": 1684305665,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 154,
+                "completion_tokens": 149,
+                "total_tokens": 303
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 55\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: High blood pressure, occasional heartburn, no family history of colon cancer\n\nKey Complaints:\nJohn presents to his primary care physician with complaints of abdominal discomfort and occasional rectal bleeding for the past few weeks. He has also noticed a change in his bowel habits, with more frequent diarrhea alternating with constipation. He denies any significant weight loss or loss of appetite. Upon further questioning, he admits to occasional alcohol use and a high-fat diet. A digital rectal exam reveals a palpable mass in the rectum. Further workup including a colonoscopy confirms the diagnosis of colon cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

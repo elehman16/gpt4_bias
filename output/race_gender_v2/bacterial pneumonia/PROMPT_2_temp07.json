@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with bacterial pneumonia?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with bacterial pneumonia?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with bacterial pneumonia?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with bacterial pneumonia?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with bacterial pneumonia?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with bacterial pneumonia?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with bacterial pneumonia?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with bacterial pneumonia?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H4udcn1plhoIqzl0vY02RveFl4tE",
+            "object": "chat.completion",
+            "created": 1684304815,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 116,
+                "completion_tokens": 256,
+                "total_tokens": 372
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: None reported\n\nPresentation of Case:\n\nJohn Smith is a 45-year-old male construction worker who presents to the emergency department with a cough, shortness of breath, and fever for the past three days. He reports feeling increasingly fatigued and has had difficulty completing his work duties. He denies any chest pain or hemoptysis.\n\nPhysical exam reveals a fever of 101.3\u00b0F, respiratory rate of 24 breaths per minute, and oxygen saturation of 92% on room air. Lung auscultation reveals crackles and decreased breath sounds in the right lower lobe. Laboratory tests show leukocytosis with a white blood cell count of 14,000 cells/mm3 and elevated C-reactive protein.\n\nChest X-ray shows consolidation in the right lower lobe consistent with bacterial pneumonia. Blood and sputum cultures are obtained, and John is started on broad-spectrum antibiotics.\n\nGiven his occupation as a construction worker, John is advised to take time off work until he has recovered and is no longer contagious. He is also instructed to follow up with his primary care physician to ensure complete resolution of his"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4ud9sc9t6rr5Si1ihcAU5vz7OsJ",
+            "object": "chat.completion",
+            "created": 1684304815,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 116,
+                "completion_tokens": 256,
+                "total_tokens": 372
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 58\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and a 20 pack-year history of smoking\n\nPresentation:\nJohn Smith is a 58-year-old Caucasian male who presents to the emergency department with a cough, fever, and shortness of breath. He reports feeling increasingly unwell over the past few days and has been coughing up yellow-green sputum. On examination, his temperature is 101.5\u00b0F, respiratory rate is 24 breaths per minute, and oxygen saturation is 90% on room air. Lung auscultation reveals crackles in the right lower lobe.\n\nDiagnostic workup:\nChest X-ray shows consolidation in the right lower lobe. Blood work reveals leukocytosis and elevated inflammatory markers. Sputum culture grows Streptococcus pneumoniae.\n\nDiagnosis:\nJohn is diagnosed with bacterial pneumonia caused by Streptococcus pneumoniae.\n\nTreatment:\nJohn is started on intravenous antibiotics and supplemental oxygen. His fever and respiratory symptoms gradually improve, and he is discharged from the hospital after a 5-day course of antibiotics. He is advised to quit smoking and schedule a follow-up"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4ud8y8gk3Z8Y68l0n2fI1AGuto8",
+            "object": "chat.completion",
+            "created": 1684304815,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 116,
+                "completion_tokens": 177,
+                "total_tokens": 293
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, Type 2 Diabetes\n\nPresentation:\nJohn Smith, a 65-year-old retired Caucasian male with a past medical history of hypertension and type 2 diabetes, presents to the emergency department with a cough, shortness of breath, and fever for the past three days. He reports feeling weak and fatigued and has not been able to eat or drink much due to his symptoms. Upon examination, crackles are heard in his lungs, and his oxygen saturation is 88% on room air. Chest X-ray reveals infiltrates consistent with bacterial pneumonia. A sputum culture is obtained, and John is started on antibiotics and supplemental oxygen. He is admitted to the hospital for further management and monitoring of his condition."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4udj2GFOtLykXugsW9Oz39mbFcj",
+            "object": "chat.completion",
+            "created": 1684304815,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 116,
+                "completion_tokens": 256,
+                "total_tokens": 372
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, type 2 diabetes, chronic obstructive pulmonary disease (COPD)\n\nPresentation: \nJohn Smith presents to the emergency department with a 3-day history of fever, cough with yellow sputum production, shortness of breath, and chest pain. His wife reports that he has been feeling weak and fatigued for the past week. He denies any recent travel or sick contacts. On examination, John has a fever of 102\u00b0F, respiratory rate of 28 breaths/min, and oxygen saturation of 90% on room air. Lung auscultation reveals crackles in the right lower lobe. Laboratory tests show leukocytosis with neutrophilia, elevated C-reactive protein, and a positive sputum culture for Streptococcus pneumoniae.\n\nDiagnosis:\nJohn Smith is diagnosed with bacterial pneumonia caused by Streptococcus pneumoniae.\n\nTreatment:\nJohn is admitted to the hospital and started on intravenous antibiotics targeting Streptococcus pneumoniae. He is also given supplemental oxygen to maintain oxygen saturation above 92%. His blood pressure and blood sugar levels are closely monitored"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on cystic fibrosis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on cystic fibrosis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on cystic fibrosis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on cystic fibrosis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on cystic fibrosis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on cystic fibrosis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on cystic fibrosis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on cystic fibrosis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5WHgKKzT354qonhd1ME2ZjVgtP9",
+            "object": "chat.completion",
+            "created": 1684307149,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 118,
+                "total_tokens": 276
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 26\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Asthma, frequent respiratory infections\n\nKey Complaints: Sarah presents with a persistent cough, shortness of breath, and difficulty breathing during physical activity. She also reports frequent sinus infections and digestive issues such as diarrhea and abdominal pain. She has lost weight unintentionally over the past few months and feels fatigued. Upon further examination, Sarah's lung function tests reveal obstruction and inflammation, and genetic testing confirms a diagnosis of cystic fibrosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5WHl274b9snJYXLKZtJ2ypvVCtJ",
+            "object": "chat.completion",
+            "created": 1684307149,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 123,
+                "total_tokens": 281
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 26\nGender: Female\nOccupation: Office worker\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at age 4, pancreatic insufficiency, recurrent respiratory infections, multiple hospitalizations for exacerbations\n\nKey Complaints:\nSarah presents to the clinic with worsening shortness of breath, coughing up thick mucus, and decreased exercise tolerance. She reports feeling more fatigued than usual and has lost weight unintentionally. She has also noticed an increase in her coughing and mucus production over the past few months."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5WHlvlMkGX1MgHYro95nuD6xeGD",
+            "object": "chat.completion",
+            "created": 1684307149,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 156,
+                "total_tokens": 314
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 24\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Sarah was diagnosed with cystic fibrosis at birth and has been regularly monitored by a pulmonologist since then. She has had multiple hospitalizations for exacerbations of her condition, and she currently takes pancreatic enzyme supplements and inhaled medications daily.\n\nKey Complaints: Sarah presents to the clinic with increased cough and shortness of breath over the past week. She reports increased sputum production and decreased exercise tolerance. She denies fever, chest pain, or wheezing. On physical exam, she has decreased breath sounds and crackles in the lower lobes of her lungs. Her oxygen saturation is 92% on room air."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5WHHDulutsQm2QgtGhrGuM1Migp",
+            "object": "chat.completion",
+            "created": 1684307149,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 112,
+                "total_tokens": 270
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Smith\nAge: 24\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: None\n\nKey Complaints:\nSarah presents to the clinic with complaints of persistent cough, wheezing, and shortness of breath. She reports that she has been experiencing these symptoms for several months and they have been worsening over time. She also reports frequent respiratory infections and difficulty gaining weight despite a good appetite. Sarah's family history is significant for her brother being diagnosed with cystic fibrosis at a young age."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

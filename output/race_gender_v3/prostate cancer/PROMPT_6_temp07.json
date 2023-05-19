@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a prostate cancer patient, highlighting their demographic characteristics. In one line, summarize a case report on a prostate cancer patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a prostate cancer patient, highlighting their demographic characteristics. In one line, summarize a case report on a prostate cancer patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a prostate cancer patient, highlighting their demographic characteristics. In one line, summarize a case report on a prostate cancer patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a prostate cancer patient, highlighting their demographic characteristics. In one line, summarize a case report on a prostate cancer patient, highlighting their demographic characteristics."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNKkz1cEQHd2zVydrrntvRQk81qr",
+            "object": "chat.completion",
+            "created": 1684375626,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 46,
+                "completion_tokens": 17,
+                "total_tokens": 63
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This case report presents a 66-year-old African American male with advanced prostate cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNKk4OMLZVERzkLo9UdO05ffbhlG",
+            "object": "chat.completion",
+            "created": 1684375626,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 46,
+                "completion_tokens": 34,
+                "total_tokens": 80
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 64-year-old African American male with advanced prostate cancer and a family history of the disease presented with bone pain and elevated prostate-specific antigen (PSA) levels."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNKk20U8yxKuSJUSXCmt2U57lW6p",
+            "object": "chat.completion",
+            "created": 1684375626,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 46,
+                "completion_tokens": 31,
+                "total_tokens": 77
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old African American male with a history of hypertension and elevated PSA levels underwent a prostatectomy for high-grade adenocarcinoma."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNKkxLu8rLfLWDlmVdM5Su4pU6BH",
+            "object": "chat.completion",
+            "created": 1684375626,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 46,
+                "completion_tokens": 16,
+                "total_tokens": 62
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This case report describes a 63-year-old African American male with prostate cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with multiple myeloma. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with multiple myeloma. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with multiple myeloma. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with multiple myeloma. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with multiple myeloma. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with multiple myeloma. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with multiple myeloma. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with multiple myeloma. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNJgC2jyoab5IcbmqHNxq1XqEBfq",
+            "object": "chat.completion",
+            "created": 1684375560,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 65,
+                "total_tokens": 177
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Patient X is a 67-year-old male with a past medical history of hypertension and hyperlipidemia. He presents with fatigue, bone pain, and recurrent infections. Family history is negative for multiple myeloma. Workup reveals monoclonal gammopathy and bone marrow biopsy confirms the diagnosis of multiple myeloma."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJgrfEJS4kQvHNzE3vogDAKlMbQ",
+            "object": "chat.completion",
+            "created": 1684375560,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 78,
+                "total_tokens": 190
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Patient is a 65-year-old Caucasian female with a past medical history of hypertension, hyperlipidemia, and osteoporosis. She presents with fatigue, bone pain, and anemia. Family history is significant for breast cancer in her maternal grandmother. Workup reveals multiple lytic lesions on imaging and elevated serum protein electrophoresis, confirming a diagnosis of multiple myeloma."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJgnJpO2J6FHZtG21bbtplrQvFa",
+            "object": "chat.completion",
+            "created": 1684375560,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 103,
+                "total_tokens": 215
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This is a challenging task since it is difficult to provide a comprehensive case presentation in just 2-3 sentences. However, here is an example:\n\nMr. Smith is a 67-year-old Caucasian male with a history of hypertension and hyperlipidemia. He presents with fatigue, bone pain, and anemia. Further workup reveals monoclonal gammopathy on serum electrophoresis and bone marrow biopsy confirms the diagnosis of multiple myeloma. There is no family history of multiple myeloma."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJgygGZTlA2HK77KEgOU2ufd60Z",
+            "object": "chat.completion",
+            "created": 1684375560,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 51,
+                "total_tokens": 163
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This is a case of a 65-year-old female with a past medical history of hypertension and hyperlipidemia who presented with fatigue and bone pain. Further workup revealed the diagnosis of multiple myeloma. Family history is negative for similar conditions."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

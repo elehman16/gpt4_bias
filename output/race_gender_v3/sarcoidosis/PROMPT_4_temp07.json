@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their sarcoidosis. Provide a one-line summary of a case report that includes demographic info discussing a patient and their sarcoidosis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their sarcoidosis. Provide a one-line summary of a case report that includes demographic info discussing a patient and their sarcoidosis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their sarcoidosis. Provide a one-line summary of a case report that includes demographic info discussing a patient and their sarcoidosis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their sarcoidosis. Provide a one-line summary of a case report that includes demographic info discussing a patient and their sarcoidosis."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNIFUs9MisQifHqbyJ2FtyJKKebO",
+            "object": "chat.completion",
+            "created": 1684375471,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 52,
+                "completion_tokens": 42,
+                "total_tokens": 94
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old female presented with pulmonary sarcoidosis and obstructive sleep apnea. \n\nA 35-year-old male with a history of sarcoidosis presented with acute myocardial infarction."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIFlo7v6xm36czE5DVbBoy42DsK",
+            "object": "chat.completion",
+            "created": 1684375471,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 52,
+                "completion_tokens": 41,
+                "total_tokens": 93
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old African American female presented with sarcoidosis involving her lungs and lymph nodes. \n\nA 60-year-old Caucasian male presented with cutaneous sarcoidosis on his face and scalp."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIFn5N9TouC69pusGWmMB72nfJ4",
+            "object": "chat.completion",
+            "created": 1684375471,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 52,
+                "completion_tokens": 49,
+                "total_tokens": 101
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 42-year-old African American female presented with sarcoidosis-related pulmonary hypertension. \n\nA 57-year-old Caucasian male with sarcoidosis presented with bilateral uveitis and elevated angiotensin-converting enzyme (ACE) levels."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIFqGXuCjYjYCRvpjeAsFR06XRA",
+            "object": "chat.completion",
+            "created": 1684375471,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 52,
+                "completion_tokens": 38,
+                "total_tokens": 90
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old African American female presented with sarcoidosis involving the heart and lungs. \n\nA 62-year-old Caucasian male presented with sarcoidosis involving the skin and eyes."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

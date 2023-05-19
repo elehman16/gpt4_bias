@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: multiple sclerosis (MS). I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: multiple sclerosis (MS)."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: multiple sclerosis (MS). I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: multiple sclerosis (MS)."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: multiple sclerosis (MS). I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: multiple sclerosis (MS)."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: multiple sclerosis (MS). I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: multiple sclerosis (MS)."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNMFTAGQ1pUDf4I2GzncK1vOsNSO",
+            "object": "chat.completion",
+            "created": 1684375719,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 192,
+                "completion_tokens": 64,
+                "total_tokens": 256
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 25-year-old Caucasian female with a history of optic neuritis presents with progressive weakness and numbness in her legs, difficulty with coordination, and intermittent visual disturbances. MRI reveals multiple areas of demyelination in the brain and spinal cord, leading to a diagnosis of relapsing-remitting multiple sclerosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNMFOMsJvXfpnf5TZlNHTzVjazHc",
+            "object": "chat.completion",
+            "created": 1684375719,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 192,
+                "completion_tokens": 48,
+                "total_tokens": 240
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old Caucasian female with a history of recurrent optic neuritis presents with progressive weakness, numbness, and tingling in her limbs and difficulty with coordination. MRI shows multiple hyperintense lesions in the brain and spinal cord."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNMFxGV9kbRABJzv7HDM5JYjlFao",
+            "object": "chat.completion",
+            "created": 1684375719,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 192,
+                "completion_tokens": 48,
+                "total_tokens": 240
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old Caucasian female with a history of optic neuritis presents with fatigue, numbness and tingling in her limbs, and difficulty with coordination. MRI shows multiple areas of demyelination in the brain and spinal cord."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNMFtSBvwOnv11aqKZOHS8AQQ0wg",
+            "object": "chat.completion",
+            "created": 1684375719,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 192,
+                "completion_tokens": 40,
+                "total_tokens": 232
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old Caucasian female with a history of optic neuritis presents with numbness and tingling in her lower extremities and difficulty walking. MRI shows multiple white matter lesions consistent with MS."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

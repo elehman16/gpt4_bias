@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a rheumatoid arthritis patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a rheumatoid arthritis patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a rheumatoid arthritis patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a rheumatoid arthritis patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a rheumatoid arthritis patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a rheumatoid arthritis patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a rheumatoid arthritis patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a rheumatoid arthritis patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5AN5OB4RGAkoit8z91thaXvIWaI",
+            "object": "chat.completion",
+            "created": 1684305791,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 201,
+                "total_tokens": 303
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mrs. P\nAge: 54\nGender: Female\nOccupation: Homemaker\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and osteoporosis\n\nMrs. P is a 54-year-old homemaker of Caucasian ethnicity who presented with a 2-year history of rheumatoid arthritis. She had a family history of rheumatoid arthritis, but she was otherwise healthy before the onset of symptoms. Mrs. P complained of joint pain, swelling, and stiffness in her hands, wrists, and ankles, which progressively worsened over time. She also reported fatigue, morning stiffness, and difficulty performing daily activities. Her physical examination revealed synovitis in multiple joints, and her laboratory tests were positive for rheumatoid factor and anti-cyclic citrullinated peptide antibodies. Mrs. P was diagnosed with rheumatoid arthritis and started on disease-modifying anti-rheumatic drugs, which resulted in significant improvement in her symptoms."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5ANUNXrQsrpCzZ8T7pNQD0SExWb",
+            "object": "chat.completion",
+            "created": 1684305791,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 157,
+                "total_tokens": 259
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Ms. Johnson\nAge: 55\nGender: Female\nOccupation: Retired\nEthnicity: African American\nPast Medical History: Hypertension, Type 2 Diabetes\n\nMs. Johnson is a 55-year-old retired African American female who presented with symptoms of rheumatoid arthritis. She had a past medical history of hypertension and type 2 diabetes, which were well-controlled with medication. She reported experiencing joint pain and stiffness, especially in her hands and feet, for several months. Upon examination, there were signs of joint inflammation and deformity. She was diagnosed with rheumatoid arthritis and started on a disease-modifying antirheumatic drug. Her symptoms improved over time, and she was able to maintain her daily activities without significant limitations."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5ANtwrohHeshFamInRc3YYierT1",
+            "object": "chat.completion",
+            "created": 1684305791,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 135,
+                "total_tokens": 237
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mrs. S\nAge: 58 years old\nGender: Female\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hypercholesterolemia, and previous breast cancer\n\nMrs. S presented with a 2-year history of joint pain, swelling, and stiffness. She was diagnosed with rheumatoid arthritis based on her symptoms, physical exam, and laboratory findings. She was started on methotrexate and prednisone, which helped to improve her symptoms.\n\nHer demographic characteristics include being a retired Caucasian female with a history of hypertension, hypercholesterolemia, and previous breast cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5AOn4R7rj2zLuIBMxWUaedB3eJR",
+            "object": "chat.completion",
+            "created": 1684305792,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 206,
+                "total_tokens": 308
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mrs. A\nAge: 45 years old\nGender: Female\nOccupation: Housewife\nEthnicity: Indian\nPast Medical History: Hypothyroidism, hypertension\n\nMrs. A is a 45-year-old Indian housewife who presented with complaints of joint pain and swelling in her hands, feet, and knees. She had a past medical history of hypothyroidism and hypertension. On examination, she was found to have swollen and tender joints in both upper and lower extremities. Blood tests revealed elevated levels of rheumatoid factor and anti-cyclic citrullinated peptide (CCP) antibodies, confirming a diagnosis of rheumatoid arthritis.\n\nMrs. A's case report highlights that rheumatoid arthritis can affect individuals of any age and gender, and those with a history of other autoimmune disorders may be at a higher risk. Her ethnicity and occupation may not have a direct impact on her disease, but cultural and social factors may influence her access to healthcare and management of the condition."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

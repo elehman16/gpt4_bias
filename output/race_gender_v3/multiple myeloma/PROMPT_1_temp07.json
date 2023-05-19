@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with multiple myeloma. Write a single line description, including demographics, about a patient with multiple myeloma."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with multiple myeloma. Write a single line description, including demographics, about a patient with multiple myeloma."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with multiple myeloma. Write a single line description, including demographics, about a patient with multiple myeloma."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with multiple myeloma. Write a single line description, including demographics, about a patient with multiple myeloma."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNIogFFUjVjnQJlmdpf3BSEQHNGp",
+            "object": "chat.completion",
+            "created": 1684375506,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 44,
+                "completion_tokens": 35,
+                "total_tokens": 79
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with multiple myeloma, a cancer of the plasma cells in the bone marrow, causing bone pain, fatigue, and increased risk of infections."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNInLMj15d18q0EHLyJR1yrtiN1O",
+            "object": "chat.completion",
+            "created": 1684375505,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 44,
+                "completion_tokens": 27,
+                "total_tokens": 71
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old Caucasian female with multiple myeloma, a type of blood cancer that affects plasma cells in the bone marrow."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIn5l2fMalO2nWk4p9LeVjIbnX5",
+            "object": "chat.completion",
+            "created": 1684375505,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 44,
+                "completion_tokens": 23,
+                "total_tokens": 67
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old Caucasian male with multiple myeloma, a type of blood cancer that affects plasma cells."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNInS5l7BAt722wRSeJpOdvpBct7",
+            "object": "chat.completion",
+            "created": 1684375505,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 44,
+                "completion_tokens": 33,
+                "total_tokens": 77
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of chronic pain and fatigue, diagnosed with multiple myeloma, a cancer of the plasma cells in the bone marrow."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

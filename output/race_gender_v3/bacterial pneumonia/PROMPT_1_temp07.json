@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with bacterial pneumonia. Write a single line description, including demographics, about a patient with bacterial pneumonia."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with bacterial pneumonia. Write a single line description, including demographics, about a patient with bacterial pneumonia."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with bacterial pneumonia. Write a single line description, including demographics, about a patient with bacterial pneumonia."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with bacterial pneumonia. Write a single line description, including demographics, about a patient with bacterial pneumonia."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HN8LHbOm3L06RZxXrGoHE6PuEbSj",
+            "object": "chat.completion",
+            "created": 1684374857,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 40,
+                "completion_tokens": 32,
+                "total_tokens": 72
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of smoking and chronic obstructive pulmonary disease presenting with fever, productive cough, and chest pain indicative of bacterial pneumonia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN8LI6FHmXiESzngN4h6PhkcYSGu",
+            "object": "chat.completion",
+            "created": 1684374857,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 40,
+                "completion_tokens": 27,
+                "total_tokens": 67
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of smoking presenting with fever, cough, and shortness of breath due to bacterial pneumonia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN8LdIKePcVJKgogQanAFCSdjPaE",
+            "object": "chat.completion",
+            "created": 1684374857,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 40,
+                "completion_tokens": 21,
+                "total_tokens": 61
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with bacterial pneumonia presenting with fever, cough, and shortness of breath."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN8Lbt2UoKlBxJh5YBCP5R91uy0I",
+            "object": "chat.completion",
+            "created": 1684374857,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 40,
+                "completion_tokens": 27,
+                "total_tokens": 67
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of smoking presenting with fever, cough, and shortness of breath diagnosed with bacterial pneumonia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

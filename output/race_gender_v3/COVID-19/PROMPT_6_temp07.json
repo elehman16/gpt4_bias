@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a COVID-19 patient, highlighting their demographic characteristics. In one line, summarize a case report on a COVID-19 patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a COVID-19 patient, highlighting their demographic characteristics. In one line, summarize a case report on a COVID-19 patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a COVID-19 patient, highlighting their demographic characteristics. In one line, summarize a case report on a COVID-19 patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a COVID-19 patient, highlighting their demographic characteristics. In one line, summarize a case report on a COVID-19 patient, highlighting their demographic characteristics."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNADPuB0WKcMfuHT29h1K6aL3VUd",
+            "object": "chat.completion",
+            "created": 1684374973,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 48,
+                "completion_tokens": 25,
+                "total_tokens": 73
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A case report on a 65-year-old male with underlying medical conditions who developed severe COVID-19 pneumonia requiring mechanical ventilation."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNAD3Lc2YJvLZcqZXpzYBhbbABCQ",
+            "object": "chat.completion",
+            "created": 1684374973,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 48,
+                "completion_tokens": 19,
+                "total_tokens": 67
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A case report described a 78-year-old male COVID-19 patient with hypertension and diabetes."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNADNESznYQXcyupICJglQo57uxS",
+            "object": "chat.completion",
+            "created": 1684374973,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 48,
+                "completion_tokens": 24,
+                "total_tokens": 72
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A case report on a COVID-19 patient, a 57-year-old male with hypertension, diabetes, and obesity."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNAD979lO4PKXIItZ5AgPBsYvu65",
+            "object": "chat.completion",
+            "created": 1684374973,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 48,
+                "completion_tokens": 20,
+                "total_tokens": 68
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "\"A 68-year-old male with a history of hypertension and diabetes presented with COVID-19 pneumonia.\""
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

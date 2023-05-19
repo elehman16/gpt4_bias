@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with osteomyelitis. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with osteomyelitis. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with osteomyelitis. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with osteomyelitis. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with osteomyelitis. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with osteomyelitis. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with osteomyelitis. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with osteomyelitis. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H533LG88J6GectUi5QbY6bkbOap3",
+            "object": "chat.completion",
+            "created": 1684305337,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 238,
+                "total_tokens": 350
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 42\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, smoker\n\nCase Presentation:\n\nJohn Smith is a 42-year-old male construction worker who presented to the emergency department with complaints of severe pain and swelling in his left foot. He reported that he had stepped on a nail a few weeks prior and had been treating the wound at home with over-the-counter medications. However, the pain and swelling had progressively worsened, and he had developed a fever.\n\nOn examination, the left foot was swollen and tender, with erythema and warmth. X-rays revealed evidence of osteomyelitis in the left foot, and laboratory investigations confirmed the diagnosis.\n\nJohn's medical history is significant for hypertension and smoking. He was started on intravenous antibiotics and underwent surgical debridement of the affected bone. He responded well to treatment and was eventually discharged with a plan for long-term antibiotic therapy.\n\nThis case highlights the importance of prompt recognition and treatment of osteomyelitis, particularly in patients with risk factors such as smoking and chronic medical conditions. Early intervention can prevent complications and improve outcomes."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H533tKe1FTfi0iXqawmY4EbUThmu",
+            "object": "chat.completion",
+            "created": 1684305337,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 254,
+                "total_tokens": 366
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Type 2 diabetes, hypertension, hyperlipidemia, obesity\n\nJohn Smith is a 45-year-old construction worker who presents to the emergency department with complaints of severe pain and swelling in his right foot. He reports that he stepped on a nail at work about a week ago and has been experiencing increasing pain and difficulty walking ever since. \n\nUpon examination, John is found to have a fever of 101.2\u00b0F, and his right foot is red, warm, and tender to the touch. X-rays reveal evidence of osteomyelitis, or a bone infection, in the affected foot. \n\nJohn's medical history is significant for type 2 diabetes, hypertension, hyperlipidemia, and obesity, all of which are risk factors for the development of osteomyelitis. He is admitted to the hospital for intravenous antibiotics and surgical debridement of the infected bone. \n\nThis case highlights the importance of prompt treatment of foot wounds in patients with diabetes and other risk factors for osteomyelitis. It also underscores the need for appropriate management of underlying medical conditions to prevent complications like bone infections."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H533uI0VVogknXkdVeVdEvvBhiQU",
+            "object": "chat.completion",
+            "created": 1684305337,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 194,
+                "total_tokens": 306
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Diabetes, hypertension, previous foot ulcers\n\nJohn Smith is a 45-year-old Caucasian male who works as a construction worker. He has a history of diabetes and hypertension, as well as previous foot ulcers. He presents to the emergency department with complaints of severe pain in his right foot and inability to bear weight on it. Upon examination, he is found to have a swollen and tender foot with an open wound. Imaging reveals evidence of osteomyelitis, a bacterial infection of the bone.\n\nTreatment for John's osteomyelitis involves a combination of antibiotics and surgical intervention to remove any infected bone tissue. He is also instructed to closely monitor his blood sugar levels to prevent further complications from his diabetes. With prompt and effective treatment, John is able to recover from his osteomyelitis and return to work."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5332NuBOw4ccHU01s4lo3w9VKpt",
+            "object": "chat.completion",
+            "created": 1684305337,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 161,
+                "total_tokens": 273
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Type 2 Diabetes, Hypertension\n\nJohn Smith is a 45-year-old male who works as a construction worker. He is of Caucasian ethnicity and has a past medical history of Type 2 Diabetes and Hypertension. John came to the hospital complaining of severe pain in his left leg. Upon further examination, it was discovered that he had osteomyelitis, which is an infection of the bone. This can be a serious condition that requires prompt treatment with antibiotics and in some cases, surgery. The doctors were able to successfully treat John's osteomyelitis, and he was able to return to work after a few weeks of recovery."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

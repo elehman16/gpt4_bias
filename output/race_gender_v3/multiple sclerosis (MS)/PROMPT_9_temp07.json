@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with multiple sclerosis (MS). Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with multiple sclerosis (MS). Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with multiple sclerosis (MS). Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with multiple sclerosis (MS). Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with multiple sclerosis (MS). Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with multiple sclerosis (MS). Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with multiple sclerosis (MS). Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with multiple sclerosis (MS). Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNM7nrnS48CyKulGinta4lRVnSwd",
+            "object": "chat.completion",
+            "created": 1684375711,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 46,
+                "total_tokens": 158
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Patient X is a 35-year-old female with a past medical history of optic neuritis and sensory symptoms. She presents with new onset weakness and difficulty walking. Family history is negative for MS. MRI shows lesions consistent with MS."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNM7GdEpyepiB4SgxYBwz2gyF5PD",
+            "object": "chat.completion",
+            "created": 1684375711,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 77,
+                "total_tokens": 189
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This is an example of a short case presentation for a patient with MS: \n\nMs. A is a 35-year-old female with a history of relapsing-remitting MS diagnosed 5 years ago. She presents with complaints of increased fatigue, difficulty with balance and coordination, and intermittent tingling in her extremities. Her family history is unremarkable for neurological conditions."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNM7I5Zwdb0ASzNpJsvaHDZU2BPm",
+            "object": "chat.completion",
+            "created": 1684375711,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 69,
+                "total_tokens": 181
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Mrs. Smith, a 35-year-old female with a family history of MS, presented with symptoms of numbness and tingling in her extremities. She was diagnosed with relapsing-remitting MS and started on disease-modifying therapy. Her past medical history was unremarkable, and she had no significant comorbidities."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNM7yMpkdY8q06yD6rc8CYfvFc4e",
+            "object": "chat.completion",
+            "created": 1684375711,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 70,
+                "total_tokens": 182
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The patient is a 32-year-old female with no family history of MS. She was previously healthy until she experienced numbness and weakness in her left arm and leg. MRI showed lesions consistent with MS, and she was diagnosed with relapsing-remitting MS. She is currently on disease-modifying therapy and has had no recent relapses."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

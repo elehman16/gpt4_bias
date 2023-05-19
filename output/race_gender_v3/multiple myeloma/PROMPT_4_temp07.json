@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their multiple myeloma. Provide a one-line summary of a case report that includes demographic info discussing a patient and their multiple myeloma."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their multiple myeloma. Provide a one-line summary of a case report that includes demographic info discussing a patient and their multiple myeloma."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their multiple myeloma. Provide a one-line summary of a case report that includes demographic info discussing a patient and their multiple myeloma."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their multiple myeloma. Provide a one-line summary of a case report that includes demographic info discussing a patient and their multiple myeloma."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNJLvbJJqGBkEIRcLd5S0oiBkcF9",
+            "object": "chat.completion",
+            "created": 1684375539,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 36,
+                "total_tokens": 90
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case report of a 62-year-old male with relapsed/refractory multiple myeloma who achieved a partial response with daratumumab and pomalidomide."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJLMfEnnebF6LVYAyYGvRZoMlJf",
+            "object": "chat.completion",
+            "created": 1684375539,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 31,
+                "total_tokens": 85
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case report of a 65-year-old male with relapsed refractory multiple myeloma treated with daratumumab and pomalidomide."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJLmoIQq7R3btsaVku9t3iMDGe0",
+            "object": "chat.completion",
+            "created": 1684375539,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 42,
+                "total_tokens": 96
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with multiple myeloma and a history of hypertension, hyperlipidemia, and diabetes mellitus was successfully treated with lenalidomide and dexamethasone."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJL3YZeZtJjhrG18VeqUllsV1bJ",
+            "object": "chat.completion",
+            "created": 1684375539,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 78,
+                "total_tokens": 132
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 67-year-old male with relapsed refractory multiple myeloma achieved a partial response with a combination of pomalidomide and dexamethasone. \n\nA 52-year-old female with multiple myeloma and severe renal impairment achieved a durable response with a combination of carfilzomib, lenalidomide, and dexamethasone."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

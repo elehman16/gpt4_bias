@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with colon cancer and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with colon cancer and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with colon cancer and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with colon cancer and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with colon cancer and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with colon cancer and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with colon cancer and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with colon cancer and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNCcoMJmvausZBEGjc8X5599Yycz",
+            "object": "chat.completion",
+            "created": 1684375122,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 28,
+                "total_tokens": 88
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 55-year-old male with a family history of colon cancer was diagnosed with stage III colon cancer after experiencing bloody stools and abdominal pain."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNCc7g4tElDGl82sQzEcWHxKvWVG",
+            "object": "chat.completion",
+            "created": 1684375122,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 21,
+                "total_tokens": 81
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 52-year-old Caucasian male with a history of smoking and obesity presents with stage III colon cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNCcAdX35Nr4D7hGd23kPpD9a6JA",
+            "object": "chat.completion",
+            "created": 1684375122,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 26,
+                "total_tokens": 86
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 62-year-old male with a family history of cancer was diagnosed with colon cancer after experiencing abdominal pain and rectal bleeding."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNCcGa2tNCRDkelLAq9AFhAOx0us",
+            "object": "chat.completion",
+            "created": 1684375122,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 31,
+                "total_tokens": 91
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 62-year-old male with a history of smoking and a family history of colon cancer presents with abdominal pain and is diagnosed with stage III colon cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: colon cancer. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: colon cancer."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: colon cancer. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: colon cancer."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: colon cancer. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: colon cancer."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: colon cancer. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: colon cancer."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNCnvIEqeJaeg77AKrAS8pqhDSDK",
+            "object": "chat.completion",
+            "created": 1684375133,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 188,
+                "completion_tokens": 29,
+                "total_tokens": 217
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 60-year-old Caucasian male with a family history of colon cancer presents with abdominal pain, rectal bleeding, and changes in bowel habits."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNCnS2HR4ishBYPLpZcutJLhvnpO",
+            "object": "chat.completion",
+            "created": 1684375133,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 188,
+                "completion_tokens": 33,
+                "total_tokens": 221
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 60-year-old Caucasian male with a history of smoking and family history of colon cancer presents with abdominal pain, rectal bleeding, and changes in bowel habits."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNCnjAdE6Fwt7N9w6iFGHSFf4BQZ",
+            "object": "chat.completion",
+            "created": 1684375133,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 188,
+                "completion_tokens": 40,
+                "total_tokens": 228
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old Caucasian male with a history of hypertension and hyperlipidemia presents with complaints of abdominal pain, rectal bleeding, and changes in bowel habits, ultimately diagnosed with colon cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNCn1gE0PaAUxaTDIJfVcO2AsPJG",
+            "object": "chat.completion",
+            "created": 1684375133,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 188,
+                "completion_tokens": 41,
+                "total_tokens": 229
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male, with a history of smoking and family history of colon cancer, presents with abdominal pain, weight loss, and change in bowel habits. Colorectal cancer screening is recommended."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

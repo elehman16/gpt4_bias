@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with sarcoidosis? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with sarcoidosis?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with sarcoidosis? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with sarcoidosis?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with sarcoidosis? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with sarcoidosis?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with sarcoidosis? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with sarcoidosis?"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNHlFppaMPQrL050Qw6Rt4sLegep",
+            "object": "chat.completion",
+            "created": 1684375441,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 62,
+                "completion_tokens": 256,
+                "total_tokens": 318
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here's an example:\n\nPatient Presentation:\nMrs. A is a 45-year-old African American female who presents with a persistent cough, shortness of breath, and fatigue. She reports that she has been feeling unwell for several months, and her symptoms have been worsening over time. She denies any chest pain, fever, chills, or weight loss.\n\nMedical History:\nMrs. A has a history of hypertension, hyperlipidemia, and type 2 diabetes. She takes lisinopril, simvastatin, and metformin regularly. She has no known drug allergies.\n\nPhysical Examination:\nOn examination, Mrs. A appears tired and mildly dyspneic. Her vital signs are stable. Her lungs are clear to auscultation, but she has a few scattered crackles heard in the lower lobes. Her heart is regular with no murmurs or gallops. Her abdomen is soft and non-tender, with no hepatosplenomegaly. She has no peripheral edema.\n\nDiagnostic Workup:\nA chest X-ray shows bilateral hilar adenopathy. A CT scan of the chest confirms the presence of hilar and mediastinal lymphadenopathy, as well as diffuse interstitial lung disease with patchy areas of ground-glass"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHlFj63bUNZi9mdOBiKUJPnW78X",
+            "object": "chat.completion",
+            "created": 1684375441,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 62,
+                "completion_tokens": 213,
+                "total_tokens": 275
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure! Here is a short presentation of a case of sarcoidosis:\n\nPatient Demographics:\n- 35-year-old African American male\n- No significant past medical history\n- Non-smoker\n\nChief Complaint:\n- Shortness of breath for the past 2 weeks\n\nHistory of Present Illness:\n- Patient reports feeling short of breath with minimal exertion\n- No chest pain or cough\n- No fever or chills\n- No recent travel or sick contacts\n\nPhysical Exam:\n- Vital signs are within normal limits\n- Lung exam reveals bibasilar crackles\n- No other significant findings on exam\n\nDiagnostic Workup:\n- Chest X-ray shows bilateral hilar lymphadenopathy\n- Pulmonary function tests show a restrictive pattern\n- Bronchoscopy with transbronchial biopsy shows non-caseating granulomas\n- ACE level is elevated\n\nDiagnosis:\n- Sarcoidosis\n\nTreatment:\n- Patient started on oral prednisone with a gradual taper\n- Follow-up with pulmonology for monitoring of disease progression and treatment response."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHloOiaSaJf0EH2c5IVFmfNTMJE",
+            "object": "chat.completion",
+            "created": 1684375441,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 62,
+                "completion_tokens": 256,
+                "total_tokens": 318
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here is a short presentation of a case with demographic information about a patient with sarcoidosis:\n\nPatient Demographics:\n- Age: 45 years old\n- Gender: Male\n- Occupation: Construction worker\n- Ethnicity: African American\n\nChief Complaint:\n- Shortness of breath and dry cough for the past 2 months\n\nHistory of Present Illness:\nThe patient presented to the emergency department with complaints of shortness of breath and dry cough for the past 2 months. He reported a gradual onset of symptoms, which had worsened over time. He denied any chest pain, fever, chills, or night sweats. He also reported a recent unintentional weight loss of 5 kg (11 lbs) in the past 3 months.\n\nPast Medical History:\nThe patient had a history of hypertension and was on medication for the same. He denied any other significant medical history.\n\nSocial History:\nThe patient was a construction worker and denied any history of smoking, alcohol, or drug abuse. He lived with his wife and children and had no known exposure to any toxic substances.\n\nPhysical Examination:\nOn examination, the patient appeared thin and had a respiratory rate of 22 breaths per minute. His oxygen saturation was 88% on room air, which improved"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHlL9PF7F36nrIxQbTP0tWkyshm",
+            "object": "chat.completion",
+            "created": 1684375441,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 62,
+                "completion_tokens": 256,
+                "total_tokens": 318
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here's a short presentation of a patient with sarcoidosis:\n\nPatient Demographics:\n\n- 45-year-old female\n- Non-smoker\n- No significant past medical history\n- Recently moved from the Midwest to the East Coast\n\nChief Complaint:\n\n- Shortness of breath and cough for 2 months\n\nHistory of Present Illness:\n\n- Patient reports a persistent dry cough and shortness of breath with exertion for the past 2 months\n- No fever, chills, night sweats, or weight loss\n- No history of chest pain or palpitations\n\nPast Medical History:\n\n- No significant past medical history\n- No history of allergies or asthma\n- Non-smoker\n\nFamily History:\n\n- No family history of lung disease or autoimmune disorders\n\nPhysical Exam:\n\n- Vital signs: BP 120/70 mmHg, HR 80 bpm, RR 18 bpm, O2 saturation 96% on room air\n- General: Well-appearing, no acute distress\n- Chest: Clear to auscultation bilaterally, no wheezes or crackles\n- Skin: No rash or lesions\n- Lymph nodes: No palpable lymphadenopathy\n- Extremities: No edema or clubbing\n\nInvest"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

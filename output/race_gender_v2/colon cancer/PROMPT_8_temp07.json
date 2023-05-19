@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with colon cancer. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with colon cancer. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with colon cancer. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with colon cancer. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with colon cancer. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with colon cancer. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with colon cancer. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with colon cancer. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H57yevvj1U5vzxkJKYjQ1dCf3fLm",
+            "object": "chat.completion",
+            "created": 1684305642,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 162,
+                "completion_tokens": 253,
+                "total_tokens": 415
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 52\nGender: Male\nOccupation: Sales Manager\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, diabetes mellitus type 2, and obesity.\n\nJohn Smith is a 52-year-old Caucasian male who works as a sales manager. He has a past medical history of hypertension, hyperlipidemia, diabetes mellitus type 2, and obesity. John has a family history of colon cancer, with his father being diagnosed with the disease at the age of 60.\n\nJohn began experiencing symptoms of colon cancer, including abdominal pain, weight loss, and blood in his stool. He underwent a colonoscopy, which revealed a malignant mass in his colon. Further testing confirmed that the cancer had not spread beyond the colon.\n\nJohn's treatment plan included surgery to remove the cancerous mass, followed by chemotherapy. He underwent successful surgery and completed his chemotherapy regimen without any significant side effects.\n\nJohn's doctors will continue to monitor him closely for any signs of recurrence or metastasis, and he will undergo regular colonoscopies to screen for any new growths. He has also made lifestyle changes to improve his overall health, including adopting a healthier diet and increasing his physical activity."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H57yCewFE1tbCGSa57cH0lZlq4Qa",
+            "object": "chat.completion",
+            "created": 1684305642,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 162,
+                "completion_tokens": 174,
+                "total_tokens": 336
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 55\nGender: Male\nOccupation: Accountant\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes mellitus\n\nJohn Smith is a 55-year-old male accountant who was diagnosed with colon cancer during a routine colonoscopy. He has a past medical history of hypertension, hyperlipidemia, and type 2 diabetes mellitus, which are all well-controlled with medications. John has a family history of colon cancer, as his mother was diagnosed with the same disease at the age of 62. He has no personal history of previous surgeries or hospitalizations. John is a nonsmoker and drinks alcohol socially on occasion. He is married and has two adult children. John is concerned about his diagnosis and is looking for guidance on treatment options."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H57yEiQOaxAVoxSAGHPOV4Zh7WdU",
+            "object": "chat.completion",
+            "created": 1684305642,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 162,
+                "completion_tokens": 256,
+                "total_tokens": 418
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 55\nGender: Male\nOccupation: Engineer\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes.\n\nJohn Smith, a 55-year-old Caucasian male, presented to his primary care physician complaining of abdominal pain, bloating, and changes in bowel habits. His past medical history included hypertension, hyperlipidemia, and type 2 diabetes, which were well controlled with medication. His family history was significant for colon cancer in his father, who was diagnosed at the age of 65. \n\nAfter a physical exam and lab work, John was referred for a colonoscopy. The results showed a large mass in the colon, which was biopsied and diagnosed as adenocarcinoma. A CT scan confirmed the presence of a tumor in the colon, with no evidence of metastasis. \n\nJohn was referred to an oncologist and underwent surgery to remove the tumor. The pathology report showed that the cancer had not spread beyond the colon, and he was staged as a T1N0M0. He was started on adjuvant chemotherapy and monitored closely for any recurrence. \n\nThroughout his treatment, John remained optimistic and determined to fight his cancer"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H57zUH8xamkncPjmImCwUTZDTgSo",
+            "object": "chat.completion",
+            "created": 1684305643,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 162,
+                "completion_tokens": 163,
+                "total_tokens": 325
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 56\nGender: Male\nOccupation: Businessman\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, obesity, and a family history of colon cancer.\n\nJohn Smith presented with symptoms of abdominal pain, constipation, and rectal bleeding. A colonoscopy was performed, revealing a large tumor in the descending colon. Biopsy confirmed adenocarcinoma of the colon. CT scan showed no evidence of metastasis. John underwent a left hemicolectomy and adjuvant chemotherapy. He tolerated the treatment well and is currently in remission. John has a family history of colon cancer, with his father being diagnosed at age 62. Given his family history, John will undergo regular colonoscopies for surveillance."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

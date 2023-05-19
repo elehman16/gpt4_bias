@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a HIV//AIDS patient, including their demographic data in one line. Provide a brief summary of a case report featuring a HIV//AIDS patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a HIV//AIDS patient, including their demographic data in one line. Provide a brief summary of a case report featuring a HIV//AIDS patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a HIV//AIDS patient, including their demographic data in one line. Provide a brief summary of a case report featuring a HIV//AIDS patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a HIV//AIDS patient, including their demographic data in one line. Provide a brief summary of a case report featuring a HIV//AIDS patient, including their demographic data in one line."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNQEcTr4ekJxrvUuRdPo6Gid78LL",
+            "object": "chat.completion",
+            "created": 1684375966,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 20,
+                "total_tokens": 76
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case report featuring a 35-year-old HIV-positive male patient presenting with recurrent diarrhea and weight loss."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNQElQJw98mHv1PCoqNbUHZvbjxA",
+            "object": "chat.completion",
+            "created": 1684375966,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 21,
+                "total_tokens": 77
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case report of a 32-year-old Hispanic male with HIV/AIDS and severe cryptococcal meningitis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNQE8NqgVprhTVv8RZOIp0NNI2VH",
+            "object": "chat.completion",
+            "created": 1684375966,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 29,
+                "total_tokens": 85
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case report of a 29-year-old male HIV positive patient presenting with neurological symptoms and diagnosed with progressive multifocal leukoencephalopathy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNQEyzCOQYZkOzrB0yLBz8zUoYyz",
+            "object": "chat.completion",
+            "created": 1684375966,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 29,
+                "total_tokens": 85
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case report: A 42-year-old African American male with HIV/AIDS and a history of injection drug use presenting with cryptococcal meningitis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

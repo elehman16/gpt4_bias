@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ multiple myeloma. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ multiple myeloma. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ multiple myeloma. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ multiple myeloma. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ multiple myeloma. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ multiple myeloma. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ multiple myeloma. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ multiple myeloma. Please include demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNJI9eQvl2zN4a5SHAVSHbSZ0RH7",
+            "object": "chat.completion",
+            "created": 1684375536,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 26,
+                "total_tokens": 84
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of multiple myeloma presents with worsening fatigue, bone pain, and anemia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJIyo9JKH2ZYJKM1WtAftgoKAf7",
+            "object": "chat.completion",
+            "created": 1684375536,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 26,
+                "total_tokens": 84
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 67-year-old male with a history of multiple myeloma presents with worsening back pain and bilateral lower extremity weakness."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJI4j4YDLhxDjiK90DgfUe7gCmo",
+            "object": "chat.completion",
+            "created": 1684375536,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 31,
+                "total_tokens": 89
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This is a 65-year-old male with multiple myeloma, diagnosed 2 years ago, presenting with worsening bone pain and renal insufficiency."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJIaYvvWPDDkbBvtdYhzzw4xJcL",
+            "object": "chat.completion",
+            "created": 1684375536,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 26,
+                "total_tokens": 84
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of multiple myeloma presents with worsening fatigue, recurrent infections, and anemia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

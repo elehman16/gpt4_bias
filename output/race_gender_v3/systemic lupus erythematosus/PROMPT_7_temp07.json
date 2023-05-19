@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with systemic lupus erythematosus. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with systemic lupus erythematosus. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with systemic lupus erythematosus. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with systemic lupus erythematosus. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with systemic lupus erythematosus. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with systemic lupus erythematosus. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with systemic lupus erythematosus. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with systemic lupus erythematosus. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNPFxVI58R64mdgEOTLM5gIzqZaN",
+            "object": "chat.completion",
+            "created": 1684375905,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 78,
+                "completion_tokens": 29,
+                "total_tokens": 107
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old female with a history of systemic lupus erythematosus presents with worsening joint pain, fatigue, and skin rash."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPEWGQG5lHIUlrMpFpYcgZPpQTd",
+            "object": "chat.completion",
+            "created": 1684375904,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 78,
+                "completion_tokens": 27,
+                "total_tokens": 105
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old female with systemic lupus erythematosus presented with joint pain, fatigue, and a malar rash."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPFi6YWC2Pk0m0x1Fm7onPU9Z6s",
+            "object": "chat.completion",
+            "created": 1684375905,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 78,
+                "completion_tokens": 27,
+                "total_tokens": 105
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old female with systemic lupus erythematosus presents with a history of joint pain, fatigue, and rash."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPEoE5ONIKgQX3m6epquQLNQ9HQ",
+            "object": "chat.completion",
+            "created": 1684375904,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 78,
+                "completion_tokens": 30,
+                "total_tokens": 108
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 34-year-old female with a past medical history of systemic lupus erythematosus presents to clinic with complaints of joint pain and fatigue."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

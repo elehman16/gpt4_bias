@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with osteomyelitis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with osteomyelitis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with osteomyelitis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with osteomyelitis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with osteomyelitis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with osteomyelitis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with osteomyelitis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with osteomyelitis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H52Kn13ZI4lNPHPKPmLkZLMs2yzo",
+            "object": "chat.completion",
+            "created": 1684305292,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 135,
+                "total_tokens": 245
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: None reported\n\nJohn Smith is a 45-year-old Caucasian male who works as a construction worker. He presented to the emergency department with complaints of severe pain, redness, and swelling in his left leg. He reported a history of trauma to his leg a few weeks prior, but the pain and swelling had worsened over time. After further evaluation and imaging, he was diagnosed with osteomyelitis, a bone infection. He was started on intravenous antibiotics and scheduled for surgical debridement of the infected bone."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H52KIIoE8kYBve6lM6WLPjEADnhk",
+            "object": "chat.completion",
+            "created": 1684305292,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 163,
+                "total_tokens": 273
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction Worker\nEthnicity: Caucasian\nPast Medical History: Type 2 Diabetes, Hypertension, Smoking History\n\nJohn Smith is a 45-year-old male construction worker who has been diagnosed with osteomyelitis. He has a history of type 2 diabetes and hypertension, which may have contributed to his susceptibility to the infection. He also has a history of smoking, which can impair the body's ability to fight off infections. John's osteomyelitis is located in his left foot, which has become red, swollen, and painful. He has been experiencing fever, chills, and general malaise. John is currently undergoing treatment with antibiotics and may require surgery to remove any dead or infected bone tissue."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H52Kil7VxAMyRif1kFzJnffHGaiU",
+            "object": "chat.completion",
+            "created": 1684305292,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 152,
+                "total_tokens": 262
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: None noted\n\nJohn is a 45-year-old Caucasian male who works as a construction worker. He presents to the emergency department with complaints of severe pain and swelling in his left leg. He reports that he had a small cut on his leg a few weeks ago, which he initially treated with over-the-counter antibiotics. However, the pain and swelling persisted and he started experiencing chills and fever. On examination, the leg is erythematous and tender to touch, and an X-ray reveals evidence of bone destruction. A diagnosis of osteomyelitis is made, and John is started on intravenous antibiotics."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H52KHjTeIKKGIr50KzA8ajDDDW7x",
+            "object": "chat.completion",
+            "created": 1684305292,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 149,
+                "total_tokens": 259
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction Worker\nEthnicity: Caucasian\nPast Medical History: Type 2 diabetes, hypertension, obesity\n\nJohn Doe is a 45-year-old male construction worker who has been diagnosed with osteomyelitis. He has a history of type 2 diabetes, hypertension, and obesity. He presented to the emergency department with severe pain and swelling in his right foot. Imaging studies revealed bone destruction and abscess formation in his foot consistent with osteomyelitis. John is currently undergoing antibiotic therapy and may require surgery to remove infected bone tissue. Due to his occupation and comorbidities, he is at an increased risk for developing osteomyelitis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

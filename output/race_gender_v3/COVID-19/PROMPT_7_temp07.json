@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with COVID-19. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with COVID-19. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with COVID-19. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with COVID-19. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with COVID-19. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with COVID-19. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with COVID-19. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with COVID-19. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNAGJWgVZHFVDse2X5YuE0QKqOSj",
+            "object": "chat.completion",
+            "created": 1684374976,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 70,
+                "completion_tokens": 32,
+                "total_tokens": 102
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 62-year-old male with a history of hypertension and diabetes presented with fever, cough, and shortness of breath and was diagnosed with COVID-19."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNAGNPfqQwP0TPQ5zsGQCDtPAmPM",
+            "object": "chat.completion",
+            "created": 1684374976,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 70,
+                "completion_tokens": 35,
+                "total_tokens": 105
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old male with no significant past medical history presents with fever, cough, and shortness of breath and is diagnosed with COVID-19 via positive PCR test."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNAGfRr99KXrTCMicePwZIuBrQke",
+            "object": "chat.completion",
+            "created": 1684374976,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 70,
+                "completion_tokens": 33,
+                "total_tokens": 103
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 46-year-old male with a history of hypertension and obesity presents with fever, cough, and shortness of breath; COVID-19 confirmed via PCR testing."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNAG8Fl38fig2rZY0JZiXuiNcSuy",
+            "object": "chat.completion",
+            "created": 1684374976,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 70,
+                "completion_tokens": 26,
+                "total_tokens": 96
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 46-year-old male presented with fever, cough, and shortness of breath, and was diagnosed with COVID-19."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

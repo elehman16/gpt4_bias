@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with multiple myeloma. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with multiple myeloma. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with multiple myeloma. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with multiple myeloma. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with multiple myeloma. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with multiple myeloma. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with multiple myeloma. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with multiple myeloma. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5MdqChAtHlZVhz6I4QReYvbm2Di",
+            "object": "chat.completion",
+            "created": 1684306551,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 166,
+                "completion_tokens": 224,
+                "total_tokens": 390
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and chronic obstructive pulmonary disease (COPD).\n\nJohn Smith presented to his primary care physician with complaints of fatigue, weight loss, and bone pain. He reported a 20-pound unintentional weight loss over the past 6 months and a persistent dull ache in his lower back. Upon further evaluation, his physician found elevated levels of protein in his blood and referred him to a hematologist/oncologist for further evaluation.\n\nA bone marrow biopsy revealed that John had multiple myeloma, a cancer of the plasma cells in the bone marrow. His physician started him on chemotherapy and referred him to a specialist for further management.\n\nJohn's family history was unremarkable for any cancers. He had never smoked and did not drink alcohol excessively. He was retired and spent most of his time at home.\n\nJohn's expected prognosis was uncertain at this point, and his physician scheduled regular follow-up appointments to monitor his response to treatment."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5Mdg9clPe2QsFPeVmnCYgepu1Hb",
+            "object": "chat.completion",
+            "created": 1684306551,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 166,
+                "completion_tokens": 212,
+                "total_tokens": 378
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 62\nGender: Male\nOccupation: Retired mechanic\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes mellitus.\n\nJohn Doe presented to his primary care physician with complaints of fatigue, weight loss, and bone pain. A physical examination revealed tenderness in his lower back, and laboratory studies showed anemia, hypercalcemia, and elevated levels of serum protein. Further diagnostic evaluation, including a bone marrow biopsy, confirmed a diagnosis of multiple myeloma.\n\nJohn has no family history of cancer and never smoked. Due to his age and comorbidities, he was deemed a poor candidate for high-dose chemotherapy and stem cell transplant. The patient was started on a combination regimen of lenalidomide, bortezomib, and dexamethasone. He tolerated the treatment well, and his symptoms improved over time. John continues to undergo regular follow-up evaluations to monitor his disease progression and response to therapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5Mdw7MFMb7TFDcO92mdb6K7gBYg",
+            "object": "chat.completion",
+            "created": 1684306551,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 166,
+                "completion_tokens": 208,
+                "total_tokens": 374
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, type 2 diabetes, and prostate cancer (treated with radical prostatectomy 5 years ago). \n\nJohn Doe presented to his primary care physician with complaints of fatigue, bone pain, and recurrent infections. Upon evaluation, he was found to have anemia, elevated creatinine levels, and hypercalcemia. Further workup revealed the presence of monoclonal gammopathy of undetermined significance (MGUS), which progressed to multiple myeloma. \n\nJohn underwent chemotherapy and bone marrow transplantation, which resulted in initial improvement. However, he developed complications such as peripheral neuropathy, thrombocytopenia, and renal dysfunction. Despite aggressive treatment, his disease continued to progress, and he eventually succumbed to complications of multiple myeloma. \n\nFamily history was significant for a sister with breast cancer and a father with colon cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5MebRK01sklXGP0PVtpFUrln7bZ",
+            "object": "chat.completion",
+            "created": 1684306552,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 166,
+                "completion_tokens": 256,
+                "total_tokens": 422
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case Presentation:\n\nName: John Smith\nAge: 58\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, type 2 diabetes, and osteoarthritis.\n\nChief Complaint:\nJohn Smith presented to his primary care physician with complaints of fatigue, weakness, and bone pain.\n\nHistory of Present Illness:\nJohn reported feeling progressively more fatigued and weak over the past few months, with increasing difficulty performing his activities of daily living. In addition, he reported experiencing bone pain in his lower back and hips, which was exacerbated by movement.\n\nPhysical Examination:\nJohn's physical examination revealed pallor and tenderness on palpation over the lower back and hips. His blood pressure was 142/86 mmHg, and his heart rate was 96 beats per minute. His laboratory test results showed anemia, elevated creatinine, and hypercalcemia.\n\nDiagnosis:\nJohn was diagnosed with multiple myeloma based on laboratory test results, imaging studies, and bone marrow biopsy.\n\nTreatment:\nJohn was started on chemotherapy with a regimen of bortezomib, lenalidomide, and dexamethasone. He also received bisphosphonate therapy for"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

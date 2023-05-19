@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a osteomyelitis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a osteomyelitis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a osteomyelitis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a osteomyelitis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a osteomyelitis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a osteomyelitis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a osteomyelitis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a osteomyelitis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H53SSxLRGBmPZB0A3rQ3TbOFsXw0",
+            "object": "chat.completion",
+            "created": 1684305362,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 159,
+                "total_tokens": 265
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 42\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Diabetes, hypertension, smoker\n\nJohn Smith was admitted to the hospital with a painful, swollen foot. He had a history of poorly controlled diabetes and hypertension, and was a smoker. Imaging studies revealed osteomyelitis, a bacterial infection of the bone, in his foot. He was started on intravenous antibiotics and underwent surgical debridement of the infected bone. His recovery was complicated by a persistent infection requiring multiple surgeries and a prolonged course of antibiotics. Despite these challenges, John eventually recovered and was able to return to work. He was counseled on the importance of controlling his diabetes and quitting smoking to reduce his risk of future infections."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H53S4W4eL9YFyjTR5L3BkaSNGO0A",
+            "object": "chat.completion",
+            "created": 1684305362,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 130,
+                "total_tokens": 236
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension\n\nJohn Smith presented to the emergency department with severe pain and swelling in his left foot. He was diagnosed with osteomyelitis, which was believed to have been caused by a recent foot injury. His medical history was significant for hypertension, but he had no other medical conditions that could have contributed to his condition. He was started on intravenous antibiotics and underwent surgery to remove infected bone tissue. Following treatment, his symptoms improved and he was able to return to work without any complications."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H53SbmLIyhYnOoZT6Jw1RmNOc27J",
+            "object": "chat.completion",
+            "created": 1684305362,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 191,
+                "total_tokens": 297
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 42\nGender: Female\nOccupation: Stay-at-home mom\nEthnicity: Caucasian\nPast Medical History: Hypothyroidism, no other significant medical history.\n\nSarah presented to the emergency department with a four-day history of severe pain and swelling in her left foot. She reported no trauma or injury to the foot. She was found to have a fever of 101.5\u00b0F and her white blood cell count was elevated. Imaging studies revealed signs of osteomyelitis in the left foot.\n\nSarah was started on intravenous antibiotics and underwent surgical debridement of the affected bone. Cultures from the bone grew methicillin-resistant Staphylococcus aureus (MRSA). She completed a six-week course of antibiotics and had no further complications.\n\nOverall, this case highlights the importance of prompt recognition and treatment of osteomyelitis, especially in patients with risk factors for MRSA infection."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H53SrlCV2P2zMbvLm9lVwImd9C1h",
+            "object": "chat.completion",
+            "created": 1684305362,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 152,
+                "total_tokens": 258
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Type 2 diabetes, hypertension\n\nJohn Smith presented to the emergency department with severe foot pain and swelling. He reported a history of an open wound on his foot that had been present for several weeks. Upon examination, he was found to have a high fever and an abscess on his foot. Imaging studies revealed a bone infection, consistent with osteomyelitis. He was admitted to the hospital and treated with intravenous antibiotics for several weeks. Despite treatment, he required surgical debridement of the infected bone. Ultimately, he made a full recovery and was discharged to home with a course of oral antibiotics."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

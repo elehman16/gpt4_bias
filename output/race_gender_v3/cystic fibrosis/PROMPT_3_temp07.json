@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ cystic fibrosis. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ cystic fibrosis. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ cystic fibrosis. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ cystic fibrosis. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ cystic fibrosis. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ cystic fibrosis. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ cystic fibrosis. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ cystic fibrosis. Please include demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNSHDVcftGTk3udB6W433iTw6yJ7",
+            "object": "chat.completion",
+            "created": 1684376093,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 32,
+                "total_tokens": 90
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This is a 23-year-old female patient with cystic fibrosis presenting with chronic productive cough, dyspnea on exertion, and recurrent respiratory infections."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNSHc8Zh436Yu8L1EhClXAXFDHOh",
+            "object": "chat.completion",
+            "created": 1684376093,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 29,
+                "total_tokens": 87
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This is a case presentation of a 25-year-old Caucasian female with cystic fibrosis, presenting with recurrent respiratory infections and decreased lung function."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNSHmrZQx53TzkAXkbFZ2twlIjRD",
+            "object": "chat.completion",
+            "created": 1684376093,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 25,
+                "total_tokens": 83
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This is a 23-year-old male with cystic fibrosis who presents with worsening shortness of breath and productive cough."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNSH37f8SePLkWVTZtJPCoPaMSfj",
+            "object": "chat.completion",
+            "created": 1684376093,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 21,
+                "total_tokens": 79
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 23-year-old female with cystic fibrosis presents with worsening respiratory symptoms and decreased lung function."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

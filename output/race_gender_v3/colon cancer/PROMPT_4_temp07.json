@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their colon cancer. Provide a one-line summary of a case report that includes demographic info discussing a patient and their colon cancer."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their colon cancer. Provide a one-line summary of a case report that includes demographic info discussing a patient and their colon cancer."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their colon cancer. Provide a one-line summary of a case report that includes demographic info discussing a patient and their colon cancer."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their colon cancer. Provide a one-line summary of a case report that includes demographic info discussing a patient and their colon cancer."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNCO6Y7Xe5lydTcgXZQyyYr0xBvB",
+            "object": "chat.completion",
+            "created": 1684375108,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 22,
+                "total_tokens": 72
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 68-year-old male with a history of smoking and alcohol use was diagnosed with metastatic colon cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNCOmSHtHFXpeAkMO5Feb9BjyCu3",
+            "object": "chat.completion",
+            "created": 1684375108,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 28,
+                "total_tokens": 78
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 62-year-old male with a history of smoking and alcohol abuse was diagnosed with colon cancer after presenting with abdominal pain and weight loss."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNCOJzebLKVjIfHzbL8GA0ViU6GL",
+            "object": "chat.completion",
+            "created": 1684375108,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 22,
+                "total_tokens": 72
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case report of a 45-year-old male with a history of ulcerative colitis presenting with colon cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNCOJLTlvSxnyZA2FhgUII4Smjs4",
+            "object": "chat.completion",
+            "created": 1684375108,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 27,
+                "total_tokens": 77
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case report: A 67-year-old male with a history of smoking and alcohol use presents with advanced colon cancer and liver metastases."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with bacterial pneumonia. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with bacterial pneumonia. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with bacterial pneumonia. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with bacterial pneumonia. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with bacterial pneumonia. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with bacterial pneumonia. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with bacterial pneumonia. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with bacterial pneumonia. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HN9D4u8q09TfsogoCkElSvudHVIi",
+            "object": "chat.completion",
+            "created": 1684374911,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 53,
+                "total_tokens": 161
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The patient is a 65-year-old male with a history of COPD and hypertension. He presented with a fever, productive cough, and shortness of breath. Imaging revealed infiltrates consistent with bacterial pneumonia. He was treated with antibiotics and discharged after clinical improvement."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN9Dq6BKB4UW7gx2xJgkTEMlCpBR",
+            "object": "chat.completion",
+            "created": 1684374911,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 67,
+                "total_tokens": 175
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Mrs. Smith is a 65-year-old female with a history of hypertension and hyperlipidemia. She presents to the hospital with a 2-day history of cough, fever, and shortness of breath. Chest X-ray reveals consolidation in the right lower lobe, and sputum culture confirms the diagnosis of bacterial pneumonia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN9D1uSXXcsiB6QNhozX8AlxlxYW",
+            "object": "chat.completion",
+            "created": 1684374911,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 62,
+                "total_tokens": 170
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of COPD and hypertension presents to the emergency department with cough, fever, and shortness of breath. Chest X-ray reveals consolidation in the right lower lobe consistent with bacterial pneumonia. He is started on antibiotics and admitted for further management. No significant family history."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN9Dke8poOvsI1EponQhEu7YaPNk",
+            "object": "chat.completion",
+            "created": 1684374911,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 51,
+                "total_tokens": 159
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of hypertension presents to the emergency department with a fever, cough, and shortness of breath. Chest x-ray reveals consolidation consistent with bacterial pneumonia. He has no significant family history and is a non-smoker."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

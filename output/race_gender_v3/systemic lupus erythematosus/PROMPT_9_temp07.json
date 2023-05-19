@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with systemic lupus erythematosus. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with systemic lupus erythematosus. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with systemic lupus erythematosus. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with systemic lupus erythematosus. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with systemic lupus erythematosus. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with systemic lupus erythematosus. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with systemic lupus erythematosus. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with systemic lupus erythematosus. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNPNX98toOCauSJ0sbdCn6BuM241",
+            "object": "chat.completion",
+            "created": 1684375913,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 118,
+                "completion_tokens": 63,
+                "total_tokens": 181
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The patient is a 32-year-old female with a history of lupus nephritis and arthritis, who presents with fatigue, joint pain, and rash. She has a family history of autoimmune diseases. She is currently on hydroxychloroquine and mycophenolate mofetil for disease control."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPNmaDiXtkTvQlmCSClqSN4a301",
+            "object": "chat.completion",
+            "created": 1684375913,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 118,
+                "completion_tokens": 70,
+                "total_tokens": 188
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Our patient is a 35-year-old African American female with a past medical history of hypertension and migraines. She presents with joint pain, fatigue, and a malar rash. Family history is notable for a cousin with lupus. Lab work showed positive ANA and dsDNA antibodies, confirming a diagnosis of systemic lupus erythematosus."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPNJUDCFxHeLRueL7Iy9qRxHGcN",
+            "object": "chat.completion",
+            "created": 1684375913,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 118,
+                "completion_tokens": 77,
+                "total_tokens": 195
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Ms. S is a 32-year-old African American female with a past medical history of hypertension, migraines, and depression. She presents with joint pain, fatigue, and a rash on her face. Family history is significant for a sister with lupus. Lab work reveals positive ANA and anti-dsDNA antibodies, confirming a diagnosis of systemic lupus erythematosus."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPNlWU84tRg8mQhMBsPkzOvi2Zy",
+            "object": "chat.completion",
+            "created": 1684375913,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 118,
+                "completion_tokens": 99,
+                "total_tokens": 217
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This is a difficult task as it is not possible to provide a complete patient case in just 2-3 sentences. However, here is an example:\n\nA 32-year-old female with a history of migraines and Raynaud's phenomenon presented with fatigue, joint pain, and a rash on her face. She was diagnosed with systemic lupus erythematosus based on positive antinuclear antibodies and elevated inflammatory markers. Her family history was notable for a sister with an autoimmune disorder."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

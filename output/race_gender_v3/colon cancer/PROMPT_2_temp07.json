@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with colon cancer? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with colon cancer?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with colon cancer? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with colon cancer?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with colon cancer? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with colon cancer?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with colon cancer? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with colon cancer?"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNBwNgaw9goWJm3SwvpSJsLuklUv",
+            "object": "chat.completion",
+            "created": 1684375080,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 256,
+                "total_tokens": 316
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here's a short presentation of a case about a patient with colon cancer:\n\nDemographic Information:\n- Name: John Doe\n- Age: 65 years old\n- Gender: Male\n- Ethnicity: Caucasian\n- Occupation: Retired\n\nChief Complaint:\n- Abdominal pain and rectal bleeding\n\nHistory of Present Illness:\n- John Doe presented to the clinic with complaints of abdominal pain and rectal bleeding for the past 2 months.\n- He reported a change in bowel habits, including diarrhea and constipation, and a feeling of incomplete evacuation.\n- He denied any weight loss, fever, or night sweats.\n\nPast Medical History:\n- Hypertension\n- Hyperlipidemia\n- No previous history of cancer\n\nFamily History:\n- Mother had breast cancer\n- Father had prostate cancer\n\nPhysical Examination:\n- Vital signs: BP 130/80 mmHg, HR 80 bpm, RR 16/min, Temp 98.6\u00b0F\n- Abdomen: soft, non-tender, no palpable masses or hepatosplenomegaly\n- Rectal exam: blood on the glove, no palpable masses\n\nDiagnostic Workup:\n- Colonoscopy revealed a mass in the sigmoid colon\n- Bi"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNBw6HptPOoqbUW3Q4mQAdojVG3p",
+            "object": "chat.completion",
+            "created": 1684375080,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 256,
+                "total_tokens": 316
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here is a sample case presentation:\n\nCase Presentation:\n\nPatient: Mr. X, a 60-year-old male\nChief Complaint: Abdominal pain, constipation, and rectal bleeding\n\nHistory of Present Illness:\nMr. X presented to the clinic with a 3-month history of intermittent abdominal pain, constipation, and rectal bleeding. He had lost around 10 pounds of weight in the last few months and felt fatigued. The pain was initially dull and intermittent but had become more severe and constant in the last few weeks. He had also noticed blood in his stool, which was bright red in color. He denied any recent changes in his diet or bowel habits. He had no significant past medical history.\n\nPhysical Examination:\nOn examination, Mr. X appeared pale and fatigued. His vital signs were stable. Abdominal examination revealed tenderness and a palpable mass in the left iliac fossa. Digital rectal examination showed blood in the rectal vault.\n\nInvestigations:\nLaboratory investigations revealed anemia, with a hemoglobin level of 9.5 g/dL, and an elevated CEA level of 8.6 ng/mL. Colonoscopy revealed a mass in the descending colon, and biopsy confirmed"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNBwktfo4ybZxeQi8vBrUgOU9GEt",
+            "object": "chat.completion",
+            "created": 1684375080,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 256,
+                "total_tokens": 316
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here's a short presentation of a case:\n\nPatient demographics:\n- 62-year-old male\n- No significant medical history\n- Family history of colon cancer\n\nChief complaint:\n- Rectal bleeding and abdominal pain for the past few months\n\nHistory of present illness:\n- The patient initially noticed occasional rectal bleeding and attributed it to hemorrhoids\n- However, the bleeding became more frequent and he began to experience abdominal pain\n- He visited his primary care physician who referred him for a colonoscopy\n- The colonoscopy revealed a mass in the descending colon, which was biopsied and confirmed to be adenocarcinoma\n\nPhysical examination:\n- Vital signs within normal limits\n- Abdominal tenderness on palpation\n- No palpable masses or lymphadenopathy\n\nDiagnostic workup:\n- Colonoscopy with biopsy: adenocarcinoma in the descending colon\n- CT scan of the abdomen and pelvis: no evidence of metastasis\n\nTreatment:\n- The patient underwent surgery to remove the tumor along with nearby lymph nodes\n- Pathology report indicated stage II colon cancer\n- He is scheduled to start adjuvant chemotherapy\n\nConclusion:\n- Colon cancer is the third most common cancer in both men and women\n- Age,"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNBwgWjJEtrFnem5XEbEVN1bk83u",
+            "object": "chat.completion",
+            "created": 1684375080,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 256,
+                "total_tokens": 316
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here's an example presentation of a patient with colon cancer:\n\nCase Presentation: Colon Cancer\n\nDemographic Information:\n- Patient Name: John Smith\n- Age: 62 years old\n- Gender: Male\n- Occupation: Retired\n- Medical History: Hypertension, hyperlipidemia, family history of colon cancer\n\nChief Complaint:\n- Abdominal pain and bloating\n- Change in bowel habits\n- Blood in stool\n\nHistory of Present Illness:\nJohn Smith is a 62-year-old retired male who presents to the clinic with a chief complaint of abdominal pain and bloating for the past month. He also reports a change in bowel habits, including increased frequency of bowel movements and loose stools. He also noticed blood in his stool on several occasions. He denies any weight loss, nausea, vomiting or fever.\n\nMedical History:\nJohn has a history of hypertension and hyperlipidemia, both well-controlled on medications. He has a family history of colon cancer, with his older brother being diagnosed with the disease at the age of 58.\n\nPhysical Exam:\n- Vital Signs: Blood pressure 130/80 mmHg, heart rate 80 beats per minute, respiratory rate 16 breaths per minute, temperature 98.6\u00b0F"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

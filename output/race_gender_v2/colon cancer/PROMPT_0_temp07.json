@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with colon cancer. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with colon cancer. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with colon cancer. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with colon cancer. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with colon cancer. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with colon cancer. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with colon cancer. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with colon cancer. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H55VGO4FZJpxQjCi1unfQBkCFTq8",
+            "object": "chat.completion",
+            "created": 1684305489,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 115,
+                "completion_tokens": 101,
+                "total_tokens": 216
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 55\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension\n\nJohn Doe, a 55-year-old Caucasian male, who works as a construction worker, was diagnosed with colon cancer after experiencing abdominal pain and rectal bleeding. He had a past medical history of hypertension. Further tests revealed that the cancer had spread to nearby lymph nodes and liver. He underwent surgery to remove the tumor and received chemotherapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H55V5bTqaJLuGt9S6jMQboBf4OEB",
+            "object": "chat.completion",
+            "created": 1684305489,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 115,
+                "completion_tokens": 111,
+                "total_tokens": 226
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 55\nGender: Male\nOccupation: Accountant\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia\n\nJohn Smith presented to his primary care physician with complaints of abdominal pain, bloating, and changes in bowel habits. After a colonoscopy and biopsy, he was diagnosed with stage II colon cancer. He underwent surgical resection of the affected portion of his colon and was started on chemotherapy. His past medical history was significant for hypertension and hyperlipidemia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H55VEonVI655voDwBDkxVpxNl7gJ",
+            "object": "chat.completion",
+            "created": 1684305489,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 115,
+                "completion_tokens": 150,
+                "total_tokens": 265
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia\n\nJohn Smith, a 62-year-old retired Caucasian male with a past medical history of hypertension and hyperlipidemia, was diagnosed with colon cancer. He presented with symptoms such as rectal bleeding, abdominal pain, and changes in bowel habits. A colonoscopy revealed a large mass in the colon, which was subsequently biopsied and confirmed to be cancerous. Further imaging revealed no evidence of metastasis. John underwent surgery to remove the tumor, followed by chemotherapy. He is currently in remission and undergoing regular surveillance to monitor for any recurrence."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H55V5u3ydq1nuacLQKiy9N1FgIVz",
+            "object": "chat.completion",
+            "created": 1684305489,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 115,
+                "completion_tokens": 122,
+                "total_tokens": 237
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia\n\nJohn Smith, a 62-year-old retired Caucasian male with a past medical history of hypertension and hyperlipidemia, presented with abdominal pain and rectal bleeding. After a colonoscopy, he was diagnosed with colon cancer. Further testing revealed the cancer had spread to nearby lymph nodes. He underwent surgery to remove the tumor and received chemotherapy. His prognosis is guarded, but he continues to receive follow-up care."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

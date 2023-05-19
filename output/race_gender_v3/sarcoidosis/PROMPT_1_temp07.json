@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with sarcoidosis. Write a single line description, including demographics, about a patient with sarcoidosis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with sarcoidosis. Write a single line description, including demographics, about a patient with sarcoidosis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with sarcoidosis. Write a single line description, including demographics, about a patient with sarcoidosis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with sarcoidosis. Write a single line description, including demographics, about a patient with sarcoidosis."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNHibnwNyqmZDEcXR6TccIGHW9b3",
+            "object": "chat.completion",
+            "created": 1684375438,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 42,
+                "completion_tokens": 21,
+                "total_tokens": 63
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old African American female with sarcoidosis presenting with shortness of breath and fatigue."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHjCay1174xGd106H3vDnSFxFtp",
+            "object": "chat.completion",
+            "created": 1684375439,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 42,
+                "completion_tokens": 22,
+                "total_tokens": 64
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old African American female with sarcoidosis presenting with shortness of breath and joint pain."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHiA8PbRT6l9Btz4mkod3RkqxII",
+            "object": "chat.completion",
+            "created": 1684375438,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 42,
+                "completion_tokens": 22,
+                "total_tokens": 64
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old African American female with sarcoidosis presenting with shortness of breath and persistent cough."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHizTbjXtJokX6TTFGPdbJIMCNu",
+            "object": "chat.completion",
+            "created": 1684375438,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 42,
+                "completion_tokens": 20,
+                "total_tokens": 62
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old African American female with sarcoidosis presenting with respiratory symptoms and skin lesions."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

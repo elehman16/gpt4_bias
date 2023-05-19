@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with multiple sclerosis (MS). Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with multiple sclerosis (MS). Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with multiple sclerosis (MS). Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with multiple sclerosis (MS). Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with multiple sclerosis (MS). Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with multiple sclerosis (MS). Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with multiple sclerosis (MS). Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with multiple sclerosis (MS). Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5T2U3eH69SO5wlcZpCeJlFt8JtF",
+            "object": "chat.completion",
+            "created": 1684306948,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 166,
+                "completion_tokens": 144,
+                "total_tokens": 310
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 35\nGender: Female\nOccupation: Accountant\nEthnicity: Caucasian\nPast Medical History: Sarah was diagnosed with relapsing-remitting multiple sclerosis (RRMS) at the age of 27. She has been receiving treatment with disease-modifying therapies (DMTs) and has had several relapses over the years. She also has a history of migraines and takes medication for them as needed. Sarah has no significant family history of MS or other neurological disorders. She is a non-smoker and drinks alcohol in moderation. Sarah has been experiencing increased fatigue and difficulty with balance and coordination over the past few months, which led her to seek medical attention."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5T25Q6jwIwD7RuxFo7HhCNKP5Gf",
+            "object": "chat.completion",
+            "created": 1684306948,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 166,
+                "completion_tokens": 256,
+                "total_tokens": 422
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Jones\nAge: 34\nGender: Female\nOccupation: Marketing Manager\nEthnicity: Caucasian\nPast Medical History: Sarah has a history of migraines and depression. She had a bout of optic neuritis in her early twenties that resolved on its own. She has no other significant medical history.\n\nPresenting Complaint:\nSarah presents to her primary care physician with complaints of blurry vision in her left eye, numbness and tingling in her left arm and leg, and difficulty walking. She reports that these symptoms have been present for the past two weeks and are progressively getting worse.\n\nPhysical Exam:\nOn physical exam, Sarah has decreased sensation to light touch in her left arm and leg. She has mild weakness in her left leg and has difficulty walking in a straight line. Her left eye shows a decreased visual acuity, and there is a relative afferent pupillary defect.\n\nDiagnostic Workup:\nMRI of the brain and spinal cord shows multiple T2 hyperintense lesions in the periventricular and subcortical white matter, consistent with demyelinating disease. CSF analysis shows oligoclonal bands, and an evoked potential study shows delayed conduction in the visual pathway.\n\nDiagnosis:\nSarah is diagnosed with rel"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5T3D1bXyv3w1PXOawGB26TvYHAP",
+            "object": "chat.completion",
+            "created": 1684306949,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 166,
+                "completion_tokens": 160,
+                "total_tokens": 326
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 32\nGender: Female\nOccupation: Stay-at-home mom\nEthnicity: Caucasian\nPast Medical History: Sarah was diagnosed with multiple sclerosis (MS) five years ago. She has a history of migraines and depression, and has been taking medication for both conditions. She also has a family history of autoimmune diseases, including MS in her mother and lupus in her aunt. Sarah has two young children and has been struggling with managing her MS symptoms while caring for them. She has experienced fatigue, muscle weakness, and difficulty with coordination and balance. She has been seeing a neurologist regularly and has been prescribed medication to manage her symptoms. However, Sarah is concerned about the long-term effects of her medication and is interested in exploring alternative treatments."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5T2P6tHkOp7ISH5aAE2Tmkm4Dmj",
+            "object": "chat.completion",
+            "created": 1684306948,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 166,
+                "completion_tokens": 186,
+                "total_tokens": 352
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 34\nGender: Female\nOccupation: Marketing Manager\nEthnicity: Caucasian\nPast Medical History: Sarah was diagnosed with multiple sclerosis (MS) at the age of 28. She had experienced numbness and tingling in her arms and legs, which progressed to weakness and difficulty with coordination. She underwent MRI testing, which revealed multiple lesions in her brain and spinal cord. She was started on disease-modifying therapy (DMT) and has been stable on this medication for the past 6 years. Sarah also has a history of migraines, which are managed with medication, and seasonal allergies. She does not smoke and drinks alcohol socially. There is no family history of MS. Sarah's current medications include her DMT, an aspirin regimen, and an antihistamine for her allergies. She is otherwise healthy and active, regularly exercising and eating a balanced diet."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

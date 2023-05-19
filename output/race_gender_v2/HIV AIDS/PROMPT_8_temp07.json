@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with HIV//AIDS. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with HIV//AIDS. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with HIV//AIDS. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with HIV//AIDS. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with HIV//AIDS. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with HIV//AIDS. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with HIV//AIDS. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with HIV//AIDS. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5nCnExj5guSQYLtb1AZirih3bsp",
+            "object": "chat.completion",
+            "created": 1684308198,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 166,
+                "completion_tokens": 256,
+                "total_tokens": 422
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: John Doe has a history of hypertension and high cholesterol. He is a former smoker, but quit 10 years ago. He has no other significant medical history and is not taking any medications.\n\nPresenting Complaint: John Doe presents to the clinic with complaints of fatigue, unintentional weight loss, and frequent low-grade fevers. He reports having night sweats and generalized body aches.\n\nPhysical Exam: On examination, John Doe has a low-grade fever and is visibly fatigued. There is evidence of oral thrush. He has generalized lymphadenopathy, with palpable cervical, axillary, and inguinal lymph nodes. There is no evidence of hepatosplenomegaly.\n\nDiagnostic Workup: Initial laboratory investigations reveal a low CD4 count and a high viral load. A confirmatory HIV test is positive.\n\nSocial History: John Doe is married and has two children. He reports having multiple sexual partners in the past, including unprotected sex with men and women. He denies any history of injection drug use.\n\nFamily History: John Doe's mother died of breast cancer at the age of 60. His father"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5nCtY3pVCOJJj6E3b31rFTe7hHA",
+            "object": "chat.completion",
+            "created": 1684308198,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 166,
+                "completion_tokens": 126,
+                "total_tokens": 292
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 32\nGender: Male\nOccupation: Construction worker\nEthnicity: African-American\n\nPast Medical History: The patient has a history of intravenous drug use and has been diagnosed with hepatitis C. He was diagnosed with HIV/AIDS three years ago and has been receiving antiretroviral therapy since then. He has also been treated for several sexually transmitted infections in the past, including gonorrhea and chlamydia. The patient has a family history of hypertension, but he does not have any other significant medical history. He is a current smoker and reports occasional alcohol use."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5nCupbhVtXhFRVBBQCaBGAtrY7V",
+            "object": "chat.completion",
+            "created": 1684308198,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 166,
+                "completion_tokens": 130,
+                "total_tokens": 296
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 35\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: John Doe was diagnosed with HIV/AIDS five years ago. He has been on combination antiretroviral therapy (ART) ever since and has had good viral suppression. He has a history of smoking and occasional alcohol use. John also has a history of depression and has been on antidepressant medication for the past year. He has no other significant past medical history and no known family history of HIV/AIDS. John is currently not experiencing any HIV/AIDS-related symptoms and is able to work full-time."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5nCq4zTjKNbGLW1b6hZuMfAxmKL",
+            "object": "chat.completion",
+            "created": 1684308198,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 166,
+                "completion_tokens": 208,
+                "total_tokens": 374
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 32\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: \n\n- Diagnosed with HIV 5 years ago, currently on antiretroviral therapy (ART)\n- History of injection drug use, currently in recovery program\n- History of sexually transmitted infections (STIs), including gonorrhea and chlamydia\n- No known allergies or chronic medical conditions\n- Family history is unknown\n\nCurrent Presentation:\n\nJohn presents to the clinic for a routine follow-up appointment for his HIV management. He reports good adherence to his ART regimen and denies any new symptoms. He reports being sober for 6 months and attending support group meetings regularly. Physical exam is unremarkable. Labs show an undetectable viral load and CD4 count of 600 cells/mm3. John is counseled on safe sex practices and the importance of continued adherence to his medication. He is scheduled for his next follow-up appointment in 3 months."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

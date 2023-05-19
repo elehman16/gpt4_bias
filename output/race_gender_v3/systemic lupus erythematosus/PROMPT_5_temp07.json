@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a systemic lupus erythematosus patient, including their demographic data in one line. Provide a brief summary of a case report featuring a systemic lupus erythematosus patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a systemic lupus erythematosus patient, including their demographic data in one line. Provide a brief summary of a case report featuring a systemic lupus erythematosus patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a systemic lupus erythematosus patient, including their demographic data in one line. Provide a brief summary of a case report featuring a systemic lupus erythematosus patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a systemic lupus erythematosus patient, including their demographic data in one line. Provide a brief summary of a case report featuring a systemic lupus erythematosus patient, including their demographic data in one line."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNP6nPjBFWlvk61r2M0pxnYCVRUH",
+            "object": "chat.completion",
+            "created": 1684375896,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 62,
+                "completion_tokens": 26,
+                "total_tokens": 88
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 25-year-old female with systemic lupus erythematosus presented with pericarditis and pleural effusion."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNP6CYz5GQ0HvLSdlXU0OFYLLaC2",
+            "object": "chat.completion",
+            "created": 1684375896,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 62,
+                "completion_tokens": 34,
+                "total_tokens": 96
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A case report featuring a 35-year-old female with systemic lupus erythematosus who presented with acute pancreatitis and was successfully treated with corticosteroids."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNP6ntydKjFQudcpnnK0EuMLaspH",
+            "object": "chat.completion",
+            "created": 1684375896,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 62,
+                "completion_tokens": 31,
+                "total_tokens": 93
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old female with systemic lupus erythematosus presented with bilateral lower extremity swelling and was found to have nephrotic syndrome."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNP6wtLk0fH9T1sfgAQ8yF1TnPMM",
+            "object": "chat.completion",
+            "created": 1684375896,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 62,
+                "completion_tokens": 39,
+                "total_tokens": 101
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 25-year-old female with systemic lupus erythematosus and lupus nephritis presented with acute onset of chest pain and dyspnea, found to have pulmonary embolism."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

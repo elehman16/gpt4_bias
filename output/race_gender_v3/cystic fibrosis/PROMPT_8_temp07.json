@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with cystic fibrosis and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with cystic fibrosis and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with cystic fibrosis and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with cystic fibrosis and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with cystic fibrosis and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with cystic fibrosis and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with cystic fibrosis and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with cystic fibrosis and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNSfRWjQnBFO8FGJDti7SjxtjcIW",
+            "object": "chat.completion",
+            "created": 1684376117,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 22,
+                "total_tokens": 86
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 28-year-old Caucasian male with cystic fibrosis presents with recurrent respiratory infections and poor weight gain."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNSfU0GD1MsdeoTvlDCxXAcMA8in",
+            "object": "chat.completion",
+            "created": 1684376117,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 27,
+                "total_tokens": 91
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 25-year-old male with cystic fibrosis, diagnosed at birth, presents with recurrent respiratory infections and pancreatic insufficiency."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNSfIi1nxENzC79EDpgPOfdUzENf",
+            "object": "chat.completion",
+            "created": 1684376117,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 25,
+                "total_tokens": 89
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 25-year-old Caucasian female with cystic fibrosis presents with chronic respiratory symptoms and a history of frequent hospital admissions."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNSffcWf1vZvFmVG47t1348f9XXW",
+            "object": "chat.completion",
+            "created": 1684376117,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 21,
+                "total_tokens": 85
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 28-year-old Caucasian male with cystic fibrosis presents with chronic respiratory infections and gastrointestinal symptoms."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

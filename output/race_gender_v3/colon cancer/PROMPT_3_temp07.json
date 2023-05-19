@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ colon cancer. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ colon cancer. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ colon cancer. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ colon cancer. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ colon cancer. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ colon cancer. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ colon cancer. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ colon cancer. Please include demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNCK0GRMPfKymOVk6ftdmif91E90",
+            "object": "chat.completion",
+            "created": 1684375104,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 28,
+                "total_tokens": 82
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 62-year-old male with a history of smoking and alcohol abuse presents with rectal bleeding and is diagnosed with stage III colon cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNCKwUofAtjZ6LXroAnYIL0biQFv",
+            "object": "chat.completion",
+            "created": 1684375104,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 26,
+                "total_tokens": 80
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 62-year-old male with a history of smoking and obesity was diagnosed with stage III colon cancer and is scheduled for surgery."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNCKkw3cS4fFgklVHQUSag3o6OUL",
+            "object": "chat.completion",
+            "created": 1684375104,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 31,
+                "total_tokens": 85
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of smoking and family history of colon cancer presents with rectal bleeding and is diagnosed with stage III colon cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNCK5iVUtY5ClsH65JBnCPsfSXix",
+            "object": "chat.completion",
+            "created": 1684375104,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 29,
+                "total_tokens": 83
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 55-year-old male presenting with colon cancer and a family history of the disease underwent surgery and chemotherapy, with a good response to treatment."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

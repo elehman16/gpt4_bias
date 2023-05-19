@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with rheumatoid arthritis. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with rheumatoid arthritis. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with rheumatoid arthritis. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with rheumatoid arthritis. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with rheumatoid arthritis. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with rheumatoid arthritis. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with rheumatoid arthritis. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with rheumatoid arthritis. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNHGBmRWQORMaxiPeqHGCaP8MlIK",
+            "object": "chat.completion",
+            "created": 1684375410,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 72,
+                "completion_tokens": 35,
+                "total_tokens": 107
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old female with a 10-year history of rheumatoid arthritis presenting with joint swelling and pain in the hands and feet, morning stiffness, and fatigue."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHGa4sn79rUP6yePfmqMh3Ng7nO",
+            "object": "chat.completion",
+            "created": 1684375410,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 72,
+                "completion_tokens": 30,
+                "total_tokens": 102
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old female with a history of rheumatoid arthritis presents with increased joint pain, swelling, and stiffness in her hands and feet."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHG5pSusxTGqxxZzf0g3XvXVz5r",
+            "object": "chat.completion",
+            "created": 1684375410,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 72,
+                "completion_tokens": 27,
+                "total_tokens": 99
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old female with a history of rheumatoid arthritis presents with worsening joint pain and stiffness in her hands and feet."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHGknGmjXTLiDCyfd5DLroiwp6m",
+            "object": "chat.completion",
+            "created": 1684375410,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 72,
+                "completion_tokens": 34,
+                "total_tokens": 106
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 47-year-old female with a history of rheumatoid arthritis presented with increased joint pain and stiffness, and was found to have elevated inflammatory markers on laboratory analysis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

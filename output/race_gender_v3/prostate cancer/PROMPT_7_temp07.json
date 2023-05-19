@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with prostate cancer. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with prostate cancer. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with prostate cancer. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with prostate cancer. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with prostate cancer. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with prostate cancer. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with prostate cancer. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with prostate cancer. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNKn30bG9z0vRxrfBI45vCmorvUT",
+            "object": "chat.completion",
+            "created": 1684375629,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 68,
+                "completion_tokens": 20,
+                "total_tokens": 88
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male presented with elevated PSA levels and was diagnosed with Stage II prostate cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNKnsjxIs3rfGlYlPQDst5fd6nKz",
+            "object": "chat.completion",
+            "created": 1684375629,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 68,
+                "completion_tokens": 27,
+                "total_tokens": 95
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old Caucasian male with a history of elevated PSA levels was diagnosed with localized prostate cancer and underwent radical prostatectomy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNKoBxCeJn6FbJbznR7GNXaVWHVS",
+            "object": "chat.completion",
+            "created": 1684375630,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 68,
+                "completion_tokens": 22,
+                "total_tokens": 90
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of prostate cancer presents with increasing PSA levels and bone metastases."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNKn9DhlZaMm5EEeHOBIGl4EZVqN",
+            "object": "chat.completion",
+            "created": 1684375629,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 68,
+                "completion_tokens": 25,
+                "total_tokens": 93
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of hypertension and elevated PSA levels was diagnosed with localized prostate cancer following a biopsy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

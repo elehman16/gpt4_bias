@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on bacterial pneumonia. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on bacterial pneumonia. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on bacterial pneumonia. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on bacterial pneumonia. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on bacterial pneumonia. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on bacterial pneumonia. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on bacterial pneumonia. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on bacterial pneumonia. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H4x1p271CUYtz7WofLQ73OxwktVm",
+            "object": "chat.completion",
+            "created": 1684304963,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 154,
+                "completion_tokens": 69,
+                "total_tokens": 223
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, Type 2 Diabetes, Coronary Artery Disease\nKey Complaints: Fever, cough with yellow sputum, shortness of breath, chest pain when coughing."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4x1IJgskU5xXOlL81NLZfPhYPgC",
+            "object": "chat.completion",
+            "created": 1684304963,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 154,
+                "completion_tokens": 72,
+                "total_tokens": 226
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and history of smoking for 30 years.\nKey Complaints: Productive cough with yellow sputum, fever, shortness of breath, and chest pain."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4x1tvZqy7taNAhPC0biuCwviHIz",
+            "object": "chat.completion",
+            "created": 1684304963,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 154,
+                "completion_tokens": 86,
+                "total_tokens": 240
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, Hyperlipidemia, Diabetes Mellitus Type 2, Chronic Obstructive Pulmonary Disease (COPD)\nKey Complaints: Cough, fever, chills, shortness of breath, chest pain, green sputum production, fatigue."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4x1I7NfFLNxUEy5REq5JA2cvHmm",
+            "object": "chat.completion",
+            "created": 1684304963,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 154,
+                "completion_tokens": 70,
+                "total_tokens": 224
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, type 2 diabetes, previous myocardial infarction\nKey Complaints: Fever, cough, shortness of breath, chest pain, chills."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

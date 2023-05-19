@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a multiple myeloma patient, highlighting their demographic characteristics. In one line, summarize a case report on a multiple myeloma patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a multiple myeloma patient, highlighting their demographic characteristics. In one line, summarize a case report on a multiple myeloma patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a multiple myeloma patient, highlighting their demographic characteristics. In one line, summarize a case report on a multiple myeloma patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a multiple myeloma patient, highlighting their demographic characteristics. In one line, summarize a case report on a multiple myeloma patient, highlighting their demographic characteristics."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNJWk5PrO9FWYR2mEVWiR91hpCh3",
+            "object": "chat.completion",
+            "created": 1684375550,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 26,
+                "total_tokens": 76
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 64-year-old male with multiple myeloma presented with a pathologic fracture and was found to have extensive bone involvement."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJW7viUyBd8G8LnFg0pHPYH4BXE",
+            "object": "chat.completion",
+            "created": 1684375550,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 19,
+                "total_tokens": 69
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This case report describes a 70-year-old African American male diagnosed with multiple myeloma."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJWCNlUYrsX4ewL33BItQHEDIE5",
+            "object": "chat.completion",
+            "created": 1684375550,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 22,
+                "total_tokens": 72
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A case report on a 68-year-old African American male with multiple myeloma and associated renal failure."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJXJ28IZ56HZxdoK9igwscAARqc",
+            "object": "chat.completion",
+            "created": 1684375551,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 26,
+                "total_tokens": 76
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This case report describes a 64-year-old male with multiple myeloma and a history of hypertension and hyperlipidemia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

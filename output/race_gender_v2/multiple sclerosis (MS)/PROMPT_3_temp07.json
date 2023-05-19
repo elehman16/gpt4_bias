@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with multiple sclerosis (MS). Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with multiple sclerosis (MS). Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with multiple sclerosis (MS). Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with multiple sclerosis (MS). Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with multiple sclerosis (MS). Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with multiple sclerosis (MS). Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with multiple sclerosis (MS). Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with multiple sclerosis (MS). Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5RUJ57Sl80kJjuyRxy5YZMhr2U8",
+            "object": "chat.completion",
+            "created": 1684306852,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 66,
+                "total_tokens": 178
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 32\nGender: Female\nOccupation: Marketing Manager\nEthnicity: Caucasian\nPast Medical History: Diagnosed with MS at age 28, no other significant medical history. Currently taking medication for MS and attends regular physical therapy sessions. No history of smoking or alcohol use."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5RUotIo76K1fAAtr7bHUCZQBYqr",
+            "object": "chat.completion",
+            "created": 1684306852,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 126,
+                "total_tokens": 238
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 35\nGender: Female\nOccupation: Marketing Manager\nEthnicity: Caucasian\nPast Medical History: Sarah was diagnosed with relapsing-remitting multiple sclerosis (RRMS) five years ago. She has experienced several relapses over the years, including numbness and tingling in her limbs, difficulty walking, and vision problems. She is currently taking a disease-modifying therapy (DMT) to manage her MS symptoms. She also has a history of migraines and occasional anxiety. Sarah does not smoke and drinks alcohol occasionally. She exercises regularly and follows a healthy diet."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5RUCZzJOGrWABaA7QnrOrU4LEgT",
+            "object": "chat.completion",
+            "created": 1684306852,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 77,
+                "total_tokens": 189
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 34\nGender: Female\nOccupation: Marketing Manager\nEthnicity: Caucasian\nPast Medical History: Sarah was diagnosed with multiple sclerosis (MS) 2 years ago. She has a history of migraine headaches and occasional anxiety. She is currently taking medication for both conditions. She does not smoke or drink alcohol, and she exercises regularly."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5RUY9pdEzVZKCOq7dZG2TM2xZJp",
+            "object": "chat.completion",
+            "created": 1684306852,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 87,
+                "total_tokens": 199
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 34\nGender: Female\nOccupation: Marketing Manager\nEthnicity: Caucasian\nPast Medical History: Sarah was diagnosed with MS at the age of 29. She has a history of migraines and occasional back pain. She takes medication for both conditions and has been managing her MS symptoms with medication and regular physical therapy. She has not had any major relapses in the past year."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

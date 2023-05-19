@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on HIV//AIDS. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on HIV//AIDS. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on HIV//AIDS. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on HIV//AIDS. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on HIV//AIDS. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on HIV//AIDS. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on HIV//AIDS. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on HIV//AIDS. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5nbMziW1QCewRrhGmIwzxeJ3647",
+            "object": "chat.completion",
+            "created": 1684308223,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 192,
+                "total_tokens": 350
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 35\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: No significant medical history\n\nKey Complaints:\nJohn presents to the clinic with complaints of persistent fever, cough, and night sweats for the past month. He also reports unintentional weight loss of 10 pounds in the past 3 months. He denies any recent travel or exposure to sick contacts. On further questioning, John admits to engaging in unprotected sexual intercourse with multiple partners in the past year. A rapid HIV test is performed, which comes back positive. Further testing reveals a CD4 count of 200 cells/mm3 and a viral load of 100,000 copies/mL.\n\nThis case highlights the importance of including HIV screening in routine medical care and the need for early diagnosis and treatment to prevent disease progression and transmission. It also emphasizes the importance of safe sexual practices to prevent the spread of HIV."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5nbAErhmtH3Hi0sbWf4FdfaXTsW",
+            "object": "chat.completion",
+            "created": 1684308223,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 139,
+                "total_tokens": 297
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 35\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: None\n\nKey Complaints:\nJohn Doe presents to the clinic with complaints of fever, fatigue, and night sweats for the past two weeks. He reports a non-productive cough and weight loss of 10 pounds in the past month. He denies any recent travel or sick contacts, but reports multiple sexual partners in the past year and inconsistent condom use. Physical examination reveals oral thrush and cervical lymphadenopathy.\n\nHIV testing is performed and comes back positive. John Doe is referred to an infectious disease specialist for further management and treatment."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5nbSqpsR1vhpU0DDpsyJA8QYEbD",
+            "object": "chat.completion",
+            "created": 1684308223,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 171,
+                "total_tokens": 329
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 32\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: No significant medical history reported.\n\nKey Complaints:\nJohn Doe presents to the clinic with complaints of fever, fatigue, and weight loss over the past few months. He also reports having night sweats and persistent cough. He denies any recent travel or sick contacts. On further questioning, he reports having unprotected sex with multiple partners and sharing needles for drug use. A rapid HIV test is performed, which comes back positive. Further testing confirms a diagnosis of AIDS. \n\nThis case highlights the importance of screening for HIV in high-risk populations and the need for early diagnosis and treatment to prevent progression to AIDS. It also emphasizes the need for safe sex practices and harm reduction strategies for individuals engaging in high-risk behaviors."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5nbngfEa4RW4wheGCvQMniuoPRm",
+            "object": "chat.completion",
+            "created": 1684308223,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 160,
+                "total_tokens": 318
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe \nAge: 35 \nGender: Male \nOccupation: Construction Worker \nEthnicity: African American \nPast Medical History: No significant past medical history \n\nKey Complaints: \nJohn presents to the clinic with complaints of fever, night sweats, and unexplained weight loss over the past few months. He also reports feeling fatigued and shortness of breath with minimal exertion. Upon further questioning, John admits to engaging in unprotected sexual intercourse with multiple partners. A rapid HIV test is performed, which comes back positive. Further testing reveals that John's CD4 count is 150 cells/mm3 and his viral load is 100,000 copies/mL. John is started on antiretroviral therapy and referred to an infectious disease specialist for ongoing care."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

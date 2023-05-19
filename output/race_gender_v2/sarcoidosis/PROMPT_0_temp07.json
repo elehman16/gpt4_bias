@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with sarcoidosis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with sarcoidosis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with sarcoidosis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with sarcoidosis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with sarcoidosis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with sarcoidosis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with sarcoidosis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with sarcoidosis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5Gd4tvYmh0n0bFGOKHzJbckWRUZ",
+            "object": "chat.completion",
+            "created": 1684306179,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 117,
+                "completion_tokens": 144,
+                "total_tokens": 261
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 42\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: None reported\n\nSummary:\nJohn Doe, a 42-year-old African American male and construction worker, presented with shortness of breath and a persistent cough. Chest imaging revealed bilateral hilar lymphadenopathy and diffuse interstitial lung disease. Biopsy confirmed a diagnosis of sarcoidosis. He was started on corticosteroid therapy and his symptoms improved. Follow-up imaging showed regression of the lymphadenopathy and improvement in the interstitial lung disease. John will continue on a maintenance dose of corticosteroids and will be monitored for any potential complications or relapses."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5GeqD0bi9ofMzPt0RQABPbm3Tca",
+            "object": "chat.completion",
+            "created": 1684306180,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 117,
+                "completion_tokens": 106,
+                "total_tokens": 223
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mr. J\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: African-American\nPast Medical History: None reported\n\nSummary: Mr. J, a 45-year-old African-American construction worker, presented with persistent cough, shortness of breath, and chest pain. Further evaluation revealed bilateral hilar lymphadenopathy and non-caseating granulomas on biopsy, consistent with sarcoidosis. He was started on oral corticosteroids and is being monitored for disease progression."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5GdIdLpWcwcLLbejDndaPBSGVWP",
+            "object": "chat.completion",
+            "created": 1684306179,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 117,
+                "completion_tokens": 104,
+                "total_tokens": 221
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: Hypertension\n\nJohn Doe, a 45-year-old African American male and construction worker, presents with complaints of shortness of breath, chest pain, and cough. Further examination revealed bilateral hilar lymphadenopathy, and a biopsy confirmed a diagnosis of sarcoidosis. The patient was started on corticosteroid therapy and showed improvement in symptoms and imaging findings."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5GdKFIauOh1GUKqQkMUXx3KWZ0Y",
+            "object": "chat.completion",
+            "created": 1684306179,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 117,
+                "completion_tokens": 141,
+                "total_tokens": 258
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mr. X\nAge: 45\nGender: Male\nOccupation: Sales representative\nEthnicity: African American\nPast Medical History: Hypertension, hyperlipidemia\n\nMr. X presented with shortness of breath and a dry cough. He reported feeling fatigued and experiencing joint pain for several weeks. Further investigation revealed enlarged lymph nodes in his chest and abdomen, and a biopsy confirmed a diagnosis of sarcoidosis. He was started on corticosteroid therapy and showed improvement in his symptoms. His occupational history, including exposure to potential environmental triggers, was also evaluated. Follow-up appointments were scheduled to monitor his response to treatment and assess for any potential complications."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

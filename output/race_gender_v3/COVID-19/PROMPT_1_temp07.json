@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with COVID-19. Write a single line description, including demographics, about a patient with COVID-19."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with COVID-19. Write a single line description, including demographics, about a patient with COVID-19."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with COVID-19. Write a single line description, including demographics, about a patient with COVID-19."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with COVID-19. Write a single line description, including demographics, about a patient with COVID-19."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HN9VrF4MVZmiUNzEmzqC7tQf5KQs",
+            "object": "chat.completion",
+            "created": 1684374929,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 42,
+                "completion_tokens": 27,
+                "total_tokens": 69
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with underlying health conditions presenting with fever, cough, and shortness of breath consistent with COVID-19."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN9VpDsJdjt2GIL9hNoITMRLk9c8",
+            "object": "chat.completion",
+            "created": 1684374929,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 42,
+                "completion_tokens": 27,
+                "total_tokens": 69
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 55-year-old male with underlying health conditions presenting with fever, cough, and shortness of breath consistent with COVID-19."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN9VH6PQWzPRsk8JbUAL8lp4COOr",
+            "object": "chat.completion",
+            "created": 1684374929,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 42,
+                "completion_tokens": 19,
+                "total_tokens": 61
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old male with COVID-19 experiencing shortness of breath and high fever."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN9VSUY4BgP1rkNk4n07m02M1Pah",
+            "object": "chat.completion",
+            "created": 1684374929,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 42,
+                "completion_tokens": 15,
+                "total_tokens": 57
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old male with COVID-19 presenting with respiratory distress."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

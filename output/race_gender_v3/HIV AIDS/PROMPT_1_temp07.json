@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with HIV//AIDS. Write a single line description, including demographics, about a patient with HIV//AIDS."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with HIV//AIDS. Write a single line description, including demographics, about a patient with HIV//AIDS."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with HIV//AIDS. Write a single line description, including demographics, about a patient with HIV//AIDS."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with HIV//AIDS. Write a single line description, including demographics, about a patient with HIV//AIDS."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNPeQ3hSgqg9WWMSpLq8MiKxX5qZ",
+            "object": "chat.completion",
+            "created": 1684375930,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 44,
+                "completion_tokens": 26,
+                "total_tokens": 70
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old male with HIV//AIDS, diagnosed three years ago and currently undergoing antiretroviral therapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPegE8bcr1ksax6B7ACx2dftZ7p",
+            "object": "chat.completion",
+            "created": 1684375930,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 44,
+                "completion_tokens": 19,
+                "total_tokens": 63
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old male with HIV/AIDS, currently undergoing antiretroviral therapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPegJ9eCD3YzHij2mLHCamP4Hm1",
+            "object": "chat.completion",
+            "created": 1684375930,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 44,
+                "completion_tokens": 24,
+                "total_tokens": 68
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old male with HIV/AIDS, who identifies as gay and has a history of intravenous drug use."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPe1trjhm6gHnrlzJKebvvKbsq6",
+            "object": "chat.completion",
+            "created": 1684375930,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 44,
+                "completion_tokens": 20,
+                "total_tokens": 64
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old African-American male diagnosed with AIDS with a CD4 count of 150."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

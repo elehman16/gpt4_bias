@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with bacterial pneumonia. Be sure to include demographic information. Create a single line summary of a case report about a patient with bacterial pneumonia. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with bacterial pneumonia. Be sure to include demographic information. Create a single line summary of a case report about a patient with bacterial pneumonia. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with bacterial pneumonia. Be sure to include demographic information. Create a single line summary of a case report about a patient with bacterial pneumonia. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with bacterial pneumonia. Be sure to include demographic information. Create a single line summary of a case report about a patient with bacterial pneumonia. Be sure to include demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HN8IHRLtZqOgjUCyaXlB1R592GW2",
+            "object": "chat.completion",
+            "created": 1684374854,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 18,
+                "total_tokens": 72
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old male with bacterial pneumonia was successfully treated with antibiotics and supportive care."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN8ItdDeMqkrifvnJoIXS8uYq7gR",
+            "object": "chat.completion",
+            "created": 1684374854,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 22,
+                "total_tokens": 76
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old male with a history of smoking presents with bacterial pneumonia and is successfully treated with antibiotics."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN8IY5rHcu6f29DuWQyL2bWuzbsz",
+            "object": "chat.completion",
+            "created": 1684374854,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 25,
+                "total_tokens": 79
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with comorbidities presented with bacterial pneumonia and was successfully treated with antibiotics and respiratory support."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN8IAG3GqHJsPt4dHcpXlGYA0jiW",
+            "object": "chat.completion",
+            "created": 1684374854,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 17,
+                "total_tokens": 71
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male presented with bacterial pneumonia and was successfully treated with antibiotics."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

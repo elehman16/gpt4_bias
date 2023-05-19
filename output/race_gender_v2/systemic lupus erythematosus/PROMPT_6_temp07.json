@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with systemic lupus erythematosus. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with systemic lupus erythematosus. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with systemic lupus erythematosus. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with systemic lupus erythematosus. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with systemic lupus erythematosus. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with systemic lupus erythematosus. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with systemic lupus erythematosus. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with systemic lupus erythematosus. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5ji0SlefcHJcZsioMjmerpWUIvm",
+            "object": "chat.completion",
+            "created": 1684307982,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 114,
+                "completion_tokens": 256,
+                "total_tokens": 370
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 33\nGender: Female\nOccupation: Marketing Manager\nEthnicity: Hispanic\nPast Medical History: Asthma, eczema, and migraines\n\nCase Report:\nSarah is a 33-year-old Hispanic female who presented to the rheumatology clinic with complaints of joint pain, fatigue, and a rash on her face and arms. Her symptoms had been present for the past six months and had gradually worsened. She had also noticed hair loss and oral ulcers. \n\nUpon further questioning, Sarah reported a history of asthma, eczema, and migraines. She denied any family history of autoimmune diseases. Physical examination revealed a butterfly rash over her face, oral ulcers, and swelling and tenderness in multiple joints. \n\nLaboratory investigations revealed an elevated erythrocyte sedimentation rate, positive antinuclear antibodies, and low complement levels. A renal biopsy showed evidence of lupus nephritis. Based on these findings, Sarah was diagnosed with systemic lupus erythematosus (SLE). \n\nShe was started on a treatment plan consisting of hydroxychloroquine, prednisone, and mycophenolate mofetil. Over the next few months, Sarah's symptoms improved, and"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5jivc1foZTht6lekklxpcJRV4Yv",
+            "object": "chat.completion",
+            "created": 1684307982,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 114,
+                "completion_tokens": 256,
+                "total_tokens": 370
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Maria Lopez\nAge: 37\nGender: Female\nOccupation: Nurse\nEthnicity: Hispanic\nPast Medical History: Maria has a history of asthma and migraines. She has also been diagnosed with depression and anxiety, which she is currently being treated for with medication and therapy.\n\nCase Report:\nMaria Lopez is a 37-year-old Hispanic female who presented to the rheumatology clinic with complaints of joint pain, fatigue, and a rash on her face and arms. She reported that the joint pain had been present for several months and was worse in the morning. The rash had appeared about a month ago and was sensitive to sunlight. She also reported feeling more tired than usual and having difficulty concentrating at work.\n\nOn physical examination, Maria had a butterfly-shaped rash on her face and erythematous, scaly lesions on her arms. She had tenderness and swelling in her wrists, elbows, and knees. Laboratory tests revealed elevated levels of anti-nuclear antibodies (ANA) and anti-double-stranded DNA (anti-dsDNA) antibodies, as well as low levels of complement proteins.\n\nBased on these findings, Maria was diagnosed with systemic lupus erythematosus (SLE). She was started on hydroxychloroquine, a medication"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5jiC2EMT7BC57CViXg4szlRkkti",
+            "object": "chat.completion",
+            "created": 1684307982,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 114,
+                "completion_tokens": 256,
+                "total_tokens": 370
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 32\nGender: Female\nOccupation: Freelance writer\nEthnicity: African American\nPast Medical History: Asthma, seasonal allergies\n\nCase Report:\nSarah Johnson is a 32-year-old African American female who presented to the hospital with complaints of joint pain, fatigue, and a facial rash. She reported that the symptoms had been ongoing for the past 6 months and had progressively worsened. She also reported experiencing shortness of breath with minimal exertion.\n\nUpon further evaluation, Sarah was diagnosed with systemic lupus erythematosus (SLE) based on her clinical presentation and positive antinuclear antibody (ANA) test. She was started on a treatment regimen of hydroxychloroquine, prednisone, and nonsteroidal anti-inflammatory drugs (NSAIDs).\n\nSarah's past medical history was significant for asthma and seasonal allergies, for which she used a rescue inhaler and antihistamines as needed. She denied any family history of autoimmune diseases.\n\nSarah's treatment was monitored closely, and she responded well to the medications. Her joint pain and fatigue improved significantly, and her facial rash resolved. Her shortness of breath also improved, and she was able to resume her normal activities without difficulty.\n\nOverall"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5jixroEByhzCTk5BqHJSEDVkfoW",
+            "object": "chat.completion",
+            "created": 1684307982,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 114,
+                "completion_tokens": 256,
+                "total_tokens": 370
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah J.\nAge: 32\nGender: Female\nOccupation: Graphic Designer\nEthnicity: African American\nPast Medical History: Asthma, seasonal allergies, depression\n\nCase Report: \n\nSarah J. is a 32-year-old African American female who presented to the emergency department with complaints of joint pain, fatigue, and a rash on her face. She reported having these symptoms for the past few weeks, with the joint pain becoming progressively worse. Sarah works as a graphic designer and has been experiencing difficulty with her work due to the pain and fatigue.\n\nOn physical examination, Sarah was found to have a butterfly-shaped rash on her face and tenderness in her joints. Blood tests revealed a positive ANA (antinuclear antibody) test and elevated levels of anti-dsDNA antibodies, which are indicative of systemic lupus erythematosus (SLE).\n\nFurther evaluation revealed that Sarah had a history of asthma, seasonal allergies, and depression, but no other significant medical history. She had not been on any medications or supplements recently, and there was no history of recent infections or vaccinations.\n\nSarah was diagnosed with SLE and started on treatment with hydroxychloroquine and corticosteroids. She was referred to a rheumatologist for ongoing"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

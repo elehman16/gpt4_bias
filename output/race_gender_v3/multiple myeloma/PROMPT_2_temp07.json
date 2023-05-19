@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with multiple myeloma? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with multiple myeloma?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with multiple myeloma? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with multiple myeloma?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with multiple myeloma? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with multiple myeloma?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with multiple myeloma? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with multiple myeloma?"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNIsuZFkJT3jfdpogUDvYhEEEaOv",
+            "object": "chat.completion",
+            "created": 1684375510,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here's a short presentation of a patient with multiple myeloma:\n\nDemographic Information:\n- 62-year-old male\n- Caucasian\n- Married\n- Retired from construction work\n\nChief Complaint:\n- Weakness and fatigue\n\nHistory of Present Illness:\nThe patient initially presented to his primary care physician with complaints of weakness and fatigue that had been ongoing for several months. He also reported a recent unintentional weight loss of 15 pounds. Blood work revealed anemia and elevated creatinine levels. Further testing, including bone marrow biopsy, confirmed the diagnosis of multiple myeloma.\n\nPast Medical History:\n- Hypertension\n- Hyperlipidemia\n\nMedications:\n- Amlodipine\n- Atorvastatin\n\nSocial History:\n- Former smoker (quit 10 years ago)\n- Social drinker\n\nFamily History:\n- Mother had breast cancer\n- Father had colon cancer\n\nPhysical Exam:\n- Weakness in all extremities\n- Pale conjunctiva\n- No lymphadenopathy\n- No hepatosplenomegaly\n- No palpable masses\n\nDiagnosis:\n- Multiple myeloma\n\nTreatment:\nThe patient was referred to an oncologist and started on chemotherapy. He also received supportive care, including blood"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIsRzVJbnGoQy4CeGbAMPiF3pWq",
+            "object": "chat.completion",
+            "created": 1684375510,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here's a short presentation of a case of multiple myeloma:\n\nPatient Demographics:\n\n- Age: 68 years old\n- Gender: Male\n- Race: Caucasian\n- Medical History: Hypertension, Hypercholesterolemia, Type 2 Diabetes Mellitus\n\nChief Complaint:\n\nThe patient presented with bone pain, fatigue, and weakness for the past few months.\n\nMedical History:\n\nThe patient was diagnosed with hypertension, hypercholesterolemia, and type 2 diabetes mellitus five years ago. He was managed with medication for these conditions. However, over the last few months, he started experiencing bone pain and fatigue. He visited his primary care physician, who ordered a complete blood count (CBC) and a serum protein electrophoresis (SPEP).\n\nDiagnosis:\n\nThe CBC showed mild anemia, and the SPEP showed a monoclonal gammopathy. The patient was referred to a hematologist-oncologist for further evaluation. A bone marrow biopsy confirmed the diagnosis of multiple myeloma.\n\nTreatment:\n\nThe patient was started on chemotherapy with bortezomib, lenalidomide, and dexamethasone. He also received bisphosphonate therapy to prevent bone loss. The patient"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIsqB9T3NZVCNtOMTTpLiAWtB5n",
+            "object": "chat.completion",
+            "created": 1684375510,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here is a short presentation of a case about a patient with multiple myeloma:\n\nPatient Demographics:\n\n- Name: John Smith\n- Age: 63 years old\n- Gender: Male\n- Occupation: Retired accountant\n- Medical history: Hypertension, hyperlipidemia, type 2 diabetes mellitus\n- Medications: Lisinopril, atorvastatin, metformin\n\nChief Complaint:\n\nJohn Smith presents to his primary care physician with complaints of persistent bone pain, fatigue, and weight loss over the past few months.\n\nPhysical Examination:\n\n- Vital signs: Blood pressure 140/90 mmHg, pulse rate 90 beats per minute, respiratory rate 16 breaths per minute, temperature 98.6\u00b0F (37\u00b0C)\n- General appearance: Mildly pale, fatigued\n- Skin: No lesions or rashes\n- Head and neck: No lymphadenopathy, neck supple\n- Cardiovascular: Regular rhythm, no murmurs or gallops\n- Respiratory: Clear breath sounds bilaterally\n- Gastrointestinal: Soft, non-tender abdomen, no hepatosplenomegaly\n- Musculoskeletal: Multiple areas of tenderness to palpation, particularly"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIsYxyVKFz6VbxIzueoGZW1Co7J",
+            "object": "chat.completion",
+            "created": 1684375510,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here is a short presentation of a case of multiple myeloma:\n\nPatient Demographics:\n- 65-year-old male\n- History of hypertension and hyperlipidemia\n- Former smoker (quit 10 years ago)\n- Lives alone, retired from a desk job\n\nChief Complaint:\n- Fatigue and weakness for the past 3 months\n- Unexplained weight loss of 10 pounds\n\nHistory of Present Illness:\n- Patient reports feeling increasingly tired and weak over the past few months, with occasional dizziness and shortness of breath\n- Has noticed a decrease in appetite and unintentional weight loss\n- Recently experienced a mild low-grade fever and night sweats\n- No cough, chest pain, or gastrointestinal symptoms\n\nPast Medical History:\n- Hypertension and hyperlipidemia, well-controlled with medication\n- Former smoker (quit 10 years ago)\n- No other significant medical history\n\nFamily History:\n- No family history of cancer or multiple myeloma\n\nPhysical Examination:\n- Vital signs are stable\n- General appearance: Pale and fatigued-looking\n- Cardiovascular: Regular rhythm, no murmurs or gallops\n- Respiratory: Clear to auscultation\n- Abdomen: Soft and non-tender, no"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

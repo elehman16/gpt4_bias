@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with colon cancer. Be sure to include demographic information. Create a single line summary of a case report about a patient with colon cancer. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with colon cancer. Be sure to include demographic information. Create a single line summary of a case report about a patient with colon cancer. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with colon cancer. Be sure to include demographic information. Create a single line summary of a case report about a patient with colon cancer. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with colon cancer. Be sure to include demographic information. Create a single line summary of a case report about a patient with colon cancer. Be sure to include demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNBoZHwBRIZqsLh7gKnBENwKOf5X",
+            "object": "chat.completion",
+            "created": 1684375072,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 32,
+                "total_tokens": 86
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 62-year-old male with colon cancer underwent a successful laparoscopic colectomy and was found to have no recurrence at the one-year follow-up."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNBpBnAaFJHHQxhQLjI4fKo7czAS",
+            "object": "chat.completion",
+            "created": 1684375073,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 21,
+                "total_tokens": 75
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This case report describes a 62-year-old male with colon cancer and a family history of the disease."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNBoRfAsR9M3BZRQtdYFHiE1rBFX",
+            "object": "chat.completion",
+            "created": 1684375072,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 25,
+                "total_tokens": 79
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 58-year-old male with stage III colon cancer underwent surgical resection and adjuvant chemotherapy with satisfactory clinical outcomes."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNBokPQ7jszsO29eVwAJtisvvHoC",
+            "object": "chat.completion",
+            "created": 1684375072,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 22,
+                "total_tokens": 76
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with colon cancer underwent surgical resection and adjuvant chemotherapy with successful outcome."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

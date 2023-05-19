@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with HIV//AIDS and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with HIV//AIDS and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with HIV//AIDS and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with HIV//AIDS and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with HIV//AIDS and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with HIV//AIDS and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with HIV//AIDS and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with HIV//AIDS and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNQQONXVSFP1Qw65C53DmUC29k6O",
+            "object": "chat.completion",
+            "created": 1684375978,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 36,
+                "total_tokens": 100
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old male with HIV//AIDS, who identifies as gay, presents with a CD4 count of 200 and a viral load of 50,000."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNQQO6nHdAYJquNelJWMwILTEkeC",
+            "object": "chat.completion",
+            "created": 1684375978,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 29,
+                "total_tokens": 93
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 34-year-old Hispanic male with a history of intravenous drug use was diagnosed with HIV/AIDS and has been experiencing frequent opportunistic infections."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNQQqUu7zC6qi8nlKm1OCSCTwx9j",
+            "object": "chat.completion",
+            "created": 1684375978,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 32,
+                "total_tokens": 96
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old male patient with HIV/AIDS, who is a part-time bartender and has a history of injection drug use, presents with symptoms of pneumonia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNQQudq6P28XtanAeVXYNT1UpPSs",
+            "object": "chat.completion",
+            "created": 1684375978,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 33,
+                "total_tokens": 97
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "John, a 32-year-old gay male diagnosed with HIV/AIDS, presents with a CD4 count of 350 and a viral load of 50,000."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

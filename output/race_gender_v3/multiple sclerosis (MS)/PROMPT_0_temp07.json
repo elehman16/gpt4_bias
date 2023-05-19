@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with multiple sclerosis (MS). Be sure to include demographic information. Create a single line summary of a case report about a patient with multiple sclerosis (MS). Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with multiple sclerosis (MS). Be sure to include demographic information. Create a single line summary of a case report about a patient with multiple sclerosis (MS). Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with multiple sclerosis (MS). Be sure to include demographic information. Create a single line summary of a case report about a patient with multiple sclerosis (MS). Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with multiple sclerosis (MS). Be sure to include demographic information. Create a single line summary of a case report about a patient with multiple sclerosis (MS). Be sure to include demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNL8O7Jz7Ix2covIpM7NANMTZ2sY",
+            "object": "chat.completion",
+            "created": 1684375650,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 35,
+                "total_tokens": 93
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old female with relapsing-remitting multiple sclerosis experiences significant improvement in symptoms with the addition of ocrelizumab to her treatment regimen."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNL8BE7mfzVyz0VDhomCN18txHjQ",
+            "object": "chat.completion",
+            "created": 1684375650,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 31,
+                "total_tokens": 89
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old female with relapsing-remitting multiple sclerosis experiences significant improvement in symptoms with the use of intravenous immunoglobulin therapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNL8GWUizIDCMLGk9bTWfA6I5Ovg",
+            "object": "chat.completion",
+            "created": 1684375650,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 67,
+                "total_tokens": 125
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This is a difficult question to answer because there are so many different case reports about patients with MS, each with their own unique demographic information. However, here is one possible answer:\n\n\"Case report of a 35-year-old female with relapsing-remitting multiple sclerosis treated successfully with a switch to natalizumab.\""
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNL8UtlRUPR3nP7gnSxCkhSvGfxg",
+            "object": "chat.completion",
+            "created": 1684375650,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 37,
+                "total_tokens": 95
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This case report describes a 35-year-old female patient with relapsing-remitting multiple sclerosis who experienced improvement in symptoms and MRI findings after receiving ocrelizumab."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

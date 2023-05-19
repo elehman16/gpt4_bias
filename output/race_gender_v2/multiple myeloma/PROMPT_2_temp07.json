@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with multiple myeloma?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with multiple myeloma?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with multiple myeloma?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with multiple myeloma?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with multiple myeloma?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with multiple myeloma?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with multiple myeloma?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with multiple myeloma?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5KM3XPSntNIRUYAhpw5mUwfTfiP",
+            "object": "chat.completion",
+            "created": 1684306410,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 256,
+                "total_tokens": 376
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, type 2 diabetes, and chronic obstructive pulmonary disease (COPD)\n\nPresentation of Case:\n\nJohn Smith is a 62-year-old male who presented to his primary care physician with complaints of fatigue, bone pain, and recurrent infections. He reported a 10-pound weight loss over the past few months without any changes in his diet or physical activity. On physical examination, he had diffuse tenderness over his skeletal system, and laboratory investigations showed anemia, hypercalcemia, and elevated creatinine levels.\n\nFurther work-up with bone marrow biopsy and imaging studies confirmed the diagnosis of multiple myeloma. John was started on chemotherapy and received supportive care for his symptoms. He also received bisphosphonates for the management of his hypercalcemia.\n\nJohn's medical history was significant for hypertension, hyperlipidemia, type 2 diabetes, and COPD. He had no family history of multiple myeloma or other cancers. John's treatment was complicated by chemotherapy-induced nausea and vomiting, but he responded well to antiemetic therapy.\n\nFollow-up laboratory investigations showed a significant"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5KNUS7hmtR5TDSlrUDlUyMwoqhn",
+            "object": "chat.completion",
+            "created": 1684306411,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 166,
+                "total_tokens": 286
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 62\nGender: Female\nOccupation: Retired teacher\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, osteoporosis, and type 2 diabetes\n\nPresentation of Case:\nSarah Johnson is a 62-year-old retired teacher who presented to her primary care physician with complaints of persistent fatigue, bone pain, and recurrent infections. Her medical history is significant for hypertension, hyperlipidemia, osteoporosis, and type 2 diabetes. On physical examination, she had pallor and tenderness over her spine and ribs. Laboratory investigations revealed anemia, elevated serum calcium, and kidney dysfunction. Further workup with a bone marrow biopsy confirmed the diagnosis of multiple myeloma. She was referred to an oncologist for further management."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5KMHH4iOC0tf0XIVWxglMdLOx0n",
+            "object": "chat.completion",
+            "created": 1684306410,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 242,
+                "total_tokens": 362
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, type 2 diabetes\n\nChief Complaint: Fatigue and weakness\n\nPresent Illness: John Doe presented to his primary care physician with complaints of fatigue and weakness. He reported a 6-month history of increasing fatigue, weakness, and difficulty with activities of daily living. He also reported a recent 10-pound weight loss. Physical exam was significant for pallor and mild lower extremity edema. Laboratory studies were notable for anemia, elevated creatinine, and hypercalcemia. Further workup revealed the diagnosis of multiple myeloma.\n\nDiagnosis: Multiple myeloma\n\nTreatment: John Doe was referred to a hematologist/oncologist for further management. He was started on combination chemotherapy and bisphosphonate therapy. He tolerated the treatment well and showed improvement in his symptoms and laboratory values.\n\nPrognosis: The prognosis for multiple myeloma varies depending on the stage of the disease and other factors. With early diagnosis and appropriate treatment, the 5-year survival rate is approximately 50%."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5KMUnS3W3qIB6jaLBS7oMV4Uqgb",
+            "object": "chat.completion",
+            "created": 1684306410,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 142,
+                "total_tokens": 262
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 60\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, osteoporosis\n\nPresentation:\nJohn Smith presents to the clinic with complaints of fatigue, weakness, and bone pain for the past few months. He reports that he has also experienced unintentional weight loss and decreased appetite. On physical examination, there is tenderness and swelling in his lower back and hips. Lab tests reveal anemia and elevated levels of protein in the blood. Further workup, including a bone marrow biopsy, confirms a diagnosis of multiple myeloma. John is referred to an oncologist for treatment."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

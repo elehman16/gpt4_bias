@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with bacterial pneumonia. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with bacterial pneumonia. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with bacterial pneumonia. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with bacterial pneumonia. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with bacterial pneumonia. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with bacterial pneumonia. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with bacterial pneumonia. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with bacterial pneumonia. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H4uFi6OVrk5dcHQv7Voep8awFwye",
+            "object": "chat.completion",
+            "created": 1684304791,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 115,
+                "completion_tokens": 83,
+                "total_tokens": 198
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 54\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, smoker\n\nJohn Doe presented to the emergency department with a fever, cough, and shortness of breath. He was diagnosed with bacterial pneumonia and admitted to the hospital for treatment with antibiotics and oxygen therapy. His past medical history included hypertension and smoking."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4uFYYP6DTjnHQl3fpsQNIDoJ9Nq",
+            "object": "chat.completion",
+            "created": 1684304791,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 115,
+                "completion_tokens": 110,
+                "total_tokens": 225
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 58\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, smoking history\n\nJohn Doe presented with a cough, fever, and shortness of breath. He was diagnosed with bacterial pneumonia and admitted to the hospital for treatment. Chest X-ray showed consolidation in the lower lobe of his right lung. He was treated with antibiotics and respiratory support and showed improvement after several days of treatment. His smoking history was noted as a risk factor for pneumonia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4uFY9tdQMUlTkapieo5vYOddvQr",
+            "object": "chat.completion",
+            "created": 1684304791,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 115,
+                "completion_tokens": 84,
+                "total_tokens": 199
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John\nAge: 55\nGender: Male\nOccupation: Construction Worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, Hyperlipidemia, Diabetes\n\nJohn presented to the emergency department with a fever, cough, and shortness of breath. He was diagnosed with bacterial pneumonia and treated with antibiotics. He had a history of hypertension, hyperlipidemia, and diabetes."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4uF7GV9E0ULkAFLhjY03X1Qy14X",
+            "object": "chat.completion",
+            "created": 1684304791,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 115,
+                "completion_tokens": 111,
+                "total_tokens": 226
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 55\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Type 2 diabetes, hypertension\n\nJohn Doe presented to the emergency department with a 3-day history of cough, fever, and shortness of breath. He was diagnosed with bacterial pneumonia and admitted to the hospital. He was treated with antibiotics and oxygen therapy and showed improvement within a few days. John had a history of type 2 diabetes and hypertension, which may have contributed to his susceptibility to pneumonia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

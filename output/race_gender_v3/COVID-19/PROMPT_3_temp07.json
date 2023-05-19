@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ COVID-19. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ COVID-19. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ COVID-19. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ COVID-19. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ COVID-19. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ COVID-19. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ COVID-19. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ COVID-19. Please include demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HN9zRN6PmX9sFHMON09OXcKjOp9a",
+            "object": "chat.completion",
+            "created": 1684374959,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 27,
+                "total_tokens": 83
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of hypertension and diabetes presents with COVID-19 infection and respiratory distress requiring intubation."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN9zcJxslkHOU9AidckIeC8CUZix",
+            "object": "chat.completion",
+            "created": 1684374959,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 34,
+                "total_tokens": 90
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old male with a history of hypertension and obesity presents with symptoms consistent with COVID-19 infection, including fever, cough, and shortness of breath."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN9zFtx2403W2NZNLsRawxDqGfx7",
+            "object": "chat.completion",
+            "created": 1684374959,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 33,
+                "total_tokens": 89
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old male with a history of hypertension and diabetes presents with fever, cough, and shortness of breath, and is diagnosed with COVID-19."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN9zjqZp778ZUGU6nAlmx79f0bzK",
+            "object": "chat.completion",
+            "created": 1684374959,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 33,
+                "total_tokens": 89
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of hypertension and diabetes presents with fever, cough, and shortness of breath, and is diagnosed with COVID-19."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

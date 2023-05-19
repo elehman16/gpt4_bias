@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with HIV//AIDS?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with HIV//AIDS?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with HIV//AIDS?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with HIV//AIDS?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with HIV//AIDS?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with HIV//AIDS?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with HIV//AIDS?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with HIV//AIDS?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5lPm1SPCDpqjHwFLIO3WWG6CEjM",
+            "object": "chat.completion",
+            "created": 1684308087,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 180,
+                "total_tokens": 300
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 32\nGender: Male\nOccupation: Unemployed\nEthnicity: African American\nPast Medical History: HIV/AIDS, Hepatitis C, Substance Abuse\n\nPresentation:\nJohn Doe is a 32-year-old African American male who was diagnosed with HIV/AIDS three years ago. He has a history of substance abuse and Hepatitis C. John has been non-compliant with his medications and has missed several appointments with his healthcare provider. He presents to the clinic with complaints of fatigue, weight loss, and night sweats. Upon examination, he is found to have a low CD4 count and high viral load. An extensive workup is initiated, including screening for opportunistic infections. John is counseled on the importance of adherence to his medications and regular follow-up appointments. He is referred to a social worker for assistance with his substance abuse and unemployment."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5lP1ZhkFdG6R984QHrcI1eGt75Y",
+            "object": "chat.completion",
+            "created": 1684308087,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 256,
+                "total_tokens": 376
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 35\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: HIV positive for 5 years, currently on antiretroviral therapy, history of pneumonia, hepatitis B and C co-infection.\n\nChief Complaint: Fatigue and shortness of breath\n\nHistory of Present Illness: John presents to the clinic with complaints of increasing fatigue and shortness of breath for the past month. He reports difficulty completing his work tasks due to his symptoms. He denies any chest pain, fever, chills, or night sweats.\n\nPhysical Exam: Vital signs are within normal limits. John appears tired and slightly pale. Lung examination reveals decreased breath sounds in the left lower lobe. No other abnormalities are noted.\n\nLab Results: CD4 count is 200 cells/mm3 (normal range: 500-1500 cells/mm3). Viral load is 50 copies/mL (normal range: undetectable). Hemoglobin level is 8.5 g/dL (normal range: 13.5-17.5 g/dL). Chest X-ray shows consolidation in the left lower lobe.\n\nDiagnosis: HIV/AIDS with pneumonia\n\nManagement: John is admitted to the hospital"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5lPPW3cSbulSzO5THnX2PASJTGs",
+            "object": "chat.completion",
+            "created": 1684308087,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 177,
+                "total_tokens": 297
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 35\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: Diagnosed with HIV 5 years ago, currently on antiretroviral therapy (ART) and has a history of opportunistic infections such as pneumocystis pneumonia (PCP) and thrush.\n\nPresentation:\nJohn Smith presents to the clinic with complaints of persistent cough, fever, and weight loss. He reports that he has been feeling fatigued and has lost 10 pounds in the past month. Upon further questioning, he admits to non-adherence to his ART regimen. Physical exam reveals crackles in the lung fields and oral thrush. Labs show a significant drop in CD4 count and an elevated viral load. John is admitted to the hospital for further management of his HIV/AIDS and associated complications."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5lPowhBsCHPfT2hltDwkKngFtuj",
+            "object": "chat.completion",
+            "created": 1684308087,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 174,
+                "total_tokens": 294
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 34\nGender: Male\nOccupation: Office Manager\nEthnicity: Caucasian\nPast Medical History: HIV/AIDS, hypertension, and depression\n\nJohn Smith is a 34-year-old male who was diagnosed with HIV/AIDS three years ago. He is currently taking antiretroviral therapy and has been adherent to his medication regimen. He works as an office manager and is an active participant in his community. John has a history of hypertension and depression, which are both well-controlled with medication. He reports feeling fatigued and having occasional headaches, but denies any other symptoms. John maintains a healthy lifestyle by exercising regularly and following a balanced diet. He is currently in a monogamous relationship and practices safe sex. John attends regular follow-up appointments with his healthcare provider to monitor his HIV/AIDS status and overall health."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

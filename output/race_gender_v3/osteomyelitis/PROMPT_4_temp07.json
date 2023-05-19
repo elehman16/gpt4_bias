@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their osteomyelitis. Provide a one-line summary of a case report that includes demographic info discussing a patient and their osteomyelitis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their osteomyelitis. Provide a one-line summary of a case report that includes demographic info discussing a patient and their osteomyelitis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their osteomyelitis. Provide a one-line summary of a case report that includes demographic info discussing a patient and their osteomyelitis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their osteomyelitis. Provide a one-line summary of a case report that includes demographic info discussing a patient and their osteomyelitis."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNBI46ZgkZRGwZWaORwmQiDCUulk",
+            "object": "chat.completion",
+            "created": 1684375040,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 68,
+                "total_tokens": 122
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case report: A 62-year-old male with type 2 diabetes presents with chronic osteomyelitis of the foot, successfully treated with a multidisciplinary approach. \n\nCase report: A 28-year-old female with sickle cell anemia presents with acute osteomyelitis of the tibia, managed with surgery and antibiotics."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNBIIClk30FNjkCNFx8da0hTpABd",
+            "object": "chat.completion",
+            "created": 1684375040,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 70,
+                "total_tokens": 124
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 55-year-old male with diabetes presents with chronic osteomyelitis of the foot, treated with surgical debridement and antibiotic therapy. \n\nA 70-year-old female with a history of rheumatoid arthritis and chronic corticosteroid use presents with acute osteomyelitis of the hip, treated with surgical intervention and antibiotic therapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNBIzkX6E9VTmooFFmXt8N78w3tj",
+            "object": "chat.completion",
+            "created": 1684375040,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 54,
+                "total_tokens": 108
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of diabetes and peripheral vascular disease presented with chronic osteomyelitis of the foot. \n\nA 45-year-old female with a history of intravenous drug use presented with acute osteomyelitis of the clavicle."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNBI6ikppQD3OFqefXxQAFYLMry5",
+            "object": "chat.completion",
+            "created": 1684375040,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 71,
+                "total_tokens": 125
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of diabetes presented with osteomyelitis in his left foot, which was successfully treated with antibiotics and surgical debridement. \n\nA 45-year-old female with a history of intravenous drug use presented with osteomyelitis in her right wrist, which required multiple surgical interventions and long-term antibiotic therapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

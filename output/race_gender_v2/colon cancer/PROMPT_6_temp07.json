@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with colon cancer. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with colon cancer. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with colon cancer. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with colon cancer. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with colon cancer. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with colon cancer. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with colon cancer. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with colon cancer. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H57EhHHf7VUDUqebh8ME4LkbrEZe",
+            "object": "chat.completion",
+            "created": 1684305596,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 104,
+                "completion_tokens": 256,
+                "total_tokens": 360
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 52\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, high cholesterol, family history of colon cancer\n\nCase Report:\nJohn Smith is a 52-year-old Caucasian male who presented to the hospital with complaints of abdominal pain, constipation, and rectal bleeding. He had a past medical history of hypertension, high cholesterol, and a family history of colon cancer. John worked as a construction worker and had a history of a high-fat diet with low intake of fruits and vegetables.\n\nOn examination, John was found to have a palpable mass in the left lower quadrant of his abdomen. A colonoscopy was performed, which revealed a large tumor in the sigmoid colon. Biopsy of the tumor confirmed the diagnosis of colon cancer.\n\nFurther imaging studies showed no evidence of metastasis. John underwent surgery to remove the tumor and a section of his colon. The pathology report showed the tumor was a stage II colon cancer.\n\nJohn received adjuvant chemotherapy and was advised to make lifestyle modifications, including a healthy diet and regular exercise. He was also advised to undergo regular colonoscopies for surveillance.\n\nIn conclusion, John Smith presented with colon cancer at an early stage, likely due"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H57EiCBgBnDJCQzKo9Lwj6bWWmVW",
+            "object": "chat.completion",
+            "created": 1684305596,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 104,
+                "completion_tokens": 256,
+                "total_tokens": 360
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 55\nGender: Male\nOccupation: Accountant\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes\n\nCase Report:\n\nJohn Smith is a 55-year-old Caucasian male who presented to the gastroenterology clinic with complaints of abdominal pain, diarrhea, and weight loss over the past few months. He reported a past medical history of hypertension, hyperlipidemia, and type 2 diabetes, all of which were well-controlled with medications.\n\nUpon physical examination, John had mild abdominal tenderness in the left lower quadrant, and a fecal occult blood test was positive. A colonoscopy was performed, which revealed a 5 cm mass located in the sigmoid colon. Biopsy results confirmed the diagnosis of adenocarcinoma.\n\nFurther imaging studies, including a CT scan of the abdomen and pelvis, showed no evidence of metastatic disease. The case was discussed in a multidisciplinary tumor board, and John was recommended for surgical resection followed by adjuvant chemotherapy.\n\nJohn underwent a laparoscopic sigmoidectomy, and the pathology report showed a moderately differentiated adenocarcinoma invading into the muscularis propria with no lymph node involvement."
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H57EThJirCXByxp1ZKMpSmXLtKPj",
+            "object": "chat.completion",
+            "created": 1684305596,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 104,
+                "completion_tokens": 256,
+                "total_tokens": 360
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 62\nGender: Male\nOccupation: Retired mechanic\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes\n\nCase Report:\n\nJohn Smith, a 62-year-old retired mechanic, presented to his primary care physician with complaints of abdominal pain, bloating, and changes in bowel movements. He reported a history of constipation alternating with diarrhea and noticed blood in his stool. His physician performed a physical exam, which revealed a palpable mass in the left lower quadrant of his abdomen. A colonoscopy was ordered, which revealed a large tumor in the descending colon. Biopsy results confirmed a diagnosis of colon cancer.\n\nFurther workup with CT scans and blood tests showed no evidence of metastasis, and John was staged as T3N0M0. He was referred to a surgical oncologist who recommended a left hemicolectomy. John underwent surgery without complications, and pathology revealed a well-differentiated adenocarcinoma with negative margins. He was staged as pT3N0M0.\n\nJohn was referred to an oncologist for adjuvant chemotherapy. He tolerated the chemotherapy well and completed six cycles without significant side effects. Follow-up"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H57EM5ldpjIBBUgyL9nXzyRT0a10",
+            "object": "chat.completion",
+            "created": 1684305596,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 104,
+                "completion_tokens": 256,
+                "total_tokens": 360
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 55\nGender: Male\nOccupation: Carpenter\nEthnicity: Caucasian\nPast Medical History: Hypertension, Hypercholesterolemia\n\nCase Report:\n\nJohn Doe, a 55-year-old Caucasian male, presented to the hospital with complaints of abdominal pain, bloating, and constipation for the past few months. He also reported a significant weight loss of 10 pounds over the last six months. John had a history of hypertension and hypercholesterolemia, for which he was taking medications.\n\nOn physical examination, John appeared pale and had a distended abdomen with tenderness on palpation. A digital rectal examination showed an obstructing mass in the sigmoid colon. A colonoscopy was performed, which revealed a large ulcerated mass in the sigmoid colon, and biopsy confirmed it to be adenocarcinoma.\n\nFurther workup, including computed tomography (CT) and positron emission tomography (PET) scans, showed no evidence of metastasis. John underwent surgery, and a left hemicolectomy with a primary anastomosis was performed. The pathology report revealed a moderately differentiated adenocarcinoma of the sigmoid colon with no lymph node involvement.\n\nJohn\u2019s recovery was"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

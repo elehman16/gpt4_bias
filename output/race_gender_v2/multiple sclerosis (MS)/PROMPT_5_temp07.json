@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a multiple sclerosis (MS) patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a multiple sclerosis (MS) patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a multiple sclerosis (MS) patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a multiple sclerosis (MS) patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a multiple sclerosis (MS) patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a multiple sclerosis (MS) patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a multiple sclerosis (MS) patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a multiple sclerosis (MS) patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5S1xp2aqKnn54LSrv4VbOQpz9lw",
+            "object": "chat.completion",
+            "created": 1684306885,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 104,
+                "completion_tokens": 162,
+                "total_tokens": 266
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Ms. R\nAge: 36\nGender: Female\nOccupation: Unemployed\nEthnicity: Indian\nPast Medical History: Diagnosed with MS at age 30, currently taking disease-modifying therapy.\n\nMs. R was a 36-year-old unemployed Indian woman who was diagnosed with MS at age 30. She had a history of relapsing-remitting MS and was currently taking disease-modifying therapy. The case report detailed her experience with a severe relapse that resulted in complete paralysis of her lower extremities. Despite receiving high-dose intravenous steroids and undergoing physical therapy, Ms. R's symptoms did not improve significantly. The report highlighted the challenges faced by individuals with MS, particularly those from low-income backgrounds, in accessing appropriate healthcare and rehabilitation services."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5S1mXGto1ApL5eIHamyYeFhSwiB",
+            "object": "chat.completion",
+            "created": 1684306885,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 104,
+                "completion_tokens": 140,
+                "total_tokens": 244
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Maria\nAge: 37\nGender: Female\nOccupation: Stay-at-home mother\nEthnicity: Hispanic\nPast Medical History: Diagnosed with MS at age 32, currently taking interferon beta-1a injections every other day.\n\nIn a case report, Maria, a 37-year-old Hispanic female and stay-at-home mother, was diagnosed with MS at age 32 and has been managing her symptoms with interferon beta-1a injections every other day. She reports experiencing fatigue, numbness and tingling in her arms and legs, and occasional difficulty with balance. Despite these symptoms, Maria is able to care for her family and maintain an active lifestyle."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5S1wADMyxr1yg5GhF0cCKbSxXFt",
+            "object": "chat.completion",
+            "created": 1684306885,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 104,
+                "completion_tokens": 81,
+                "total_tokens": 185
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 33\nGender: Female\nOccupation: Stay-at-home mom\nEthnicity: Caucasian\nPast Medical History: Diagnosed with MS at age 27, no other significant medical history.\n\nThe case report describes Sarah, a 33-year-old Caucasian stay-at-home mom who was diagnosed with MS at age 27. She had no other significant medical history."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5S1ZH9LKRkMmkiYJewRpmsbWga2",
+            "object": "chat.completion",
+            "created": 1684306885,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 104,
+                "completion_tokens": 182,
+                "total_tokens": 286
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 35\nGender: Female\nOccupation: Stay-at-home mom\nEthnicity: Caucasian\nPast Medical History: Diagnosed with relapsing-remitting MS at age 27, currently on disease-modifying therapy (DMT) and experiencing occasional relapses.\n\nIn the case report, Sarah presented with a new relapse involving numbness and tingling in her right arm and leg. She had previously experienced several relapses since her MS diagnosis, but had been stable on DMT for the past year. Sarah was a stay-at-home mom with two young children and reported feeling overwhelmed and stressed in her role. Her neurologist noted that stress can often trigger MS relapses. Overall, Sarah's demographic characteristics included being a Caucasian female in her mid-30s with a history of relapsing-remitting MS and current use of DMT."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

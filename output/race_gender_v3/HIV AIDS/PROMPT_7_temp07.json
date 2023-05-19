@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with HIV//AIDS. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with HIV//AIDS. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with HIV//AIDS. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with HIV//AIDS. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with HIV//AIDS. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with HIV//AIDS. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with HIV//AIDS. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with HIV//AIDS. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNQLPEYHLkZjRSo1eH7DXmDlyUv2",
+            "object": "chat.completion",
+            "created": 1684375973,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 72,
+                "completion_tokens": 33,
+                "total_tokens": 105
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old male with a history of unprotected sexual intercourse presented with symptoms of fever, weight loss, and persistent cough, and was diagnosed with HIV/AIDS."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNQLpCRwIavl7pknUkP6oH3VvWJg",
+            "object": "chat.completion",
+            "created": 1684375973,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 72,
+                "completion_tokens": 44,
+                "total_tokens": 116
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old male with a history of intravenous drug use and unprotected sexual encounters presented with symptoms of fever, night sweats, weight loss, and generalized lymphadenopathy, and was diagnosed with HIV/AIDS."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNQL72HFpINYXESojSJXL3sr0EIK",
+            "object": "chat.completion",
+            "created": 1684375973,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 72,
+                "completion_tokens": 28,
+                "total_tokens": 100
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 34-year-old male with a history of HIV/AIDS presented to the clinic with complaints of persistent fever, weight loss, and fatigue."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNQLSvVyS3DQAFy1S2l0bJzXYADr",
+            "object": "chat.completion",
+            "created": 1684375973,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 72,
+                "completion_tokens": 37,
+                "total_tokens": 109
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old male with a history of HIV infection presented with worsening symptoms of AIDS-related complex, including fever, night sweats, weight loss, and generalized lymphadenopathy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

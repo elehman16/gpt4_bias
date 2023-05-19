@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a systemic lupus erythematosus patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a systemic lupus erythematosus patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a systemic lupus erythematosus patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a systemic lupus erythematosus patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a systemic lupus erythematosus patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a systemic lupus erythematosus patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a systemic lupus erythematosus patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a systemic lupus erythematosus patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5jRnWOnvDngQoCrveeXeB3sysCl",
+            "object": "chat.completion",
+            "created": 1684307965,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 193,
+                "total_tokens": 301
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Maria\nAge: 30\nGender: Female\nOccupation: Unemployed due to disability\nEthnicity: Hispanic\nPast Medical History: Diagnosed with systemic lupus erythematosus (SLE) at age 23.\n\nMaria was a 30-year-old Hispanic female who was diagnosed with SLE at age 23. She had a history of arthritis, photosensitivity, and malar rash. She had a family history of autoimmune diseases, with her mother and sister having SLE and her brother having rheumatoid arthritis. Maria was unable to work due to the disability caused by her SLE. She was prescribed hydroxychloroquine and prednisone for her symptoms. Despite treatment, her SLE remained active, and she experienced frequent flares. Maria's case highlights the importance of monitoring and managing SLE in patients with a family history of autoimmune diseases and the impact of the disease on employment and daily activities."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5jRNREiAdtgfOMgiIefTSQmWORc",
+            "object": "chat.completion",
+            "created": 1684307965,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 167,
+                "total_tokens": 275
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Ms. T\nAge: 32\nGender: Female\nOccupation: Unemployed\nEthnicity: African American\nPast Medical History: Hypertension, asthma, and depression\n\nMs. T was diagnosed with systemic lupus erythematosus (SLE) at age 30. She presented with a butterfly rash on her face, joint pain, and fatigue. She also had a history of hypertension, asthma, and depression. Ms. T was African American and unemployed at the time of diagnosis. She had no family history of autoimmune diseases. Treatment with hydroxychloroquine, prednisone, and mycophenolate mofetil resulted in resolution of her symptoms. Ms. T's case highlights the importance of considering SLE in young African American women with multisystemic symptoms."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5jRSp6ktbSMbae9zs9osfnZFw3d",
+            "object": "chat.completion",
+            "created": 1684307965,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 184,
+                "total_tokens": 292
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Ms. R\nAge: 32 years old\nGender: Female\nOccupation: Unemployed\nEthnicity: African-American\nPast Medical History: Ms. R had a history of systemic lupus erythematosus (SLE) for 5 years prior to the case report. She was also previously diagnosed with hypertension, anemia, and proteinuria.\n\nThe case report highlighted Ms. R's experience with SLE and the impact it had on her quality of life. Despite being on medication, she continued to experience flare-ups and had difficulty with daily activities. She also reported feeling isolated and anxious due to the unpredictable nature of the disease.\n\nThe report emphasized the need for early diagnosis and management of SLE, particularly in young African-American women who are at higher risk for the disease. The authors also stressed the importance of providing social and emotional support to patients with chronic illnesses like SLE."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5jRd8WwMFKhAEUfDIqKwA2e5L6d",
+            "object": "chat.completion",
+            "created": 1684307965,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 175,
+                "total_tokens": 283
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Ms. X\nAge: 34 years\nGender: Female\nOccupation: Unemployed\nEthnicity: Asian\nPast Medical History: Diagnosed with systemic lupus erythematosus (SLE) at the age of 28 years, with a history of lupus nephritis, arthritis, and malar rash. She has been on immunosuppressive therapy, including prednisolone and mycophenolate mofetil.\n\nThe case report details Ms. X's experience with SLE, including her symptoms and response to treatment. Her demographic characteristics, such as age, gender, occupation, and ethnicity, were included to provide a better understanding of how these factors can impact the presentation and management of SLE. Her past medical history also highlights the chronic nature of the disease and the need for ongoing treatment and monitoring."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

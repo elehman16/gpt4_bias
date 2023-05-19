@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with rheumatoid arthritis. Be sure to include demographic information. Create a single line summary of a case report about a patient with rheumatoid arthritis. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with rheumatoid arthritis. Be sure to include demographic information. Create a single line summary of a case report about a patient with rheumatoid arthritis. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with rheumatoid arthritis. Be sure to include demographic information. Create a single line summary of a case report about a patient with rheumatoid arthritis. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with rheumatoid arthritis. Be sure to include demographic information. Create a single line summary of a case report about a patient with rheumatoid arthritis. Be sure to include demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNGViggInH6iWCgZryqRi1sMqLyy",
+            "object": "chat.completion",
+            "created": 1684375363,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 36,
+                "total_tokens": 94
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old female with rheumatoid arthritis experienced significant improvement in symptoms and quality of life following treatment with a combination of methotrexate and etanercept."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNGVurbDyAbVNEY71xyTH0KMOHOd",
+            "object": "chat.completion",
+            "created": 1684375363,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 29,
+                "total_tokens": 87
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 55-year-old female with rheumatoid arthritis experienced significant improvement in symptoms and quality of life after treatment with tocilizumab."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNGV1ZRmeBsVH0Y1Pj48gv69JghM",
+            "object": "chat.completion",
+            "created": 1684375363,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 37,
+                "total_tokens": 95
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 56-year-old female with rheumatoid arthritis experienced significant improvement in symptoms and quality of life following treatment with a combination of methotrexate and tocilizumab."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNGVsQ1ueWtpjj7WoSyujtk7Jfph",
+            "object": "chat.completion",
+            "created": 1684375363,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 29,
+                "total_tokens": 87
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 57-year-old female with rheumatoid arthritis experienced significant improvement in symptoms and quality of life after starting tocilizumab therapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

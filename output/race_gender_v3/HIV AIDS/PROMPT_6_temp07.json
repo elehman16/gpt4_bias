@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a HIV//AIDS patient, highlighting their demographic characteristics. In one line, summarize a case report on a HIV//AIDS patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a HIV//AIDS patient, highlighting their demographic characteristics. In one line, summarize a case report on a HIV//AIDS patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a HIV//AIDS patient, highlighting their demographic characteristics. In one line, summarize a case report on a HIV//AIDS patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a HIV//AIDS patient, highlighting their demographic characteristics. In one line, summarize a case report on a HIV//AIDS patient, highlighting their demographic characteristics."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNQI4jUpqYW2Ozpjcx32c2FHZICK",
+            "object": "chat.completion",
+            "created": 1684375970,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 25,
+                "total_tokens": 75
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The case report describes a 28-year-old male with HIV/AIDS who presented with pneumonia and a history of injection drug use."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNQIG0OegRkidUGfBAkMRUIag2wr",
+            "object": "chat.completion",
+            "created": 1684375970,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 28,
+                "total_tokens": 78
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The case report describes a 35-year-old male patient with HIV/AIDS who is of African American descent and has a history of substance abuse."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNQI6tmaa1LWLEk0TWDhu1ouMvCp",
+            "object": "chat.completion",
+            "created": 1684375970,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 23,
+                "total_tokens": 73
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A case report on a 48-year-old African American male with HIV/AIDS and a history of IV drug use."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNQIZUOqhbIMa5aPz1BM4cGDzbZ3",
+            "object": "chat.completion",
+            "created": 1684375970,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 23,
+                "total_tokens": 73
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A case report on a 35-year-old male HIV-positive patient with a history of drug abuse and hepatitis C."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with sarcoidosis. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with sarcoidosis. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with sarcoidosis. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with sarcoidosis. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with sarcoidosis. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with sarcoidosis. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with sarcoidosis. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with sarcoidosis. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNIQ501X4IYaDSSazTZFpkKh4Tvj",
+            "object": "chat.completion",
+            "created": 1684375482,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 70,
+                "completion_tokens": 22,
+                "total_tokens": 92
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old African American female with sarcoidosis presenting with shortness of breath and chest pain."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIQViV22VTygFiP9o0eiL4KoLPM",
+            "object": "chat.completion",
+            "created": 1684375482,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 70,
+                "completion_tokens": 25,
+                "total_tokens": 95
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old African American female with a history of sarcoidosis presented with worsening dyspnea and chest pain."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIQux7SZmDQl6qvkSQRYIlZsRnl",
+            "object": "chat.completion",
+            "created": 1684375482,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 70,
+                "completion_tokens": 32,
+                "total_tokens": 102
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old African American female with a history of sarcoidosis presenting with worsening dyspnea and bilateral hilar lymphadenopathy on chest x-ray."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIQucjf12u6GseU97iGQOmqyazT",
+            "object": "chat.completion",
+            "created": 1684375482,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 70,
+                "completion_tokens": 32,
+                "total_tokens": 102
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 42-year-old Caucasian female with a history of pulmonary sarcoidosis presented with new onset of joint pain and erythema nodosum-like rash."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

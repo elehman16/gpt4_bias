@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with osteomyelitis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with osteomyelitis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with osteomyelitis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with osteomyelitis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with osteomyelitis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with osteomyelitis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with osteomyelitis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with osteomyelitis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNBdip03RJWhtyl3i1QSd0GrFr8j",
+            "object": "chat.completion",
+            "created": 1684375061,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 55,
+                "total_tokens": 167
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The patient is a 45-year-old male with a history of type 2 diabetes and peripheral neuropathy. He presented with persistent pain and swelling in his left foot, which was diagnosed as osteomyelitis. Family history is significant for type 2 diabetes and hypertension."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNBdxtTmyEfv31cu5kjOvnpZ6VQz",
+            "object": "chat.completion",
+            "created": 1684375061,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 61,
+                "total_tokens": 173
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Our patient is a 45-year-old male with a history of diabetes and peripheral neuropathy. He presented with fever, severe pain in his left foot, and a non-healing ulcer. Imaging revealed osteomyelitis in the foot bones. He was started on antibiotics and underwent surgical debridement."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNBdpqWDS4mwUu1tl3jvjMzQZo8W",
+            "object": "chat.completion",
+            "created": 1684375061,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 60,
+                "total_tokens": 172
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The patient is a 68-year-old male with a history of diabetes and peripheral vascular disease. He presents with fever, chills, and localized pain in his left foot. Imaging reveals osteomyelitis of the left metatarsal bones. He is currently being treated with antibiotics and wound care."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNBdxEFppdzPQHd8LDvQDQljCSVQ",
+            "object": "chat.completion",
+            "created": 1684375061,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 64,
+                "total_tokens": 176
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Our patient is a 55-year-old male with a history of uncontrolled type 2 diabetes and peripheral neuropathy. He presented with severe pain and swelling in his left foot. Imaging revealed osteomyelitis in the metatarsal bones. He was started on intravenous antibiotics and scheduled for surgical debridement."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

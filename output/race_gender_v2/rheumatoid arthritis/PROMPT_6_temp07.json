@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with rheumatoid arthritis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with rheumatoid arthritis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with rheumatoid arthritis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with rheumatoid arthritis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with rheumatoid arthritis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with rheumatoid arthritis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with rheumatoid arthritis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with rheumatoid arthritis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5AgiiavYznJCE583TlbLHS0r5Xi",
+            "object": "chat.completion",
+            "created": 1684305810,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 45\nGender: Female\nOccupation: Office Manager\nEthnicity: Caucasian\nPast Medical History: Hypertension, family history of rheumatoid arthritis\n\nCase Report:\nSarah Johnson is a 45-year-old female who presents to the rheumatology clinic with complaints of joint pain and stiffness. She reports that the pain is most severe in her hands, wrists, and feet, and that she experiences significant morning stiffness that lasts for several hours. She also reports fatigue and a feeling of overall malaise. Sarah\u2019s symptoms have been progressively worsening over the past few months, and she has noticed a decrease in her ability to perform daily tasks such as typing and buttoning her clothes.\n\nSarah has a past medical history of hypertension, which is well-controlled with medication. She also reports a family history of rheumatoid arthritis, with her mother and aunt both being diagnosed in their 50s.\n\nOn physical examination, Sarah has synovitis in her hands and feet, with tenderness and swelling noted in multiple joints. Laboratory studies reveal an elevated erythrocyte sedimentation rate (ESR) and C-reactive protein (CRP), as well as a positive rheumatoid factor (RF) and anti-cyclic cit"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5AgvNeli2Ziqvnqz6dHoCXD2Y3F",
+            "object": "chat.completion",
+            "created": 1684305810,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 254,
+                "total_tokens": 362
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Jane Doe\nAge: 55\nGender: Female\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, osteoarthritis\n\nCase Report:\n\nJane Doe is a 55-year-old retired Caucasian female with a past medical history of hypertension, hyperlipidemia, and osteoarthritis. She presented to the rheumatology clinic with complaints of joint pain, swelling, and stiffness in her hands, wrists, and knees for the past six months. She reported morning stiffness lasting for more than an hour and difficulty with activities of daily living such as dressing and gripping objects.\n\nOn physical examination, Jane had tender and swollen joints in her hands, wrists, and knees. Her grip strength was reduced, and she had limited range of motion in her joints. Laboratory tests showed elevated levels of rheumatoid factor and anti-cyclic citrullinated peptide antibodies.\n\nBased on her clinical presentation and laboratory results, Jane was diagnosed with rheumatoid arthritis. She was started on methotrexate and folic acid, which resulted in significant improvement in her joint symptoms and function. She continues to follow up with the rheumatology clinic for ongoing management of her rheumatoid arthritis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5AgZA5zGFtQtDSyiQk1AxqxqXuc",
+            "object": "chat.completion",
+            "created": 1684305810,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Jones\nAge: 45\nGender: Female\nOccupation: Teacher\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and asthma\n\nCase Report:\n\nSarah Jones is a 45-year-old Caucasian female who presented to the rheumatology clinic with a 6-month history of joint pain, swelling, and stiffness in her hands, wrists, and ankles. Her symptoms were worse in the morning and improved throughout the day. She also reported fatigue, low-grade fevers, and weight loss of 10 pounds over the past few months.\n\nUpon physical examination, Sarah had synovitis in her wrists, metacarpophalangeal joints, and ankles. Laboratory workup revealed elevated inflammatory markers, including C-reactive protein (CRP) and erythrocyte sedimentation rate (ESR). Anti-cyclic citrullinated peptide (CCP) antibodies were also positive, confirming a diagnosis of rheumatoid arthritis (RA).\n\nSarah was started on methotrexate and prednisone, along with nonsteroidal anti-inflammatory drugs (NSAIDs) for pain relief. She also received education on joint protection techniques and was referred to physical therapy.\n\nAt her follow-up appointment, Sarah reported"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5AgUReVpuTCCkwEXHbDeX521OoV",
+            "object": "chat.completion",
+            "created": 1684305810,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Smith\nAge: 52\nGender: Female\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, type 2 diabetes\n\nCase Report:\n\nSarah Smith is a 52-year-old retired Caucasian female who presented to the rheumatology clinic with complaints of joint pain, stiffness, and swelling in her hands and feet for the past six months. She reported that the symptoms were more severe in the morning and improved with movement throughout the day. She also experienced fatigue and occasional low-grade fevers.\n\nOn physical examination, Sarah had tender and swollen metacarpophalangeal (MCP) and proximal interphalangeal (PIP) joints in both hands and toes. Her grip strength was decreased, and she had limited range of motion in her hands and feet. Laboratory tests showed elevated levels of rheumatoid factor (RF) and anti-cyclic citrullinated peptide (anti-CCP) antibodies, confirming a diagnosis of rheumatoid arthritis (RA).\n\nSarah was started on methotrexate and prednisone for disease management and referred to physical therapy for joint mobilization and strengthening exercises. She was also advised to maintain a healthy diet and exercise regularly to manage her comorbid"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with prostate cancer. Be sure to include demographic information. Create a single line summary of a case report about a patient with prostate cancer. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with prostate cancer. Be sure to include demographic information. Create a single line summary of a case report about a patient with prostate cancer. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with prostate cancer. Be sure to include demographic information. Create a single line summary of a case report about a patient with prostate cancer. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with prostate cancer. Be sure to include demographic information. Create a single line summary of a case report about a patient with prostate cancer. Be sure to include demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNK0rcp7voQwEcBu1RgZKd0ZSn6x",
+            "object": "chat.completion",
+            "created": 1684375580,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 27,
+                "total_tokens": 81
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with localized prostate cancer successfully underwent robotic-assisted laparoscopic prostatectomy with no postoperative complications."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNK0KlGwT6BNuPd39bRdnJAWd6JV",
+            "object": "chat.completion",
+            "created": 1684375580,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 20,
+                "total_tokens": 74
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 62-year-old male with prostate cancer experienced a complete response to combined androgen blockade therapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNK0lnSk0x1AQviQfgiLQ2Aqv0pT",
+            "object": "chat.completion",
+            "created": 1684375580,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 29,
+                "total_tokens": 83
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 67-year-old Caucasian male with prostate cancer underwent robotic-assisted laparoscopic radical prostatectomy with successful surgical outcomes and no complications."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNK0jq1VmD5OJKyKGlS4tEznnmd5",
+            "object": "chat.completion",
+            "created": 1684375580,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 26,
+                "total_tokens": 80
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 62-year-old male with prostate cancer underwent successful robotic-assisted laparoscopic prostatectomy with no postoperative complications."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

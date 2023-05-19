@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with multiple myeloma. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with multiple myeloma. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with multiple myeloma. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with multiple myeloma. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with multiple myeloma. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with multiple myeloma. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with multiple myeloma. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with multiple myeloma. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5JvYvDRDOSvhoU2mojVSsnWCTBt",
+            "object": "chat.completion",
+            "created": 1684306383,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 136,
+                "total_tokens": 255
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mr. X\nAge: 58\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes\n\nMr. X presented with fatigue, weakness, and bone pain. Laboratory tests revealed anemia, hypercalcemia, and elevated creatinine levels. Further investigation including bone marrow biopsy confirmed a diagnosis of multiple myeloma. He received chemotherapy and stem cell transplant and demonstrated a good response to treatment. However, he experienced relapse after 18 months and was started on a different chemotherapy regimen. Mr. X continues to receive treatment and follow-up care."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5JvUiUDdEMjeMqqSDFBaENYJZAJ",
+            "object": "chat.completion",
+            "created": 1684306383,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 126,
+                "total_tokens": 245
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mr. Smith\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia\n\nMr. Smith was diagnosed with multiple myeloma, a cancer of the plasma cells in the bone marrow. He presented with back pain and fatigue, and was found to have anemia and elevated serum protein levels. Further testing revealed bone lesions and a bone marrow biopsy confirmed the diagnosis. He was started on chemotherapy and supportive therapy for his symptoms. Despite treatment, his disease progressed and he eventually succumbed to complications of the cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5JvrROklD75lOoX3aSomXP75i5o",
+            "object": "chat.completion",
+            "created": 1684306383,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 113,
+                "total_tokens": 232
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia\n\nJohn, a 65-year-old Caucasian male, presented with fatigue, weight loss, and back pain. Further evaluation revealed multiple lytic lesions on imaging studies and elevated serum protein levels. A bone marrow biopsy confirmed the diagnosis of multiple myeloma. John was started on chemotherapy and supportive care, but unfortunately, his disease progressed rapidly, and he passed away several months later."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5JvwHGyJO8r1Hol9pHi5InzHkk3",
+            "object": "chat.completion",
+            "created": 1684306383,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 142,
+                "total_tokens": 261
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and osteoarthritis\n\nJohn Doe, a 62-year-old retired Caucasian male with a past medical history of hypertension, hyperlipidemia, and osteoarthritis, presented to his primary care physician with complaints of fatigue, weight loss, and bone pain. Further evaluation revealed multiple lytic lesions on bone imaging and a monoclonal protein spike on serum protein electrophoresis. A bone marrow biopsy confirmed the diagnosis of multiple myeloma. He was referred to an oncologist for further management."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

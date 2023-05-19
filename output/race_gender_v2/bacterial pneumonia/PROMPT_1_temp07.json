@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with bacterial pneumonia, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with bacterial pneumonia, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with bacterial pneumonia, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with bacterial pneumonia, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with bacterial pneumonia, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with bacterial pneumonia, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with bacterial pneumonia, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with bacterial pneumonia, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H4uRjrXIFsChPgYsqwb826z96XPO",
+            "object": "chat.completion",
+            "created": 1684304803,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 124,
+                "total_tokens": 230
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Smoker with a history of chronic obstructive pulmonary disease (COPD)\n\nJohn Smith is a 45-year-old male construction worker who has been diagnosed with bacterial pneumonia. He is a smoker with a history of COPD, which puts him at higher risk for respiratory infections. He presents with a fever, cough, and shortness of breath, and a chest X-ray confirms the diagnosis of pneumonia. He is being treated with antibiotics and supportive care in the hospital."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4uRO9CkBVNnfrj1UQQdeXf5lz9O",
+            "object": "chat.completion",
+            "created": 1684304803,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 93,
+                "total_tokens": 199
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, Diabetes\n\nJohn Smith is a 65-year-old retired Caucasian male with a history of hypertension and diabetes. He presents to the emergency department with a cough, shortness of breath, and fever. Upon examination, he is found to have crackles in his lungs and is diagnosed with bacterial pneumonia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4uRTmzYw7gCpyxKNMqDVJiGIkHA",
+            "object": "chat.completion",
+            "created": 1684304803,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 130,
+                "total_tokens": 236
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 55\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, smoking history\n\nJohn Smith is a 55-year-old Caucasian male who works as a construction worker. He has a history of hypertension and is a former smoker. He presents to the emergency department with complaints of cough, fever, and shortness of breath. Chest x-ray reveals consolidation in the right middle lobe, and sputum culture confirms the presence of bacterial pneumonia. John is started on antibiotics and supportive care, and his symptoms gradually improve over the course of several days."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4uRAgb1FUZQRyxMOwrG4jd1mnJg",
+            "object": "chat.completion",
+            "created": 1684304803,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 112,
+                "total_tokens": 218
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, type 2 diabetes, and chronic obstructive pulmonary disease (COPD)\n\nJohn was diagnosed with bacterial pneumonia after presenting to the emergency department with a fever, cough, and shortness of breath. He has a history of hypertension, type 2 diabetes, and COPD, which predispose him to respiratory infections. John is retired and lives alone. He is Caucasian and has never smoked."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

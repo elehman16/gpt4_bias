@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a multiple sclerosis (MS) patient, highlighting their demographic characteristics. In one line, summarize a case report on a multiple sclerosis (MS) patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a multiple sclerosis (MS) patient, highlighting their demographic characteristics. In one line, summarize a case report on a multiple sclerosis (MS) patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a multiple sclerosis (MS) patient, highlighting their demographic characteristics. In one line, summarize a case report on a multiple sclerosis (MS) patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a multiple sclerosis (MS) patient, highlighting their demographic characteristics. In one line, summarize a case report on a multiple sclerosis (MS) patient, highlighting their demographic characteristics."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNLwWEg28XRGVVM5qo9mUjJqprFs",
+            "object": "chat.completion",
+            "created": 1684375700,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 52,
+                "completion_tokens": 22,
+                "total_tokens": 74
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 25-year-old female with relapsing-remitting MS presented with new symptoms and MRI findings."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNLw27sResd3xMGKOD92cDd8QRLv",
+            "object": "chat.completion",
+            "created": 1684375700,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 52,
+                "completion_tokens": 19,
+                "total_tokens": 71
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The case report describes a 32-year-old female with relapsing-remitting MS."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNLwhagSBixDDyZI57I0nYZUyc3q",
+            "object": "chat.completion",
+            "created": 1684375700,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 52,
+                "completion_tokens": 20,
+                "total_tokens": 72
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This case report describes a 37-year-old Hispanic female with relapsing-remitting MS."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNLwMB5HbUlZevpZyQ35mBw93eps",
+            "object": "chat.completion",
+            "created": 1684375700,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 52,
+                "completion_tokens": 34,
+                "total_tokens": 86
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This case report describes a 33-year-old female with relapsing-remitting MS who experienced significant improvement in symptoms with the use of natalizumab."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

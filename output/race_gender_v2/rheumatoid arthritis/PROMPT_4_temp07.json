@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a rheumatoid arthritis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a rheumatoid arthritis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a rheumatoid arthritis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a rheumatoid arthritis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a rheumatoid arthritis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a rheumatoid arthritis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a rheumatoid arthritis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a rheumatoid arthritis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5A4ksNsjyxVUNqxl22MXhTmdToT",
+            "object": "chat.completion",
+            "created": 1684305772,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 144,
+                "total_tokens": 250
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Ms. Smith\nAge: 45\nGender: Female\nOccupation: Office Manager\nEthnicity: Caucasian\nPast Medical History: Hypertension, Hyperlipidemia\n\nMs. Smith is a 45-year-old Caucasian female who works as an office manager. She was diagnosed with rheumatoid arthritis (RA) six months ago and has been experiencing joint pain and stiffness in her hands and feet. She has been prescribed methotrexate and prednisone, but has experienced little relief. Her past medical history includes hypertension and hyperlipidemia, which are well-controlled with medication. Ms. Smith is concerned about the impact of RA on her daily activities and is seeking alternative treatments."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5A4xJfE69nHivSiL6lW82820z4u",
+            "object": "chat.completion",
+            "created": 1684305772,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 200,
+                "total_tokens": 306
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah \nAge: 52 \nGender: Female \nOccupation: Office Manager \nEthnicity: Caucasian \nPast Medical History: Hypertension, hyperlipidemia, and rheumatoid arthritis (RA) diagnosed 8 years ago.\n\nSarah is a 52-year-old office manager who was diagnosed with RA 8 years ago. She has been on various medications, including methotrexate and prednisone, but recently presented with worsening joint pain and stiffness. She had also noticed a decreased ability to grip objects and difficulty with daily tasks. On physical exam, she had swelling and tenderness in multiple joints, including her hands, wrists, and knees. Lab work revealed an elevated erythrocyte sedimentation rate and C-reactive protein level. A diagnosis of active RA was made, and Sarah was started on a biologic medication with significant improvement in her symptoms. Her medical history is significant for hypertension and hyperlipidemia, which are well-controlled with medication."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5A4Md5xBvXMv683ZrOJOvsXDyLy",
+            "object": "chat.completion",
+            "created": 1684305772,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 197,
+                "total_tokens": 303
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Ms. Smith\nAge: 50\nGender: Female\nOccupation: Office Manager\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia\n\nMs. Smith presented to her primary care physician with complaints of joint pain and stiffness in her hands and feet. She reported that the symptoms had been present for several months and were progressively worsening. She also noted that she was experiencing fatigue and had lost several pounds unintentionally.\n\nUpon examination, her physician noted swelling and tenderness in multiple joints, including the wrists, fingers, and ankles. Laboratory testing revealed elevated levels of rheumatoid factor and anti-cyclic citrullinated peptide antibodies, confirming a diagnosis of rheumatoid arthritis.\n\nMs. Smith was started on a disease-modifying antirheumatic drug (DMARD) and a nonsteroidal anti-inflammatory drug (NSAID) to manage her symptoms. She was also referred to a rheumatologist for ongoing management."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5A4YJYk0u3YQWllOyUIBkPkgc0j",
+            "object": "chat.completion",
+            "created": 1684305772,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 158,
+                "total_tokens": 264
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mary Smith\nAge: 47\nGender: Female\nOccupation: Office Manager\nEthnicity: Caucasian\nPast Medical History: Hypothyroidism, hypertension\n\nMary Smith presented to her rheumatologist with complaints of joint pain, stiffness, and swelling in her hands, wrists, and ankles. She was diagnosed with seropositive rheumatoid arthritis based on her symptoms, physical exam, and laboratory tests. She was started on a combination of methotrexate and a biologic agent, and her symptoms improved significantly. Mary's past medical history was significant for hypothyroidism and hypertension, both of which were well-controlled with medication. She continued to follow up with her rheumatologist regularly to monitor her disease activity and adjust her treatment as needed."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

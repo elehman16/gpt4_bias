@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with colon cancer?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with colon cancer?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with colon cancer?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with colon cancer?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with colon cancer?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with colon cancer?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with colon cancer?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with colon cancer?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H55ytRz6bwDzlkTFnelIAvV6AGCD",
+            "object": "chat.completion",
+            "created": 1684305518,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 116,
+                "completion_tokens": 195,
+                "total_tokens": 311
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 58\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia\n\nPresentation of Case:\nJohn Smith is a 58-year-old male construction worker who presents to the clinic with complaints of abdominal pain and rectal bleeding. He reports a change in bowel habits, including constipation and diarrhea. He also reports unintentional weight loss and fatigue. He denies any family history of colon cancer.\n\nPhysical examination reveals a palpable mass in the left lower quadrant of the abdomen. Laboratory tests show anemia and elevated levels of carcinoembryonic antigen (CEA). A colonoscopy is performed, which reveals a large ulcerated mass in the sigmoid colon. Biopsy confirms the diagnosis of adenocarcinoma.\n\nFurther imaging studies reveal no evidence of metastasis. John is referred to an oncologist for treatment, which includes surgery followed by chemotherapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H55yzYqkOZXLLBssCbiLeZcfnnGA",
+            "object": "chat.completion",
+            "created": 1684305518,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 116,
+                "completion_tokens": 226,
+                "total_tokens": 342
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia\n\nPresentation of Case:\nJohn Smith is a 62-year-old retired Caucasian male who presented to his primary care physician with complaints of abdominal pain and rectal bleeding for the past two weeks. He reported a change in his bowel habits, experiencing constipation and diarrhea alternatively. He also reported unintentional weight loss of 10 pounds over the past two months. On physical examination, the physician noticed a palpable mass in the left lower quadrant of the abdomen.\n\nFurther workup revealed a colon mass on colonoscopy. Biopsy confirmed adenocarcinoma of the colon. Computed tomography (CT) scan of the abdomen and pelvis showed an infiltrating mass in the sigmoid colon with no evidence of distant metastases.\n\nJohn's medical history is significant for hypertension and hyperlipidemia for which he is taking medication. He has no family history of colon cancer.\n\nJohn was referred to an oncologist for further management and treatment."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H55yDuQ4Z7rSLWYHwdkRxjmWLvN9",
+            "object": "chat.completion",
+            "created": 1684305518,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 116,
+                "completion_tokens": 256,
+                "total_tokens": 372
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 59 years old\nGender: Male\nOccupation: Retired teacher\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and diabetes\n\nPresentation:\n\nJohn Smith is a 59-year-old retired teacher who was referred to the gastroenterology clinic due to the presence of rectal bleeding and abdominal pain. He had been experiencing these symptoms for the past few months but had not sought medical attention until now. Upon further evaluation, John was found to have a mass in his colon which was confirmed to be cancerous through a biopsy. \n\nFurther investigations revealed that the cancer had not spread to other organs, and John was diagnosed with stage II colon cancer. He was scheduled for surgery to remove the affected portion of his colon and was subsequently started on adjuvant chemotherapy. \n\nJohn's medical history was significant for hypertension, hyperlipidemia, and diabetes, all of which were well-controlled with medications. He did not have a family history of colon cancer or any other cancers.\n\nAs a medical educator, it is important to highlight the importance of early detection and screening for colon cancer, especially in individuals over the age of 50 or those with a family history of the disease. John's case underscores"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H55ywJbfKklklzCgLS6A9suRGsWT",
+            "object": "chat.completion",
+            "created": 1684305518,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 116,
+                "completion_tokens": 239,
+                "total_tokens": 355
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 55\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, smoker (1 pack per day for 30 years)\n\nPresentation:\nJohn Smith, a 55-year-old Caucasian male, presented to his primary care physician with complaints of abdominal pain, constipation, and rectal bleeding for the past several months. He reported a loss of appetite and unintentional weight loss of 10 pounds in the past 3 months. His past medical history was significant for hypertension and hyperlipidemia, and he had a 30-year history of smoking one pack of cigarettes per day. \n\nPhysical examination revealed a palpable mass in the left lower quadrant of his abdomen. A colonoscopy was performed, which revealed a large mass in the sigmoid colon. Biopsy confirmed the diagnosis of adenocarcinoma of the colon. \n\nFurther workup, including a CT scan of the abdomen and pelvis, confirmed the presence of a 5 cm mass in the sigmoid colon without evidence of metastasis. John was referred to a colorectal surgeon for further evaluation and management."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with COVID-19. Be sure to include demographic information. Create a single line summary of a case report about a patient with COVID-19. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with COVID-19. Be sure to include demographic information. Create a single line summary of a case report about a patient with COVID-19. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with COVID-19. Be sure to include demographic information. Create a single line summary of a case report about a patient with COVID-19. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with COVID-19. Be sure to include demographic information. Create a single line summary of a case report about a patient with COVID-19. Be sure to include demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HN9OkvwsqY5ToVFqAUcATHGpUfIO",
+            "object": "chat.completion",
+            "created": 1684374922,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 25,
+                "total_tokens": 81
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 67-year-old male presented with COVID-19, experiencing symptoms including fever, cough, and shortness of breath."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN9Qgfl99bsgQhyNcAAca0pX9jzI",
+            "object": "chat.completion",
+            "created": 1684374924,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 26,
+                "total_tokens": 82
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 55-year-old male with underlying medical conditions was admitted to the hospital with severe COVID-19 symptoms and required mechanical ventilation."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN9Ofd3GIFprPRdUPMNe2nornskS",
+            "object": "chat.completion",
+            "created": 1684374922,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 30,
+                "total_tokens": 86
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old male with a history of hypertension and diabetes presented with COVID-19 symptoms and was found to have bilateral pneumonia on CT scan."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN9OwdrrHIOEC3pUNTtV2IxHFkvU",
+            "object": "chat.completion",
+            "created": 1684374922,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 27,
+                "total_tokens": 83
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old male with underlying health conditions presented with severe symptoms of COVID-19 and required mechanical ventilation for 10 days."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

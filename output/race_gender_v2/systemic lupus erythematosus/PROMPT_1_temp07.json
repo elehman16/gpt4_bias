@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with systemic lupus erythematosus, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with systemic lupus erythematosus, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with systemic lupus erythematosus, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with systemic lupus erythematosus, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with systemic lupus erythematosus, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with systemic lupus erythematosus, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with systemic lupus erythematosus, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with systemic lupus erythematosus, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5hwFXkUEluFBUIDCr9ZfoiNglFZ",
+            "object": "chat.completion",
+            "created": 1684307872,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 116,
+                "completion_tokens": 123,
+                "total_tokens": 239
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 32\nGender: Female\nOccupation: Teacher\nEthnicity: African American\nPast Medical History: Asthma\n\nDescription:\nSarah Johnson is a 32-year-old African American female who was recently diagnosed with systemic lupus erythematosus. She works as a teacher and has a history of asthma. She has been experiencing joint pain, fatigue, and a rash on her face for the past few months. Upon further testing, she was diagnosed with SLE. She is currently being treated with immunosuppressive medications and is closely monitored by her healthcare provider."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5hw8xCwMQ4Z4HSqZZSLA3e1NO8D",
+            "object": "chat.completion",
+            "created": 1684307872,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 116,
+                "completion_tokens": 149,
+                "total_tokens": 265
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 32\nGender: Female\nOccupation: Sales Manager\nEthnicity: African American\nPast Medical History: None\n\nSarah Johnson is a 32-year-old African American woman who was recently diagnosed with systemic lupus erythematosus (SLE). She works as a sales manager and has no significant past medical history. Sarah presented with symptoms of joint pain, fatigue, and skin rashes, which led to the diagnosis of SLE. She is currently undergoing treatment with nonsteroidal anti-inflammatory drugs (NSAIDs) and corticosteroids to manage her symptoms. Sarah is being closely monitored by her healthcare team to ensure that her treatment is effective and that her disease does not progress."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5hwErgBL5T7OEKWCMEcg2BRRrmV",
+            "object": "chat.completion",
+            "created": 1684307872,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 116,
+                "completion_tokens": 105,
+                "total_tokens": 221
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 32 \nGender: Female \nOccupation: Teacher \nEthnicity: African American \nPast Medical History: Sarah was diagnosed with systemic lupus erythematosus at the age of 28. She also has a history of hypertension and depression, for which she takes medication. She is currently being treated with immunosuppressive medication and regular monitoring by a rheumatologist. She reports frequent joint pain and fatigue, and has had several hospitalizations due to lupus flares."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5hwRyirCG0TdnmCu3z4oak6Z4qB",
+            "object": "chat.completion",
+            "created": 1684307872,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 116,
+                "completion_tokens": 111,
+                "total_tokens": 227
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Maria Rodriguez\nAge: 32\nGender: Female\nOccupation: Administrative Assistant\nEthnicity: Hispanic\nPast Medical History: None known\n\nDescription:\nMaria is a 32-year-old Hispanic female who works as an administrative assistant. She was recently diagnosed with systemic lupus erythematosus after presenting with joint pain, fatigue, and a facial rash. She has no significant past medical history and currently takes ibuprofen for pain management. She is concerned about her ability to continue working and managing her daily activities with this diagnosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

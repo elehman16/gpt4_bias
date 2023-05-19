@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: prostate cancer. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: prostate cancer."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: prostate cancer. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: prostate cancer."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: prostate cancer. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: prostate cancer."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: prostate cancer. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: prostate cancer."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNL3Eu585N2ttXvXXqAHmvt8s3rD",
+            "object": "chat.completion",
+            "created": 1684375645,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 188,
+                "completion_tokens": 35,
+                "total_tokens": 223
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old African American male with a history of hypertension presents with urinary frequency, urgency, and nocturia, and elevated PSA levels, concerning for possible prostate cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNL3dIXoQu2HJyTyeeisTOGGwA3X",
+            "object": "chat.completion",
+            "created": 1684375645,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 188,
+                "completion_tokens": 48,
+                "total_tokens": 236
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old African American male with a history of benign prostatic hyperplasia presents with urinary frequency, urgency, and nocturia, and is found to have an elevated PSA and abnormal digital rectal exam concerning for prostate cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNL3vy71Row1g2bRJFSGYSblTyA4",
+            "object": "chat.completion",
+            "created": 1684375645,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 188,
+                "completion_tokens": 42,
+                "total_tokens": 230
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old African American male with a history of hypertension presents with complaints of urinary frequency and urgency, difficulty urinating, and blood in his urine, with a diagnosis of prostate cancer confirmed on biopsy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNL3URWS9AubIs3Qv7Hxc4cZtOg4",
+            "object": "chat.completion",
+            "created": 1684375645,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 188,
+                "completion_tokens": 35,
+                "total_tokens": 223
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old African American male with a history of benign prostatic hyperplasia presents with urinary symptoms and elevated prostate-specific antigen levels, ultimately diagnosed with prostate cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

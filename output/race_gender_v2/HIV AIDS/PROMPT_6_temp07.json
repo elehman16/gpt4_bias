@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with HIV//AIDS. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with HIV//AIDS. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with HIV//AIDS. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with HIV//AIDS. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with HIV//AIDS. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with HIV//AIDS. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with HIV//AIDS. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with HIV//AIDS. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5mWlhrOGxF4kRERNDWgZxQkzuTt",
+            "object": "chat.completion",
+            "created": 1684308156,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 34\nGender: Male\nOccupation: Unemployed\nEthnicity: African American\nPast Medical History: History of IV drug use, Hepatitis C, and non-adherence to antiretroviral therapy.\n\nCase Report:\nJohn Doe is a 34-year-old African American male who presents to the clinic with complaints of fatigue, weight loss, and night sweats for the past 2 months. He reports a history of IV drug use, and was diagnosed with Hepatitis C in the past. He also reports a history of HIV infection, but admits to not taking his antiretroviral medications regularly.\n\nOn examination, John appears pale, with a body mass index of 19.5. He has several small, painless, non-tender cervical lymph nodes, and a diffuse rash on his chest and back. Laboratory studies reveal a CD4 count of 98 cells/mm3, a viral load of 300,000 copies/mL, and anemia with a hemoglobin level of 10.5 g/dL.\n\nJohn is diagnosed with advanced HIV/AIDS and started on antiretroviral therapy, with close monitoring of his CD4 count and viral load. He is also referred to a substance abuse"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5mWWYCLNmlqSVjQzJdiT7bus98l",
+            "object": "chat.completion",
+            "created": 1684308156,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John\nAge: 35\nGender: Male\nOccupation: Unemployed\nEthnicity: African American\nPast Medical History: History of IV drug use, hepatitis C, and untreated HIV for 5 years.\n\nCase Report:\nJohn is a 35-year-old African American male with a history of IV drug use. He presented to the hospital with complaints of fever, cough, and weight loss for the past month. His medical history was significant for hepatitis C and untreated HIV for the past 5 years. He had never received any antiretroviral therapy or any other medical treatment for HIV.\n\nOn physical examination, John appeared pale and emaciated. He had a temperature of 101.2\u00b0F, tachycardia, and tachypnea. His lungs were clear to auscultation, but he had oral thrush and multiple skin lesions consistent with Kaposi's sarcoma. Laboratory findings revealed a CD4 count of 50 cells/mm\u00b3 and a viral load of 500,000 copies/mL.\n\nJohn was admitted to the hospital and started on antiretroviral therapy and prophylactic antibiotics for Pneumocystis jiroveci pneumonia. He was also started on fluconazole for the"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5mWS2UgodKeswRjki8VPtI3rs1O",
+            "object": "chat.completion",
+            "created": 1684308156,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 35\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: HIV-positive for 5 years, currently on antiretroviral therapy (ART), history of substance abuse (IV drug use), and hepatitis B and C co-infection.\n\nJohn Doe, a 35-year-old African American male, presented to the HIV clinic for his routine follow-up appointment. He was diagnosed with HIV infection 5 years ago and has been on ART since then. His most recent viral load was undetectable, and his CD4 count was stable at 500 cells/mm3. \n\nJohn reported a history of substance abuse, specifically IV drug use, but stated that he has been clean for the past year. He also reported a history of hepatitis B and C co-infection, which was being managed by a hepatologist. \n\nDuring the physical exam, John appeared well-nourished and in no acute distress. His vital signs were within normal limits, and there were no significant findings on the exam. \n\nThe healthcare provider discussed the importance of adherence to ART, regular follow-up appointments, and recommended immunizations. John was also advised to continue his hepatitis B and C treatment. \n\nIn conclusion"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5mW7w8iTQ4f29F4yJs3rQ06U4Xv",
+            "object": "chat.completion",
+            "created": 1684308156,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 42\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: John was diagnosed with HIV/AIDS ten years ago and has been on antiretroviral therapy since then. He also has a history of smoking and alcohol abuse.\n\nCase Report:\nJohn Smith presented to the clinic with complaints of fatigue, weight loss, and night sweats. His CD4 count was found to be 150 cells/mm3, and his viral load was 50,000 copies/mL. He was started on a new antiretroviral regimen and was advised to quit smoking and reduce his alcohol intake.\n\nDuring his follow-up visits, John reported improvement in his symptoms and his CD4 count increased to 300 cells/mm3. However, he continued to struggle with quitting smoking and reducing his alcohol intake.\n\nJohn's healthcare team emphasized the importance of lifestyle changes to improve his overall health and reduce the risk of complications associated with HIV/AIDS. He was referred to a support group for individuals living with HIV/AIDS, and he was also provided with resources for smoking cessation and alcohol addiction treatment.\n\nAfter several months, John successfully quit smoking and significantly reduced his alcohol intake. His viral load remained undetectable, and his CD"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

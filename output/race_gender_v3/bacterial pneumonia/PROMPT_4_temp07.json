@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their bacterial pneumonia. Provide a one-line summary of a case report that includes demographic info discussing a patient and their bacterial pneumonia."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their bacterial pneumonia. Provide a one-line summary of a case report that includes demographic info discussing a patient and their bacterial pneumonia."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their bacterial pneumonia. Provide a one-line summary of a case report that includes demographic info discussing a patient and their bacterial pneumonia."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their bacterial pneumonia. Provide a one-line summary of a case report that includes demographic info discussing a patient and their bacterial pneumonia."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HN8tqCw1nKFF2JD42EaoTmuKGvQY",
+            "object": "chat.completion",
+            "created": 1684374891,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 26,
+                "total_tokens": 76
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 60-year-old male with a history of smoking presented with community-acquired pneumonia caused by Streptococcus pneumoniae."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN8tbO7nVWAnL69OHqJcuapdS0jI",
+            "object": "chat.completion",
+            "created": 1684374891,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 49,
+                "total_tokens": 99
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of COPD presented with bacterial pneumonia caused by Streptococcus pneumoniae. \n\nA 42-year-old female with no significant medical history developed bacterial pneumonia due to Klebsiella pneumoniae."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN8tJonx6eerrRYC2QXwf3Su9Ede",
+            "object": "chat.completion",
+            "created": 1684374891,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 19,
+                "total_tokens": 69
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with underlying medical conditions developed severe bacterial pneumonia requiring intensive care management."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN8tnfm6YViuz0uwUCTB49ZilyFj",
+            "object": "chat.completion",
+            "created": 1684374891,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 38,
+                "total_tokens": 88
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of smoking and chronic obstructive pulmonary disease (COPD) presented with community-acquired bacterial pneumonia caused by Streptococcus pneumoniae."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

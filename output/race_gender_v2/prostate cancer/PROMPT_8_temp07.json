@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with prostate cancer. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with prostate cancer. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with prostate cancer. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with prostate cancer. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with prostate cancer. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with prostate cancer. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with prostate cancer. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with prostate cancer. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5PrKrPHPLJXv6Mh4pphFM3fmw6u",
+            "object": "chat.completion",
+            "created": 1684306751,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 162,
+                "completion_tokens": 256,
+                "total_tokens": 418
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, type 2 diabetes\n\nJohn Smith is a 65-year-old retired Caucasian male who presents to his primary care physician with concerns of urinary symptoms, including frequent urination and difficulty initiating urination. Upon further evaluation, he is found to have an elevated prostate-specific antigen (PSA) level and a prostate biopsy confirms a diagnosis of prostate cancer. His family history is negative for prostate cancer.\n\nJohn has a past medical history of hypertension, hyperlipidemia, and type 2 diabetes, which are well-controlled with medication. He does not smoke or drink alcohol.\n\nFurther imaging studies reveal that the cancer is localized to the prostate gland and has not spread to nearby tissues or organs. John and his physician discuss treatment options, including surgery, radiation therapy, and active surveillance. They ultimately decide to proceed with surgery to remove the prostate gland, with the goal of curing the cancer and preventing its spread.\n\nJohn undergoes successful surgery and recovers without complications. He is closely monitored with regular PSA tests and follow-up appointments to ensure that the cancer does not return. Overall, he is pleased with"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5PrngC1LmM9QBHCTlKmt3VoMnMh",
+            "object": "chat.completion",
+            "created": 1684306751,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 162,
+                "completion_tokens": 184,
+                "total_tokens": 346
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: John has a history of hypertension, hyperlipidemia, and type 2 diabetes. He had a heart attack 5 years ago and underwent a successful coronary angioplasty. He has been on regular medications for his conditions and has been managing them well. He has no known drug allergies. John has a family history of prostate cancer, with his father being diagnosed in his 70s. John has been getting regular prostate-specific antigen (PSA) tests since he turned 50, and his most recent test showed an elevated PSA level of 9.2 ng/mL. A biopsy confirmed the presence of prostate cancer, with a Gleason score of 7 (3+4). John has been referred to a urologist for further evaluation and management."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5PrDheld4pntZfNp9lHe2KBlmw8",
+            "object": "chat.completion",
+            "created": 1684306751,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 162,
+                "completion_tokens": 256,
+                "total_tokens": 418
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 67\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and benign prostatic hyperplasia (BPH)\n\nJohn Doe presented to his primary care physician with complaints of urinary frequency and urgency. He also reported difficulty starting and stopping his urine stream and experiencing a weak stream. He denied any hematuria, hematospermia, or lower back pain. His physician performed a digital rectal exam and noted a palpable nodule on the prostate gland. A prostate-specific antigen (PSA) test was ordered and came back elevated at 8.5 ng/mL (normal range: 0-4 ng/mL).\n\nJohn was referred to a urologist for further evaluation. A transrectal ultrasound-guided biopsy of the prostate was performed, and the pathology report confirmed adenocarcinoma of the prostate with a Gleason score of 7 (4+3). A bone scan and computed tomography (CT) scan were negative for metastatic disease.\n\nJohn's family history was significant for his father being diagnosed with prostate cancer at the age of 72. John had previously been diagnosed with BPH and was taking medication"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5Prl2WSNZyFfvrmHn2Muwx5Eplt",
+            "object": "chat.completion",
+            "created": 1684306751,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 162,
+                "completion_tokens": 252,
+                "total_tokens": 414
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 67\nGender: Male\nOccupation: Retired accountant\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, type 2 diabetes, coronary artery disease (CAD), previous myocardial infarction (MI), and benign prostatic hyperplasia (BPH).\n\nJohn Smith is a 67-year-old retired accountant who was recently diagnosed with prostate cancer after experiencing lower urinary tract symptoms, including increased frequency and urgency, hesitancy, and weak urine flow. He has a past medical history of hypertension, hyperlipidemia, type 2 diabetes, CAD, previous MI, and BPH, for which he takes several medications. \n\nJohn's family history is significant for prostate cancer, as his father was also diagnosed with the disease at a similar age. He is married and has two adult children. John enjoys playing golf and spending time with his family. \n\nUpon further evaluation, John's prostate cancer was found to be localized, with a Gleason score of 7 (3+4), and a PSA level of 8 ng/mL. He is currently discussing his treatment options with his urologist and considering a combination of radiation therapy and hormone therapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

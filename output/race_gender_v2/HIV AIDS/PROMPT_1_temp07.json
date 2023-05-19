@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with HIV//AIDS, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with HIV//AIDS, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with HIV//AIDS, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with HIV//AIDS, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with HIV//AIDS, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with HIV//AIDS, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with HIV//AIDS, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with HIV//AIDS, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5lBCGYPihA4BjYec0Viuby3P68k",
+            "object": "chat.completion",
+            "created": 1684308073,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 165,
+                "total_tokens": 275
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 35\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: No significant medical history before HIV diagnosis\n\nJohn Doe was diagnosed with HIV/AIDS at the age of 32. He reported having unprotected sex with multiple partners, including men and women, in the past. He initially presented to the clinic with flu-like symptoms, including fever, fatigue, and sore throat. Further testing revealed a low CD4 count and high viral load, confirming the diagnosis of HIV/AIDS. John Doe has been on antiretroviral therapy since his diagnosis and has achieved viral suppression. However, he has struggled with adherence and has experienced side effects from the medication. John Doe is currently unemployed and receives disability benefits. He is single and has no children."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5lBMh0ccr9QINDxYYJQFsTJTMCu",
+            "object": "chat.completion",
+            "created": 1684308073,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 102,
+                "total_tokens": 212
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 35\nGender: Male\nOccupation: Unemployed\nEthnicity: African American\nPast Medical History: No significant medical history\n\nJohn Doe was diagnosed with HIV/AIDS after presenting to the emergency room with symptoms of fever, fatigue, and a persistent cough. He reported engaging in unprotected sexual activity with multiple partners and injection drug use in the past. He is currently unemployed and does not have health insurance. He is African American and has no significant past medical history."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5lB4drmTsvutmh98CmR867R38IB",
+            "object": "chat.completion",
+            "created": 1684308073,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 115,
+                "total_tokens": 225
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John\nAge: 35\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: No known medical history prior to HIV diagnosis\n\nJohn was diagnosed with HIV/AIDS at the age of 32 after experiencing flu-like symptoms and fatigue. He is African American and works as a construction worker. Prior to his diagnosis, he had no known medical history. John is currently undergoing antiretroviral therapy and regularly sees his healthcare provider for check-ups. He also participates in support groups for people living with HIV/AIDS."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5lBIVnS1DK31TBmXsXZHjSeGjZa",
+            "object": "chat.completion",
+            "created": 1684308073,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 130,
+                "total_tokens": 240
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John\nAge: 35\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: None reported\n\nJohn was diagnosed with HIV/AIDS during a routine check-up at a local health clinic. He reported no symptoms at the time of diagnosis and had never been tested before. John is currently unemployed due to COVID-19 and relies on Medicaid for healthcare coverage. He lives alone and has no known history of drug use or sexual partners other than his long-term girlfriend who has also been diagnosed with HIV. John is currently on antiretroviral therapy and attends regular appointments with his healthcare provider."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

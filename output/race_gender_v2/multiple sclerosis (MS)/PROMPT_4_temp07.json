@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a multiple sclerosis (MS) patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a multiple sclerosis (MS) patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a multiple sclerosis (MS) patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a multiple sclerosis (MS) patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a multiple sclerosis (MS) patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a multiple sclerosis (MS) patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a multiple sclerosis (MS) patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a multiple sclerosis (MS) patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5RgPgUHclY4XOGwvhz58ol1qUEd",
+            "object": "chat.completion",
+            "created": 1684306864,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 155,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 32\nGender: Female\nOccupation: Teacher\nEthnicity: Caucasian\nPast Medical History: Diagnosed with MS five years ago, currently taking disease-modifying therapy.\n\nCase Report Summary: Sarah, a 32-year-old female teacher with a history of MS, presented to the neurology clinic with worsening symptoms. She reported increased weakness and difficulty with coordination, as well as new bladder and bowel dysfunction. On examination, she had spasticity and increased reflexes in her lower extremities. MRI imaging showed new lesions in her brain and spinal cord. She was started on a higher dose of her disease-modifying therapy and referred for physical therapy. Follow-up appointments showed improvement in her symptoms and stability in her MRI imaging."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5Rg0bLCUCx6dWBwxdh27BiyEsU3",
+            "object": "chat.completion",
+            "created": 1684306864,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 215,
+                "total_tokens": 323
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 34\nGender: Female\nOccupation: Teacher\nEthnicity: Caucasian\nPast Medical History: Diagnosed with MS at age 28, has been on disease-modifying therapy (DMT) for the past 6 years.\n\nCase Report: Sarah is a 34-year-old female teacher who was diagnosed with relapsing-remitting multiple sclerosis (RRMS) at the age of 28. She had been on disease-modifying therapy (DMT) for the past 6 years and had been relatively stable with no new lesions on MRI. However, she presented to her neurologist with new symptoms of numbness and tingling in her legs, difficulty walking, and blurry vision. Her neurological exam revealed decreased sensation in both legs and decreased visual acuity in her left eye. An MRI confirmed new lesions in her spinal cord and brain. She was started on a higher dose of DMT and referred for physical therapy. After several months of treatment, her symptoms improved and she was able to return to work."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5RgmPpHCKZixUKXxQVlfBZAMWsp",
+            "object": "chat.completion",
+            "created": 1684306864,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 212,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 32\nGender: Female\nOccupation: Teacher\nEthnicity: Caucasian\nPast Medical History: Sarah was diagnosed with relapsing-remitting MS at the age of 28. She had been experiencing symptoms such as numbness, tingling, and weakness in her limbs for several months prior to her diagnosis.\n\nCase Report:\nSarah presented to her neurologist with complaints of increased fatigue and difficulty walking. She reported having multiple relapses in the past year, despite being on disease-modifying therapy. Her neurological exam revealed weakness in her left leg and decreased sensation in her left foot. MRI scans showed new lesions in her brain and spinal cord.\n\nSarah's neurologist prescribed a course of high-dose steroids to help alleviate her symptoms and recommended switching to a different disease-modifying therapy. Sarah also began physical therapy to help improve her strength and balance. Despite these interventions, Sarah continued to experience relapses and ongoing disability. She and her healthcare team are currently exploring other treatment options to better manage her MS."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5RgYs07HOcrCjNpr9lniDgs2oiO",
+            "object": "chat.completion",
+            "created": 1684306864,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 155,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Emily \nAge: 35 \nGender: Female \nOccupation: Teacher \nEthnicity: Caucasian \nPast Medical History: Diagnosed with relapsing-remitting MS at age 28 \n\nEmily is a 35-year-old Caucasian female who works as a teacher. She was diagnosed with relapsing-remitting MS at the age of 28 and has been managing her condition with disease-modifying therapies. She presents to the clinic with new symptoms of numbness and tingling in her legs and difficulty walking. MRI scans reveal new lesions in her brain and spinal cord. Her neurologist adjusts her treatment plan and recommends physical therapy to help with her mobility issues. Emily continues to manage her MS with regular follow-up appointments and ongoing care."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ HIV//AIDS. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ HIV//AIDS. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ HIV//AIDS. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ HIV//AIDS. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ HIV//AIDS. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ HIV//AIDS. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ HIV//AIDS. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ HIV//AIDS. Please include demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNQ6er9BumS1iuYh3HtWt0IM4VYX",
+            "object": "chat.completion",
+            "created": 1684375958,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 39,
+                "total_tokens": 97
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old male patient with a history of intravenous drug use and a diagnosis of HIV/AIDS presents with recurrent opportunistic infections and a CD4 count of 50 cells/mm3."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNQ9i7aN9ztMY8i4SOEY9PiECbNW",
+            "object": "chat.completion",
+            "created": 1684375961,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 23,
+                "total_tokens": 81
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old male with a history of HIV/AIDS presents with complaints of progressive dyspnea and cough."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNQ6ZYVIeyswPmgZkc6hxT1vzLbm",
+            "object": "chat.completion",
+            "created": 1684375958,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 26,
+                "total_tokens": 84
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old male with a history of HIV/AIDS presents with complaints of fatigue, weight loss, and night sweats."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNQ6NjMfvd4BW9mIroAWxRfyG6mW",
+            "object": "chat.completion",
+            "created": 1684375958,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 24,
+                "total_tokens": 82
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old African American male with a history of HIV/AIDS presents with worsening fatigue and shortness of breath."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

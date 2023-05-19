@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their rheumatoid arthritis. Provide a one-line summary of a case report that includes demographic info discussing a patient and their rheumatoid arthritis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their rheumatoid arthritis. Provide a one-line summary of a case report that includes demographic info discussing a patient and their rheumatoid arthritis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their rheumatoid arthritis. Provide a one-line summary of a case report that includes demographic info discussing a patient and their rheumatoid arthritis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their rheumatoid arthritis. Provide a one-line summary of a case report that includes demographic info discussing a patient and their rheumatoid arthritis."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNH61vk3X9JpZalBdbGC4Kupdz4N",
+            "object": "chat.completion",
+            "created": 1684375400,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 30,
+                "total_tokens": 84
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old female with rheumatoid arthritis and a history of smoking developed acute myocardial infarction due to coronary vasculitis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNH5asmBvrXyURIvSqYXjMZYMg84",
+            "object": "chat.completion",
+            "created": 1684375399,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 50,
+                "total_tokens": 104
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 60-year-old male with rheumatoid arthritis experienced significant improvement in symptoms after treatment with tocilizumab. \n\nA 45-year-old female with long-standing rheumatoid arthritis developed severe interstitial lung disease and required hospitalization."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNH5kp8Kq5fmh62MsXRZw2VHqRqc",
+            "object": "chat.completion",
+            "created": 1684375399,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 25,
+                "total_tokens": 79
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 64-year-old female with rheumatoid arthritis developed severe pneumonia and sepsis leading to multi-organ failure."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNH5wgEyv12VKqeaZ43xjaHK1Ug1",
+            "object": "chat.completion",
+            "created": 1684375399,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 33,
+                "total_tokens": 87
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old female with rheumatoid arthritis presented with severe joint pain and stiffness, and was successfully treated with intra-articular corticosteroid injections."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

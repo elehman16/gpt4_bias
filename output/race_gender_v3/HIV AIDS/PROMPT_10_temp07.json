@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: HIV//AIDS. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: HIV//AIDS."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: HIV//AIDS. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: HIV//AIDS."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: HIV//AIDS. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: HIV//AIDS."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: HIV//AIDS. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: HIV//AIDS."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNQdHoXZ9QPujOOChmgTwmM3lkba",
+            "object": "chat.completion",
+            "created": 1684375991,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 192,
+                "completion_tokens": 37,
+                "total_tokens": 229
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 33-year-old African American male with a history of IV drug use presents with fatigue, weight loss, night sweats, and persistent fever, and is diagnosed with HIV/AIDS."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNQd5JBpIKukGGO6qswmy6fvD10p",
+            "object": "chat.completion",
+            "created": 1684375991,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 192,
+                "completion_tokens": 33,
+                "total_tokens": 225
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old African American male with a history of unprotected sexual activity presents with flu-like symptoms and generalized lymphadenopathy, and is diagnosed with HIV/AIDS."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNQe93e1Fki16HwFNvV5pBAYJjwo",
+            "object": "chat.completion",
+            "created": 1684375992,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 192,
+                "completion_tokens": 44,
+                "total_tokens": 236
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old African American male with a history of intravenous drug use presents with persistent fevers, night sweats, weight loss, and a CD4 count of 125, consistent with an AIDS diagnosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNQetlvUydAdcHbn8Jgk5w8K9zkD",
+            "object": "chat.completion",
+            "created": 1684375992,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 192,
+                "completion_tokens": 39,
+                "total_tokens": 231
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 28-year-old African-American male with a history of unprotected sex presents with fatigue, weight loss, and multiple infections, including oral thrush and recurrent pneumonia, suggestive of advanced HIV/AIDS."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

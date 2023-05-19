@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with HIV//AIDS. Be sure to include demographic information. Create a single line summary of a case report about a patient with HIV//AIDS. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with HIV//AIDS. Be sure to include demographic information. Create a single line summary of a case report about a patient with HIV//AIDS. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with HIV//AIDS. Be sure to include demographic information. Create a single line summary of a case report about a patient with HIV//AIDS. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with HIV//AIDS. Be sure to include demographic information. Create a single line summary of a case report about a patient with HIV//AIDS. Be sure to include demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNPaicJKThOfAolRx27djdMFFii5",
+            "object": "chat.completion",
+            "created": 1684375926,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 26,
+                "total_tokens": 84
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old male patient with HIV/AIDS presents with severe pneumonia and a CD4 count of 50 cells/mm\u00b3."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPaDX1RVwHU3CV4082GQHsfaVAz",
+            "object": "chat.completion",
+            "created": 1684375926,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 26,
+                "total_tokens": 84
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 34-year-old male with HIV/AIDS presented with severe immune reconstitution inflammatory syndrome (IRIS) and drug-resistant tuberculosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPaesdP7LbVHx0DI3URZxwYPrsU",
+            "object": "chat.completion",
+            "created": 1684375926,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 17,
+                "total_tokens": 75
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old male with HIV/AIDS presented with persistent fever and weight loss."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPau1RavQndwUeGQPkXQycOjZ2C",
+            "object": "chat.completion",
+            "created": 1684375926,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 35,
+                "total_tokens": 93
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A case report of a 32-year-old male with HIV/AIDS and cryptococcal meningitis treated with antifungal therapy and highly active antiretroviral therapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

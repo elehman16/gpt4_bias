@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a osteomyelitis patient, including their demographic data in one line. Provide a brief summary of a case report featuring a osteomyelitis patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a osteomyelitis patient, including their demographic data in one line. Provide a brief summary of a case report featuring a osteomyelitis patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a osteomyelitis patient, including their demographic data in one line. Provide a brief summary of a case report featuring a osteomyelitis patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a osteomyelitis patient, including their demographic data in one line. Provide a brief summary of a case report featuring a osteomyelitis patient, including their demographic data in one line."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNBPRqnHaqrBxECdEQ01jDnFQICr",
+            "object": "chat.completion",
+            "created": 1684375047,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 23,
+                "total_tokens": 79
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case report of a 52-year-old male with chronic osteomyelitis of the tibia and fibula."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNBPcZaPGCPWDclBDNSdj5HN2GLK",
+            "object": "chat.completion",
+            "created": 1684375047,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 26,
+                "total_tokens": 82
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 62-year-old male with a history of diabetes and peripheral vascular disease presented with chronic osteomyelitis of the foot."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNBPYgwI6Q8r9NuTckJxB6AE36Ga",
+            "object": "chat.completion",
+            "created": 1684375047,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 20,
+                "total_tokens": 76
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 67-year-old male with diabetes presented with acute osteomyelitis of the right foot."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNBPslMRCNWt47W7m29I5StKSZr0",
+            "object": "chat.completion",
+            "created": 1684375047,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 19,
+                "total_tokens": 75
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old diabetic male presented with chronic osteomyelitis of the right foot."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

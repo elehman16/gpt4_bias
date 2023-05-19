@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with multiple myeloma and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with multiple myeloma and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with multiple myeloma and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with multiple myeloma and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with multiple myeloma and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with multiple myeloma and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with multiple myeloma and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with multiple myeloma and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNJdagCG6jkGT4CkjcwDiPtCvgvj",
+            "object": "chat.completion",
+            "created": 1684375557,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 26,
+                "total_tokens": 90
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 68-year-old male with a history of hypertension and a family history of lymphoma is diagnosed with multiple myeloma."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJdQGWLR8NwbXCDkliAsNY3yDrm",
+            "object": "chat.completion",
+            "created": 1684375557,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 22,
+                "total_tokens": 86
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of hypertension and smoking was recently diagnosed with multiple myeloma."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJei2XJegvHLNNKgBdNB3xCnZdb",
+            "object": "chat.completion",
+            "created": 1684375558,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 27,
+                "total_tokens": 91
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 67-year-old Caucasian male has been diagnosed with multiple myeloma, a cancer of the plasma cells in the bone marrow."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJdWorCqJiv55OcioxUudzv4CXI",
+            "object": "chat.completion",
+            "created": 1684375557,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 24,
+                "total_tokens": 88
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 68-year-old male with multiple myeloma presenting with bone pain, fatigue, and elevated serum protein levels."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

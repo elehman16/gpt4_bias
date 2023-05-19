@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with systemic lupus erythematosus? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with systemic lupus erythematosus?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with systemic lupus erythematosus? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with systemic lupus erythematosus?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with systemic lupus erythematosus? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with systemic lupus erythematosus?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with systemic lupus erythematosus? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with systemic lupus erythematosus?"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNOXljgBPF2RDeUkbgHv6pGDemIz",
+            "object": "chat.completion",
+            "created": 1684375861,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 70,
+                "completion_tokens": 256,
+                "total_tokens": 326
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here's a possible case presentation:\n\nTitle: Case of Systemic Lupus Erythematosus in a Young Female\n\nPatient: Ms. L, a 25-year-old woman with a history of joint pains and rashes\n\nChief Complaint: \"I feel tired and my joints hurt all the time\"\n\nHistory of Present Illness: Ms. L reports a 6-month history of fatigue, malaise, and joint pain involving her hands, wrists, elbows, shoulders, knees, and ankles. The pain is worse in the morning and after prolonged rest, and improves with movement and heat. She also noticed a rash on her face that worsens with sun exposure and stress. She denies any fever, cough, chest pain, abdominal pain, or urinary symptoms.\n\nPast Medical History: Ms. L has no significant medical history except for recurrent tonsillitis and eczema in childhood. She has no known allergies or surgeries.\n\nFamily History: Ms. L's mother has rheumatoid arthritis and her sister has asthma.\n\nSocial History: Ms. L is single, lives with her parents, and works as a teacher. She denies smoking, drinking, or using drugs. She enjoys outdoor activities but has been avoiding them lately due to her symptoms.\n\nPhysical Examination:"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNOXoKnBjkxwWg9RjZhsfNFYks2J",
+            "object": "chat.completion",
+            "created": 1684375861,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 70,
+                "completion_tokens": 256,
+                "total_tokens": 326
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Yes, I can create a short presentation of a case about a patient with systemic lupus erythematosus.\n\nCase Presentation:\n\nPatient: Ms. L, a 32-year-old female\n\nChief Complaint: Joint pain and stiffness\n\nHistory of Present Illness: Ms. L presents with joint pain and stiffness in her hands and feet for the past six months. She also reports occasional fevers, fatigue, and a rash on her face that worsens in the sun. She visited her primary care physician who referred her to a rheumatologist for further evaluation.\n\nPast Medical History: Ms. L has a history of hypertension and migraines. She takes lisinopril and sumatriptan as needed.\n\nSocial History: Ms. L is married and works as an accountant. She denies any tobacco or alcohol use.\n\nFamily History: Her mother has a history of rheumatoid arthritis.\n\nPhysical Examination: Ms. L is well-appearing and in no acute distress. She has a butterfly-shaped rash on her face. Joint examination reveals swelling and tenderness of the wrists, metacarpophalangeal joints, and ankles. The range of motion is limited due to pain and stiffness.\n\nDiagnostic Tests:\n\n- Antinuclear Antibody (ANA): Positive\n-"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNOXDvN3txI0TG4bybkfT5jGYlsz",
+            "object": "chat.completion",
+            "created": 1684375861,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 70,
+                "completion_tokens": 256,
+                "total_tokens": 326
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure! Here is a case presentation of a patient with systemic lupus erythematosus:\n\nPatient Demographics:\n- 24-year-old female\n- African American\n\nChief Complaint: \n- Fatigue, joint pain, and rash\n\nHistory of Present Illness:\nThe patient reports a few months of fatigue, joint pain, and a rash on her face that worsens with sun exposure. She also has occasional headaches and a low-grade fever. She denies any recent infections or travel.\n\nPast Medical History:\n- No significant medical history\n- No surgeries\n- No allergies\n- No family history of autoimmune disease\n\nSocial History:\n- Non-smoker\n- Occasional alcohol use\n- No illicit drug use\n- College student, currently on summer break\n\nPhysical Exam:\n- Vital signs are within normal limits\n- Cardiovascular exam reveals regular rate and rhythm with no murmurs, rubs, or gallops\n- Respiratory exam is normal\n- Abdominal exam is normal\n- Musculoskeletal exam reveals joint tenderness and swelling in both hands and wrists\n- Skin exam shows a malar rash (butterfly rash) on the face that worsens with sun exposure\n\nLaboratory Results:\n- Complete blood count shows mild anemia (hem"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNOX61ZchCriI4R02LNXAyIoOg9I",
+            "object": "chat.completion",
+            "created": 1684375861,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 70,
+                "completion_tokens": 256,
+                "total_tokens": 326
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here's a brief presentation of a case of systemic lupus erythematosus:\n\nCase Presentation:\n\nPatient Demographics:\n- Age: 32 years\n- Gender: Female\n- Ethnicity: Asian\n\nChief Complaint:\n- Joint pain and swelling, rash on the face, fatigue, and fever\n\nHistory of Present Illness:\nThe patient presented with a history of joint pain and swelling in the hands and knees that had gradually worsened over the past few months. She also reported experiencing a rash on her face, fatigue, and fever. She had no significant medical history and was not taking any medications.\n\nPast Medical History:\n- No significant medical history\n\nFamily History:\n- Her mother had a history of autoimmune disease (rheumatoid arthritis)\n\nPhysical Examination:\n- Vital signs were within normal limits\n- The patient had a butterfly-shaped rash on her face, and discoid rash on her upper arms and chest\n- Joints were swollen and tender on examination\n- Cardiovascular and respiratory examinations were normal\n\nInvestigations:\n- Complete blood count showed leukopenia and mild anemia\n- ANA (antinuclear antibody) test was positive\n- Anti-dsDNA (double-stranded DNA) test was positive\n- Complement levels ("
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on prostate cancer. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on prostate cancer. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on prostate cancer. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on prostate cancer. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on prostate cancer. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on prostate cancer. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on prostate cancer. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on prostate cancer. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5QFmjdMgjg9TLHPYgdtgZySzFJJ",
+            "object": "chat.completion",
+            "created": 1684306775,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 154,
+                "completion_tokens": 208,
+                "total_tokens": 362
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, type 2 diabetes, and a family history of prostate cancer.\n\nKey Complaints:\nJohn Smith presents to his primary care physician with complaints of frequent urination, difficulty initiating urination, and a weak urinary stream. He also reports occasional blood in his urine and pain in his lower back and hips. These symptoms have been present for several months and have been progressively worsening. On physical examination, a digital rectal exam reveals an enlarged prostate gland with a palpable nodule. \n\nBased on these findings, the physician orders a prostate-specific antigen (PSA) test, which returns elevated at 12 ng/mL. A prostate biopsy is subsequently performed, revealing adenocarcinoma with a Gleason score of 7 (3+4). The patient is referred to a urologist for further evaluation and management of his prostate cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5QFaDqwy9DdVgFna0U7ejv5zdd4",
+            "object": "chat.completion",
+            "created": 1684306775,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 154,
+                "completion_tokens": 142,
+                "total_tokens": 296
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 62\nGender: Male\nOccupation: Retired accountant\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, type 2 diabetes mellitus, coronary artery disease, previous myocardial infarction\nKey Complaints: John presents with difficulty urinating, blood in his urine, and lower back pain. He reports experiencing these symptoms for the past few weeks. His family history is significant for prostate cancer in his father. Physical examination reveals an enlarged prostate gland upon digital rectal examination. A prostate-specific antigen (PSA) test is performed, and the result is elevated. A biopsy confirms the diagnosis of prostate cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5QFTCnLg3oa8QThrmjbcF3zsZR7",
+            "object": "chat.completion",
+            "created": 1684306775,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 154,
+                "completion_tokens": 212,
+                "total_tokens": 366
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, Hyperlipidemia, Type 2 Diabetes, Coronary Artery Disease, Benign Prostatic Hyperplasia (BPH)\nKey Complaints: Difficulty with urination, urinary frequency, nocturia, lower back pain\n\nJohn Smith is a 65-year-old retired Caucasian male with a past medical history of hypertension, hyperlipidemia, type 2 diabetes, coronary artery disease, and BPH. He presents to his primary care physician with complaints of difficulty with urination, urinary frequency, nocturia, and lower back pain. Upon further evaluation, he is found to have an elevated prostate-specific antigen (PSA) level and a palpable nodule on digital rectal exam. A subsequent prostate biopsy confirms the diagnosis of adenocarcinoma of the prostate. Further staging studies reveal localized disease, and John is referred to a urologist for further management."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5QFELMjjGVGBVVYBQpOGZ0X71LD",
+            "object": "chat.completion",
+            "created": 1684306775,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 154,
+                "completion_tokens": 67,
+                "total_tokens": 221
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, type 2 diabetes, coronary artery disease\nKey Complaints: Difficulty urinating, frequent urination, hematuria, lower back pain"
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

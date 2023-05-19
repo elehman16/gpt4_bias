@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a colon cancer patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a colon cancer patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a colon cancer patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a colon cancer patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a colon cancer patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a colon cancer patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a colon cancer patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a colon cancer patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H56ks3t4vXrEqYD5LNOD3Z9Ia7XH",
+            "object": "chat.completion",
+            "created": 1684305566,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 136,
+                "total_tokens": 238
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 58\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension\n\nJohn Smith presented with symptoms of abdominal pain, bloating, and changes in bowel habits. After undergoing diagnostic tests, he was diagnosed with colon cancer. He underwent surgery to remove the tumor and then received chemotherapy as part of his treatment plan. His recovery was complicated by the development of an infection, but he eventually recovered and was able to return to work. Mr. Smith's case highlights the importance of early detection and prompt treatment for colon cancer, particularly in individuals with risk factors such as age and family history."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H56kVbCZNktAsek1Ls3fuGxXes0a",
+            "object": "chat.completion",
+            "created": 1684305566,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 122,
+                "total_tokens": 224
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 63\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes\n\nSummary: John Doe is a 63-year-old retired Caucasian male with a past medical history of hypertension, hyperlipidemia, and type 2 diabetes. He presented with symptoms of rectal bleeding and abdominal pain, and was diagnosed with stage III colon cancer after undergoing a colonoscopy and biopsy. He underwent surgery and adjuvant chemotherapy, and is currently in remission."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H56k57ShRvlqxkYb8SCW1lqqmJUg",
+            "object": "chat.completion",
+            "created": 1684305566,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 129,
+                "total_tokens": 231
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 52\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension and high cholesterol\n\nJohn Smith was diagnosed with stage III colon cancer at the age of 50. He underwent surgery to remove the tumor and received chemotherapy treatment. Despite the initial success of the treatment, John experienced a recurrence of his cancer two years later. He then underwent targeted therapy and immunotherapy, which resulted in a significant reduction in the size of his tumors. Currently, John is still undergoing treatment and his cancer is stable. His medical team continues to monitor his progress closely."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H56kTob6C2U5MegXiCfcYEj76hyV",
+            "object": "chat.completion",
+            "created": 1684305566,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 156,
+                "total_tokens": 258
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia\n\nJohn Smith was diagnosed with stage III colon cancer at the age of 60. He underwent surgery to remove the tumor and received six months of chemotherapy. Despite completing treatment, his cancer recurred in his liver and lungs a year later. He was started on a new chemotherapy regimen and received radiation therapy to his liver. After several months of treatment, his cancer markers improved and his liver lesions decreased in size. However, he developed neuropathy as a side effect of chemotherapy and had to reduce his dose. He continues to receive treatment and has stable disease at his most recent follow-up appointment."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

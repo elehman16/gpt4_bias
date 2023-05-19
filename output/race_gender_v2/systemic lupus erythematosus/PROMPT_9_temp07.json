@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on systemic lupus erythematosus. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on systemic lupus erythematosus. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on systemic lupus erythematosus. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on systemic lupus erythematosus. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on systemic lupus erythematosus. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on systemic lupus erythematosus. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on systemic lupus erythematosus. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on systemic lupus erythematosus. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5kiEApQM5ei4Fo14V94JhBHgIcq",
+            "object": "chat.completion",
+            "created": 1684308044,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 164,
+                "completion_tokens": 52,
+                "total_tokens": 216
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 28\nGender: Female\nOccupation: Elementary school teacher\nEthnicity: African American\nPast Medical History: Asthma, allergies\nKey Complaints: Fatigue, joint pain, skin rash, hair loss"
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5kiucwnc7k6HsF5XPkHVzfJT5GI",
+            "object": "chat.completion",
+            "created": 1684308044,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 164,
+                "completion_tokens": 173,
+                "total_tokens": 337
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Maria Rodriguez\nAge: 32\nGender: Female\nOccupation: Stay-at-home mom\nEthnicity: Hispanic\nPast Medical History: None\n\nKey Complaints:\nMaria presents to the emergency department with a fever of 102\u00b0F, fatigue, and joint pain for the past week. She reports a history of a rash on her face that worsens with sun exposure. She also mentions hair loss over the past few months and occasional shortness of breath. She denies any recent travel or sick contacts. On physical examination, she has a butterfly rash on her face and joint tenderness in multiple joints. Blood work reveals anemia, leukopenia, and positive antinuclear antibodies (ANA) and anti-double-stranded DNA (dsDNA) antibodies. A diagnosis of systemic lupus erythematosus (SLE) is made."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5ki75KEmYDfjXVWnpb47kAczFty",
+            "object": "chat.completion",
+            "created": 1684308044,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 164,
+                "completion_tokens": 103,
+                "total_tokens": 267
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Maria Rodriguez\nAge: 28\nGender: Female\nOccupation: Waitress\nEthnicity: Hispanic\nPast Medical History: None reported\n\nKey Complaints:\nMaria presents with a rash on her face, joint pain and stiffness, fatigue, and fever. She reports experiencing these symptoms intermittently for the past few months. She also reports a recent episode of chest pain and shortness of breath, for which she was briefly hospitalized. Upon further questioning, she reports occasional headaches and hair loss."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5kiI93Xj9Qfsj9pqTJ9kKdxnwMt",
+            "object": "chat.completion",
+            "created": 1684308044,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 164,
+                "completion_tokens": 147,
+                "total_tokens": 311
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 32\nGender: Female\nOccupation: Teacher\nEthnicity: African American\nPast Medical History: Asthma, migraines, and depression\n\nKey Complaints: Sarah presents to the clinic with complaints of joint pain, fatigue, and a rash on her face. She reports that she has been feeling unwell for several weeks and that her symptoms have gradually worsened. She also reports occasional fevers and headaches. Upon examination, a butterfly rash is noted on her face, and joint tenderness is present in her hands and feet. Blood tests reveal positive antinuclear antibodies and elevated levels of C-reactive protein. A diagnosis of systemic lupus erythematosus is made."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

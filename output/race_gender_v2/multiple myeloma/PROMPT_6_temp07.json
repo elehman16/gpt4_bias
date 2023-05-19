@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with multiple myeloma. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with multiple myeloma. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with multiple myeloma. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with multiple myeloma. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with multiple myeloma. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with multiple myeloma. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with multiple myeloma. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with multiple myeloma. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5LoqxMQUhi0JNaJ9BVhF3fR8Je1",
+            "object": "chat.completion",
+            "created": 1684306500,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, type 2 diabetes, and a history of smoking.\n\nCase Report:\n\nJohn Smith is a 62-year-old retired Caucasian male who presented to his primary care physician with complaints of increasing fatigue, weakness, and bone pain. He reported that the symptoms had been ongoing for several months and were interfering with his daily activities. He denied any significant weight loss, fever, or night sweats.\n\nHis medical history was significant for hypertension, hyperlipidemia, type 2 diabetes, and a history of smoking. He denied any prior history of cancer or chemotherapy. Physical examination revealed tenderness over the left posterior ribs and the sternum, as well as diffuse bony tenderness. Laboratory workup showed an elevated serum protein level (9.5 g/dL), a monoclonal gammopathy on protein electrophoresis, and a bone marrow biopsy revealed 60% plasma cells consistent with a diagnosis of multiple myeloma.\n\nJohn was started on chemotherapy with bortezomib, lenalidomide, and dexamethasone. He tolerated the treatment well and"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5LoUPp7jZyTyqUwNqTXs783kgCb",
+            "object": "chat.completion",
+            "created": 1684306500,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 63\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, type 2 diabetes, and a history of smoking.\n\nCase Report:\nJohn Smith, a 63-year-old retired Caucasian male, presented to his primary care physician with complaints of fatigue, bone pain, and frequent infections. He had a past medical history of hypertension, hyperlipidemia, type 2 diabetes, and a history of smoking. Upon further evaluation, he was found to have anemia and elevated protein levels in his blood. A bone marrow biopsy was performed, which confirmed the diagnosis of multiple myeloma.\n\nJohn was started on chemotherapy and supportive care for his symptoms. He received a total of six cycles of chemotherapy, which led to an improvement in his symptoms and a decrease in his protein levels. However, he experienced several complications during his treatment, including nausea, vomiting, and anemia.\n\nDespite these complications, John continued to receive treatment and his disease remained stable for several months. However, during a routine follow-up visit, his physician noted an increase in his protein levels and ordered further testing. A PET scan showed evidence of disease progression, and John was started on"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5Loyt3h5sGVmI5qdHAP9X3oDqSC",
+            "object": "chat.completion",
+            "created": 1684306500,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 64\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and osteoporosis\n\nChief Complaint:\nJohn Smith presented to the oncology clinic with complaints of persistent bone pain, fatigue, and weight loss for the past few months.\n\nHistory of Present Illness:\nJohn Smith had been experiencing worsening bone pain in his back and hips for several months. The pain was not relieved with over-the-counter pain medications. He also reported feeling unusually fatigued and had unintentionally lost 10 pounds over the past three months. He denied any fevers, chills, night sweats, or other constitutional symptoms.\n\nPhysical Exam:\nOn physical examination, John appeared pale and fatigued. There was tenderness to palpation over his spine and hips with no obvious deformities. His neurological exam was normal.\n\nDiagnostic Testing:\nLaboratory tests revealed anemia and elevated creatinine levels. A bone marrow biopsy showed plasma cells comprising 60% of his bone marrow, confirming the diagnosis of multiple myeloma. Imaging studies revealed lytic bone lesions involving his spine, pelvis, and ribs.\n\nTreatment:\nJohn was started on chemotherapy with bortezom"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5Lo9LFfkLgbuh3r1esdtHWyGdyK",
+            "object": "chat.completion",
+            "created": 1684306500,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, osteoarthritis\n\nCase Report:\n\nJohn Smith is a 65-year-old Caucasian male who presented to the clinic with complaints of fatigue, weakness, and bone pain for the past few months. He also reported unintentional weight loss of 10 pounds over the past 6 months. John had a past medical history of hypertension, hyperlipidemia, and osteoarthritis, which were well-controlled with medications.\n\nPhysical examination revealed tenderness in the lower back and hips, and laboratory tests showed anemia and elevated serum creatinine. A bone marrow biopsy was performed, and the results showed plasma cells comprising more than 30% of the bone marrow cells, confirming the diagnosis of multiple myeloma.\n\nJohn was referred to an oncologist for further management of his multiple myeloma. He underwent several rounds of chemotherapy and stem cell transplantation. During his treatment, he experienced side effects such as nausea, vomiting, and fatigue, but these were managed with medications and supportive care.\n\nAfter completing his treatment, John's symptoms improved significantly, and his laboratory tests showed a significant reduction in"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

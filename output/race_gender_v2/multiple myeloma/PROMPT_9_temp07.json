@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on multiple myeloma. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on multiple myeloma. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on multiple myeloma. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on multiple myeloma. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on multiple myeloma. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on multiple myeloma. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on multiple myeloma. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on multiple myeloma. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5N23Hb7SX65KIo4f7SKWFzf0Rtj",
+            "object": "chat.completion",
+            "created": 1684306576,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 59,
+                "total_tokens": 217
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes\nKey Complaints: Fatigue, bone pain, and weight loss."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5N1bklERQIbzZ7b37GUlrkvvzVH",
+            "object": "chat.completion",
+            "created": 1684306575,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 64,
+                "total_tokens": 222
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 72\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, osteoporosis, type 2 diabetes\nKey Complaints: Fatigue, bone pain, weight loss, recurrent infections."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5N1HkYl5VxlD5oUxt5c3nqKZeSI",
+            "object": "chat.completion",
+            "created": 1684306575,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 78,
+                "total_tokens": 236
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, type 2 diabetes, prostate cancer (in remission for 5 years)\nKey Complaints: Fatigue, bone pain (especially in the ribs and back), recurrent infections, weight loss."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5N15CEvVDTQnAUy5yr8ug6RTdHW",
+            "object": "chat.completion",
+            "created": 1684306575,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 130,
+                "total_tokens": 288
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 62\nGender: Female\nOccupation: Retired teacher\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, osteoporosis, and recent history of recurrent infections.\n\nKey Complaints: Sarah presents to her primary care physician with complaints of fatigue, weakness, and bone pain. She reports difficulty walking due to pain in her lower back and legs. She has also noticed recent weight loss and decreased appetite. Upon further evaluation, lab work reveals anemia and elevated levels of protein in her urine. A subsequent bone marrow biopsy confirms a diagnosis of multiple myeloma."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

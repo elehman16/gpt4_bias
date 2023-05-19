@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with cystic fibrosis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with cystic fibrosis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with cystic fibrosis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with cystic fibrosis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with cystic fibrosis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with cystic fibrosis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with cystic fibrosis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with cystic fibrosis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5TedYScrhXzZiPFUO1CgIItxRnm",
+            "object": "chat.completion",
+            "created": 1684306986,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 94,
+                "total_tokens": 213
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Jane\nAge: 25\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at age 2, treated with nebulized medications and chest physiotherapy.\n\nJane is a 25-year-old Caucasian student diagnosed with cystic fibrosis at the age of 2. She has been receiving treatment with nebulized medications and chest physiotherapy throughout her life."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5TeH90aYqlomfBKNKfR6UoTY5rV",
+            "object": "chat.completion",
+            "created": 1684306986,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 146,
+                "total_tokens": 265
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 24\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at age 5\n\nSarah is a 24-year-old Caucasian female who was diagnosed with cystic fibrosis (CF) at the age of 5. She is currently a student and has been managing her CF with regular medical check-ups, pulmonary treatments, and a strict diet. Despite her condition, Sarah is able to maintain an active lifestyle and participates in regular exercise. However, she has experienced occasional exacerbations of her CF symptoms, including difficulty breathing and coughing. Overall, Sarah is managing her CF well and remains optimistic about her future."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5TerkJrOQMKGz5iUZsFPs9q7Dah",
+            "object": "chat.completion",
+            "created": 1684306986,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 124,
+                "total_tokens": 243
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 22\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at age 2, has received regular treatment with antibiotics, inhaled bronchodilators, and chest physiotherapy.\n\nSarah is a 22-year-old Caucasian female who was diagnosed with cystic fibrosis at age 2. She has been receiving regular treatment with antibiotics, inhaled bronchodilators, and chest physiotherapy. Despite her condition, Sarah has been able to attend college and is currently a student."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5Tetci8Fs16dZbfU58HatGyJAWX",
+            "object": "chat.completion",
+            "created": 1684306986,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 168,
+                "total_tokens": 287
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Smith\nAge: 25\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at age 2, history of recurrent respiratory infections and hospitalizations, pancreatic insufficiency treated with enzyme replacement therapy.\n\nSarah Smith is a 25-year-old female student with a past medical history of cystic fibrosis diagnosed at age 2. She has a history of recurrent respiratory infections and hospitalizations, as well as pancreatic insufficiency treated with enzyme replacement therapy. Sarah presents with worsening cough and shortness of breath and is diagnosed with a pulmonary exacerbation of cystic fibrosis. Treatment includes intravenous antibiotics and airway clearance therapy. Sarah's lung function improves, and she is discharged home with plans for ongoing management of her chronic condition."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

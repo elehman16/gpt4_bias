@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with osteomyelitis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with osteomyelitis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with osteomyelitis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with osteomyelitis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with osteomyelitis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with osteomyelitis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with osteomyelitis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with osteomyelitis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H541GTvNKMgFrf5jFb5ucZ6djTYe",
+            "object": "chat.completion",
+            "created": 1684305397,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction Worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, Type 2 Diabetes, History of Alcohol Abuse\n\nCase Report:\nJohn Smith is a 45-year-old male who presented to the emergency department with complaints of severe pain in his left foot. He reported that he had accidentally stepped on a rusty nail while working at a construction site two weeks ago. He initially cleaned the wound and applied topical antibiotics, but the pain and swelling had worsened over the past few days. He also reported fever and chills.\n\nOn physical examination, John had significant tenderness and swelling in his left foot, with erythema and warmth extending up to his lower leg. Laboratory tests showed elevated white blood cell count and erythrocyte sedimentation rate. X-rays and MRI of the left foot revealed osteomyelitis involving the first metatarsal bone.\n\nJohn was admitted to the hospital and started on intravenous antibiotics. He underwent surgical debridement of the infected bone and soft tissues. The wound was left open for daily dressing changes and further debridement as needed. He also received wound care and physical therapy to improve his mobility and prevent complications.\n\nOver the next few"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H541WAVlx9UQmEIJsUEjesWBBrqt",
+            "object": "chat.completion",
+            "created": 1684305397,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, Type 2 diabetes mellitus\n\nCase Report:\n\nMr. John Smith presented to the emergency department with severe pain and swelling in his right leg. He reported that the symptoms had been present for the past two weeks and were worsening. Upon examination, his right leg was found to be warm to the touch, and there was erythema and tenderness over the tibia. Mr. Smith had a fever of 101\u00b0F and was tachycardic with a heart rate of 110 beats per minute.\n\nMr. Smith was admitted to the hospital, and further investigations were carried out. Blood tests revealed an elevated white cell count and C-reactive protein level. Imaging studies, including X-rays and a bone scan, were performed, revealing evidence of osteomyelitis in the right tibia.\n\nMr. Smith was started on intravenous antibiotics, and surgical debridement was performed to remove any necrotic tissue. A vacuum-assisted closure device was applied to facilitate wound healing. The infectious disease team was consulted, and antibiotic therapy was adjusted based on culture and sensitivity results.\n\nDuring his hospital stay"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H541CoemJfHcnwRtDbYA8c3Lvm2i",
+            "object": "chat.completion",
+            "created": 1684305397,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Type 2 diabetes, hypertension, and obesity\n\nChief Complaint:\nJohn Doe presented to the emergency department with severe pain and swelling in his right foot.\n\nHistory of Present Illness:\nJohn had been experiencing pain and swelling in his right foot for the past week. He initially attributed the symptoms to his job as a construction worker, but the pain worsened despite rest and elevation of the foot. The pain became so severe that he was unable to walk and sought medical attention.\n\nPhysical Examination:\nOn examination, the right foot appeared red, swollen, and warm to touch. There was tenderness over the medial aspect of the foot. The patient had a fever of 101\u00b0F.\n\nDiagnostic Studies:\nX-rays of the right foot showed evidence of bone destruction and periosteal reaction, consistent with osteomyelitis. Blood cultures were obtained, and the patient was started on empiric antibiotics.\n\nTreatment and Follow-up:\nJohn was admitted to the hospital and received intravenous antibiotics for six weeks. He also underwent surgical debridement of the affected bone. After completion of antibiotics, the patient's symptoms resolved, and he was discharged from the"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H541Z7KfohCSCZz8QOJ44abk5c3a",
+            "object": "chat.completion",
+            "created": 1684305397,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction Worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, Type 2 Diabetes, and a previous history of a foot ulcer\n\nCase Report:\n\nJohn Smith, a 45-year-old Caucasian male, presented to the emergency department with a complaint of severe pain and swelling in his left foot. He works as a construction worker and reports having stepped on a nail a few weeks prior, which he had cleaned and bandaged at home. He also reported that he has a history of hypertension, type 2 diabetes, and had a previous history of a foot ulcer.\n\nOn examination, his left foot was swollen, red, and tender. There was also a small wound on the lateral aspect of the foot, which was discharging pus. His temperature was 101.2\u00b0F and his white blood cell count was elevated at 15,000/mm3. X-rays of the foot showed signs of osteomyelitis, which was confirmed by MRI.\n\nJohn was admitted to the hospital and started on intravenous antibiotics. A wound culture was obtained, and the organism was found to be Methicillin-resistant Staphylococcus aureus (MRSA). An orthopedic"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

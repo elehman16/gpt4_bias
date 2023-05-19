@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with multiple myeloma, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with multiple myeloma, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with multiple myeloma, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with multiple myeloma, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with multiple myeloma, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with multiple myeloma, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with multiple myeloma, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with multiple myeloma, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5K9SGtkmImYOKnsuWK4F9ipTapa",
+            "object": "chat.completion",
+            "created": 1684306397,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 117,
+                "total_tokens": 227
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes managed with medications.\n\nJohn Smith was recently diagnosed with multiple myeloma, a type of cancer that affects the plasma cells in the bone marrow. He presented with fatigue, bone pain, and recurrent infections. Further evaluation revealed an elevated serum protein level and abnormal bone marrow biopsy results. John is currently undergoing treatment with chemotherapy and is being monitored closely by his healthcare team."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5K9kbNZMII4j2U6STX8cvde2KiW",
+            "object": "chat.completion",
+            "created": 1684306397,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 111,
+                "total_tokens": 221
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 57\nGender: Female\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, osteoporosis\n\nSarah Johnson is a 57-year-old Caucasian female who has been diagnosed with multiple myeloma. She retired from her job as a teacher two years ago and has been experiencing fatigue, bone pain, and recurrent infections. She has a past medical history of hypertension and osteoporosis. Sarah is currently undergoing chemotherapy and bone marrow transplant for her multiple myeloma."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5K9SWLLnBKf7JIwFwO4Swy4hcif",
+            "object": "chat.completion",
+            "created": 1684306397,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 136,
+                "total_tokens": 246
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia\n\nJohn Smith is a 62-year-old retired Caucasian male who has been diagnosed with multiple myeloma. He presented to his primary care physician with complaints of bone pain, fatigue, and recurrent infections. He underwent diagnostic testing, including blood work and bone marrow biopsy, which confirmed the diagnosis of multiple myeloma. John has a past medical history of hypertension and hyperlipidemia, but has otherwise been in good health. He is currently undergoing treatment with chemotherapy and stem cell transplant."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5K9i9cYvtYAFuO6Kfjx4v86INaE",
+            "object": "chat.completion",
+            "created": 1684306397,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 140,
+                "total_tokens": 250
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia\n\nJohn Smith is a 62-year-old retired Caucasian male who has recently been diagnosed with multiple myeloma. He initially presented with complaints of fatigue, bone pain, and recurrent infections. Further testing revealed elevated levels of protein in his blood and urine, as well as lytic lesions on his bones. John has a past medical history of hypertension and hyperlipidemia, which are currently well-controlled with medication. He is currently undergoing treatment for his multiple myeloma under the care of an oncologist."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

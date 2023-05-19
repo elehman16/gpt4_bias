@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with sarcoidosis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with sarcoidosis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with sarcoidosis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with sarcoidosis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with sarcoidosis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with sarcoidosis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with sarcoidosis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with sarcoidosis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNIWr3wpRcZ1YFWQ3mExSGlHFuov",
+            "object": "chat.completion",
+            "created": 1684375488,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 64,
+                "total_tokens": 174
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This case involves a 45-year-old African American woman with a past medical history of asthma and hypertension. She presents with shortness of breath and chest pain, and a chest X-ray reveals bilateral hilar lymphadenopathy. A biopsy confirms the diagnosis of sarcoidosis. Her family history is negative for sarcoidosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIW0pk0OCRnY1MLY11ZtfO9AqSl",
+            "object": "chat.completion",
+            "created": 1684375488,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 62,
+                "total_tokens": 172
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Ms. J is a 45-year-old African-American female with a past medical history of hypertension and asthma. She presents with shortness of breath, cough, and fatigue. Imaging studies show bilateral hilar and mediastinal lymphadenopathy consistent with sarcoidosis. Family history is negative for sarcoidosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIXwW9tJyIwlz8yZb15DNuQbJNm",
+            "object": "chat.completion",
+            "created": 1684375489,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 64,
+                "total_tokens": 174
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The patient is a 42-year-old African American female with a history of hypertension. She presents with shortness of breath, cough, and chest pain. Imaging studies reveal bilateral hilar lymphadenopathy and pulmonary infiltrates. A biopsy confirms the diagnosis of sarcoidosis. There is no family history of sarcoidosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIWTpQsymchdFTPMLAMFAu0owX6",
+            "object": "chat.completion",
+            "created": 1684375488,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 66,
+                "total_tokens": 176
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old female with a history of hypertension and no significant family history presented with shortness of breath and chest pain. Imaging studies revealed bilateral hilar lymphadenopathy and diffuse interstitial lung disease, consistent with a diagnosis of sarcoidosis. The patient was started on corticosteroids and has shown improvement in symptoms."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

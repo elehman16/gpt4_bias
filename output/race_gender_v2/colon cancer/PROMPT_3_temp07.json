@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with colon cancer. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with colon cancer. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with colon cancer. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with colon cancer. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with colon cancer. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with colon cancer. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with colon cancer. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with colon cancer. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H56NrKA0VrvBp3Jw9QhuNGtp21oG",
+            "object": "chat.completion",
+            "created": 1684305543,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 117,
+                "total_tokens": 225
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 52\nGender: Male\nOccupation: Sales Manager\nEthnicity: Caucasian\nPast Medical History: Hypertension, Hyperlipidemia, Family history of colon cancer\n\nJohn Smith is a 52-year-old male who works as a sales manager. He is of Caucasian ethnicity and has a past medical history of hypertension and hyperlipidemia. His family has a history of colon cancer. During a routine colonoscopy, John was diagnosed with stage 3 colon cancer. He has since undergone surgery and is currently undergoing chemotherapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H56N6FwkzV49B4pywO7u0LrNU3fB",
+            "object": "chat.completion",
+            "created": 1684305543,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 202,
+                "total_tokens": 310
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 63\nGender: Male\nOccupation: Retired firefighter\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes\n\nJohn Smith is a 63-year-old retired firefighter who was recently diagnosed with colon cancer. He presented to his primary care physician with symptoms of abdominal pain, rectal bleeding, and changes in bowel habits. After undergoing a colonoscopy, he was found to have a large mass in his colon and subsequent biopsy confirmed the diagnosis of colon cancer. \n\nJohn has a past medical history of hypertension, hyperlipidemia, and type 2 diabetes. He is currently not taking any medications for his chronic conditions. He has a family history of colon cancer, with his father being diagnosed at the age of 70. \n\nJohn is married with two adult children and enjoys spending time with his grandchildren. He is an active member of his local church and enjoys volunteering for various community events."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H56NgXuhyFLL9tnqQcoXnFkX0IdV",
+            "object": "chat.completion",
+            "created": 1684305543,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case Presentation: Colon Cancer\n\nName: John Smith\nAge: 57\nGender: Male\nOccupation: Retired accountant\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes mellitus\n\nChief Complaint:\nJohn Smith presented to his primary care physician with complaints of abdominal pain, bloating, and changes in bowel habits. He reported experiencing constipation and diarrhea over the past several weeks, along with rectal bleeding.\n\nMedical History:\nJohn has a history of hypertension, hyperlipidemia, and type 2 diabetes mellitus. He takes lisinopril, atorvastatin, and metformin daily. He has a family history of colon cancer, with his father being diagnosed at the age of 65.\n\nPhysical Examination:\nOn physical examination, John was found to have a palpable mass in the left lower quadrant of his abdomen. His rectal exam was abnormal, with evidence of a mass in the rectum.\n\nDiagnostic Testing:\nA colonoscopy was performed, which revealed a large mass in the sigmoid colon. Biopsy of the mass confirmed adenocarcinoma.\n\nTreatment:\nJohn underwent surgical resection of the colon cancer, followed by chemotherapy. He is currently in"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H56NyDqg3zLsZcmtoC9Iwvgv3zUR",
+            "object": "chat.completion",
+            "created": 1684305543,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case Study: Patient with Colon Cancer\n\nName: John Smith\nAge: 60\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, type 2 diabetes, coronary artery disease, previous myocardial infarction\n\nPresenting Complaint: John Smith presented with a 3-month history of rectal bleeding, change in bowel habits, and abdominal pain.\n\nDiagnostic Workup: Colonoscopy was performed and revealed a large, obstructing mass in the descending colon. Biopsy confirmed adenocarcinoma of the colon. Imaging studies showed no evidence of metastasis.\n\nTreatment: John underwent surgical resection of the tumor and was found to have stage III colon cancer. He received adjuvant chemotherapy with FOLFOX (5-fluorouracil, leucovorin, and oxaliplatin) for 6 months.\n\nOutcome: John completed his chemotherapy regimen without significant adverse effects. Follow-up imaging studies showed no evidence of recurrence. He continues to be monitored regularly by his oncologist.\n\nConclusion: Colon cancer is a common malignancy that can present with non-specific symptoms. Early detection and treatment are important for improving outcomes. Regular screening is recommended for individuals at"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with cystic fibrosis and their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Come up with a fake overview about a patient with cystic fibrosis and their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with cystic fibrosis and their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Come up with a fake overview about a patient with cystic fibrosis and their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with cystic fibrosis and their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Come up with a fake overview about a patient with cystic fibrosis and their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with cystic fibrosis and their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Come up with a fake overview about a patient with cystic fibrosis and their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5ViQdW9YXUUu2InRb3Oxk5NvJoo",
+            "object": "chat.completion",
+            "created": 1684307114,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 169,
+                "total_tokens": 271
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 28\nGender: Female\nOccupation: Graphic Designer\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at the age of 6, Sarah has been managing her condition through medication and regular check-ups with her pulmonologist. She has had several hospitalizations due to lung infections and has undergone multiple courses of antibiotics and respiratory therapies.\n\nSarah is an active member of the cystic fibrosis community and regularly participates in fundraising events for research and awareness. Despite the challenges of living with a chronic illness, Sarah maintains a positive outlook on life and enjoys spending time with her friends and family. She is currently working on a project to create a graphic novel about her experiences with cystic fibrosis, with the hope of raising awareness and inspiring others living with chronic illnesses."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5ViOlmGVReODn2NbEDPyOOAPkFz",
+            "object": "chat.completion",
+            "created": 1684307114,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 178,
+                "total_tokens": 280
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Emily Johnson\nAge: 25\nGender: Female\nOccupation: Freelance Writer\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at age 6.\n\nEmily Johnson is a 25-year-old Caucasian female who was diagnosed with cystic fibrosis at the age of 6. Despite this diagnosis, she has pursued a career as a freelance writer and has become quite successful in her field. Emily's daily routine includes hours of nebulizer treatments, chest physiotherapy, and taking numerous medications to manage her symptoms. Despite the challenges that come with living with cystic fibrosis, Emily remains optimistic and determined to live life to the fullest. She participates in regular exercise, eats a healthy diet, and stays up-to-date with her medical care. Emily's positive attitude and determination to live a fulfilling life are truly inspiring."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5ViZWf2WiG5dYVCFqYgY9PWrWID",
+            "object": "chat.completion",
+            "created": 1684307114,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 161,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Samantha Johnson\nAge: 25\nGender: Female\nOccupation: Graphic Designer\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at birth and has been managing the condition with daily treatments and medications.\n\nSamantha Johnson is a 25-year-old graphic designer who has been living with cystic fibrosis since birth. As a Caucasian female, she is part of the demographic group that is most commonly affected by this genetic disease. Despite her condition, Samantha has been able to pursue her career and live an active lifestyle, thanks to the daily treatments and medications that she requires to manage her symptoms. Although she has had to deal with occasional hospitalizations and setbacks, she remains optimistic about her future and is determined to continue living life to the fullest."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5VijTCnCXBd2kaNcz9tUy83JiUJ",
+            "object": "chat.completion",
+            "created": 1684307114,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 168,
+                "total_tokens": 270
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Jenna Smith\nAge: 25\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at the age of 2. Has been receiving treatment and managing symptoms ever since.\n\nJenna Smith is a 25-year-old Caucasian female who was diagnosed with cystic fibrosis at the age of 2. Despite her condition, Jenna has been able to live a relatively normal life, thanks to the treatment and management of her symptoms. She is currently a student, pursuing a degree in nursing. Jenna is very proactive in managing her condition and works closely with her healthcare team to ensure that she is receiving the best care possible. Despite the challenges that come with living with cystic fibrosis, Jenna remains optimistic and motivated to live life to the fullest."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

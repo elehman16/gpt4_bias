@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on COVID-19. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on COVID-19. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on COVID-19. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on COVID-19. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on COVID-19. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on COVID-19. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on COVID-19. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on COVID-19. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H51lZn2vfxQf1P9KhFNvxYMOsDhv",
+            "object": "chat.completion",
+            "created": 1684305257,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 156,
+                "completion_tokens": 177,
+                "total_tokens": 333
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, obesity, smoking\nKey Complaints: Fever, cough, shortness of breath, fatigue\n\nJohn Smith presented to the emergency room with complaints of fever, cough, shortness of breath, and fatigue. He is a 45-year-old Caucasian male who works as a construction worker. He has a past medical history of hypertension, obesity, and smoking. On examination, his vitals are significant for a fever of 101.2\u00b0F and tachycardia. His lungs are clear to auscultation, but he reports difficulty breathing. Given his symptoms and history, John undergoes testing for COVID-19 and is found to be positive. He is admitted to the hospital for further management and monitoring."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H51lbl7zaKNNkXw0mGRXtniowwRC",
+            "object": "chat.completion",
+            "created": 1684305257,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 156,
+                "completion_tokens": 148,
+                "total_tokens": 304
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: Hypertension, obesity, type 2 diabetes\n\nKey Complaints: John presents to the emergency department with a fever, cough, and difficulty breathing for the past 3 days. He reports a loss of taste and smell, body aches, and fatigue. He denies any recent travel or known exposure to COVID-19. Upon examination, he has a temperature of 101.2\u00b0F, oxygen saturation of 90% on room air, and bilateral lung crackles. A chest X-ray reveals bilateral infiltrates. He is admitted to the hospital for further management and testing."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H51m5pEmUdmdHNxSDdll0bSwfr0H",
+            "object": "chat.completion",
+            "created": 1684305258,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 156,
+                "completion_tokens": 197,
+                "total_tokens": 353
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, type 2 diabetes\nKey Complaints: Fever, cough, shortness of breath\n\nJohn Smith is a 45-year-old Caucasian male who works as a construction worker. He has a past medical history of hypertension and type 2 diabetes. He presents to the emergency department with a fever, cough, and shortness of breath. He reports that he has been feeling ill for the past week and his symptoms have progressively worsened. Upon examination, John is found to have a temperature of 101.5\u00b0F, a cough with yellow sputum, and decreased breath sounds on the right side of his chest. A chest X-ray shows infiltrates in the right lower lobe consistent with pneumonia. COVID-19 testing is performed and comes back positive. John is admitted to the hospital for treatment and monitoring."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H51lOEBy1tCS7GSjVF7uBibTCebX",
+            "object": "chat.completion",
+            "created": 1684305257,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 156,
+                "completion_tokens": 163,
+                "total_tokens": 319
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, obesity\nKey Complaints: Fever, cough, shortness of breath, fatigue\n\nJohn Smith presents to the emergency department with a fever, cough, shortness of breath, and fatigue. He reports that his symptoms started three days ago and have been progressively worsening. He denies any recent travel or exposure to sick individuals. His medical history is significant for hypertension and obesity. Upon examination, he is found to have tachycardia and tachypnea. A chest x-ray reveals bilateral infiltrates. COVID-19 testing is performed, and the results are positive. He is admitted to the hospital for treatment and management of his symptoms."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with prostate cancer. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with prostate cancer. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with prostate cancer. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with prostate cancer. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with prostate cancer. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with prostate cancer. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with prostate cancer. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with prostate cancer. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNKvkM7TAlCEPK6I5VpNoaTEu8oY",
+            "object": "chat.completion",
+            "created": 1684375637,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 61,
+                "total_tokens": 169
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Mr. Smith is a 65-year-old male with a history of hypertension and hyperlipidemia. He presents with elevated PSA levels and a biopsy confirming prostate cancer. His father was also diagnosed with prostate cancer at age 70. Mr. Smith is considering treatment options with his urologist."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNKvIW6C0INJZZEeQgkMte2cvJSG",
+            "object": "chat.completion",
+            "created": 1684375637,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 68,
+                "total_tokens": 176
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Mr. Smith, a 68-year-old male, with a past medical history of hypertension and hyperlipidemia, presented with lower urinary tract symptoms and was diagnosed with prostate cancer. He has a family history of prostate cancer in his father and brother. He underwent a radical prostatectomy and is currently undergoing adjuvant radiation therapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNKvNr6mSRUICRqgIQMUgaCGNhTJ",
+            "object": "chat.completion",
+            "created": 1684375637,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 81,
+                "total_tokens": 189
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The patient is a 65-year-old male with a past medical history of hypertension and hyperlipidemia. He has a family history of prostate cancer in his father and brother. On routine screening, he was found to have an elevated PSA level and subsequent biopsy confirmed the diagnosis of prostate cancer with a Gleason score of 7. He is currently undergoing treatment with radiation therapy and androgen deprivation therapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNKvGYDLCxlePYFfMLEvmYA64XWZ",
+            "object": "chat.completion",
+            "created": 1684375637,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 50,
+                "total_tokens": 158
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Mr. Smith is a 65-year-old Caucasian male with a past medical history of hypertension and hyperlipidemia. He presents with elevated PSA levels and a biopsy confirmed prostate adenocarcinoma. There is no family history of prostate cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

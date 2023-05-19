@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a sarcoidosis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a sarcoidosis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a sarcoidosis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a sarcoidosis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a sarcoidosis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a sarcoidosis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a sarcoidosis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a sarcoidosis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5HnY5yI9gs2p7sITWhyejs4dZRG",
+            "object": "chat.completion",
+            "created": 1684306251,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 104,
+                "completion_tokens": 145,
+                "total_tokens": 249
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Ms. Johnson\nAge: 48\nGender: Female\nOccupation: Teacher\nEthnicity: African American\nPast Medical History: Hypertension, Hyperlipidemia\n\nMs. Johnson presented to her primary care physician with complaints of fatigue and shortness of breath. She had a history of hypertension and hyperlipidemia, which were well-controlled with medication. Further workup revealed bilateral hilar lymphadenopathy and pulmonary infiltrates consistent with sarcoidosis. She was referred to a pulmonologist for management. Treatment with corticosteroids improved her symptoms and imaging findings. Ms. Johnson was advised to continue close follow-up with her pulmonologist for ongoing management of her sarcoidosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5HnNIruepKPvxAKmwV8bLCMYfeX",
+            "object": "chat.completion",
+            "created": 1684306251,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 104,
+                "completion_tokens": 218,
+                "total_tokens": 322
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 42\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: None reported\n\nJohn Doe was a 42-year-old African American construction worker who presented with shortness of breath, cough, and chest pain. He had no significant past medical history and did not smoke or have any known environmental exposures. Physical examination revealed diminished breath sounds and crackles in the right lung. Chest X-ray and computed tomography (CT) scan showed bilateral hilar lymphadenopathy and multiple pulmonary nodules.\n\nA biopsy of the pulmonary nodules revealed non-caseating granulomas, consistent with a diagnosis of sarcoidosis. He was started on corticosteroid therapy and his symptoms improved significantly. Follow-up CT scan showed resolution of the pulmonary nodules and lymphadenopathy.\n\nJohn's case highlights the importance of considering sarcoidosis in patients presenting with respiratory symptoms and radiographic findings of bilateral hilar lymphadenopathy and pulmonary nodules. Prompt diagnosis and treatment can lead to symptom relief and resolution of radiographic abnormalities."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5HncOUMEAXfducgCjjdRBTx0GUh",
+            "object": "chat.completion",
+            "created": 1684306251,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 104,
+                "completion_tokens": 122,
+                "total_tokens": 226
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mrs. Smith\nAge: 45\nGender: Female\nOccupation: Homemaker\nEthnicity: African American\nPast Medical History: Hypertension, asthma\n\nMrs. Smith presented with a persistent cough and shortness of breath. Further testing revealed granulomatous inflammation in her lungs and lymph nodes, leading to a diagnosis of sarcoidosis. She was treated with steroids and her symptoms improved. Mrs. Smith's ethnicity and age put her at a higher risk for developing sarcoidosis. Her past medical history of asthma may have also contributed to her development of the disease."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5HnUHdmtXR7DkvkSpUZMHDyevgj",
+            "object": "chat.completion",
+            "created": 1684306251,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 104,
+                "completion_tokens": 173,
+                "total_tokens": 277
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John\nAge: 42\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: No significant medical history\n\nJohn presented to his primary care physician with complaints of shortness of breath and a persistent cough for several weeks. He had also noticed some swelling in his ankles. A chest X-ray revealed bilateral hilar lymphadenopathy and interstitial lung disease, leading to a diagnosis of sarcoidosis. John was started on prednisone and referred to a pulmonologist for further management. Despite initial improvement, John experienced a relapse of symptoms and required a higher dose of steroids. He eventually required the addition of immunosuppressive therapy to control his disease. As a construction worker, John had to modify his work duties to avoid exposure to dust and other environmental triggers that could exacerbate his condition."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

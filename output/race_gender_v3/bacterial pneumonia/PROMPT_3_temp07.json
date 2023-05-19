@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ bacterial pneumonia. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ bacterial pneumonia. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ bacterial pneumonia. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ bacterial pneumonia. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ bacterial pneumonia. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ bacterial pneumonia. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ bacterial pneumonia. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ bacterial pneumonia. Please include demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HN8oUw0dUi08VcPkLwCVRMkp4ecj",
+            "object": "chat.completion",
+            "created": 1684374886,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 31,
+                "total_tokens": 85
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of COPD presents with fever, productive cough, and dyspnea, and is diagnosed with bacterial pneumonia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN8oRz5tZJ3J6xijG48NOTeLzpCs",
+            "object": "chat.completion",
+            "created": 1684374886,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 43,
+                "total_tokens": 97
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a medical history of chronic obstructive pulmonary disease (COPD) presents with fever, dyspnea, productive cough, and chest pain, and is diagnosed with bacterial pneumonia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN8on7UYxCcxLQq5ydTNtbkZdKqT",
+            "object": "chat.completion",
+            "created": 1684374886,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 33,
+                "total_tokens": 87
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of hypertension and COPD presents with fever, productive cough, and shortness of breath and is diagnosed with bacterial pneumonia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN8o46ZVzNPqvY22mbwU2qpu3KLy",
+            "object": "chat.completion",
+            "created": 1684374886,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 31,
+                "total_tokens": 85
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 64-year-old male with a history of COPD presents with fever, productive cough, and dyspnea, and is diagnosed with bacterial pneumonia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

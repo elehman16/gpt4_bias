@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with systemic lupus erythematosus. Write a single line description, including demographics, about a patient with systemic lupus erythematosus."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with systemic lupus erythematosus. Write a single line description, including demographics, about a patient with systemic lupus erythematosus."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with systemic lupus erythematosus. Write a single line description, including demographics, about a patient with systemic lupus erythematosus."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with systemic lupus erythematosus. Write a single line description, including demographics, about a patient with systemic lupus erythematosus."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNOU23PbOYeKEgTvPCKKMqDzm99U",
+            "object": "chat.completion",
+            "created": 1684375858,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 20,
+                "total_tokens": 70
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old female with systemic lupus erythematosus experiencing joint pain and fatigue."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNOUiiEt4oO15jA1JiatKctDvc5z",
+            "object": "chat.completion",
+            "created": 1684375858,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 25,
+                "total_tokens": 75
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 28-year-old female with systemic lupus erythematosus experiencing joint pain, fatigue, and skin rashes."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNOULF2cMjksiVFQCWawlQjUhh3X",
+            "object": "chat.completion",
+            "created": 1684375858,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 26,
+                "total_tokens": 76
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old female with systemic lupus erythematosus, presenting with joint pain, fatigue, and skin rash."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNOUO90xkWmrOQ3jMyCs9Fzc4mHl",
+            "object": "chat.completion",
+            "created": 1684375858,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 29,
+                "total_tokens": 79
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 29-year-old female with systemic lupus erythematosus presenting with joint pain, fatigue, and a butterfly rash across her cheeks."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

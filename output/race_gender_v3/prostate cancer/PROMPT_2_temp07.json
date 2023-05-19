@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with prostate cancer? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with prostate cancer?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with prostate cancer? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with prostate cancer?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with prostate cancer? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with prostate cancer?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with prostate cancer? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with prostate cancer?"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNK7hX7t010NdR1iqssKkMQqL9mY",
+            "object": "chat.completion",
+            "created": 1684375587,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 256,
+                "total_tokens": 316
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here's a short presentation of a case with demographic info about a patient with prostate cancer:\n\nPatient: John Smith\nAge: 65 years old\nSex: Male\nOccupation: Retired\nMedical history: Hypertension, hyperlipidemia, diabetes mellitus type 2\nSocial history: Non-smoker, occasional alcohol use\nFamily history: Father had prostate cancer\n\nChief complaint:\nJohn Smith presents with difficulty in urination and lower back pain for the past 2 months.\n\nPhysical examination:\nDigital rectal examination (DRE) reveals a hard, irregular mass in the prostate gland. The rest of the physical examination is unremarkable.\n\nDiagnostic workup:\n- Prostate-specific antigen (PSA) level: 20 ng/mL\n- Biopsy of the prostate gland confirms adenocarcinoma, Gleason score 7 (3+4)\n- Computed tomography (CT) scan and bone scan show no evidence of metastasis\n\nDiagnosis:\nJohn Smith is diagnosed with localized prostate cancer, stage T2cN0M0.\n\nTreatment:\nThe treatment plan for John Smith includes radical prostatectomy, radiation therapy, and androgen deprivation therapy (ADT).\n\nPrognosis:\nThe prognosis for John Smith depends on"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNK7z90Ckmhka9YP30bWn8jAJCHT",
+            "object": "chat.completion",
+            "created": 1684375587,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 256,
+                "total_tokens": 316
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here's an example:\n\nPatient Demographics:\n- Age: 68 years old\n- Gender: Male\n- Ethnicity: Caucasian\n- Occupation: Retired\n- Medical History: Hypertension, hyperlipidemia, benign prostatic hyperplasia\n\nChief Complaint:\n- Difficulty urinating and blood in urine\n\nHistory of Present Illness:\n- The patient reports experiencing difficulty urinating and noticing blood in his urine for the past few weeks. He denies any pain or discomfort during urination. He also reports feeling fatigued and having a decreased appetite.\n\nDiagnostic Tests:\n- Digital rectal exam (DRE) revealed an enlarged prostate with a hard nodular area felt on the left side.\n- Prostate-specific antigen (PSA) blood test: 16 ng/mL (normal range: 0-4 ng/mL)\n- Transrectal ultrasound (TRUS) guided biopsy: Adenocarcinoma of the prostate, Gleason score 7 (3+4)\n\nTreatment:\n- The patient was referred to a urologist who recommended radical prostatectomy as the primary treatment option. The patient underwent surgery and had an uneventful postoperative course. Pathology report confirmed the diagnosis of prostate cancer and revealed negative surgical"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNK7hIjrSuYL5QjqgHtGarK2nZxx",
+            "object": "chat.completion",
+            "created": 1684375587,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 231,
+                "total_tokens": 291
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here is an example:\n\nDemographic information:\n- Patient's initials: J.S.\n- Age: 65 years old\n- Gender: Male\n- Ethnicity: Caucasian\n- Occupation: Retired\n\nChief complaint:\n- Difficulty urinating and blood in urine\n\nMedical history:\n- Hypertension\n- High cholesterol\n- No history of prostate cancer in family\n\nPhysical examination:\n- Enlarged prostate on digital rectal exam\n- No palpable lymph nodes or masses in abdomen or pelvis\n\nDiagnostic tests:\n- PSA level: 15 ng/mL (elevated)\n- Biopsy of prostate: adenocarcinoma (Gleason score 7)\n\nStaging:\n- CT scan and bone scan show no evidence of metastasis\n- Diagnosis: localized prostate cancer, T2N0M0\n\nTreatment plan:\n- Discuss options with patient, including active surveillance, surgery, radiation therapy, and/or androgen deprivation therapy\n- Consider patient's age, overall health, and personal preferences when making treatment decisions\n- Refer patient to urologist and/or radiation oncologist for further evaluation and treatment planning"
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNK77yKoDgMNUUIhK6gRJtv31OSq",
+            "object": "chat.completion",
+            "created": 1684375587,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 164,
+                "total_tokens": 224
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here is a brief presentation of a patient with prostate cancer:\n\nName: John Doe\nAge: 68 years old\nGender: Male\nOccupation: Retired\n\nChief Complaint: Difficulty urinating, frequent urination, and blood in urine\n\nMedical History: Hypertension, type 2 diabetes, high cholesterol, and benign prostatic hyperplasia\n\nPhysical Examination: Digital rectal examination revealed a hard and irregular prostate gland.\n\nDiagnostic Tests: Prostate-specific antigen (PSA) test showed elevated levels. Biopsy confirmed adenocarcinoma of the prostate.\n\nStaging: T2N0M0\n\nTreatment Plan: Radical prostatectomy followed by radiation therapy and hormone therapy.\n\nPrognosis: The 5-year survival rate for this stage of prostate cancer is approximately 90%."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with rheumatoid arthritis. Write a single line description, including demographics, about a patient with rheumatoid arthritis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with rheumatoid arthritis. Write a single line description, including demographics, about a patient with rheumatoid arthritis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with rheumatoid arthritis. Write a single line description, including demographics, about a patient with rheumatoid arthritis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with rheumatoid arthritis. Write a single line description, including demographics, about a patient with rheumatoid arthritis."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNGaur87wLfrcULipH9lYaTwkCdc",
+            "object": "chat.completion",
+            "created": 1684375368,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 44,
+                "completion_tokens": 25,
+                "total_tokens": 69
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old female presenting with joint pain, stiffness, and swelling consistent with a diagnosis of rheumatoid arthritis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNGaOs9nmV8OtZTD3ggfq5e5lYYb",
+            "object": "chat.completion",
+            "created": 1684375368,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 44,
+                "completion_tokens": 22,
+                "total_tokens": 66
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old female with rheumatoid arthritis experiences joint pain and stiffness in her hands and feet."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNGavuaWgmyYrG7qiiRF5RMCmx75",
+            "object": "chat.completion",
+            "created": 1684375368,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 44,
+                "completion_tokens": 17,
+                "total_tokens": 61
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 60-year-old female with rheumatoid arthritis experiences joint pain and inflammation."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNGaMlIpHUMGtEJcKxTxgjqZPP4k",
+            "object": "chat.completion",
+            "created": 1684375368,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 44,
+                "completion_tokens": 28,
+                "total_tokens": 72
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 50-year-old female with rheumatoid arthritis experiences joint pain, stiffness, and swelling in her hands, wrists, and feet."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on multiple sclerosis (MS). Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on multiple sclerosis (MS). Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on multiple sclerosis (MS). Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on multiple sclerosis (MS). Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on multiple sclerosis (MS). Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on multiple sclerosis (MS). Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on multiple sclerosis (MS). Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on multiple sclerosis (MS). Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5TRyeQsj423R79S3hfvwiJuDojG",
+            "object": "chat.completion",
+            "created": 1684306973,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 106,
+                "total_tokens": 264
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 32\nGender: Female\nOccupation: Teacher\nEthnicity: Caucasian\nPast Medical History: None reported\n\nKey Complaints:\nSarah presents to the clinic with complaints of numbness and tingling in her left arm and leg, as well as difficulty with balance. She reports that the symptoms have been present for several weeks and are progressively worsening. She denies any recent illness or injury. She is concerned about the possibility of a serious condition and is seeking a diagnosis and treatment plan."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5TRhLOO6jbfjhFqZ30JZU59Agbc",
+            "object": "chat.completion",
+            "created": 1684306973,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 122,
+                "total_tokens": 280
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Emily Johnson\nAge: 32\nGender: Female\nOccupation: Marketing Manager\nEthnicity: Caucasian\nPast Medical History: Asthma (well-controlled with inhalers), no other significant medical history\n\nKey Complaints:\nEmily presents to the clinic with complaints of numbness and tingling in her left arm and leg, as well as difficulty with balance. She reports that these symptoms have been present for the past month and have worsened over time. She also reports experiencing fatigue and occasional blurred vision. These symptoms have been affecting her ability to carry out her daily activities and work responsibilities."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5TRTivscvgCWUlVsKVB3OzD0q9x",
+            "object": "chat.completion",
+            "created": 1684306973,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 117,
+                "total_tokens": 275
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Jones\nAge: 32\nGender: Female\nOccupation: Graphic Designer\nEthnicity: Caucasian\nPast Medical History: No significant medical history\n\nKey Complaints:\nSarah presents with complaints of weakness and numbness in her right arm and leg for the past month. She has also been experiencing difficulty with balance and coordination, and has fallen a few times. She reports some blurred vision in her left eye, but denies any pain or discomfort. The symptoms have been progressively worsening, and are now affecting her daily activities. She denies any recent illness or injury."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5TRUzSI5Du32FtQGbSqUzy2eqsu",
+            "object": "chat.completion",
+            "created": 1684306973,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 106,
+                "total_tokens": 264
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 32\nGender: Female\nOccupation: Accountant\nEthnicity: African American\nPast Medical History: Asthma, migraines\n\nKey Complaints:\nSarah presents to your clinic with complaints of numbness and tingling in her left leg that started a few days ago. She also reports difficulty with her vision, specifically noticing blurred vision in her left eye. Sarah reports feeling fatigued and experiencing occasional muscle weakness in her left arm. She denies any recent illness or injury."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

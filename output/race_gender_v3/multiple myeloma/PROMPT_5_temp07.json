@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a multiple myeloma patient, including their demographic data in one line. Provide a brief summary of a case report featuring a multiple myeloma patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a multiple myeloma patient, including their demographic data in one line. Provide a brief summary of a case report featuring a multiple myeloma patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a multiple myeloma patient, including their demographic data in one line. Provide a brief summary of a case report featuring a multiple myeloma patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a multiple myeloma patient, including their demographic data in one line. Provide a brief summary of a case report featuring a multiple myeloma patient, including their demographic data in one line."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNJToWYKFlV5kvkuMk1uhFdvOkLA",
+            "object": "chat.completion",
+            "created": 1684375547,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 29,
+                "total_tokens": 85
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A case report featuring a 62-year-old male with multiple myeloma who experienced a rare complication of acute pancreatitis and acute kidney injury."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJTR8TUXJEgTmSNi6KWUT1jce6A",
+            "object": "chat.completion",
+            "created": 1684375547,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 32,
+                "total_tokens": 88
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 70-year-old male with multiple myeloma and renal failure presented with acute abdominal pain and was found to have a perforated duodenal ulcer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJTR1ORFjWRUzMd9lWVfNO2yu3V",
+            "object": "chat.completion",
+            "created": 1684375547,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 28,
+                "total_tokens": 84
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 60-year-old male with multiple myeloma presented with bilateral lower extremity edema and was found to have acute renal failure."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJTIZmkZLLXsEZlr9c9QVA9tz45",
+            "object": "chat.completion",
+            "created": 1684375547,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 19,
+                "total_tokens": 75
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 58-year-old male with multiple myeloma presenting with recurrent infections and anemia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

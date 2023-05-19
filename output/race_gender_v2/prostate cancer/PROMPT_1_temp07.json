@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with prostate cancer, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with prostate cancer, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with prostate cancer, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with prostate cancer, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with prostate cancer, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with prostate cancer, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with prostate cancer, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with prostate cancer, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5NQLBzSq64PwRgoeJco65UrbsWR",
+            "object": "chat.completion",
+            "created": 1684306600,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 120,
+                "total_tokens": 226
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, benign prostatic hyperplasia (BPH)\n\nJohn Smith is a 65-year-old retired Caucasian male who was recently diagnosed with prostate cancer. He has a history of hypertension, hyperlipidemia, and BPH. He is currently undergoing further testing to determine the stage and aggressiveness of his cancer. He is married and has two adult children. He enjoys golf and spending time with his family."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5NQts5Kmb0ydCGUsNbPrucJOKxA",
+            "object": "chat.completion",
+            "created": 1684306600,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 125,
+                "total_tokens": 231
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, high cholesterol, family history of prostate cancer\n\nJohn Smith was recently diagnosed with prostate cancer after routine screening tests showed elevated levels of prostate-specific antigen (PSA). He is a 65-year-old retired Caucasian male with a history of hypertension and high cholesterol. His father and grandfather both had prostate cancer, which puts him at higher risk for developing the disease. John is currently undergoing further testing to determine the extent of the cancer and to plan for treatment options."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5NQcjUH3LZoZeNZXMf7lgWdrweW",
+            "object": "chat.completion",
+            "created": 1684306600,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 124,
+                "total_tokens": 230
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, high cholesterol, family history of prostate cancer\n\nJohn Smith is a 62-year-old retired Caucasian male with a past medical history of hypertension and high cholesterol. He has a family history of prostate cancer, with his father being diagnosed at age 70. During a routine check-up, John's doctor noted an elevated PSA level and recommended a prostate biopsy, which ultimately confirmed a diagnosis of prostate cancer. John is currently considering treatment options with his healthcare team."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5NQGVzvawnYRZPW1Fw91Sfq1xCU",
+            "object": "chat.completion",
+            "created": 1684306600,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 132,
+                "total_tokens": 238
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, high cholesterol, benign prostatic hyperplasia (BPH)\n\nJohn Doe was recently diagnosed with prostate cancer after undergoing a prostate-specific antigen (PSA) test and subsequent biopsy. He had been experiencing urinary symptoms, including frequent urination and difficulty starting and stopping his stream, which led him to seek medical attention. John is retired and enjoys spending time with his family and traveling. He has a history of hypertension, high cholesterol, and BPH, which he has been managing with medication."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

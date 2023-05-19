@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on sarcoidosis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on sarcoidosis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on sarcoidosis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on sarcoidosis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on sarcoidosis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on sarcoidosis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on sarcoidosis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on sarcoidosis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5Jgcv2AxNdeawhVe7YA6MEjSOL3",
+            "object": "chat.completion",
+            "created": 1684306368,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 156,
+                "completion_tokens": 152,
+                "total_tokens": 308
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: Hypertension, otherwise healthy\n\nKey Complaints:\nJohn Smith presents to his primary care physician with complaints of persistent cough, shortness of breath, and fatigue for the past few weeks. He also reports occasional joint pain and swelling in his knees. On further questioning, he mentions unintentional weight loss of 10 pounds over the past month. He denies any chest pain, fever, or night sweats. Physical exam reveals crackles in the lungs and bilateral knee effusions. Chest X-ray shows bilateral hilar lymphadenopathy and interstitial infiltrates. Further testing confirms the diagnosis of sarcoidosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5JgmYpjx0UhdpIFDxm9cu9OsZtK",
+            "object": "chat.completion",
+            "created": 1684306368,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 156,
+                "completion_tokens": 123,
+                "total_tokens": 279
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 42\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: Hypertension, no other significant medical history\n\nKey Complaints: John presents with shortness of breath and a persistent dry cough that has been ongoing for several weeks. He also reports feeling fatigued and has noticed some swelling in his ankles. He denies any chest pain or fever. Upon further evaluation, John is found to have bilateral hilar lymphadenopathy on chest X-ray and elevated serum ACE levels. A biopsy confirms a diagnosis of sarcoidosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5JgqbgjEErmiOhKnENu1BhlXKRb",
+            "object": "chat.completion",
+            "created": 1684306368,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 156,
+                "completion_tokens": 155,
+                "total_tokens": 311
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 35\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: None reported\n\nKey Complaints: John presents to the clinic with complaints of shortness of breath and a persistent cough for the past month. He also reports feeling fatigued and having joint pain. He denies any fever, chest pain, or weight loss. On physical examination, there are bilateral wheezes and crackles heard on lung auscultation. A chest X-ray shows bilateral hilar lymphadenopathy and diffuse interstitial infiltrates. Further testing reveals elevated angiotensin-converting enzyme (ACE) levels and a positive biopsy for non-caseating granulomas, confirming a diagnosis of sarcoidosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5JggIT6PE6n8A3JKHPE1fwbEZuR",
+            "object": "chat.completion",
+            "created": 1684306368,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 156,
+                "completion_tokens": 50,
+                "total_tokens": 206
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: Hypertension, obesity\nKey Complaints: Shortness of breath, dry cough, fatigue"
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

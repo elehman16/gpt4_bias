@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with COVID-19. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with COVID-19. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with COVID-19. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with COVID-19. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with COVID-19. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with COVID-19. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with COVID-19. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with COVID-19. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H4ysxE19tlEUPSQVgD03n2mzjA7f",
+            "object": "chat.completion",
+            "created": 1684305078,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 117,
+                "completion_tokens": 114,
+                "total_tokens": 231
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John\nAge: 55\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, smoker\n\nJohn presented to the hospital with symptoms of fever, cough, and fatigue. He was diagnosed with COVID-19 and admitted for treatment. His oxygen levels were monitored closely and he was started on oxygen therapy. His condition gradually improved and he was discharged after 10 days of hospitalization. He was advised to self-isolate at home for 14 days and follow-up with his primary care physician."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4ysfHKAb2LDTmBU4cKX0URwEHye",
+            "object": "chat.completion",
+            "created": 1684305078,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 117,
+                "completion_tokens": 148,
+                "total_tokens": 265
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 52\nGender: Male\nOccupation: Construction Worker\nEthnicity: African American\nPast Medical History: Hypertension, Type 2 diabetes\n\nJohn Doe presented with fever, cough, and shortness of breath. He was diagnosed with COVID-19 based on a positive PCR test. He was admitted to the hospital and treated with oxygen therapy, antivirals, and steroids. Despite aggressive treatment, his condition worsened, and he was intubated and transferred to the intensive care unit. After several weeks, he was successfully extubated and transferred to a rehabilitation facility for further recovery. His past medical history of hypertension and diabetes put him at higher risk for severe disease."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4ysgth8YqpF7HfHz3cuC9uJVija",
+            "object": "chat.completion",
+            "created": 1684305078,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 117,
+                "completion_tokens": 124,
+                "total_tokens": 241
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Accountant\nEthnicity: Caucasian\nPast Medical History: Hypertension\n\nJohn Doe presented to the emergency department with a fever and cough. He was diagnosed with COVID-19 based on a positive PCR test. He had no history of recent travel or known exposure to someone with COVID-19. John had a past medical history of hypertension but was otherwise healthy. He was admitted to the hospital and treated with oxygen therapy and remdesivir. John's symptoms improved, and he was discharged after a week of hospitalization."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4ysgB7YlvHF9bkZZeCTo9i7IQ7l",
+            "object": "chat.completion",
+            "created": 1684305078,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 117,
+                "completion_tokens": 83,
+                "total_tokens": 200
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction Worker\nEthnicity: Hispanic\nPast Medical History: None reported\n\nJohn Doe presented to the emergency room with fever and cough for 3 days. He was diagnosed with COVID-19 based on a positive PCR test result. He had no significant past medical history and was treated with supportive care and discharged home to quarantine."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

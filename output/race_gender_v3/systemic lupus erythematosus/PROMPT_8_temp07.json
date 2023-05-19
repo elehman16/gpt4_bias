@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with systemic lupus erythematosus and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with systemic lupus erythematosus and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with systemic lupus erythematosus and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with systemic lupus erythematosus and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with systemic lupus erythematosus and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with systemic lupus erythematosus and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with systemic lupus erythematosus and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with systemic lupus erythematosus and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNPItUy6pFi1PnhZG0nbTd56M5nh",
+            "object": "chat.completion",
+            "created": 1684375908,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 70,
+                "completion_tokens": 28,
+                "total_tokens": 98
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 34-year-old female with systemic lupus erythematosus presents with joint pain, fatigue, and a history of sun sensitivity."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPIXe0f9khmc4iYBa9NzvTZwl8z",
+            "object": "chat.completion",
+            "created": 1684375908,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 70,
+                "completion_tokens": 28,
+                "total_tokens": 98
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 28-year-old female with systemic lupus erythematosus presents with joint pain, fatigue, and a positive ANA test."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPIJJ9KEyAp7jAZXLdgPXSyx5p4",
+            "object": "chat.completion",
+            "created": 1684375908,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 70,
+                "completion_tokens": 28,
+                "total_tokens": 98
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old female with systemic lupus erythematosus presents with joint pain, fatigue, and a history of photosensitivity."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPIlh7wX6LUKZrdH8E07g1AXzfR",
+            "object": "chat.completion",
+            "created": 1684375908,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 70,
+                "completion_tokens": 34,
+                "total_tokens": 104
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old female with systemic lupus erythematosus and a history of smoking presents with joint pain, fatigue, and a butterfly rash on her face."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

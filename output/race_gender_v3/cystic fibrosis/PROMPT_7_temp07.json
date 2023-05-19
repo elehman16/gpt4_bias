@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with cystic fibrosis. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with cystic fibrosis. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with cystic fibrosis. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with cystic fibrosis. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with cystic fibrosis. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with cystic fibrosis. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with cystic fibrosis. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with cystic fibrosis. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNSdQcHvz8mf6JLOvpMtUb9zzc5C",
+            "object": "chat.completion",
+            "created": 1684376115,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 72,
+                "completion_tokens": 22,
+                "total_tokens": 94
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 25-year-old male with cystic fibrosis presented with worsening shortness of breath and productive cough."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNSdiDbUO503MbOEi1cH1Rwr2sCJ",
+            "object": "chat.completion",
+            "created": 1684376115,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 72,
+                "completion_tokens": 27,
+                "total_tokens": 99
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 23-year-old Caucasian female with a known diagnosis of cystic fibrosis presents with worsening shortness of breath and productive cough."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNSdOzydcDl4qdiLcvj0lJyC6rOw",
+            "object": "chat.completion",
+            "created": 1684376115,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 72,
+                "completion_tokens": 22,
+                "total_tokens": 94
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 22-year-old Caucasian male with cystic fibrosis presented with worsening dyspnea and productive cough."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNSdK2wWrKEPBY7aJ8TwrLBdt5FB",
+            "object": "chat.completion",
+            "created": 1684376115,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 72,
+                "completion_tokens": 21,
+                "total_tokens": 93
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 23-year-old male with cystic fibrosis presented with worsening cough and shortness of breath."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a HIV//AIDS patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a HIV//AIDS patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a HIV//AIDS patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a HIV//AIDS patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a HIV//AIDS patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a HIV//AIDS patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a HIV//AIDS patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a HIV//AIDS patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5lyW4SVMHNzb0NX5zMXOhxU3zHB",
+            "object": "chat.completion",
+            "created": 1684308122,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 193,
+                "total_tokens": 299
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: HIV+ for 10 years, on antiretroviral therapy\n\nJohn Smith is a 45-year-old Caucasian male who works as a construction worker. He was diagnosed with HIV 10 years ago and has been on antiretroviral therapy since then. Recently, he presented to the clinic with complaints of fatigue, weight loss, and persistent cough. Upon examination, he was found to have advanced HIV/AIDS with a CD4 count of 50 cells/mm3 and a viral load of 500,000 copies/mL. He was started on a new antiretroviral regimen and prophylaxis for opportunistic infections. Despite initial improvement, he developed pneumonia and was admitted to the hospital. He responded well to treatment and was discharged with a plan for close follow-up and adherence to his medications."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5lye52C6uSKrKDRwtZHl4y1V6bl",
+            "object": "chat.completion",
+            "created": 1684308122,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 172,
+                "total_tokens": 278
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Unemployed\nEthnicity: African American\nPast Medical History: HIV diagnosis 10 years ago, currently on antiretroviral therapy\n\nThe case report detailed John Smith, a 45-year-old African American male with a history of HIV diagnosis 10 years ago. He was currently on antiretroviral therapy and had been adherent to his medications. However, he presented to the hospital with symptoms of pneumonia and was found to have a low CD4 count, indicating a weakened immune system. Further testing revealed that he had developed a resistance to his current antiretroviral regimen. He was started on a new treatment and his pneumonia resolved, but the case highlights the importance of monitoring HIV patients for resistance to medications and the need for prompt intervention."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5lylv8A4M8bF03VsOMd0dxO6DBS",
+            "object": "chat.completion",
+            "created": 1684308122,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 176,
+                "total_tokens": 282
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 42\nGender: Male\nOccupation: Unemployed\nEthnicity: African American\nPast Medical History: HIV/AIDS diagnosis, currently on antiretroviral therapy (ART)\n\nJohn Doe is a 42-year-old African American male who was diagnosed with HIV/AIDS several years ago. He is currently on ART and has been stable with undetectable viral loads. However, he recently presented to the hospital with complaints of shortness of breath and chest pain. Further evaluation revealed that he had developed Pneumocystis jiroveci pneumonia (PCP), a common opportunistic infection in HIV/AIDS patients. He was started on appropriate treatment and his symptoms improved. John's case highlights the importance of continued monitoring and management of HIV/AIDS patients, as well as the risk of developing opportunistic infections despite being on ART."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5lyFwrpsLell4ISJPAnUiXFmeBW",
+            "object": "chat.completion",
+            "created": 1684308122,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 184,
+                "total_tokens": 290
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 35 \nGender: Male\nOccupation: Unemployed \nEthnicity: African American \nPast Medical History: Known HIV positive for 5 years, on antiretroviral therapy for 3 years. \n\nJohn Doe presented to the emergency department with complaints of shortness of breath and chest pain. He reported adherence to his antiretroviral therapy regimen, but had not seen his healthcare provider in over a year. On examination, he was found to have a low CD4 count and evidence of pneumonia. He was admitted to the hospital and started on antibiotics and oxygen therapy. Further testing revealed that he had developed a drug-resistant strain of HIV. He was switched to a new antiretroviral therapy regimen and monitored closely. Despite initial concerns about his prognosis, John responded well to treatment and was discharged from the hospital with clear instructions for follow-up care."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

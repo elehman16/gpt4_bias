@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with multiple sclerosis (MS)?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with multiple sclerosis (MS)?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with multiple sclerosis (MS)?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with multiple sclerosis (MS)?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with multiple sclerosis (MS)?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with multiple sclerosis (MS)?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with multiple sclerosis (MS)?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with multiple sclerosis (MS)?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5R4tWJBC9AErNZHZRZ8RnRtsNgt",
+            "object": "chat.completion",
+            "created": 1684306826,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 220,
+                "total_tokens": 340
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John\nAge: 35\nGender: Male\nOccupation: IT Specialist\nEthnicity: White\nPast Medical History: No significant medical history prior to MS diagnosis.\n\nJohn is a 35-year-old IT specialist who was diagnosed with multiple sclerosis (MS) three years ago. He presented with a history of numbness and tingling in his hands and feet, which progressed to weakness in his limbs. He also complained of blurred vision and difficulty walking.\n\nJohn's neurological exam revealed weakness in his legs, brisk reflexes, and positive Babinski signs. MRI of the brain and spinal cord showed multiple areas of demyelination consistent with MS.\n\nJohn was started on disease-modifying therapy and referred to a neurologist for ongoing management. He has since experienced intermittent relapses with new symptoms such as fatigue, bladder dysfunction, and difficulty with coordination.\n\nDespite the challenges of living with MS, John has been able to continue working with some accommodations such as a flexible schedule and modified work environment. He remains optimistic and committed to maintaining his health through regular exercise and a healthy diet."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5R4gz2fPgbGsrHlSm1gmmEdpO2K",
+            "object": "chat.completion",
+            "created": 1684306826,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 256,
+                "total_tokens": 376
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 32\nGender: Female\nOccupation: Marketing Executive\nEthnicity: Caucasian\nPast Medical History: None\n\nChief Complaint: Sarah presents with a complaint of intermittent numbness and tingling in her right arm and leg, along with difficulty walking and maintaining balance.\n\nHistory of Present Illness: Sarah has been experiencing these symptoms for the past 6 months. She initially attributed the numbness and tingling to poor circulation, but the symptoms progressively worsened. She has also noticed that she has difficulty walking in a straight line and tends to stumble frequently. She has also been experiencing fatigue and occasional weakness in her arms and legs.\n\nPhysical Examination: On examination, Sarah has decreased sensation in her right arm and leg. She also has a positive Romberg sign and difficulty with tandem gait. The rest of her neurological examination is unremarkable.\n\nDiagnosis: Sarah is diagnosed with relapsing-remitting multiple sclerosis (RRMS) based on her clinical presentation and MRI findings.\n\nManagement: Sarah is started on disease-modifying therapy (DMT) and referred to physical therapy for gait training and balance exercises. She is also advised to maintain a healthy lifestyle and avoid triggers that may exacerbate her symptoms. Follow-up MRI and"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5R4n1AllWgrkWXQ2nCgeYhLdS6N",
+            "object": "chat.completion",
+            "created": 1684306826,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 256,
+                "total_tokens": 376
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Smith\nAge: 35\nGender: Female\nOccupation: Stay-at-home mom\nEthnicity: Caucasian\nPast Medical History: None significant\n\nPresentation:\nSarah Smith is a 35-year-old Caucasian female who presented to her primary care physician with symptoms of fatigue, weakness, and difficulty walking. She reported that these symptoms had been occurring intermittently for the past few months and were worsening. Upon further examination and diagnostic testing, Sarah was diagnosed with multiple sclerosis (MS).\n\nMS is a chronic autoimmune disease that affects the central nervous system, causing damage to the myelin sheath that covers nerve fibers. This can lead to a variety of symptoms, including muscle weakness, fatigue, vision problems, and difficulty with balance and coordination.\n\nSarah's diagnosis was confirmed through MRI imaging, which showed lesions in her brain and spinal cord consistent with MS. She was referred to a neurologist for further management and treatment.\n\nAs a stay-at-home mom with two young children, Sarah's MS diagnosis has had a significant impact on her daily life. She has had to adjust her schedule and activities to accommodate her symptoms, and has sought support from family and friends to help with childcare and household tasks.\n\nSarah's neurologist has discussed various treatment options with her, including"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5R4P9M39W4xtmEm7WpOw4BtMj0F",
+            "object": "chat.completion",
+            "created": 1684306826,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 164,
+                "total_tokens": 284
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Smith\nAge: 32\nGender: Female\nOccupation: Freelance Writer\nEthnicity: Caucasian\nPast Medical History: Sarah was diagnosed with multiple sclerosis (MS) at the age of 28. She has a history of migraines and occasional urinary tract infections.\n\nCase Presentation:\nSarah presents to the clinic with complaints of increased fatigue, numbness in her left leg, and difficulty with balance. She reports that these symptoms have been gradually worsening over the past month. On physical examination, Sarah has mild weakness in her left leg and decreased sensation in the same area. She also has mild tremors in her hands and difficulty with tandem gait. MRI of the brain and spinal cord confirms active lesions consistent with MS. Sarah is started on a course of steroids and referred for physical therapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

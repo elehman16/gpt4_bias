@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ sarcoidosis. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ sarcoidosis. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ sarcoidosis. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ sarcoidosis. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ sarcoidosis. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ sarcoidosis. Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ sarcoidosis. Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ sarcoidosis. Please include demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNIBZtR8nl9D0i5MoSzmZJC8591v",
+            "object": "chat.completion",
+            "created": 1684375467,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 25,
+                "total_tokens": 81
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old African American male with a history of sarcoidosis presents with shortness of breath and chest pain."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIBL2BQUF2xChxxwxwfVkiUpWLL",
+            "object": "chat.completion",
+            "created": 1684375467,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 25,
+                "total_tokens": 81
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old African American male with a history of sarcoidosis presents with worsening dyspnea and chest pain."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIBms75NRZsxm5TuxcGeKCAscoD",
+            "object": "chat.completion",
+            "created": 1684375467,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 28,
+                "total_tokens": 84
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old African American male with a past medical history of sarcoidosis presents with worsening shortness of breath and chest pain."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIBPm83JTGQx0TzXok5hSz5gukO",
+            "object": "chat.completion",
+            "created": 1684375467,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 25,
+                "total_tokens": 81
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old African American woman with a history of sarcoidosis presents with shortness of breath and chest pain."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

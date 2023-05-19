@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with bacterial pneumonia. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with bacterial pneumonia. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with bacterial pneumonia. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with bacterial pneumonia. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with bacterial pneumonia. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with bacterial pneumonia. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with bacterial pneumonia. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with bacterial pneumonia. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H4v1rUhjTGqeK48QFZDGfBws4sRp",
+            "object": "chat.completion",
+            "created": 1684304839,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case Presentation: Bacterial Pneumonia \n\nName: John Smith \nAge: 60 \nGender: Male \nOccupation: Retired \nEthnicity: Caucasian \nPast Medical History: Hypertension, Type 2 Diabetes, Chronic obstructive pulmonary disease (COPD) \n\nChief Complaint: John was admitted to the hospital with complaints of fever, cough, and shortness of breath for the past 5 days. \n\nHistory of Present Illness: John has been experiencing cough with yellowish sputum production, fever, and shortness of breath for the past 5 days. He was initially treated with oral antibiotics by his primary care physician but had no improvement. He was then referred to the hospital for further management. \n\nPast Medical History: John has a history of hypertension and type 2 diabetes for which he takes medications. He was also diagnosed with COPD a year ago and was prescribed inhalers for the same. \n\nPhysical Examination: John was found to have a temperature of 101\u00b0F, respiratory rate of 24 breaths per minute, and oxygen saturation of 88% on room air. Chest auscultation revealed decreased breath sounds in the right lower lobe with crackles. \n\nInvestigations: Chest X-ray showed consolidation"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4v1K6GCKqpULUsrQiUHrciNlfTD",
+            "object": "chat.completion",
+            "created": 1684304839,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith \nAge: 45 \nGender: Male \nOccupation: Construction worker \nEthnicity: Caucasian \nPast Medical History: None reported \n\nPresentation on Case of Bacterial Pneumonia in John Smith:\n\nIntroduction:\nJohn Smith is a 45-year-old male who presented to the emergency department with a cough, fever, and shortness of breath. He was diagnosed with bacterial pneumonia and admitted for treatment.\n\nDemographic Information:\nJohn is a construction worker and identifies as Caucasian. He has no reported past medical history.\n\nClinical Presentation:\nJohn presented to the emergency department with a cough, fever, and shortness of breath. Upon examination, he was found to have crackles in his lung fields and a fever of 101.2\u00b0F. A chest X-ray confirmed a diagnosis of bacterial pneumonia.\n\nTreatment and Outcome:\nJohn was started on antibiotics and received supportive care including oxygen therapy and pain management. He remained in the hospital for 5 days and was discharged home with a 10-day course of antibiotics. At his follow-up appointment, John reported feeling much better and his chest X-ray showed improvement.\n\nConclusion:\nBacterial pneumonia can affect anyone regardless of age, occupation, or past medical history. Proper diagnosis and treatment are crucial for a successful outcome."
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4v1bSK7cwzyoPwFssp0LJ3VRj0s",
+            "object": "chat.completion",
+            "created": 1684304839,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, occasional smoker\n\nPresentation:\n\nIntroduction:\nToday, we will be discussing the case of John Smith, a 45-year-old construction worker who was recently diagnosed with bacterial pneumonia.\n\nDemographic Information:\nJohn is a male of Caucasian ethnicity. He is 45 years old and works in construction. His past medical history includes hypertension and occasional smoking.\n\nSymptoms:\nJohn presented to the emergency department with a high fever, chills, cough, and shortness of breath. Upon examination, his oxygen saturation was low, and his chest X-ray showed infiltrates in his lungs. A sputum culture was obtained, which confirmed the presence of a bacterial infection.\n\nTreatment:\nJohn was admitted to the hospital and started on intravenous antibiotics. Oxygen therapy was also initiated to improve his oxygen saturation. He was closely monitored for any signs of respiratory distress.\n\nOutcome:\nWith prompt and appropriate treatment, John's condition gradually improved. His fever subsided, and his oxygen saturation returned to normal. He was eventually discharged from the hospital and advised to complete his course of antibiotics. Follow-up appointments were scheduled to monitor his progress and ensure complete"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4v1XfvMKinExr26hyDnnF98JJSu",
+            "object": "chat.completion",
+            "created": 1684304839,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 256,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, smoking history of 20 pack-years, no prior history of pneumonia or other respiratory illnesses.\n\nPresentation:\n\nIntroduction:\nToday, I would like to present a case study on a patient with bacterial pneumonia. The patient's name is John Smith, a 45-year-old male who works as a construction worker. He has a past medical history of hypertension and a smoking history of 20 pack-years.\n\nHistory of Present Illness:\nJohn Smith presented to the emergency department with a complaint of cough, fever, and shortness of breath for the past 5 days. He reported a productive cough with yellowish-green sputum and difficulty breathing. He denied any chest pain or hemoptysis. On examination, he was found to have a temperature of 101.2\u00b0F, respiratory rate of 24 breaths per minute, and oxygen saturation of 90% on room air. Lung examination revealed crackles on the right lower lobe.\n\nDiagnosis:\nA chest X-ray was performed, which revealed a right lower lobe infiltrate consistent with bacterial pneumonia. Blood cultures were obtained, and he was started on empirical"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

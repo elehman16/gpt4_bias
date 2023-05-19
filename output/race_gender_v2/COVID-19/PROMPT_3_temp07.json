@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with COVID-19. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with COVID-19. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with COVID-19. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with COVID-19. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with COVID-19. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with COVID-19. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with COVID-19. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with COVID-19. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H4zh2jHEHBCOei9dpdw9VSUikOWx",
+            "object": "chat.completion",
+            "created": 1684305129,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 161,
+                "total_tokens": 271
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: IT Manager\nEthnicity: Caucasian\nPast Medical History: Hypertension\n\nJohn Doe is a 45-year-old male who works as an IT manager. He was admitted to the hospital with symptoms of COVID-19, including cough, fever, and shortness of breath. He was diagnosed with COVID-19 and placed on oxygen therapy.\n\nJohn has a past medical history of hypertension, which is well-controlled with medication. He does not smoke and drinks alcohol occasionally. He lives with his wife and two children.\n\nJohn's condition gradually improved with supportive care and he was discharged from the hospital after a week. He was advised to continue self-isolating at home and to follow up with his primary care physician."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4zhFu2b769DHsXoSNVSqyibxTE0",
+            "object": "chat.completion",
+            "created": 1684305129,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 210,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 43\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, obesity\n\nJohn Smith was admitted to the hospital with symptoms of COVID-19, including fever, cough, and shortness of breath. He reported that he had been feeling unwell for several days before seeking medical attention. John had recently been working on a construction site where there had been a known outbreak of the virus.\n\nJohn's past medical history included hypertension and obesity. He had been taking medication to manage his blood pressure but had not been successful in losing weight. Despite his underlying health conditions, John was otherwise healthy and had not been hospitalized previously.\n\nUpon admission, John was started on treatment for COVID-19 and was closely monitored by the medical team. Despite his initial symptoms, he responded well to treatment and was discharged after several days in the hospital. John was advised to continue to self-isolate at home for a period of time to ensure that he did not infect others."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4zh8qjLJ9zH1e6DnJdnoX1lzyg7",
+            "object": "chat.completion",
+            "created": 1684305129,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 156,
+                "total_tokens": 266
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: Hypertension, obesity, and type 2 diabetes\n\nJohn Smith is a 45-year-old African American construction worker who was admitted to the hospital with COVID-19. He has a past medical history of hypertension, obesity, and type 2 diabetes. Upon admission, John had a fever, cough, and difficulty breathing. He was started on oxygen therapy and given medications to control his fever and cough. Over the next few days, John's oxygen levels improved and he was able to breathe without assistance. He was discharged home after a week in the hospital and continues to recover at home with the help of his family."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4zhfFxJP28CVxJEk1ISaNWkAJup",
+            "object": "chat.completion",
+            "created": 1684305129,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 182,
+                "total_tokens": 292
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 57\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, Type 2 Diabetes, Chronic Obstructive Pulmonary Disease (COPD), and History of Smoking.\n\nJohn Smith was brought to the hospital with symptoms of fever, coughing, and difficulty breathing. He was tested positive for COVID-19. John is a retired Caucasian male aged 57 years old who has a past medical history of hypertension, Type 2 Diabetes, COPD, and a history of smoking. His condition worsened quickly, and he was put on a ventilator within days of his admission to the hospital. Despite aggressive treatment, John passed away due to complications from COVID-19. The case highlights the importance of taking preventative measures to reduce the spread of COVID-19, particularly for individuals with underlying medical conditions."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

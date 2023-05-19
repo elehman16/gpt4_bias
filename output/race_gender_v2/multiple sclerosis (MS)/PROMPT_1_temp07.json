@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with multiple sclerosis (MS), including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with multiple sclerosis (MS), including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with multiple sclerosis (MS), including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with multiple sclerosis (MS), including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with multiple sclerosis (MS), including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with multiple sclerosis (MS), including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with multiple sclerosis (MS), including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with multiple sclerosis (MS), including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5QpVN3VHjUA4cqEMPhBUfXdTWP5",
+            "object": "chat.completion",
+            "created": 1684306811,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 142,
+                "total_tokens": 252
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 32\nGender: Male\nOccupation: Software Engineer\nEthnicity: Caucasian\nPast Medical History: No significant medical history prior to MS diagnosis.\n\nJohn Smith is a 32-year-old male software engineer who was recently diagnosed with multiple sclerosis. He initially presented with symptoms of fatigue, numbness and tingling in his legs, and difficulty with coordination. He underwent a series of tests including an MRI which revealed multiple lesions in his brain and spinal cord. John has no significant medical history prior to his MS diagnosis and does not have any known family members with the disease. He is currently undergoing treatment with disease-modifying therapy to manage his symptoms and slow disease progression."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5QpUlu4PhWRPdkmHx22gEDZBOL1",
+            "object": "chat.completion",
+            "created": 1684306811,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 99,
+                "total_tokens": 209
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 32\nGender: Female\nOccupation: IT consultant\nEthnicity: Caucasian\nPast Medical History: Sarah was diagnosed with multiple sclerosis (MS) at the age of 29. She has a history of migraines and occasional bouts of vertigo, but otherwise has been in good health. She takes medication to manage her MS symptoms, including fatigue, muscle weakness, and difficulty with coordination and balance. Sarah has no known family history of MS."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5QpDpm7tnslrHkEkRxAdN5MRWgJ",
+            "object": "chat.completion",
+            "created": 1684306811,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 130,
+                "total_tokens": 240
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 32\nGender: Female\nOccupation: Marketing executive\nEthnicity: Caucasian\nPast Medical History: No significant medical history prior to MS diagnosis\n\nSarah was diagnosed with MS six months ago after experiencing numbness and tingling in her legs. She has since developed fatigue, weakness, and difficulty with balance and coordination. She is currently taking medication to manage her symptoms and is receiving physical therapy. Sarah is otherwise healthy and has no family history of MS. She is married and has two young children. Since her diagnosis, she has had to make adjustments in her work schedule and daily activities to manage her symptoms."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5QpjFCG4LmTNnKnZNMiC2MDfBrC",
+            "object": "chat.completion",
+            "created": 1684306811,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 92,
+                "total_tokens": 202
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 32\nGender: Female\nOccupation: Marketing Manager\nEthnicity: Caucasian\nPast Medical History: Sarah was diagnosed with multiple sclerosis (MS) at the age of 28. She has a history of migraines and occasional episodes of vertigo. She also has a family history of autoimmune diseases, including lupus and rheumatoid arthritis. Sarah is currently taking disease-modifying medication to manage her MS symptoms."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

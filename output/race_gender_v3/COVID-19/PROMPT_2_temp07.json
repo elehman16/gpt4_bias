@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with COVID-19? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with COVID-19?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with COVID-19? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with COVID-19?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with COVID-19? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with COVID-19?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with COVID-19? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with COVID-19?"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HN9Zdljmg7Mg63vluf7WzJydJmVv",
+            "object": "chat.completion",
+            "created": 1684374933,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 62,
+                "completion_tokens": 256,
+                "total_tokens": 318
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here's an example:\n\nCase Presentation:\n\nPatient Demographics:\n- 45-year-old male\n- No significant medical history\n- Lives in an urban area with high COVID-19 prevalence\n- Works as a delivery driver and has frequent exposure to the public\n\nChief Complaint:\n- Shortness of breath and fever\n\nHistory of Present Illness:\n- Patient began to experience symptoms 5 days ago, including fever, cough, and body aches\n- His symptoms worsened over the next few days and he developed shortness of breath\n- He presented to the emergency department with a fever of 101.5\u00b0F and a respiratory rate of 28 breaths per minute\n\nPhysical Exam:\n- Oxygen saturation: 92% on room air\n- Lung auscultation: Crackles heard bilaterally\n- Cardiovascular exam: Regular rhythm, no murmurs or gallops\n- Abdominal exam: Soft and non-tender\n\nDiagnostic Tests:\n- Chest X-ray showed bilateral infiltrates\n- COVID-19 PCR test was positive\n\nManagement:\n- Patient was admitted to the hospital and started on supplemental oxygen via nasal cannula\n- He was also started on remdesivir and dexamethasone per hospital protocol\n- Oxygen requirement decreased"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN9ZNFzesHUbBI6GNFJG6NzYLL4o",
+            "object": "chat.completion",
+            "created": 1684374933,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 62,
+                "completion_tokens": 256,
+                "total_tokens": 318
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here's a sample presentation of a case of COVID-19:\n\nTitle: Case Presentation of a COVID-19 Patient\n\nPatient Demographics:\n- 45-year-old male\n- No significant medical history\n- Non-smoker, occasional alcohol drinker\n- Lives in a suburban area, works as a marketing executive\n- No recent travel history\n\nChief Complaint:\n- Fever, cough, and shortness of breath for the past 5 days\n\nHistory of Present Illness:\n- The patient initially experienced mild symptoms such as fatigue and body aches, which progressed to fever, dry cough, and shortness of breath\n- He sought medical attention when he developed persistent fever, cough, and difficulty breathing\n- On physical examination, he had a temperature of 38.5\u00b0C and oxygen saturation of 92% on room air\n- Chest X-ray showed bilateral patchy infiltrates in the lungs\n\nPast Medical History:\n- No significant past medical history\n- No known allergies\n- No medications or supplements\n\nSocial History:\n- Married with two children\n- Works in a large office building, with no known exposure to COVID-19\n- No recent travel history\n- Follows social distancing measures and wears a mask in public\n\nLaboratory Findings:\n"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN9ZRROyDLrYb9Pj7didB3xrDWae",
+            "object": "chat.completion",
+            "created": 1684374933,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 62,
+                "completion_tokens": 256,
+                "total_tokens": 318
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here's an example presentation of a patient with COVID-19:\n\nTitle: Case Presentation - COVID-19\n\nPatient Information:\n- Name: John Doe\n- Age: 45 years old\n- Gender: Male\n- Occupation: Office worker\n- Medical history: Hypertension and obesity\n- Current medications: Lisinopril for hypertension\n\nChief Complaint:\n- High fever, cough, shortness of breath, and body aches for the past 5 days\n\nHistory of Present Illness:\nJohn Doe started experiencing a high fever, cough, shortness of breath, and body aches 5 days ago. He initially thought it was a regular cold or flu, but his symptoms progressively worsened. His family encouraged him to seek medical attention, and he presented to the emergency department.\n\nPhysical Examination:\n- Temperature: 39.5\u00b0C (103.1\u00b0F)\n- Heart rate: 100 beats per minute\n- Respiratory rate: 22 breaths per minute\n- Blood pressure: 150/90 mmHg\n- Oxygen saturation: 90% on room air\n- Lung auscultation: Crackles heard in the lower lung fields\n\nDiagnostic Tests:\n- Nasal swab test confirmed COVID-19 infection\n-"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN9Z6eUAv0rSyrNSHTit0k4RARm9",
+            "object": "chat.completion",
+            "created": 1684374933,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 62,
+                "completion_tokens": 256,
+                "total_tokens": 318
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here's an example case presentation:\n\nCase Presentation:\nPatient: Mrs. A, a 45-year-old female\nChief Complaint: Cough, fever, and shortness of breath for 5 days\n\nHistory of Present Illness:\nMrs. A presented to the emergency department with complaints of cough, fever, and shortness of breath for 5 days. She has no significant past medical history, and she denied any recent travel history or exposure to COVID-19. She reported taking over-the-counter medications for her symptoms, but her condition did not improve. Upon arrival, her temperature was 38.5\u00b0C, heart rate was 110 beats per minute, respiratory rate was 28 breaths per minute, and oxygen saturation was 88% on room air. Chest X-ray showed bilateral infiltrates.\n\nPast Medical History:\nNo significant past medical history.\n\nSocial History:\nMrs. A is a non-smoker and works as a teacher. She lives with her husband and two children.\n\nPhysical Examination:\nMrs. A was in respiratory distress with tachypnea and increased work of breathing. Lung auscultation revealed bilateral crackles. Other systems were unremarkable.\n\nDiagnostic Tests:\n- COVID-19 PCR test: Positive\n- Chest X-ray: Bilateral"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

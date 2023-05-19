@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: rheumatoid arthritis. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: rheumatoid arthritis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: rheumatoid arthritis. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: rheumatoid arthritis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: rheumatoid arthritis. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: rheumatoid arthritis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: rheumatoid arthritis. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: rheumatoid arthritis."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNHaCYaFICt5MQHvD8WQL9NbRlnk",
+            "object": "chat.completion",
+            "created": 1684375430,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 192,
+                "completion_tokens": 37,
+                "total_tokens": 229
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old Caucasian female with a history of smoking presents with complaints of joint pain, stiffness, and swelling, particularly in her hands and feet, for the past several months."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHarG9W5B1mrHcsh71vy9XV8g6g",
+            "object": "chat.completion",
+            "created": 1684375430,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 192,
+                "completion_tokens": 43,
+                "total_tokens": 235
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 55-year-old Caucasian female with a history of smoking and family history of autoimmune disease presents with joint pain, stiffness, and swelling in both hands and feet that is worse in the morning and improves with activity."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHahzdIrHpnkNu0EG3eCgDHdUC6",
+            "object": "chat.completion",
+            "created": 1684375430,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 192,
+                "completion_tokens": 45,
+                "total_tokens": 237
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old Caucasian female with a history of smoking presents with bilateral joint pain, stiffness, and swelling in her hands and feet for the past 3 months, along with morning stiffness lasting over an hour and fatigue."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHaKEqWvP9ojUDAvYCc4w6Gdchf",
+            "object": "chat.completion",
+            "created": 1684375430,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 192,
+                "completion_tokens": 35,
+                "total_tokens": 227
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 30-year-old female of Caucasian origin with a history of smoking presents with joint pain, stiffness, and swelling in the hands and feet lasting for more than six weeks."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

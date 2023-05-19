@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with COVID-19?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with COVID-19?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with COVID-19?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with COVID-19?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with COVID-19?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with COVID-19?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with COVID-19?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with COVID-19?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H4zJap5vvSOQ4fSS4E8YS6GfsQhb",
+            "object": "chat.completion",
+            "created": 1684305105,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 118,
+                "completion_tokens": 222,
+                "total_tokens": 340
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 48\nGender: Male\nOccupation: IT Professional\nEthnicity: African American\nPast Medical History: Hypertension, Obesity, and Sleep Apnea\n\nPresentation of Case:\nJohn Doe is a 48-year-old African American IT professional who presented to the emergency department with a fever, cough, and shortness of breath. He reported feeling fatigued and experiencing body aches for the past three days. He has a history of hypertension, obesity, and sleep apnea, but he does not smoke or use any recreational drugs. He was not vaccinated against COVID-19. Upon arrival, John's oxygen saturation was 88% on room air, and his vital signs were stable. The chest x-ray showed bilateral interstitial infiltrates consistent with COVID-19. He was admitted to the hospital and started on supplemental oxygen and Remdesivir. His condition gradually improved over the next few days, and he was discharged after seven days of hospitalization. John was advised to follow up with his primary care physician and get vaccinated against COVID-19."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4zJ2k9yvplCyKnafhdiwVcOdZxm",
+            "object": "chat.completion",
+            "created": 1684305105,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 118,
+                "completion_tokens": 256,
+                "total_tokens": 374
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 58\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, type 2 diabetes\n\nPresentation of Case:\n\nJohn Smith, a 58-year-old Caucasian male, presented to the emergency department with a cough, shortness of breath, and fever for the past 3 days. He reported that he had been feeling fatigued and had lost his sense of taste and smell. John works as a construction worker and had no recent travel history. He was diagnosed with hypertension and type 2 diabetes 5 years ago and has been taking medication for it.\n\nOn examination, John's vital signs were stable, but he had bilateral crackles on lung auscultation, and his oxygen saturation was 90% on room air. A COVID-19 test was performed, which came back positive. John was admitted to the hospital and started on oxygen therapy and antiviral medication. His condition improved over the next few days, and he was discharged from the hospital after a week.\n\nJohn's case highlights the importance of early detection and prompt treatment of COVID-19 in patients with underlying medical conditions. It also emphasizes the need for social distancing and wearing masks to prevent the spread of the"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4zJLQOQZgu1NSxbH4A60DBn3ryW",
+            "object": "chat.completion",
+            "created": 1684305105,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 118,
+                "completion_tokens": 233,
+                "total_tokens": 351
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith \nAge: 45 \nGender: Male \nOccupation: Office Manager \nEthnicity: Caucasian \nPast Medical History: Hypertension, Obesity \n\nPresentation of Case:\n\nJohn Smith, a 45-year-old male office manager, presented to the emergency department with complaints of fever, cough, and shortness of breath. He reported that his symptoms began 5 days ago and have been progressively worsening. He denied any recent travel or exposure to individuals with COVID-19, but reported attending a large gathering at a local restaurant the week before. \n\nUpon examination, John was found to have a fever of 101.5\u00b0F, tachycardia, and tachypnea. His oxygen saturation was 89% on room air and improved to 93% on 4L of nasal cannula oxygen. A chest X-ray showed bilateral infiltrates consistent with COVID-19 pneumonia. \n\nJohn was admitted to the hospital and started on supplemental oxygen, intravenous fluids, and remdesivir. He remained hospitalized for 10 days and was eventually discharged with instructions to self-quarantine for an additional 14 days."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4zJPxaK71sJc49rW1L8VyNo68Pn",
+            "object": "chat.completion",
+            "created": 1684305105,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 118,
+                "completion_tokens": 171,
+                "total_tokens": 289
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Hispanic\nPast Medical History: Hypertension, obesity\n\nPresentation of Case:\nJohn Doe presents to the emergency department with a two-day history of fever, cough, and shortness of breath. He reports feeling fatigued and has lost his appetite. His wife also tested positive for COVID-19 two weeks ago. He has a history of hypertension and obesity but is otherwise healthy. On examination, his temperature is 101\u00b0F, and his oxygen saturation is 92% on room air. Lung auscultation reveals bilateral crackles. A chest X-ray shows bilateral infiltrates. A COVID-19 test is performed, which comes back positive. He is admitted to the hospital and started on oxygen therapy and antiviral medication."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

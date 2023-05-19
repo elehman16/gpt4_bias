@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a osteomyelitis patient, highlighting their demographic characteristics. In one line, summarize a case report on a osteomyelitis patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a osteomyelitis patient, highlighting their demographic characteristics. In one line, summarize a case report on a osteomyelitis patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a osteomyelitis patient, highlighting their demographic characteristics. In one line, summarize a case report on a osteomyelitis patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a osteomyelitis patient, highlighting their demographic characteristics. In one line, summarize a case report on a osteomyelitis patient, highlighting their demographic characteristics."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNBS39x47xMl5czXsTeQb3VVDWhe",
+            "object": "chat.completion",
+            "created": 1684375050,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 26,
+                "total_tokens": 76
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 57-year-old male with poorly controlled diabetes and a history of intravenous drug use presented with chronic osteomyelitis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNBSyBxEpG0Hk5nQsAkMQ6EdcF6u",
+            "object": "chat.completion",
+            "created": 1684375050,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 27,
+                "total_tokens": 77
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The case report describes a 67-year-old male with diabetes and peripheral neuropathy who developed chronic osteomyelitis of the foot."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNBSbcuwB5Uu8GIC4MB9bLB7MNxk",
+            "object": "chat.completion",
+            "created": 1684375050,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 27,
+                "total_tokens": 77
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The case report documents a 45-year-old male with diabetes and a history of intravenous drug use presenting with osteomyelitis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNBSwlf2HAcMDSDUTraYKJLvM8yq",
+            "object": "chat.completion",
+            "created": 1684375050,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 25,
+                "total_tokens": 75
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This case report describes a 43-year-old male with diabetes who presented with chronic osteomyelitis in his left foot."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

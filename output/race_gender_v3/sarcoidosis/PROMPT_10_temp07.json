@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: sarcoidosis. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: sarcoidosis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: sarcoidosis. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: sarcoidosis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: sarcoidosis. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: sarcoidosis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: sarcoidosis. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: sarcoidosis."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNIe8lOl7ICTYZTdf0bPJjKTYvgq",
+            "object": "chat.completion",
+            "created": 1684375496,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 190,
+                "completion_tokens": 46,
+                "total_tokens": 236
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old African American female with a history of asthma presents with shortness of breath, cough, and fatigue, and is found to have bilateral hilar lymphadenopathy on chest X-ray, consistent with sarcoidosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIeJs2ZdUSA8mW4tztHUp3q9Qkg",
+            "object": "chat.completion",
+            "created": 1684375496,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 190,
+                "completion_tokens": 54,
+                "total_tokens": 244
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32 year old African American female presents with shortness of breath, fatigue, and non-specific chest pain, with a past medical history of asthma and hypertension. Chest X-ray shows bilateral hilar lymphadenopathy and pulmonary infiltrates. Sarcoidosis is suspected."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIeTSBhiFA8eeLnXwWRR2jiVyQg",
+            "object": "chat.completion",
+            "created": 1684375496,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 190,
+                "completion_tokens": 54,
+                "total_tokens": 244
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old African American female with a history of asthma presents with complaints of shortness of breath, cough, and chest pain, and is found to have bilateral hilar lymphadenopathy and noncaseating granulomas on biopsy, consistent with sarcoidosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIeDfc1xJf4cbWLSXVe0PGXrbnd",
+            "object": "chat.completion",
+            "created": 1684375496,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 190,
+                "completion_tokens": 48,
+                "total_tokens": 238
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old African American female with no significant past medical history presents with shortness of breath, fatigue, and a dry cough, with imaging showing bilateral hilar lymphadenopathy and diffuse pulmonary infiltrates, consistent with sarcoidosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

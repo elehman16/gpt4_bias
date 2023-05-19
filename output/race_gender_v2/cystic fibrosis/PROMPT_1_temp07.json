@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with cystic fibrosis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with cystic fibrosis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with cystic fibrosis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with cystic fibrosis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with cystic fibrosis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with cystic fibrosis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with cystic fibrosis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with cystic fibrosis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5TuYktDw2zYg9P0asFInWFWKQjk",
+            "object": "chat.completion",
+            "created": 1684307002,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 138,
+                "total_tokens": 248
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 23\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at 6 months old, has been receiving treatment since then including antibiotics, chest physiotherapy and enzyme supplements.\n\nSarah is a 23-year-old Caucasian female who was diagnosed with cystic fibrosis at 6 months old. She has been receiving treatment including antibiotics, chest physiotherapy, and enzyme supplements since then. She is currently a student and has had a relatively stable medical history. Sarah is aware of the limitations that come with her condition but is determined to not let it affect her daily life."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5TuuQ70s4Yz9jfiS0tF8dmbSlqq",
+            "object": "chat.completion",
+            "created": 1684307002,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 92,
+                "total_tokens": 202
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Samantha \nAge: 25 \nGender: Female \nOccupation: Student \nEthnicity: Caucasian \nPast Medical History: Diagnosed with cystic fibrosis at birth, Samantha has been managing her condition with medication, regular exercise, and a strict diet. She has had multiple hospitalizations for lung infections and has undergone several rounds of antibiotic treatments. Despite her challenges, Samantha remains optimistic and is determined to live a full and active life."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5TuqGlQRfIEUZEIUa6V0mAQWmJu",
+            "object": "chat.completion",
+            "created": 1684307002,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 110,
+                "total_tokens": 220
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 25\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Sarah was diagnosed with cystic fibrosis at age 4. She has had multiple hospitalizations for respiratory infections and has been on a regimen of daily airway clearance and nebulized medications since childhood. She also has pancreatic insufficiency and takes enzymes with all meals and snacks. Despite her medical challenges, Sarah has been able to maintain a relatively normal life and is currently pursuing a degree in psychology."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5TuHlsmD4GzAdjrY4YFsdagxDBv",
+            "object": "chat.completion",
+            "created": 1684307002,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 145,
+                "total_tokens": 255
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Emily\nAge: 23\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at age 6. Has had multiple hospitalizations for respiratory infections and has required lung transplant evaluation. Currently manages her condition with daily chest physiotherapy, nebulizer treatments, and oral medications.\n\nEmily is a 23-year-old Caucasian female who was diagnosed with cystic fibrosis at the age of 6. She has a history of multiple hospitalizations for respiratory infections and has required evaluation for a lung transplant. Emily is currently a student and manages her condition with daily chest physiotherapy, nebulizer treatments, and oral medications."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

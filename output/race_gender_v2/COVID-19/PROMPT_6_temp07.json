@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with COVID-19. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with COVID-19. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with COVID-19. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with COVID-19. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with COVID-19. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with COVID-19. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with COVID-19. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with COVID-19. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H50cvxjHMB3zodijf1Gk0r21Z2f8",
+            "object": "chat.completion",
+            "created": 1684305186,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 256,
+                "total_tokens": 362
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 54\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, obesity, and occasional smoking\n\nCase Report:\n\nJohn Smith, a 54-year-old Caucasian construction worker, presented to the emergency department with a two-day history of fever, cough, and shortness of breath. He reported working on a construction site with several other workers who had also developed similar symptoms. He denied any recent travel history or close contact with known COVID-19 positive individuals.\n\nOn examination, he was found to have a temperature of 38.7\u00b0C, heart rate of 110 beats per minute, respiratory rate of 24 breaths per minute, and oxygen saturation of 91% on room air. Lung examination revealed bilateral crackles and reduced breath sounds in the lower lung fields. A chest X-ray showed bilateral patchy infiltrates consistent with viral pneumonia.\n\nA nasopharyngeal swab was collected and sent for real-time reverse transcriptase polymerase chain reaction (RT-PCR) testing for COVID-19. The test came back positive, confirming the diagnosis of COVID-19.\n\nJohn was admitted to the hospital and started on supplemental oxygen, intravenous fluids, and antipyret"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H50cqDMV37QVUE70xJdGtDZIDmAT",
+            "object": "chat.completion",
+            "created": 1684305186,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 256,
+                "total_tokens": 362
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Hispanic\nPast Medical History: Hypertension, obesity\n\nCase Report:\n\nJohn Doe is a 45-year-old Hispanic male who presented to the emergency department with fever, cough, and shortness of breath. He reported having symptoms for the past 5 days and had not sought medical attention until his symptoms worsened. He denied any recent travel or known exposure to COVID-19.\n\nOn physical examination, John was found to have a temperature of 101\u00b0F, respiratory rate of 24 breaths/minute, and oxygen saturation of 92% on room air. Lung auscultation revealed bilateral crackles. Laboratory testing showed leukopenia, lymphopenia, and elevated C-reactive protein (CRP) levels. A chest X-ray showed bilateral infiltrates consistent with COVID-19.\n\nJohn was admitted to the hospital and started on supplemental oxygen, remdesivir, and dexamethasone. He required high-flow nasal cannula and eventually intubation due to worsening respiratory distress. He was transferred to the ICU for further management.\n\nDuring his hospitalization, John experienced several complications including acute kidney injury, septic shock, and ventil"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H50b5QSNnorTKKLCED2nRiCHV8KL",
+            "object": "chat.completion",
+            "created": 1684305185,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 256,
+                "total_tokens": 362
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Software Engineer\nEthnicity: Caucasian\nPast Medical History: None reported\n\nIntroduction:\nJohn Doe is a 45-year-old male who presented to the emergency room with symptoms suggestive of COVID-19. He reported having a fever, cough, shortness of breath, and body aches for the past five days. He denied any recent travel or close contact with someone who has tested positive for COVID-19.\n\nClinical Findings:\nUpon physical examination, John's vital signs were as follows: temperature 101.2\u00b0F, heart rate 100 beats per minute, respiratory rate 22 breaths per minute, and oxygen saturation 93% on room air. Lung auscultation revealed diffuse crackles and wheezes bilaterally. Laboratory testing revealed elevated inflammatory markers and a positive nasopharyngeal swab for SARS-CoV-2.\n\nManagement and Outcome:\nJohn was admitted to the hospital and started on supplemental oxygen via a nasal cannula. He was also initiated on remdesivir and dexamethasone per hospital protocol for COVID-19. His respiratory status gradually improved over the next few days, and he was able to be weaned off oxygen support"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H50bsijYXq31oQ75JIKDZtF3I1Fk",
+            "object": "chat.completion",
+            "created": 1684305185,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 256,
+                "total_tokens": 362
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: Hypertension, obesity\n\nCase Report:\n\nJohn Doe, a 45-year-old African American construction worker, presented to the emergency department with a fever, cough, and shortness of breath. He had been feeling unwell for the past week and his symptoms progressively worsened. He reported no recent travel or known contact with anyone with COVID-19.\n\nOn examination, his temperature was 101.5\u00b0F, heart rate was 110 beats per minute, respiratory rate was 24 breaths per minute, and oxygen saturation was 92% on room air. Lung auscultation revealed bilateral crackles.\n\nA chest X-ray showed bilateral ground-glass opacities. A nasopharyngeal swab was taken for SARS-CoV-2 testing, which came back positive.\n\nJohn was admitted to the hospital and started on supplemental oxygen, intravenous fluids, and broad-spectrum antibiotics. He was also started on remdesivir and dexamethasone.\n\nOver the next few days, John's oxygen requirement gradually decreased, and his fever subsided. He was discharged home on day 7 of"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

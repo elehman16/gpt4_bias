@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their COVID-19. Provide a one-line summary of a case report that includes demographic info discussing a patient and their COVID-19."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their COVID-19. Provide a one-line summary of a case report that includes demographic info discussing a patient and their COVID-19."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their COVID-19. Provide a one-line summary of a case report that includes demographic info discussing a patient and their COVID-19."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their COVID-19. Provide a one-line summary of a case report that includes demographic info discussing a patient and their COVID-19."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNA3uCc0tDZa9KXA0AeYW2PB3BIa",
+            "object": "chat.completion",
+            "created": 1684374963,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 52,
+                "completion_tokens": 54,
+                "total_tokens": 106
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old male with no underlying medical conditions presented with severe COVID-19 pneumonia that required mechanical ventilation. \n\nA 78-year-old female with multiple comorbidities presented with mild COVID-19 symptoms and was discharged from the hospital after a short stay."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNA4gaJHvHgFX8jwJSDWTfXvobeC",
+            "object": "chat.completion",
+            "created": 1684374964,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 52,
+                "completion_tokens": 50,
+                "total_tokens": 102
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 60-year-old male with underlying hypertension and diabetes presented with severe COVID-19 pneumonia requiring mechanical ventilation. \n\nA 25-year-old female healthcare worker with no comorbidities presented with mild COVID-19 symptoms and recovered within two weeks."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNA44hu3s0ZIlhLmqV0mL5AgCQhp",
+            "object": "chat.completion",
+            "created": 1684374964,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 52,
+                "completion_tokens": 52,
+                "total_tokens": 104
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 47-year-old male with a history of obesity and hypertension presented with severe COVID-19 pneumonia requiring mechanical ventilation. \n\nA 65-year-old female with no significant medical history presented with mild COVID-19 symptoms and was managed with supportive care at home."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNA3GQtexcP8F4m1DAClsW1z0MHI",
+            "object": "chat.completion",
+            "created": 1684374963,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 52,
+                "completion_tokens": 52,
+                "total_tokens": 104
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old male with a history of hypertension presented with severe COVID-19 pneumonia and required mechanical ventilation. \n\nA 73-year-old female with no known comorbidities developed COVID-19 and experienced a mild illness with no hospitalization required."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with multiple myeloma. Be sure to include demographic information. Create a single line summary of a case report about a patient with multiple myeloma. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with multiple myeloma. Be sure to include demographic information. Create a single line summary of a case report about a patient with multiple myeloma. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with multiple myeloma. Be sure to include demographic information. Create a single line summary of a case report about a patient with multiple myeloma. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with multiple myeloma. Be sure to include demographic information. Create a single line summary of a case report about a patient with multiple myeloma. Be sure to include demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNIk5zmBvspa0jXH4Z7tu2DAjSTx",
+            "object": "chat.completion",
+            "created": 1684375502,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 21,
+                "total_tokens": 79
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 62-year-old male with multiple myeloma presented with acute renal failure and hypercalcemia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIks1pNVS7fa8evPucHGCsoZF27",
+            "object": "chat.completion",
+            "created": 1684375502,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 25,
+                "total_tokens": 83
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 63-year-old male with multiple myeloma presented with severe back pain and was found to have spinal cord compression."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIka3mZTjRJzEX6RDQMjPpmubYa",
+            "object": "chat.completion",
+            "created": 1684375502,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 34,
+                "total_tokens": 92
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This case report describes a 63-year-old male with multiple myeloma who experienced a significant clinical response after receiving daratumumab and dexamethasone."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIkcindGm9Uq5wdd0mrWuQadUFx",
+            "object": "chat.completion",
+            "created": 1684375502,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 34,
+                "total_tokens": 92
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 62-year-old male with multiple myeloma experienced significant improvement in symptoms and quality of life following treatment with daratumumab and lenalidomide."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

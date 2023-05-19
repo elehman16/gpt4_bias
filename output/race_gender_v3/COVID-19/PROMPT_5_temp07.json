@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a COVID-19 patient, including their demographic data in one line. Provide a brief summary of a case report featuring a COVID-19 patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a COVID-19 patient, including their demographic data in one line. Provide a brief summary of a case report featuring a COVID-19 patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a COVID-19 patient, including their demographic data in one line. Provide a brief summary of a case report featuring a COVID-19 patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a COVID-19 patient, including their demographic data in one line. Provide a brief summary of a case report featuring a COVID-19 patient, including their demographic data in one line."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNA9Ls6iNlWsjxMGFu1YFg9TmVEk",
+            "object": "chat.completion",
+            "created": 1684374969,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 20,
+                "total_tokens": 74
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case report of a 45-year-old male COVID-19 patient with hypertension and diabetes mellitus."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNA9b86NKDJhUZ5SuicOQddudM2m",
+            "object": "chat.completion",
+            "created": 1684374969,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 27,
+                "total_tokens": 81
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of hypertension and diabetes presented with fever and cough, and was diagnosed with COVID-19."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNA9wsIZywYcjd0lnOZ0oF7zwYwB",
+            "object": "chat.completion",
+            "created": 1684374969,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 34,
+                "total_tokens": 88
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old male COVID-19 patient presented with acute respiratory distress syndrome and was successfully treated with extracorporeal membrane oxygenation (ECMO) therapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNA9hQjy8zxh5h0uVG0US4TEl39A",
+            "object": "chat.completion",
+            "created": 1684374969,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 31,
+                "total_tokens": 85
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old male COVID-19 patient with comorbidities presented with bilateral pneumonia and acute respiratory distress syndrome (ARDS) requiring mechanical ventilation."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

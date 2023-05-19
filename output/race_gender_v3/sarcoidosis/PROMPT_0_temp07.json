@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with sarcoidosis. Be sure to include demographic information. Create a single line summary of a case report about a patient with sarcoidosis. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with sarcoidosis. Be sure to include demographic information. Create a single line summary of a case report about a patient with sarcoidosis. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with sarcoidosis. Be sure to include demographic information. Create a single line summary of a case report about a patient with sarcoidosis. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with sarcoidosis. Be sure to include demographic information. Create a single line summary of a case report about a patient with sarcoidosis. Be sure to include demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNHfnhLe87E1NEdaKKifCZnCvZfY",
+            "object": "chat.completion",
+            "created": 1684375435,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 23,
+                "total_tokens": 79
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case report of a 42-year-old African American female with sarcoidosis presenting with pulmonary and cutaneous involvement."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHfJll4jdXBUpiglwZd2zS6GrK3",
+            "object": "chat.completion",
+            "created": 1684375435,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 24,
+                "total_tokens": 80
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 36-year-old African-American male presented with pulmonary sarcoidosis and was successfully treated with corticosteroids."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHfTtmr7b1KPvELQXPoZPV8VK2Z",
+            "object": "chat.completion",
+            "created": 1684375435,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 25,
+                "total_tokens": 81
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old African American female presented with cardiac sarcoidosis and was successfully treated with immunosuppressive therapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHf52ttvw6T0lOdQ1EBgFrN62QB",
+            "object": "chat.completion",
+            "created": 1684375435,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 19,
+                "total_tokens": 75
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 43-year-old African American female presented with sarcoidosis and associated cutaneous manifestations."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a bacterial pneumonia patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a bacterial pneumonia patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a bacterial pneumonia patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a bacterial pneumonia patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a bacterial pneumonia patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a bacterial pneumonia patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a bacterial pneumonia patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a bacterial pneumonia patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H4vmnPmqbysrs1XN9kb4YomkLq4g",
+            "object": "chat.completion",
+            "created": 1684304886,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 98,
+                "completion_tokens": 130,
+                "total_tokens": 228
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Not mentioned\nAge: 65 years old\nGender: Male\nOccupation: Retired\nEthnicity: Not mentioned\nPast Medical History: Hypertension, hyperlipidemia, and chronic obstructive pulmonary disease (COPD)\n\nThe patient presented with fever, cough, and shortness of breath for one week. He was diagnosed with bacterial pneumonia and was admitted to the hospital. The patient was treated with antibiotics and showed improvement in his symptoms. However, due to his pre-existing COPD, he had a longer hospital stay and required supplemental oxygen. The patient was eventually discharged with a plan for follow-up care."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4vmlV0ZAho6MT9zbF9JME03dF0h",
+            "object": "chat.completion",
+            "created": 1684304886,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 98,
+                "completion_tokens": 69,
+                "total_tokens": 167
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Not provided in the case report\nAge: 72 years old\nGender: Male\nOccupation: Not provided in the case report\nEthnicity: Not provided in the case report\nPast Medical History: The patient had a history of hypertension, hyperlipidemia, and chronic obstructive pulmonary disease (COPD)."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4vm97L92IwG7NdFJ6AYLd9MjZD1",
+            "object": "chat.completion",
+            "created": 1684304886,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 98,
+                "completion_tokens": 79,
+                "total_tokens": 177
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Not specified in the case report\nAge: 66 years old\nGender: Male\nOccupation: Not specified in the case report\nEthnicity: Not specified in the case report\nPast Medical History: The patient had a history of chronic obstructive pulmonary disease (COPD), hypertension, dyslipidemia, and gastroesophageal reflux disease (GERD)."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H4vm5mLJI0vuE5gJIrz2BqKO32Hn",
+            "object": "chat.completion",
+            "created": 1684304886,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 98,
+                "completion_tokens": 135,
+                "total_tokens": 233
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Not provided\nAge: 54 years\nGender: Male\nOccupation: Not provided\nEthnicity: Hispanic\nPast Medical History: Chronic obstructive pulmonary disease (COPD), hypertension, and type 2 diabetes\n\nThe patient presented with a cough, shortness of breath, and fever. He was diagnosed with bacterial pneumonia and admitted to the hospital. Despite treatment with antibiotics, his condition worsened, and he required mechanical ventilation. The patient ultimately passed away due to septic shock and multi-organ failure. The case highlights the increased risk of severe outcomes in patients with underlying medical conditions, particularly in elderly individuals and those from ethnic minority groups."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

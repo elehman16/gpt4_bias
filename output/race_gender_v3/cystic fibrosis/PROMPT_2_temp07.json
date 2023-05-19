@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with cystic fibrosis? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with cystic fibrosis?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with cystic fibrosis? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with cystic fibrosis?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with cystic fibrosis? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with cystic fibrosis?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with cystic fibrosis? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with cystic fibrosis?"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNRsQo6AnpCNAEH6RUQYQLtE7fU4",
+            "object": "chat.completion",
+            "created": 1684376068,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here's an example:\n\nCase Presentation:\n\nPatient: A 22-year-old male with cystic fibrosis\n\nChief Complaint: Shortness of breath and cough\n\nHistory of Present Illness:\n\nThe patient presents to the emergency department with worsening shortness of breath and cough over the past few days. He reports increased sputum production and chest tightness. The patient has a history of cystic fibrosis and has been compliant with his medications and treatments. He reports no recent exacerbations.\n\nPast Medical History:\n\nThe patient was diagnosed with cystic fibrosis at birth. He has had multiple hospitalizations for pulmonary exacerbations and has been treated with antibiotics, chest physiotherapy, and nebulizer treatments. He has a history of pancreatic insufficiency and takes pancreatic enzyme replacement therapy. He has no other significant medical history.\n\nSocial History:\n\nThe patient is a non-smoker and lives with his parents. He is a college student and works part-time. He reports no recent travel or exposure to sick contacts.\n\nPhysical Examination:\n\nThe patient is alert and oriented. Vital signs are within normal limits. Lung examination reveals diffuse wheezing and crackles. There is no clubbing or cyanosis. Abdominal examination is unremarkable.\n\nDiagnostic Tests:\n\nChest"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNRsi2g3zhaI5SR3tVaZmhi8tpAc",
+            "object": "chat.completion",
+            "created": 1684376068,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here's a short presentation of a case involving a patient with cystic fibrosis:\n\nCase Presentation:\n\nPatient demographics:\n- 22-year-old male\n- Diagnosed with cystic fibrosis at age 2\n- Caucasian ethnicity\n- Non-smoker\n\nChief complaint:\n- Shortness of breath and persistent cough\n\nHistory of present illness:\n- Patient reports experiencing shortness of breath and persistent cough for the past 2 weeks.\n- Symptoms have been worsening despite using his prescribed bronchodilators and nebulized therapies.\n- Reports having increased sputum production and difficulty clearing it from his lungs.\n- Denies fever, chest pain, or wheezing.\n\nPast medical history:\n- Diagnosed with cystic fibrosis at age 2.\n- History of recurrent respiratory infections and chronic lung disease.\n- Hospitalized multiple times in the past for exacerbations of his condition.\n- Currently on nebulized therapies, chest physiotherapy, and pancreatic enzyme replacement therapy.\n\nSocial history:\n- Non-smoker and denies any illicit drug use.\n- Completes his college education and is currently employed as a software engineer.\n- Lives independently, but close to his parents.\n\nPhysical examination:\n- Vital signs are within normal limits.\n- Oxygen saturation is"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNRsRqPkRk3xH1C3AbC2ajK5diPI",
+            "object": "chat.completion",
+            "created": 1684376068,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here is a short presentation of a case about a patient with cystic fibrosis:\n\nPatient Demographics:\n- 18-year-old male\n- Diagnosed with cystic fibrosis (CF) at age 2\n- Treated with daily pancreatic enzymes, inhaled hypertonic saline, and nebulized dornase alfa\n\nChief Complaint:\n- Difficulty breathing and increased coughing for the past week\n\nHistory of Present Illness:\n- The patient reports increased shortness of breath and coughing, with thicker and more copious sputum production\n- He denies any fever, chest pain, or other respiratory symptoms\n- He has been adherent to his daily treatment regimen\n\nPast Medical History:\n- CF-related diabetes\n- Chronic Pseudomonas aeruginosa infection\n- Previous hospitalizations for pulmonary exacerbations\n\nPhysical Examination:\n- Respiratory rate of 28 breaths per minute\n- Oxygen saturation of 92% on room air\n- Increased work of breathing with use of accessory muscles\n- Crackles and wheezing heard on lung auscultation\n\nDiagnostic Workup:\n- Chest X-ray shows bilateral infiltrates consistent with a pulmonary exacerbation\n- Sputum culture grows Pseudomonas aeruginosa\n-"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNRsPlZBXPwYuJiIG10Z99RqWtqD",
+            "object": "chat.completion",
+            "created": 1684376068,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here is a short presentation on a patient with cystic fibrosis:\n\nPatient Demographics:\n- 18-year-old male\n- Diagnosed with cystic fibrosis at birth\n- Past medical history includes frequent respiratory infections and malabsorption issues\n- Currently on a treatment regimen including pancreatic enzyme replacement therapy, nebulized medications, and chest physiotherapy\n\nCase Presentation:\nThe patient presents with increased cough and sputum production for the past week. He reports feeling more fatigued than usual and experiencing shortness of breath with minimal exertion. On physical exam, the patient appears thin and has decreased breath sounds in the lower lobes of both lungs. Pulmonary function testing shows a decline in forced expiratory volume in one second (FEV1) from 65% to 55% predicted since his last visit three months ago.\n\nThe patient's sputum culture grows Pseudomonas aeruginosa, which is sensitive to tobramycin. He is started on a course of intravenous tobramycin and oral ciprofloxacin for two weeks. His respiratory symptoms improve, and repeat pulmonary function testing shows an increase in FEV1 to 60% predicted.\n\nDiscussion:\nCystic fibrosis is a"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

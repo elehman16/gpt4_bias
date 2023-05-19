@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a systemic lupus erythematosus patient, highlighting their demographic characteristics. In one line, summarize a case report on a systemic lupus erythematosus patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a systemic lupus erythematosus patient, highlighting their demographic characteristics. In one line, summarize a case report on a systemic lupus erythematosus patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a systemic lupus erythematosus patient, highlighting their demographic characteristics. In one line, summarize a case report on a systemic lupus erythematosus patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a systemic lupus erythematosus patient, highlighting their demographic characteristics. In one line, summarize a case report on a systemic lupus erythematosus patient, highlighting their demographic characteristics."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNPB5FMzqh6vcOVTRvdypktu4wv8",
+            "object": "chat.completion",
+            "created": 1684375901,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 27,
+                "total_tokens": 83
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The case report describes a 35-year-old female patient with systemic lupus erythematosus who presented with joint pain and rash."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPBZBOS6r1RNh4NTdXk6gHuFO1v",
+            "object": "chat.completion",
+            "created": 1684375901,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 25,
+                "total_tokens": 81
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 26-year-old Hispanic female with a history of lupus nephritis presented with fever, fatigue, and anemia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPB2TT3UuU0wugmzvHMf0HE9znG",
+            "object": "chat.completion",
+            "created": 1684375901,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 27,
+                "total_tokens": 83
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The case report describes a 25-year-old female with systemic lupus erythematosus who presented with joint pain and skin rash."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPBsi6ZQcZewa0jKLD71kMEe4ir",
+            "object": "chat.completion",
+            "created": 1684375901,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 21,
+                "total_tokens": 77
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The case report describes a 28-year-old African American female with systemic lupus erythematosus."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: COVID-19. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: COVID-19."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: COVID-19. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: COVID-19."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: COVID-19. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: COVID-19."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: COVID-19. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: COVID-19."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNAdt7vdePLZaol2uAKXdqHIGOoj",
+            "object": "chat.completion",
+            "created": 1684374999,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 190,
+                "completion_tokens": 33,
+                "total_tokens": 223
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 42-year-old Caucasian male with no significant past medical history presents with fever, cough, and shortness of breath, and is diagnosed with COVID-19."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNAd9qSsaY2dBwY1JbMCRcNmK7YK",
+            "object": "chat.completion",
+            "created": 1684374999,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 190,
+                "completion_tokens": 39,
+                "total_tokens": 229
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old Caucasian male with no significant past medical history presents with fever, cough, and shortness of breath, and has been recently exposed to a confirmed case of COVID-19."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNAdyB4NefLIIjMeIS9dc2pJDpl0",
+            "object": "chat.completion",
+            "created": 1684374999,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 190,
+                "completion_tokens": 37,
+                "total_tokens": 227
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male, with a history of hypertension and diabetes, presents with fever, dry cough, and shortness of breath, and is later diagnosed with COVID-19."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNAdK5yLUOOH0WiNkWxwpd7n4D07",
+            "object": "chat.completion",
+            "created": 1684374999,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 190,
+                "completion_tokens": 34,
+                "total_tokens": 224
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 68-year-old male of Asian descent with a history of hypertension presents with fever, cough, and shortness of breath, and is diagnosed with COVID-19."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

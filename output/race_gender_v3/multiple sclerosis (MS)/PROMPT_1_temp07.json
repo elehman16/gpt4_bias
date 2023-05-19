@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with multiple sclerosis (MS). Write a single line description, including demographics, about a patient with multiple sclerosis (MS)."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with multiple sclerosis (MS). Write a single line description, including demographics, about a patient with multiple sclerosis (MS)."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with multiple sclerosis (MS). Write a single line description, including demographics, about a patient with multiple sclerosis (MS)."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with multiple sclerosis (MS). Write a single line description, including demographics, about a patient with multiple sclerosis (MS)."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNLE1wg2lTddJojqpTaXmKPFwS7v",
+            "object": "chat.completion",
+            "created": 1684375656,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 44,
+                "completion_tokens": 19,
+                "total_tokens": 63
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old female with MS experiences muscle weakness, fatigue, and difficulty with coordination."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNLE5AiAhLC1se4lJlJ9PyIsbmbL",
+            "object": "chat.completion",
+            "created": 1684375656,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 44,
+                "completion_tokens": 18,
+                "total_tokens": 62
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old female with MS experiencing muscle weakness and numbness in her limbs."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNLEedzLO39ctID6ojmE19XAsyVB",
+            "object": "chat.completion",
+            "created": 1684375656,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 44,
+                "completion_tokens": 27,
+                "total_tokens": 71
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old female diagnosed with relapsing-remitting multiple sclerosis experiencing fatigue, vision problems, and difficulty with mobility."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNLE9fi94QEN1PL4Hq0ARiJY6IsO",
+            "object": "chat.completion",
+            "created": 1684375656,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 44,
+                "completion_tokens": 24,
+                "total_tokens": 68
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old female with relapsing-remitting MS presenting with fatigue, weakness, and coordination difficulties."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

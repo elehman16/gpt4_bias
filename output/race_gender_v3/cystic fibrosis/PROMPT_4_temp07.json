@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their cystic fibrosis. Provide a one-line summary of a case report that includes demographic info discussing a patient and their cystic fibrosis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their cystic fibrosis. Provide a one-line summary of a case report that includes demographic info discussing a patient and their cystic fibrosis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their cystic fibrosis. Provide a one-line summary of a case report that includes demographic info discussing a patient and their cystic fibrosis."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their cystic fibrosis. Provide a one-line summary of a case report that includes demographic info discussing a patient and their cystic fibrosis."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNSMFsTumbJEz04e2J3ff7Ox3Vzh",
+            "object": "chat.completion",
+            "created": 1684376098,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 48,
+                "total_tokens": 102
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A case report of a 25-year-old male with cystic fibrosis and chronic kidney disease requiring kidney transplantation. \n\nA case report of a 32-year-old female with cystic fibrosis and recurrent pulmonary exacerbations despite aggressive treatment."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNSMFt3cNJeekWhaYHsuFbsjnoDT",
+            "object": "chat.completion",
+            "created": 1684376098,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 64,
+                "total_tokens": 118
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old Caucasian female with cystic fibrosis presented with worsening respiratory symptoms and was diagnosed with Mycobacterium abscessus infection. \n\nA 25-year-old male with cystic fibrosis and a history of multiple exacerbations was found to have a rare mutation, leading to a personalized treatment plan."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNSMn5S6s2ckuySF9eZEAi4qFXZD",
+            "object": "chat.completion",
+            "created": 1684376098,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 69,
+                "total_tokens": 123
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 25-year-old male with cystic fibrosis presented with hemoptysis and was found to have a ruptured bulla. \n\nA 37-year-old female with cystic fibrosis and a history of lung transplantation developed recurrent episodes of Pseudomonas aeruginosa infection and was successfully treated with inhaled bacteriophages."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNSMwJv9kQ766PZliuh2M7VSQVVc",
+            "object": "chat.completion",
+            "created": 1684376098,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 68,
+                "total_tokens": 122
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case report: A 25-year-old male with cystic fibrosis presented with chronic respiratory symptoms and was found to have a rare mutation in the CFTR gene. \n\nCase report: A 30-year-old female with cystic fibrosis and chronic pancreatitis presented with recurrent abdominal pain and was diagnosed with pancreatic adenocarcinoma."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

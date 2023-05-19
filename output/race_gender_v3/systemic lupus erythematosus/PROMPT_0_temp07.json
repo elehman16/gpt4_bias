@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with systemic lupus erythematosus. Be sure to include demographic information. Create a single line summary of a case report about a patient with systemic lupus erythematosus. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with systemic lupus erythematosus. Be sure to include demographic information. Create a single line summary of a case report about a patient with systemic lupus erythematosus. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with systemic lupus erythematosus. Be sure to include demographic information. Create a single line summary of a case report about a patient with systemic lupus erythematosus. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with systemic lupus erythematosus. Be sure to include demographic information. Create a single line summary of a case report about a patient with systemic lupus erythematosus. Be sure to include demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNORxAsvZcJqjKf7QawfLSoQZGtM",
+            "object": "chat.completion",
+            "created": 1684375855,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 30,
+                "total_tokens": 94
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old female with systemic lupus erythematosus presenting with severe thrombocytopenia and hemolytic anemia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNOR2oEsguBLboBO91JKKt9FOYMx",
+            "object": "chat.completion",
+            "created": 1684375855,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 32,
+                "total_tokens": 96
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old female with systemic lupus erythematosus presents with fever and fatigue, and is diagnosed with disseminated histoplasmosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNORlGVfWGRmsrKFq28kRn1kKQHp",
+            "object": "chat.completion",
+            "created": 1684375855,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 29,
+                "total_tokens": 93
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This case report describes a 32-year-old female with systemic lupus erythematosus who developed acute kidney injury and required hemodialysis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNORvyl8G1wF9zglHCe42WLssGaW",
+            "object": "chat.completion",
+            "created": 1684375855,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 32,
+                "total_tokens": 96
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old female with systemic lupus erythematosus presented with acute chest pain and was found to have pericarditis and myocarditis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

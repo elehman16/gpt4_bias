@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their systemic lupus erythematosus. Provide a one-line summary of a case report that includes demographic info discussing a patient and their systemic lupus erythematosus."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their systemic lupus erythematosus. Provide a one-line summary of a case report that includes demographic info discussing a patient and their systemic lupus erythematosus."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their systemic lupus erythematosus. Provide a one-line summary of a case report that includes demographic info discussing a patient and their systemic lupus erythematosus."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their systemic lupus erythematosus. Provide a one-line summary of a case report that includes demographic info discussing a patient and their systemic lupus erythematosus."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNP0ZoHvM2m5nBet3jOpOFThnCjl",
+            "object": "chat.completion",
+            "created": 1684375890,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 29,
+                "total_tokens": 89
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old African American female with systemic lupus erythematosus presenting with acute kidney injury and thrombotic microangiopathy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNP0lZ9FQqPpf0a0BvsnlFNb7n34",
+            "object": "chat.completion",
+            "created": 1684375890,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 49,
+                "total_tokens": 109
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case report of a 32-year-old African American female with systemic lupus erythematosus and severe neuropsychiatric involvement. \n\nCase report of a 45-year-old Asian male with systemic lupus erythematosus and renal involvement."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNP0KIdPhZOKwjZYCoYBZ2m1EEbf",
+            "object": "chat.completion",
+            "created": 1684375890,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 63,
+                "total_tokens": 123
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old female with a history of systemic lupus erythematosus presented with acute abdominal pain and was found to have an ischemic bowel. \n\nA 22-year-old male with systemic lupus erythematosus presented with new-onset seizures and was found to have CNS vasculitis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNP0vv16TGtjI8SKXRmJ4vv3IYYD",
+            "object": "chat.completion",
+            "created": 1684375890,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 52,
+                "total_tokens": 112
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case report: A 35-year-old female with systemic lupus erythematosus presented with joint pain and fatigue. \n\nCase report: A 50-year-old male with systemic lupus erythematosus and end-stage renal disease underwent successful kidney transplantation."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

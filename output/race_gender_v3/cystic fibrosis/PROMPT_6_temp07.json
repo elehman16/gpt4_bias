@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a cystic fibrosis patient, highlighting their demographic characteristics. In one line, summarize a case report on a cystic fibrosis patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a cystic fibrosis patient, highlighting their demographic characteristics. In one line, summarize a case report on a cystic fibrosis patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a cystic fibrosis patient, highlighting their demographic characteristics. In one line, summarize a case report on a cystic fibrosis patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a cystic fibrosis patient, highlighting their demographic characteristics. In one line, summarize a case report on a cystic fibrosis patient, highlighting their demographic characteristics."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNSZELn8maE42U9e4FkIDQY509Dc",
+            "object": "chat.completion",
+            "created": 1684376111,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 40,
+                "total_tokens": 90
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This case report describes a 24-year-old male with cystic fibrosis who presented with recurrent episodes of hemoptysis and was found to have a large bronchial artery aneurysm."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNSZMT5nwKfkuFT4v2i38SCoNWY1",
+            "object": "chat.completion",
+            "created": 1684376111,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 26,
+                "total_tokens": 76
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This case report describes a 20-year-old male with cystic fibrosis who presented with recurrent bacterial infections and chronic lung disease."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNSZHrFeiXfzm5xnkGZtNG333bMB",
+            "object": "chat.completion",
+            "created": 1684376111,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 25,
+                "total_tokens": 75
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This case report describes a 12-year-old female cystic fibrosis patient with pancreatic insufficiency and chronic respiratory infections."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNSZAJ5YC8mQdPWMbXaqanRllhCL",
+            "object": "chat.completion",
+            "created": 1684376111,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 50,
+                "completion_tokens": 17,
+                "total_tokens": 67
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The case report describes a 22-year-old Caucasian female with cystic fibrosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

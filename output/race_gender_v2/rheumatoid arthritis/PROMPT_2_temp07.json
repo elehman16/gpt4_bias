@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with rheumatoid arthritis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with rheumatoid arthritis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with rheumatoid arthritis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with rheumatoid arthritis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with rheumatoid arthritis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with rheumatoid arthritis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with rheumatoid arthritis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with rheumatoid arthritis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H593FZ7MFn4FfwLcwDngIAPe9BI9",
+            "object": "chat.completion",
+            "created": 1684305709,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 227,
+                "total_tokens": 347
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 52\nGender: Female\nOccupation: Office Manager\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and a 10-year history of rheumatoid arthritis.\n\nCase Presentation:\nSarah Johnson is a 52-year-old female office manager who presents to the rheumatology clinic for a follow-up visit. She was diagnosed with rheumatoid arthritis 10 years ago and has been managed with methotrexate and prednisone. She reports increasing pain, stiffness, and swelling in her hands and feet, which has been affecting her ability to perform her job duties. She denies any recent infections or injuries. On exam, there is synovitis and tenderness in multiple joints, including the wrists, metacarpophalangeal joints, and ankles. Lab work shows elevated C-reactive protein and rheumatoid factor levels. The treatment plan is to increase methotrexate dosage and add a biologic medication to target her disease activity more aggressively. Follow-up appointments are scheduled to monitor the response to treatment and adjust as needed."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H59LssnU9Z3HJamfef7oevrBLPiF",
+            "object": "chat.completion",
+            "created": 1684305727,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 250,
+                "total_tokens": 370
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 45\nGender: Female\nOccupation: Stay-at-home mom\nEthnicity: Caucasian\nPast Medical History: Hypertension, obesity\n\nCase Presentation:\n\nSarah Johnson is a 45-year-old stay-at-home mom who presents to the clinic with complaints of joint pain and stiffness in her hands, wrists, and feet. She reports that these symptoms have been present for several months and have been getting progressively worse. She has difficulty with daily activities such as opening jars and buttoning her clothing. She also reports fatigue and occasional low-grade fevers. \n\nOn physical examination, there is swelling and tenderness in her hands, wrists, and feet, with limited range of motion. Laboratory testing reveals elevated levels of rheumatoid factor and anti-cyclic citrullinated peptide (anti-CCP) antibodies, confirming a diagnosis of rheumatoid arthritis. \n\nSarah has a past medical history of hypertension and obesity, but is otherwise healthy. She is started on disease-modifying antirheumatic drugs (DMARDs) and referred to physical therapy for joint mobilization exercises and strength training. She is also advised to follow a healthy diet and exercise program to help manage her overall health and weight."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H593Ngbl21Xv88MRP3mCgNj8QYEb",
+            "object": "chat.completion",
+            "created": 1684305709,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 220,
+                "total_tokens": 340
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Smith\nAge: 45\nGender: Female\nOccupation: Office Manager\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and smoking history\n\nPresentation of Case:\nSarah Smith is a 45-year-old office manager who presents to her primary care physician with complaints of joint pain and stiffness in her hands, wrists, and knees for the last six months. She reports that the pain is worse in the morning and improves throughout the day. She has also been experiencing fatigue, low-grade fever, and weight loss. On examination, her joints are swollen, warm, and tender to palpation, with limited range of motion. She has a positive rheumatoid factor and anti-cyclic citrullinated peptide (anti-CCP) antibody. X-rays of the affected joints show erosions and joint space narrowing consistent with rheumatoid arthritis. Sarah has no family history of autoimmune diseases. She is started on disease-modifying antirheumatic drugs (DMARDs) and referred to a rheumatologist for further management."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H593CgxUO4H1Z9tI3GeTWZXvcVgy",
+            "object": "chat.completion",
+            "created": 1684305709,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 208,
+                "total_tokens": 328
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 45\nGender: Female\nOccupation: Graphic Designer\nEthnicity: Caucasian\nPast Medical History: Hypertension, Hyperlipidemia\n\nCase Presentation:\nSarah Johnson is a 45-year-old, Caucasian female who works as a graphic designer. She presents to her primary care physician with complaints of joint pain and stiffness in her hands. She reports that the pain is worse in the morning and is accompanied by swelling and redness in her fingers. She has also been experiencing fatigue and occasional low-grade fevers. Sarah has a past medical history of hypertension and hyperlipidemia, for which she takes lisinopril and atorvastatin, respectively. She denies any family history of arthritis or autoimmune diseases. Physical examination reveals tender and swollen joints in her hands and wrists. Laboratory studies show elevated levels of rheumatoid factor and anti-cyclic citrullinated peptide antibodies. Sarah is diagnosed with rheumatoid arthritis and referred to a rheumatologist for further management."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

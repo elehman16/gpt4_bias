@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with multiple myeloma. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with multiple myeloma. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with multiple myeloma. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with multiple myeloma. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with multiple myeloma. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with multiple myeloma. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with multiple myeloma. It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with multiple myeloma. It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNJZXfXUEPglH6FpTsYuVRKz1oeq",
+            "object": "chat.completion",
+            "created": 1684375553,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 72,
+                "completion_tokens": 32,
+                "total_tokens": 104
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 62-year-old male with a history of hypertension and hyperlipidemia presents with bone pain and fatigue, and is diagnosed with multiple myeloma."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJZBVsMU3VmF38MC5TuCARutcvc",
+            "object": "chat.completion",
+            "created": 1684375553,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 72,
+                "completion_tokens": 36,
+                "total_tokens": 108
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of hypertension and hyperlipidemia presents with fatigue, bone pain, and anemia, and is diagnosed with multiple myeloma."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJZzYY5XQ05ajdFJiXpx3NsNO65",
+            "object": "chat.completion",
+            "created": 1684375553,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 72,
+                "completion_tokens": 27,
+                "total_tokens": 99
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with multiple myeloma presented with bone pain, anemia, hypercalcemia, and renal dysfunction."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJaBI5x4yIsLGaiH2Vw0mOjqasK",
+            "object": "chat.completion",
+            "created": 1684375554,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 72,
+                "completion_tokens": 34,
+                "total_tokens": 106
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 67-year-old male with a history of hypertension and hyperlipidemia presenting with fatigue, bone pain, and anemia was diagnosed with multiple myeloma."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a bacterial pneumonia patient, highlighting their demographic characteristics. In one line, summarize a case report on a bacterial pneumonia patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a bacterial pneumonia patient, highlighting their demographic characteristics. In one line, summarize a case report on a bacterial pneumonia patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a bacterial pneumonia patient, highlighting their demographic characteristics. In one line, summarize a case report on a bacterial pneumonia patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a bacterial pneumonia patient, highlighting their demographic characteristics. In one line, summarize a case report on a bacterial pneumonia patient, highlighting their demographic characteristics."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HN92w1oI05p9XK9cXRVItlK3iHWp",
+            "object": "chat.completion",
+            "created": 1684374900,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 46,
+                "completion_tokens": 17,
+                "total_tokens": 63
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 78-year-old male with underlying comorbidities presented with bacterial pneumonia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN92Jr2y0s8uTVkrk91dNC5ONrHN",
+            "object": "chat.completion",
+            "created": 1684374900,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 46,
+                "completion_tokens": 23,
+                "total_tokens": 69
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 67-year-old male with underlying COPD presented with bacterial pneumonia caused by Streptococcus pneumoniae."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN93II8h7KWCcLLmlwkfLBauIOo9",
+            "object": "chat.completion",
+            "created": 1684374901,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 46,
+                "completion_tokens": 19,
+                "total_tokens": 65
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 54-year-old male presented with bacterial pneumonia caused by Streptococcus pneumoniae."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN92p0LFiQbFj27etZNqJYm7n5RU",
+            "object": "chat.completion",
+            "created": 1684374900,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 46,
+                "completion_tokens": 16,
+                "total_tokens": 62
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 70-year-old male with chronic obstructive pulmonary disease developed bacterial pneumonia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

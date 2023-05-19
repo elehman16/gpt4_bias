@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a cystic fibrosis patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a cystic fibrosis patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a cystic fibrosis patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a cystic fibrosis patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a cystic fibrosis patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a cystic fibrosis patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a cystic fibrosis patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a cystic fibrosis patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5V4sZlDPjeHgjjeohvSUHepfMvd",
+            "object": "chat.completion",
+            "created": 1684307074,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 132,
+                "total_tokens": 234
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 25\nGender: Female\nOccupation: Unemployed due to health complications\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at birth, has undergone multiple hospitalizations and surgeries due to complications from the disease.\n\nThe case report discusses Sarah, a 25-year-old Caucasian female with cystic fibrosis. She was diagnosed with the disease at birth and has a history of multiple hospitalizations and surgeries due to complications from the disease. Sarah is currently unemployed due to her health complications. The report highlights the challenges she faces with managing her disease and the need for ongoing support and care."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5V4vG0s6VXOXpSYwtN79VFRI2zV",
+            "object": "chat.completion",
+            "created": 1684307074,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 151,
+                "total_tokens": 253
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mary\nAge: 25\nGender: Female\nOccupation: Unemployed\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at a young age, she has suffered from frequent pulmonary exacerbations and required several hospitalizations. She also has a history of pancreatic insufficiency and requires enzyme replacement therapy.\n\nMary is a 25-year-old Caucasian female who was diagnosed with cystic fibrosis at a young age. She has a history of frequent pulmonary exacerbations and has required several hospitalizations. She also has pancreatic insufficiency and requires enzyme replacement therapy. Mary is currently unemployed and relies on her family for financial support. Despite her health struggles, she remains optimistic and determined to manage her condition."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5V4m07Nnn7CTmAr9guQLnNhv1zw",
+            "object": "chat.completion",
+            "created": 1684307074,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 136,
+                "total_tokens": 238
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Jacob\nAge: 24\nGender: Male\nOccupation: Full-time student\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at birth, has undergone multiple surgeries and hospitalizations for respiratory infections.\n\nIn the case report, Jacob presented with increased difficulty breathing and was admitted to the hospital for treatment. He was described as a young Caucasian male, 24 years old, and a full-time student. His past medical history included a diagnosis of cystic fibrosis at birth and multiple hospitalizations for respiratory infections. The report focused on the management of his symptoms and the importance of early intervention in cystic fibrosis patients."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5V44Vy3T6KLKeZcYG8SRzskedGZ",
+            "object": "chat.completion",
+            "created": 1684307074,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 133,
+                "total_tokens": 235
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 26\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at birth, has had multiple hospitalizations and lung infections in the past.\n\nThe case report describes Sarah, a 26-year-old Caucasian female who was diagnosed with cystic fibrosis at birth. She is currently a student and has a history of multiple hospitalizations and lung infections. Sarah's demographic characteristics include being a young adult, female, Caucasian, and a student. Her past medical history highlights the chronic nature of cystic fibrosis and the need for ongoing medical care and management."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

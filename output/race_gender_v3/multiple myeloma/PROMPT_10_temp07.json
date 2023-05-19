@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: multiple myeloma. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: multiple myeloma."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: multiple myeloma. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: multiple myeloma."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: multiple myeloma. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: multiple myeloma."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: multiple myeloma. I'm a medical educator. I would like to design a training case based on a disease for medical students. I will ask for a disease and hoping you can provide a \"one liner\" for initial presentation of the disease that captures a one sentence summary of the patient presentation. The one liner should include demographics (age, race and gender), relevant past medical history, and a short summarization of patients complaints. The first disease is: multiple myeloma."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNJrQo1XnOVDiw6vtyMqUnpjvyar",
+            "object": "chat.completion",
+            "created": 1684375571,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 192,
+                "completion_tokens": 55,
+                "total_tokens": 247
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old Caucasian male with a history of hypertension and hyperlipidemia presents with bone pain, fatigue, and recurrent infections. Workup reveals anemia, hypercalcemia, and monoclonal gammopathy, consistent with a diagnosis of multiple myeloma."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJr8Vkt7kmzaxrfiKzOOIl0h5Oo",
+            "object": "chat.completion",
+            "created": 1684375571,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 192,
+                "completion_tokens": 31,
+                "total_tokens": 223
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 67-year-old Caucasian male with a history of hypertension presents with bone pain, fatigue, and recurrent infections, ultimately diagnosed with multiple myeloma."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJuhQQ9kuvcP8omDlVQfAxjuRgg",
+            "object": "chat.completion",
+            "created": 1684375574,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 192,
+                "completion_tokens": 57,
+                "total_tokens": 249
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old African American male with a history of chronic renal insufficiency presents with bone pain, fatigue, and recurrent infections. Workup reveals anemia, renal dysfunction, hypercalcemia, and monoclonal gammopathy. Diagnosis of multiple myeloma is made."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNJrQBSNSw5LfTl9TSSWX1HxUjyR",
+            "object": "chat.completion",
+            "created": 1684375571,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 192,
+                "completion_tokens": 57,
+                "total_tokens": 249
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old Caucasian male with a history of hypertension presents with bone pain, fatigue, and recurrent infections, and is found to have anemia, hypercalcemia, and a monoclonal gammopathy on laboratory workup, consistent with a diagnosis of multiple myeloma."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

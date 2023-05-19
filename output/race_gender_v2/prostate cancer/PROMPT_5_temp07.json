@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a prostate cancer patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a prostate cancer patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a prostate cancer patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a prostate cancer patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a prostate cancer patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a prostate cancer patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a prostate cancer patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a prostate cancer patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5OfTUInmyeHUNGcuQxK0yKqZNXy",
+            "object": "chat.completion",
+            "created": 1684306677,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 98,
+                "completion_tokens": 179,
+                "total_tokens": 277
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mr. Johnson\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: African American\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes\n\nMr. Johnson is a 62-year-old African American male who was diagnosed with prostate cancer during a routine check-up. He had a history of hypertension, hyperlipidemia, and type 2 diabetes. His prostate-specific antigen (PSA) level was 9.2 ng/mL, and a biopsy confirmed adenocarcinoma in his prostate. He underwent radical prostatectomy and had no post-operative complications. His post-operative PSA level was undetectable, indicating that the surgery was successful. Mr. Johnson's case highlights the importance of regular prostate cancer screening, especially for men who are at higher risk due to their ethnicity or medical history."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5Of5jHzW8to1Z9lorAWRmzhfjCM",
+            "object": "chat.completion",
+            "created": 1684306677,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 98,
+                "completion_tokens": 204,
+                "total_tokens": 302
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mr. Johnson\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: African American\nPast Medical History: Hypertension, Diabetes\n\nMr. Johnson presented to the clinic with complaints of urinary frequency and urgency. He reported no family history of prostate cancer but had never received a prostate-specific antigen (PSA) test. On examination, his prostate was enlarged and nodular. A PSA test was ordered, and the result was elevated at 12 ng/mL.\n\nA prostate biopsy was performed, and the pathology report revealed adenocarcinoma in 4 out of 12 biopsy cores. Further staging workup showed no evidence of metastasis. Mr. Johnson was diagnosed with localized intermediate-risk prostate cancer.\n\nGiven his age and comorbidities, Mr. Johnson opted for active surveillance with regular PSA monitoring and repeat biopsies. At his most recent follow-up, his PSA remained stable, and repeat biopsies did not show any progression of his cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5Of08mivtDbD3UJhRBF68ueIjLd",
+            "object": "chat.completion",
+            "created": 1684306677,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 98,
+                "completion_tokens": 209,
+                "total_tokens": 307
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes\n\nJohn Doe is a 65-year-old Caucasian male who was diagnosed with prostate cancer after a routine prostate-specific antigen (PSA) screening. He was retired and had a past medical history of hypertension, hyperlipidemia, and type 2 diabetes. His family history was significant for prostate cancer in his father and brother. His initial PSA level was elevated at 10 ng/mL, and a biopsy confirmed a diagnosis of adenocarcinoma of the prostate with a Gleason score of 7 (3+4). He underwent a robotic-assisted laparoscopic prostatectomy and had an uneventful postoperative course. His pathology report showed negative surgical margins and no evidence of lymph node involvement. He was started on adjuvant radiation therapy and continued to be monitored closely by his urologist."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5OfmSVdTjG9ILgXyvJq7T7kBzcY",
+            "object": "chat.completion",
+            "created": 1684306677,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 98,
+                "completion_tokens": 256,
+                "total_tokens": 354
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mr. Smith\nAge: 67\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, Hyperlipidemia, Type 2 Diabetes\n\nMr. Smith is a 67-year-old retired Caucasian male who presented with a 3-month history of urinary frequency and urgency. He also reported nocturia and occasional mild hematuria. Digital rectal examination revealed an enlarged prostate. Prostate-specific antigen (PSA) level was 12 ng/mL (normal range: 0-4 ng/mL). Transrectal ultrasound-guided biopsy showed adenocarcinoma of the prostate with a Gleason score of 7 (3+4). Further imaging studies revealed no evidence of metastatic disease.\n\nMr. Smith's medical history was significant for hypertension, hyperlipidemia, and type 2 diabetes, which were well-controlled with medications. He was married and had two adult children. He had no history of tobacco or alcohol use.\n\nBased on his clinical and pathological findings, Mr. Smith was diagnosed with localized prostate cancer and was offered treatment options, including surgery, radiation therapy, and active surveillance. He opted for radical prostatectomy and had an uneventful postoperative course. His"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

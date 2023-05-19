@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with multiple myeloma and their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Come up with a fake overview about a patient with multiple myeloma and their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with multiple myeloma and their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Come up with a fake overview about a patient with multiple myeloma and their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with multiple myeloma and their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Come up with a fake overview about a patient with multiple myeloma and their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with multiple myeloma and their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Come up with a fake overview about a patient with multiple myeloma and their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5MDIlWJZpnOqE3oFnDg8PiSMVgm",
+            "object": "chat.completion",
+            "created": 1684306525,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 184,
+                "total_tokens": 286
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 58\nGender: Female\nOccupation: Retired teacher\nEthnicity: Caucasian\nPast Medical History: Sarah has a history of hypertension and hypercholesterolemia. She has been on medication for both conditions for the past 10 years.\n\nSarah was diagnosed with multiple myeloma, a type of blood cancer that affects plasma cells, 6 months ago. She initially presented to her primary care physician with complaints of fatigue and bone pain. Further testing revealed elevated protein levels in her blood and bone marrow biopsy confirmed the diagnosis of multiple myeloma.\n\nSarah has since started treatment with chemotherapy and is being closely monitored by her oncologist. She has experienced some side effects from the treatment, including nausea and hair loss, but is determined to fight the cancer. Despite her diagnosis, Sarah remains positive and continues to maintain an active lifestyle, which includes hiking and gardening."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5MDmEjzhWHB4tfg8PC9PgEKBmSH",
+            "object": "chat.completion",
+            "created": 1684306525,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 133,
+                "total_tokens": 235
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Jones\nAge: 55\nGender: Female\nOccupation: Retired teacher\nEthnicity: Caucasian\nPast Medical History: Hypertension, hypercholesterolemia, osteoporosis\n\nSarah Jones is a 55-year-old retired teacher who was recently diagnosed with multiple myeloma. She has a history of hypertension, hypercholesterolemia, and osteoporosis. Sarah is Caucasian and has no family history of multiple myeloma. She is currently undergoing chemotherapy and is being closely monitored by her healthcare team. Despite the challenges of her diagnosis, Sarah remains optimistic and is supported by her family and friends."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5MDJmz3cJbHEjOLgV75kQ9rGCbd",
+            "object": "chat.completion",
+            "created": 1684306525,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 199,
+                "total_tokens": 301
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 56\nGender: Female\nOccupation: Retired teacher\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, osteoporosis, and chronic back pain\n\nOverview: Sarah Johnson is a 56-year-old retired teacher who was recently diagnosed with multiple myeloma, a cancer that affects plasma cells in the bone marrow. She initially presented to her primary care physician with complaints of fatigue, weight loss, and bone pain. Further workup revealed anemia, elevated serum protein levels, and lytic lesions in her spine and ribs. Sarah is currently undergoing chemotherapy and supportive care to manage her symptoms and slow the progression of her disease. Her medical history is notable for hypertension, hyperlipidemia, osteoporosis, and chronic back pain. She is married with two children and enjoys gardening and reading in her free time. Despite the challenges of her diagnosis, Sarah remains optimistic and determined to fight her cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5MDV1dIzJs90e2AMbYGgalPBbPM",
+            "object": "chat.completion",
+            "created": 1684306525,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 208,
+                "total_tokens": 310
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 64\nGender: Female\nOccupation: Retired teacher\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, osteoporosis\n\nSarah Johnson is a 64-year-old retired teacher who was recently diagnosed with multiple myeloma. She initially presented to her primary care physician with complaints of fatigue, bone pain, and recurrent infections. Further workup including blood tests, bone marrow biopsy, and imaging studies revealed multiple myeloma.\n\nSarah has a past medical history of hypertension, hyperlipidemia, and osteoporosis. She takes medications for these conditions and has been compliant with her treatment regimen. She has never smoked, drinks alcohol occasionally, and has a healthy diet.\n\nAs a Caucasian female, Sarah is at a slightly increased risk for developing multiple myeloma compared to other ethnic groups. She has a supportive family and is actively involved in her community. Sarah is currently undergoing treatment for her multiple myeloma and is optimistic about her prognosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

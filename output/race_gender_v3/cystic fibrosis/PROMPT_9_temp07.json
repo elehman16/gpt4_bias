@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with cystic fibrosis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with cystic fibrosis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with cystic fibrosis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with cystic fibrosis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with cystic fibrosis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with cystic fibrosis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with cystic fibrosis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with cystic fibrosis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNSiMtsz8uWRyxGIhdFHFT0KEKpa",
+            "object": "chat.completion",
+            "created": 1684376120,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 60,
+                "total_tokens": 172
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The patient is a 23-year-old female with cystic fibrosis, diagnosed at birth. She has a past medical history of recurrent pulmonary infections and has been hospitalized multiple times for exacerbations. She has a family history of cystic fibrosis, with her brother also being diagnosed with the disease."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNSiZ2zWBF2BBdECI4OR9gtfaJMy",
+            "object": "chat.completion",
+            "created": 1684376120,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 51,
+                "total_tokens": 163
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Patient X is a 24-year-old female with a past medical history of cystic fibrosis, diagnosed at birth. She is of Caucasian ethnicity with no significant family history of the disease. She presents with exacerbation of respiratory symptoms and decreased lung function."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNSiIzycF9EXjzz7I61LeBc1CXXI",
+            "object": "chat.completion",
+            "created": 1684376120,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 54,
+                "total_tokens": 166
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Patient X is a 24-year-old female with a past medical history significant for cystic fibrosis and recurrent lung infections. She is of Caucasian ethnicity and has a family history of cystic fibrosis. She presents with worsening shortness of breath and decreased exercise tolerance."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNSi22dn4eNGCOV0LflUWnK4Nwdr",
+            "object": "chat.completion",
+            "created": 1684376120,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 68,
+                "total_tokens": 180
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 25-year-old female with cystic fibrosis presents with worsening shortness of breath and cough. Her past medical history is significant for recurrent pulmonary exacerbations, frequent hospitalizations, chronic pancreatic insufficiency, and poor weight gain. She has a family history of cystic fibrosis, with both parents being carriers of the disease."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

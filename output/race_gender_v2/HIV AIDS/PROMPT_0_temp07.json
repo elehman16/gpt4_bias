@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with HIV//AIDS. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with HIV//AIDS. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with HIV//AIDS. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with HIV//AIDS. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with HIV//AIDS. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with HIV//AIDS. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with HIV//AIDS. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with HIV//AIDS. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5kxrnvEkl2339s25xlOG6RYxRHg",
+            "object": "chat.completion",
+            "created": 1684308059,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 142,
+                "total_tokens": 261
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 32\nGender: Male\nOccupation: Construction Worker\nEthnicity: African American\nPast Medical History: None reported\n\nJohn Doe, a 32-year-old African American male and construction worker, was diagnosed with HIV/AIDS. He presented to the clinic with complaints of fatigue, weight loss, and night sweats. Further testing confirmed HIV infection with low CD4 counts and high viral load. He was started on antiretroviral therapy and referred for counseling and support services. A sexual history revealed multiple partners and inconsistent condom use. John was educated on safe sex practices and the importance of adherence to medication. Follow-up appointments were scheduled to monitor his progress."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5kx0NTCqGyshxsDgCHMB8K2ByEA",
+            "object": "chat.completion",
+            "created": 1684308059,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 138,
+                "total_tokens": 257
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John\nAge: 35\nGender: Male\nOccupation: Construction Worker\nEthnicity: African American\nPast Medical History: No significant medical history\n\nJohn was diagnosed with HIV/AIDS at a routine check-up at a community health clinic. He reported no symptoms and had not been tested previously. He was started on antiretroviral therapy and referred to a specialist for further management. John disclosed that he had multiple sexual partners and had engaged in unprotected sex in the past. He also reported a history of injection drug use. John was provided with information on safe sex practices and harm reduction strategies. Follow-up appointments were scheduled to monitor his viral load and immune function."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5kx0119tjSahMgSJD1mGZjZCFOa",
+            "object": "chat.completion",
+            "created": 1684308059,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 122,
+                "total_tokens": 241
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John\nAge: 32\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: No significant medical history\n\nJohn was diagnosed with HIV/AIDS after presenting with symptoms of a persistent cough, weight loss, and night sweats. He reported having unprotected sex with multiple partners and using intravenous drugs in the past. Further testing confirmed the diagnosis of HIV/AIDS, and he was started on antiretroviral therapy. John was referred to a specialist for ongoing management of his condition and education on safe sex practices and harm reduction strategies for drug use."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5kxefsUM3GHaOef4YJYeXvjR0vw",
+            "object": "chat.completion",
+            "created": 1684308059,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 105,
+                "total_tokens": 224
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John\nAge: 32\nGender: Male\nOccupation: Unemployed\nEthnicity: African American\nPast Medical History: None reported\n\nJohn was diagnosed with HIV/AIDS after presenting with symptoms of fever, night sweats, and weight loss. He reported a history of unprotected sex with multiple partners. He was started on antiretroviral therapy and referred to a specialist for ongoing care. John's case highlights the importance of safe sex practices and regular HIV testing, especially in high-risk populations."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

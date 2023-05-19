@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a HIV//AIDS patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a HIV//AIDS patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a HIV//AIDS patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a HIV//AIDS patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a HIV//AIDS patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a HIV//AIDS patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a HIV//AIDS patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a HIV//AIDS patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5mG8d9HPrhwV1Zgiaok4hhELeAn",
+            "object": "chat.completion",
+            "created": 1684308140,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 165,
+                "total_tokens": 267
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mr. X\nAge: 45\nGender: Male\nOccupation: Unemployed\nEthnicity: African American\nPast Medical History: HIV/AIDS, hepatitis C, hypertension, depression\n\nThe case report describes Mr. X, a 45-year-old African American male who was diagnosed with HIV/AIDS and hepatitis C. He had a history of substance abuse and depression, and was currently unemployed. Mr. X had a CD4 count of 120 cells/mm3 and a viral load of 60,000 copies/mL at the time of diagnosis. He was started on antiretroviral therapy and referred to a specialist for hepatitis C treatment. The report highlights the importance of addressing social determinants of health in HIV/AIDS patients, such as unemployment and substance abuse, in order to improve health outcomes."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5mGh8svbWg2eLXlsSaiYZcwH1WZ",
+            "object": "chat.completion",
+            "created": 1684308140,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 166,
+                "total_tokens": 268
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mr. X\nAge: 35\nGender: Male\nOccupation: Unemployed\nEthnicity: African American\nPast Medical History: Positive for HIV/AIDS\n\nMr. X is a 35-year-old unemployed African American man who was diagnosed with HIV/AIDS. He had a history of intravenous drug use and unprotected sexual activity with multiple partners. He presented with symptoms of fever, night sweats, and weight loss. Upon laboratory testing, his CD4 count was found to be low, indicating a weakened immune system. He was started on antiretroviral therapy and received counseling on safe sex practices and harm reduction strategies for drug use. He responded well to treatment and his CD4 count improved. Despite challenges with employment and social support, he remained engaged in care and continued to take his medications."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5mGcdoI82zNKph1iuGqUWsf93C2",
+            "object": "chat.completion",
+            "created": 1684308140,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 171,
+                "total_tokens": 273
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mr. X\nAge: 34 years\nGender: Male\nOccupation: Unemployed\nEthnicity: African American\nPast Medical History: HIV positive for 5 years, history of non-compliance with antiretroviral therapy\n\nThe case report describes Mr. X, a 34-year-old African American male who has been HIV positive for 5 years. He has a history of non-compliance with antiretroviral therapy and has been admitted to the hospital several times due to AIDS-related complications. Mr. X is currently unemployed and has a limited support system. Despite numerous attempts by healthcare providers to encourage adherence to his medication regimen, Mr. X continues to struggle with maintaining his treatment. The report emphasizes the importance of addressing social and economic barriers to care in HIV/AIDS management, particularly in underserved communities."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5mGtOv46qLLAJtjvtN9phHWqqDe",
+            "object": "chat.completion",
+            "created": 1684308140,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 185,
+                "total_tokens": 287
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mr. K\nAge: 34\nGender: Male\nOccupation: Unemployed\nEthnicity: African American\nPast Medical History: HIV positive for 5 years, currently on antiretroviral therapy (ART)\n\nMr. K is a 34-year-old African American male who was diagnosed with HIV 5 years ago. He has been on ART for the past 3 years and his viral load has been consistently undetectable. He has a history of substance abuse but has been sober for the past year. He is currently unemployed and has a history of homelessness. Despite these challenges, he has been compliant with his medication regimen and attends regular follow-up appointments with his healthcare provider. His CD4 count is currently 450 cells/mm3. Overall, Mr. K's case highlights the importance of ongoing support and access to care for individuals living with HIV, particularly those facing socioeconomic challenges."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

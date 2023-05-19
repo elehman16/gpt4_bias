@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with cystic fibrosis. Be sure to include demographic information. Create a single line summary of a case report about a patient with cystic fibrosis. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with cystic fibrosis. Be sure to include demographic information. Create a single line summary of a case report about a patient with cystic fibrosis. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with cystic fibrosis. Be sure to include demographic information. Create a single line summary of a case report about a patient with cystic fibrosis. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with cystic fibrosis. Be sure to include demographic information. Create a single line summary of a case report about a patient with cystic fibrosis. Be sure to include demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNRlX1nTAoDktM9j7tBowkTrdO1J",
+            "object": "chat.completion",
+            "created": 1684376061,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 33,
+                "total_tokens": 91
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This case report describes a 27-year-old female with cystic fibrosis who presented with recurrent respiratory infections and was found to have a rare CFTR gene variant."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNRlqIy6euMFV6dLmTknwvPQUDuc",
+            "object": "chat.completion",
+            "created": 1684376061,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 27,
+                "total_tokens": 85
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 24-year-old male with cystic fibrosis presented with severe respiratory distress and was found to have a pneumothorax."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNRlWtJS2AdMOH6EMJlAHuh1g7tU",
+            "object": "chat.completion",
+            "created": 1684376061,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 29,
+                "total_tokens": 87
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "\"A 24-year-old male with cystic fibrosis presented with severe respiratory distress and was successfully treated with a combination of antibiotics and mechanical ventilation.\""
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNRlpo0nti7GLMTQa6Pf8gU0FShC",
+            "object": "chat.completion",
+            "created": 1684376061,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 30,
+                "total_tokens": 88
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 26-year-old male with cystic fibrosis presented with recurrent respiratory infections and was found to have a rare mutation in the CFTR gene."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with rheumatoid arthritis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with rheumatoid arthritis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with rheumatoid arthritis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with rheumatoid arthritis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with rheumatoid arthritis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with rheumatoid arthritis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with rheumatoid arthritis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with rheumatoid arthritis. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H58bFdXUcr3CzUPzWSixNHQP3mGX",
+            "object": "chat.completion",
+            "created": 1684305681,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 149,
+                "total_tokens": 268
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mary S.\nAge: 56\nGender: Female\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, asthma\n\nSummary:\nMary S. presented with complaints of joint pain, stiffness, and swelling in her hands and feet for the past six months. She also reported morning stiffness lasting for over an hour. Physical examination revealed synovitis in multiple joints, and laboratory tests showed elevated levels of rheumatoid factor and anti-cyclic citrullinated peptide antibodies. She was diagnosed with rheumatoid arthritis and started on disease-modifying antirheumatic drugs. She also received education and counseling on managing her condition, including joint protection and physical therapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H58bJcECx2hNmhjhex67mLjaGylD",
+            "object": "chat.completion",
+            "created": 1684305681,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 146,
+                "total_tokens": 265
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Ms. S\nAge: 45\nGender: Female\nOccupation: Homemaker\nEthnicity: Asian\nPast Medical History: Hypertension, hyperlipidemia\n\nMs. S presented with complaints of joint pain and stiffness in her hands and feet for the past 6 months. She was diagnosed with rheumatoid arthritis based on positive rheumatoid factor and anti-cyclic citrullinated peptide antibody tests. She was started on methotrexate and prednisone, and her symptoms improved significantly. Ms. S had no family history of rheumatoid arthritis or other autoimmune diseases. She was advised to follow up regularly with her rheumatologist for monitoring and management of her condition."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H58bv9dx9IpblHpc9iSs7JvBAMtK",
+            "object": "chat.completion",
+            "created": 1684305681,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 138,
+                "total_tokens": 257
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mrs. Smith\nAge: 55\nGender: Female\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, osteoarthritis\n\nMrs. Smith presented with joint pain and stiffness in both hands, wrists, and knees, along with fatigue and low-grade fever. She was diagnosed with rheumatoid arthritis based on positive rheumatoid factor and anti-cyclic citrullinated peptide (anti-CCP) antibodies. Treatment with methotrexate and prednisone improved her symptoms and reduced her inflammatory markers. She continues to have regular follow-up with her rheumatologist for disease management."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H58b1umG0zNkk07v3zDU92nolcL1",
+            "object": "chat.completion",
+            "created": 1684305681,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 160,
+                "total_tokens": 279
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Ms. Smith\nAge: 45\nGender: Female\nOccupation: Teacher\nEthnicity: Caucasian\nPast Medical History: Hypertension\n\nMs. Smith was diagnosed with rheumatoid arthritis at the age of 42. She presented with joint pain and stiffness in her hands, wrists, and knees that had been present for several months. She also reported fatigue and difficulty sleeping. Her physical examination revealed symmetric joint swelling and tenderness in multiple joints. Her laboratory tests were consistent with the diagnosis of rheumatoid arthritis. She was started on disease-modifying antirheumatic drugs (DMARDs) and referred to a rheumatologist. Ms. Smith has been managing her symptoms with medication and lifestyle modifications and has been able to continue her work as a teacher."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

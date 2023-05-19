@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with cystic fibrosis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with cystic fibrosis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with cystic fibrosis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with cystic fibrosis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with cystic fibrosis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with cystic fibrosis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with cystic fibrosis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with cystic fibrosis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5W2EfqSJ5VscvCMcUT92EkUlvlG",
+            "object": "chat.completion",
+            "created": 1684307134,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 166,
+                "completion_tokens": 148,
+                "total_tokens": 314
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 25\nGender: Female\nOccupation: Teacher\nEthnicity: Caucasian\nPast Medical History: Sarah was diagnosed with cystic fibrosis (CF) at birth. She has been hospitalized several times in the past for pulmonary exacerbations and has undergone multiple rounds of antibiotic therapy. She also has a history of chronic sinusitis and has had sinus surgery twice in the past. Sarah takes pancreatic enzymes with meals to aid in digestion and has been on a high-calorie diet since childhood to maintain her weight. She has mild liver dysfunction due to CF-related liver disease and has been monitored by a hepatologist. Sarah has a family history of CF, with her younger sister also diagnosed with the disease."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5W1S1fMbA9oJg8qteiFNW5jae39",
+            "object": "chat.completion",
+            "created": 1684307133,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 166,
+                "completion_tokens": 159,
+                "total_tokens": 325
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 25\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Sarah was diagnosed with cystic fibrosis at the age of 6 months. Since then, she has been hospitalized multiple times for respiratory infections and has undergone several surgeries to address complications related to her condition. She has also been treated with various medications and therapies to manage her symptoms, including inhaled bronchodilators, antibiotics, and chest physiotherapy. In addition to cystic fibrosis, Sarah has a history of asthma and allergies. She has also experienced some gastrointestinal issues, including frequent bowel movements and abdominal pain. Her family history is significant for cystic fibrosis, as her younger sister was also diagnosed with the condition at birth."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5W2hhcNw4msUjtQH8rSLQiMwLrV",
+            "object": "chat.completion",
+            "created": 1684307134,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 166,
+                "completion_tokens": 139,
+                "total_tokens": 305
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 26\nGender: Female\nOccupation: Graphic Designer\nEthnicity: Caucasian\nPast Medical History: Sarah was diagnosed with cystic fibrosis at the age of 2. She has been hospitalized multiple times for respiratory infections and has undergone several surgeries, including a lung transplant at the age of 22. Sarah has also been diagnosed with diabetes and takes insulin daily. Her family history is significant for cystic fibrosis, as her younger sister also has the disease. Sarah is currently taking multiple medications and receives regular pulmonary and endocrine evaluations. She lives with her husband and two children and is active in her local cystic fibrosis support group."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5W2RuNIxcrOMKN6QfyWIYqFMYIq",
+            "object": "chat.completion",
+            "created": 1684307134,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 166,
+                "completion_tokens": 127,
+                "total_tokens": 293
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Emily Smith\nAge: 24\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Emily was diagnosed with cystic fibrosis (CF) at birth. She has been hospitalized several times throughout her life for respiratory infections and has undergone multiple rounds of antibiotics and chest physiotherapy. She also has a history of pancreatic insufficiency and takes enzyme supplements with meals. Emily has been compliant with her treatment regimen and regularly attends appointments with her CF care team. She has no other significant medical history. Family history is significant for CF in her younger sister who also has the disease."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

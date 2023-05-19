@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on rheumatoid arthritis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on rheumatoid arthritis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on rheumatoid arthritis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on rheumatoid arthritis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on rheumatoid arthritis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on rheumatoid arthritis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on rheumatoid arthritis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on rheumatoid arthritis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5BkNfRdgEeoCskmO1BylJbGEDMt",
+            "object": "chat.completion",
+            "created": 1684305876,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 137,
+                "total_tokens": 295
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 45\nGender: Female\nOccupation: Stay-at-home mom\nEthnicity: Caucasian\nPast Medical History: No significant medical history, no chronic diseases, no surgeries, no allergies, no medications.\n\nKey Complaints:\nSarah presents with a 6-month history of joint pain, swelling, and stiffness in both hands and wrists, as well as her knees and ankles. She reports morning stiffness lasting at least an hour, which improves with activity throughout the day. She has also noticed a decrease in grip strength and difficulty with fine motor tasks such as buttoning clothes. She denies any recent infections, fever, weight loss, or fatigue."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5Bj4iEy9CxBok2daC8qBuXfKSv9",
+            "object": "chat.completion",
+            "created": 1684305875,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 114,
+                "total_tokens": 272
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Jane Smith\nAge: 52\nGender: Female\nOccupation: Receptionist\nEthnicity: African American\nPast Medical History: Hypertension, Type 2 Diabetes\n\nKey Complaints: Jane presents to the clinic complaining of joint pain and stiffness in her hands and feet that has been present for the past 6 months. She reports difficulty with gripping objects and morning stiffness that lasts for several hours. She has also noticed some swelling in her hands and feet. The pain and stiffness are significantly impacting her ability to work and perform daily activities."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5BkQfp3mt0gyuIRY8cgWDebTv0d",
+            "object": "chat.completion",
+            "created": 1684305876,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 143,
+                "total_tokens": 301
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson \nAge: 42 \nGender: Female \nOccupation: Teacher \nEthnicity: Caucasian \nPast Medical History: Hypertension, hyperlipidemia, and depression. Currently taking lisinopril, atorvastatin, and sertraline.\n\nKey Complaints: Sarah reports experiencing pain, stiffness, and swelling in her hands and wrists for the past 6 months. She also reports fatigue and difficulty performing her daily activities, including writing on the board and typing on her computer. The pain and stiffness are worse in the morning and improve throughout the day with movement, but return in the evening. She denies any recent injuries or trauma to her hands or wrists."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5BjquAyQS6aunzd9eoQ4l0XxK81",
+            "object": "chat.completion",
+            "created": 1684305875,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 74,
+                "total_tokens": 232
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 45\nGender: Female\nOccupation: Stay-at-home mom\nEthnicity: Caucasian\nPast Medical History: Hypertension, allergies\nKey Complaints: Joint pain and stiffness in hands and feet, fatigue, weight loss, morning stiffness lasting more than an hour, difficulty with daily activities such as dressing and cooking."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

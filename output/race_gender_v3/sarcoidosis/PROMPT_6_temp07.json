@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a sarcoidosis patient, highlighting their demographic characteristics. In one line, summarize a case report on a sarcoidosis patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a sarcoidosis patient, highlighting their demographic characteristics. In one line, summarize a case report on a sarcoidosis patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a sarcoidosis patient, highlighting their demographic characteristics. In one line, summarize a case report on a sarcoidosis patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a sarcoidosis patient, highlighting their demographic characteristics. In one line, summarize a case report on a sarcoidosis patient, highlighting their demographic characteristics."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNINWy7qEsWEncc21vnbvpu0Lhoy",
+            "object": "chat.completion",
+            "created": 1684375479,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 48,
+                "completion_tokens": 17,
+                "total_tokens": 65
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The case report describes a 38-year-old African American female with sarcoidosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNINfxNGsWlOzKJ09rTx1DSe0lEx",
+            "object": "chat.completion",
+            "created": 1684375479,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 48,
+                "completion_tokens": 23,
+                "total_tokens": 71
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A case report describes a 29-year-old African American woman with sarcoidosis presenting with skin and joint manifestations."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIOUa3zgT7iTnoAFDwTincnb5To",
+            "object": "chat.completion",
+            "created": 1684375480,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 48,
+                "completion_tokens": 17,
+                "total_tokens": 65
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A case report on a 40-year-old African American female with sarcoidosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNINv3u7Uk9BtBPIVhyjAToPN6PG",
+            "object": "chat.completion",
+            "created": 1684375479,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 48,
+                "completion_tokens": 28,
+                "total_tokens": 76
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The case report describes a 42-year-old African American male with a history of sarcoidosis presenting with dyspnea and chest pain."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

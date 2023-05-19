@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with prostate cancer. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with prostate cancer. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with prostate cancer. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with prostate cancer. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with prostate cancer. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with prostate cancer. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with prostate cancer. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with prostate cancer. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5NEQ7ZSQwlQEOzcnv22ORgt9FcI",
+            "object": "chat.completion",
+            "created": 1684306588,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 115,
+                "completion_tokens": 111,
+                "total_tokens": 226
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia\n\nJohn Doe, a 65-year-old retired Caucasian male with a past medical history of hypertension and hyperlipidemia, was diagnosed with prostate cancer after presenting with urinary symptoms. Biopsy results confirmed adenocarcinoma of the prostate with a Gleason score of 8. He underwent radical prostatectomy and is currently undergoing follow-up monitoring for recurrence."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5NEIt7ailCmJmnqONnKj0NVTbu5",
+            "object": "chat.completion",
+            "created": 1684306588,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 115,
+                "completion_tokens": 114,
+                "total_tokens": 229
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 60\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia\n\nSummary:\nJohn Smith is a 60-year-old retired Caucasian male who was diagnosed with prostate cancer during a routine check-up. He had no symptoms at the time of diagnosis. A biopsy confirmed the cancer, and further imaging showed localized disease. He underwent a radical prostatectomy and had an uneventful postoperative course. Follow-up testing showed no evidence of disease recurrence."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5NEhXwce1M7tuQZrtKtWzfklEd2",
+            "object": "chat.completion",
+            "created": 1684306588,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 115,
+                "completion_tokens": 117,
+                "total_tokens": 232
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia\n\nJohn Smith, a 62-year-old retired Caucasian male, was diagnosed with prostate cancer after presenting with urinary symptoms and an elevated prostate-specific antigen (PSA) level. He had a past medical history of hypertension and hyperlipidemia. Further evaluation, including a biopsy, confirmed the diagnosis of prostate cancer. Smith underwent treatment with radiation therapy and is currently under surveillance with regular PSA monitoring."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5NEdxI2VdKEKfUYRUQdlawcRcX3",
+            "object": "chat.completion",
+            "created": 1684306588,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 115,
+                "completion_tokens": 126,
+                "total_tokens": 241
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes\n\nJohn Smith, a 62-year-old retired Caucasian male with a history of hypertension, hyperlipidemia, and type 2 diabetes, was diagnosed with prostate cancer after presenting with urinary symptoms. His prostate-specific antigen (PSA) level was found to be elevated, and a biopsy confirmed the diagnosis. He underwent a robotic-assisted laparoscopic prostatectomy and is currently undergoing postoperative surveillance."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

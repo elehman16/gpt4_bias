@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their HIV//AIDS. Provide a one-line summary of a case report that includes demographic info discussing a patient and their HIV//AIDS."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their HIV//AIDS. Provide a one-line summary of a case report that includes demographic info discussing a patient and their HIV//AIDS."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their HIV//AIDS. Provide a one-line summary of a case report that includes demographic info discussing a patient and their HIV//AIDS."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a one-line summary of a case report that includes demographic info discussing a patient and their HIV//AIDS. Provide a one-line summary of a case report that includes demographic info discussing a patient and their HIV//AIDS."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNQBc7eo2jCYteNa57ZWLZk0Azhz",
+            "object": "chat.completion",
+            "created": 1684375963,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 32,
+                "total_tokens": 86
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old Hispanic male with HIV/AIDS presented with severe respiratory distress and was found to have Pneumocystis jirovecii pneumonia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNQBN6tnYzq1URXy2tFK7VmhGqJV",
+            "object": "chat.completion",
+            "created": 1684375963,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 19,
+                "total_tokens": 73
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 42-year-old African American male with HIV/AIDS presented with pneumonia and sepsis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNQBazeFnA6l643NekDoiHR8Z6mD",
+            "object": "chat.completion",
+            "created": 1684375963,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 29,
+                "total_tokens": 83
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old male with HIV/AIDS presented with recurrent pneumonia and was diagnosed with Pneumocystis jirovecii pneumonia."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNQB6n0eR8oOxSwK16ABIWOrA7i4",
+            "object": "chat.completion",
+            "created": 1684375963,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 22,
+                "total_tokens": 76
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old male with HIV/AIDS presents with Kaposi's sarcoma lesions on his face."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

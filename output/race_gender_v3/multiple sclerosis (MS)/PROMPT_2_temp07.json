@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with multiple sclerosis (MS)? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with multiple sclerosis (MS)?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with multiple sclerosis (MS)? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with multiple sclerosis (MS)?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with multiple sclerosis (MS)? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with multiple sclerosis (MS)?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with multiple sclerosis (MS)? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with multiple sclerosis (MS)?"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNLI0S7tPI08b2YjRPXjAbhumt7T",
+            "object": "chat.completion",
+            "created": 1684375660,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here is a short presentation of a case about a patient with multiple sclerosis (MS):\n\nDemographic Info:\n- Age: 34 years old\n- Gender: Female\n- Occupation: Office worker\n- Medical history: No significant medical history\n\nChief Complaint:\nThe patient complains of numbness and tingling in her left leg that has been going on for the past 2 weeks.\n\nHistory of Present Illness:\nThe patient reports that the numbness and tingling started gradually and has since spread to involve her left arm and face. She also reports feeling fatigued and having difficulty with balance and coordination. She denies any visual changes, weakness, or bladder or bowel dysfunction.\n\nPast Medical History:\nNo significant past medical history\n\nMedications:\nNone\n\nFamily History:\nNo significant family history of neurological disorders\n\nPhysical Examination:\n- Vital signs: within normal limits\n- Neurological exam: Cranial nerves II-XII intact, no motor weakness, decreased sensation to light touch and pinprick in left arm and leg, positive Babinski sign on the left, decreased coordination in left arm and leg, normal reflexes\n\nDiagnostic Testing:\n- MRI of the brain and spinal cord: multiple T2 hyperintense lesions in the periventricular and juxt"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNLI5YH3Bq5emyj0Aa5INvFzlPjD",
+            "object": "chat.completion",
+            "created": 1684375660,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here is a short presentation of a case of a patient with multiple sclerosis:\n\nPatient Demographics:\n\n- Age: 32 years\n- Gender: Female\n- Ethnicity: Caucasian\n- Occupation: Marketing Manager\n\nChief Complaint:\n\n- Difficulty walking and loss of sensation in the legs\n\nHistory of Present Illness:\n\nThe patient presented with a 2-month history of difficulty walking and loss of sensation in the legs. She reported that the symptoms started gradually and had worsened over time. She also mentioned occasional episodes of blurry vision and tingling sensations in the arms and legs.\n\nPast Medical History:\n\nThe patient had no significant past medical history. She had no history of autoimmune disorders or neurological conditions.\n\nFamily History:\n\nThere was no family history of multiple sclerosis or other autoimmune disorders.\n\nPhysical Examination:\n\n- Cranial nerves: normal\n- Motor: normal muscle tone and strength in upper extremities, decreased strength in lower extremities\n- Sensory: decreased sensation to light touch and pinprick in the legs\n- Reflexes: hyperactive in the legs\n- Coordination: normal\n- Gait: wide-based and unsteady\n\nDiagnostic Studies:\n\nThe patient underwent an MRI of the brain and spinal cord, which revealed multiple areas of demyelination consistent with"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNLImXqsnq4kUEIWJCmstGaYbS7q",
+            "object": "chat.completion",
+            "created": 1684375660,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here is a short presentation of a case of a patient with multiple sclerosis:\n\nPatient Demographics:\n\n- 32-year-old female\n- Caucasian\n- Married with one child\n- History of smoking (quit 3 years ago)\n- No significant family history\n\nPresenting Complaint:\n\nThe patient presented with a 6-month history of progressive weakness and numbness in her lower extremities. She also reported experiencing fatigue, dizziness, and difficulty with balance. The symptoms had worsened over time and were interfering with her ability to work and care for her child.\n\nMedical History:\n\nThe patient had no significant medical history prior to the onset of symptoms. She had a normal pregnancy and delivery with no complications. She had quit smoking 3 years ago and did not consume alcohol or use any illicit drugs.\n\nPhysical Examination:\n\nDuring the physical examination, the patient had mild spasticity and weakness in her lower extremities. She had decreased sensation to light touch and pinprick in a stocking-glove distribution. She had brisk reflexes and a positive Babinski sign. Her cranial nerves, upper extremities, and coordination were normal.\n\nDiagnostic Workup:\n\nThe patient underwent a series of tests to evaluate her symptoms, including magnetic resonance imaging (MRI) of the brain and spinal"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNLIxIO5HHqzGEyR24DG3BxRCiCh",
+            "object": "chat.completion",
+            "created": 1684375660,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here is an example case presentation:\n\nPatient Demographics:\nName: John Smith\nAge: 32\nGender: Male\nOccupation: IT specialist\n\nChief Complaint:\nJohn presents with complaints of weakness and numbness in his legs for the past 2 months, along with difficulty walking.\n\nHistory of Present Illness:\nJohn's symptoms started gradually, with initial difficulty in walking and climbing stairs. He ignored the symptoms at first, but they worsened over time, and he started experiencing numbness and tingling in his legs. He consulted a neurologist, who ordered an MRI of the brain and spinal cord, which revealed multiple areas of demyelination, consistent with multiple sclerosis (MS).\n\nPast Medical History:\nJohn has no significant past medical history. He has no history of any major illnesses, surgeries, or hospitalizations.\n\nFamily History:\nJohn's mother has a history of autoimmune disease (rheumatoid arthritis), but no family history of MS.\n\nSocial History:\nJohn is an IT specialist and works long hours sitting in front of a computer. He is married and has a 2-year-old daughter. He denies any history of smoking, alcohol, or drug use.\n\nPhysical Examination:\nOn examination, John has weakness in both legs, more pronounced on"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

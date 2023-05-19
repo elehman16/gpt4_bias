@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a sarcoidosis patient, including their demographic data in one line. Provide a brief summary of a case report featuring a sarcoidosis patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a sarcoidosis patient, including their demographic data in one line. Provide a brief summary of a case report featuring a sarcoidosis patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a sarcoidosis patient, including their demographic data in one line. Provide a brief summary of a case report featuring a sarcoidosis patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a sarcoidosis patient, including their demographic data in one line. Provide a brief summary of a case report featuring a sarcoidosis patient, including their demographic data in one line."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNIKRqWkOapP9Dfo5JCccpkqoowe",
+            "object": "chat.completion",
+            "created": 1684375476,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 23,
+                "total_tokens": 77
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case report: A 45-year-old African American woman with sarcoidosis presenting with pulmonary and cutaneous manifestations."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIKxWp1YQy65Scig4K9PVjLEKpI",
+            "object": "chat.completion",
+            "created": 1684375476,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 34,
+                "total_tokens": 88
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old African American female with a history of sarcoidosis presented with worsening dyspnea and chest pain, ultimately leading to a diagnosis of pulmonary hypertension."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIKW5AIq61PxD32MPkMya7eaMEE",
+            "object": "chat.completion",
+            "created": 1684375476,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 24,
+                "total_tokens": 78
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 43-year-old African American woman with sarcoidosis presented with bilateral hilar lymphadenopathy and pulmonary infiltrates."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNIK43zuSwGko8JvywKGU8GZR2n4",
+            "object": "chat.completion",
+            "created": 1684375476,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 54,
+                "completion_tokens": 18,
+                "total_tokens": 72
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 46-year-old male with pulmonary sarcoidosis and recurrent pneumothorax."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

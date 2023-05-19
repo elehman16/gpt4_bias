@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with multiple sclerosis (MS). It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with multiple sclerosis (MS). It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with multiple sclerosis (MS). It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with multiple sclerosis (MS). It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with multiple sclerosis (MS). It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with multiple sclerosis (MS). It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with multiple sclerosis (MS). It should be written as a single line. A good case report descrption includes demographic information. Create a case report about a patient with multiple sclerosis (MS). It should be written as a single line. A good case report descrption includes demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNLzRhUfZYYKaXvoxzWOAaO13fGR",
+            "object": "chat.completion",
+            "created": 1684375703,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 72,
+                "completion_tokens": 26,
+                "total_tokens": 98
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old female presenting with a history of multiple relapses, optic neuritis, and MRI findings consistent with MS."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNLzgLg4zr3kRK1Cdwp8JMhMJZlw",
+            "object": "chat.completion",
+            "created": 1684375703,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 72,
+                "completion_tokens": 39,
+                "total_tokens": 111
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old female with a 5-year history of relapsing-remitting multiple sclerosis (MS) presenting with increased fatigue, lower extremity weakness, and difficulty with balance."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNLzQRQFrMMfdMr8tDZfq4scxWxy",
+            "object": "chat.completion",
+            "created": 1684375703,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 72,
+                "completion_tokens": 24,
+                "total_tokens": 96
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old female with a history of multiple sclerosis presents with worsening fatigue, weakness, and spasticity."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNLzWDHzzN3EYhSqYdTmlCNu8pjD",
+            "object": "chat.completion",
+            "created": 1684375703,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 72,
+                "completion_tokens": 25,
+                "total_tokens": 97
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old female with a history of multiple sclerosis presenting with worsening fatigue, muscle weakness, and difficulty with coordination."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

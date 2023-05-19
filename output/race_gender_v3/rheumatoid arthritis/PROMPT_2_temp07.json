@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with rheumatoid arthritis? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with rheumatoid arthritis?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with rheumatoid arthritis? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with rheumatoid arthritis?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with rheumatoid arthritis? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with rheumatoid arthritis?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with rheumatoid arthritis? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with rheumatoid arthritis?"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNGdmKUKZGyLa3lZIlgcbFL9OXFO",
+            "object": "chat.completion",
+            "created": 1684375371,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here is a short presentation of a case about a patient with rheumatoid arthritis:\n\nPatient Demographics:\n- Age: 42 years old\n- Gender: Female\n- Occupation: Office worker\n- Medical History: No significant medical history\n\nChief Complaint:\n- Pain and stiffness in the joints of both hands and feet for the past 6 months\n\nHistory of Present Illness:\n- The patient presented with complaints of pain and stiffness in the joints of both hands and feet for the past 6 months, which was gradually worsening.\n- The pain was more severe in the morning and improved with activity.\n- The patient also reported fatigue and occasional low-grade fever.\n- She denied any recent trauma or injury.\n\nPhysical Examination:\n- Swelling, tenderness, and warmth in the joints of both hands and feet, with limited range of motion.\n- Positive findings on the rheumatoid factor and anti-citrullinated protein antibody tests.\n- X-ray of the hands and feet showed erosions and joint space narrowing.\n\nDiagnosis:\n- Rheumatoid arthritis\n\nTreatment:\n- The patient was started on disease-modifying antirheumatic drugs (DMARDs) to slow the progression of the disease and reduce inflammation.\n- She was also prescribed nonsteroidal anti"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNGdoVPCLhdG4r1HPumn5zMMrve7",
+            "object": "chat.completion",
+            "created": 1684375371,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here is a short presentation of a case with demographic information about a patient with rheumatoid arthritis:\n\nCase Presentation:\n\nPatient: Mrs. Smith, a 60-year-old Caucasian female\n\nChief Complaint: Pain and stiffness in hands and feet\n\nHistory of Present Illness: Mrs. Smith reports a 6-month history of pain and stiffness in her hands and feet. She describes morning stiffness lasting for 2-3 hours, which improves with activity. She has also noticed swelling in her hands and feet, and difficulty gripping objects. She reports no recent trauma or infection.\n\nPast Medical History: Mrs. Smith has a history of hypertension and hyperlipidemia, both well-controlled with medications. She has no history of autoimmune diseases or rheumatologic disorders.\n\nSocial History: Mrs. Smith is retired and lives with her husband. She has no history of smoking or alcohol use. She is physically active and enjoys gardening and walking.\n\nPhysical Examination: On examination, Mrs. Smith has swelling and tenderness in the metacarpophalangeal and proximal interphalangeal joints of both hands, as well as the ankles and feet. She has limited range of motion in the affected joints. There are no skin rashes or nodules.\n\nDiagnosis: Based"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNGd1y1JGYk4DnG0LruOH1Tyz5lX",
+            "object": "chat.completion",
+            "created": 1684375371,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here is a short presentation of a patient with rheumatoid arthritis:\n\nPatient Demographics:\n\n- Age: 48 years old\n- Gender: Female\n- Occupation: Office manager\n- Medical history: Hypothyroidism, hypertension\n\nChief Complaint:\n\n- Stiffness and swelling in the joints of the fingers, wrists, and ankles\n- Pain and tenderness in the affected joints\n- Difficulty with daily activities such as gripping objects, opening jars, and walking\n\nMedical Assessment:\n\n- Physical examination reveals swelling, warmth, and tenderness in the affected joints\n- Lab tests show elevated levels of C-reactive protein (CRP) and erythrocyte sedimentation rate (ESR)\n- X-rays show erosion and joint space narrowing in the wrists and hands\n\nDiagnosis:\n\n- Rheumatoid arthritis (RA)\n\nTreatment:\n\n- Patient is started on a disease-modifying anti-rheumatic drug (DMARD) to slow the progression of the disease\n- Nonsteroidal anti-inflammatory drugs (NSAIDs) are prescribed to manage pain and inflammation\n- Patient is referred to a physical therapist for exercises to improve joint mobility and strength\n- Patient is advised to maintain a healthy lifestyle, including regular exercise and a balanced diet\n\nFollow-up:\n\n-"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNGdw71H7jq3Hi3uMfFXUGZYvUhN",
+            "object": "chat.completion",
+            "created": 1684375371,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure! Here is a brief case presentation:\n\nPatient: Mrs. J, a 56-year-old female\n\nChief Complaint: Joint pain and stiffness\n\nHistory of Present Illness: Mrs. J reports experiencing joint pain and stiffness for several months, particularly in her hands and feet. She has also noticed difficulty with grip strength and has developed some nodules on her fingers. The pain and stiffness are worse in the morning and improve throughout the day, but she still experiences some discomfort in the evening. She denies any other significant symptoms.\n\nPast Medical History: Mrs. J has a history of hypertension, hyperlipidemia, and osteoporosis for which she takes medication.\n\nSocial History: She is married and lives with her husband. She is retired and enjoys spending time with her grandchildren.\n\nPhysical Exam: On exam, Mrs. J has swelling and tenderness in multiple joints, including the metacarpophalangeal and proximal interphalangeal joints, as well as the ankles and knees. She has limited range of motion in these joints. There are nodules palpable on her fingers. No other significant findings are noted.\n\nAssessment: Based on her symptoms and physical exam, Mrs. J is diagnosed with rheumatoid arthritis.\n\nPlan: Mrs. J"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

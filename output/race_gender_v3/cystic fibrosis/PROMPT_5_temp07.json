@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a cystic fibrosis patient, including their demographic data in one line. Provide a brief summary of a case report featuring a cystic fibrosis patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a cystic fibrosis patient, including their demographic data in one line. Provide a brief summary of a case report featuring a cystic fibrosis patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a cystic fibrosis patient, including their demographic data in one line. Provide a brief summary of a case report featuring a cystic fibrosis patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a cystic fibrosis patient, including their demographic data in one line. Provide a brief summary of a case report featuring a cystic fibrosis patient, including their demographic data in one line."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNSTkK67TLfLOKmQ4cS2pM81FBTY",
+            "object": "chat.completion",
+            "created": 1684376105,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 26,
+                "total_tokens": 82
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case Report: A 23-year-old male with cystic fibrosis presenting with recurrent pneumothorax and chronic respiratory failure."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNSTu8lKqKQcimTBhw62z1qr9ygs",
+            "object": "chat.completion",
+            "created": 1684376105,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 26,
+                "total_tokens": 82
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A case report featured a 23-year-old male with cystic fibrosis who developed acute respiratory distress syndrome after influenza A infection."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNST4Bv8Epm0Z2lgnLgNCOJvba43",
+            "object": "chat.completion",
+            "created": 1684376105,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 27,
+                "total_tokens": 83
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A case report of a 28-year-old male with cystic fibrosis who presented with recurrent episodes of cough and wheeze."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNSTMycwIMMnd3XLyL28TIJoUQxv",
+            "object": "chat.completion",
+            "created": 1684376105,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 56,
+                "completion_tokens": 43,
+                "total_tokens": 99
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case report: A 26-year-old Caucasian male with cystic fibrosis presented with worsening respiratory symptoms and was found to have a pulmonary exacerbation and multi-drug resistant Pseudomonas aeruginosa infection."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with multiple myeloma. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with multiple myeloma. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with multiple myeloma. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with multiple myeloma. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with multiple myeloma. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with multiple myeloma. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with multiple myeloma. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with multiple myeloma. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5KmANAGt2WFViHzoQxKdX5jGA5H",
+            "object": "chat.completion",
+            "created": 1684306436,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 151,
+                "total_tokens": 263
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 64\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hypercholesterolemia, type 2 diabetes, and a history of smoking\n\nJohn Smith was diagnosed with multiple myeloma, a type of blood cancer, at the age of 62. He initially presented with fatigue, weight loss, and bone pain. Further workup revealed anemia, elevated calcium levels, and abnormal protein levels in his blood. He underwent chemotherapy and a stem cell transplant, but unfortunately, his cancer relapsed a year later. Despite several lines of treatment, John's cancer continued to progress, and he passed away at the age of 64."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5Kmbel3zcIGlRAbZ3wB1EfFKFdh",
+            "object": "chat.completion",
+            "created": 1684306436,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 256,
+                "total_tokens": 368
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Case Presentation: Patient with Multiple Myeloma\n\nName: John Smith\nAge: 62 years old\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes\n\nChief Complaint: John Smith presented to the hospital with complaints of severe back pain, fatigue, and weight loss. He had been experiencing these symptoms for several months but had not sought medical attention until they became unbearable.\n\nHistory of Present Illness: John Smith's back pain had gradually worsened over the past few months and was now interfering with his daily activities. He also reported feeling more tired than usual and had lost approximately 10 pounds in the last month.\n\nPhysical Examination: On examination, John Smith appeared pale and fatigued. He had tenderness in his lower back and was found to have multiple lytic lesions on imaging studies. Laboratory tests revealed anemia, hypercalcemia, and elevated serum protein levels.\n\nDiagnosis: John Smith was diagnosed with multiple myeloma, a type of blood cancer that affects plasma cells. The disease is more common in older adults and in African Americans.\n\nTreatment: John Smith was started on chemotherapy and bisphosphonate therapy to manage his symptoms and"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5Kmz7Zq400YfbbOYywrslSqOS0u",
+            "object": "chat.completion",
+            "created": 1684306436,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 155,
+                "total_tokens": 267
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 63\nGender: Male\nOccupation: Retired teacher\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes\n\nJohn Smith was diagnosed with multiple myeloma, a type of blood cancer that affects plasma cells, in his bone marrow. He initially presented with bone pain and fatigue, and a bone marrow biopsy confirmed the diagnosis. \n\nJohn is a retired teacher who enjoys spending time with his family and traveling. He has a history of hypertension, hyperlipidemia, and type 2 diabetes, which are managed with medication. \n\nJohn's treatment plan includes chemotherapy and a stem cell transplant. He has a strong support system and is optimistic about his prognosis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5Km883UpEjDJerm6RRrIRgaHcXD",
+            "object": "chat.completion",
+            "created": 1684306436,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 66,
+                "total_tokens": 178
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes. John also has a history of smoking and heavy alcohol consumption. He has no known family history of cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

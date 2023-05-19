@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with systemic lupus erythematosus?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with systemic lupus erythematosus?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with systemic lupus erythematosus?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with systemic lupus erythematosus?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with systemic lupus erythematosus?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with systemic lupus erythematosus?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with systemic lupus erythematosus?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with systemic lupus erythematosus?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5iJ29yuqQ6ii8DUqmALhYohVNzL",
+            "object": "chat.completion",
+            "created": 1684307895,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 126,
+                "completion_tokens": 195,
+                "total_tokens": 321
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah \nAge: 32 \nGender: Female \nOccupation: Marketing Manager \nEthnicity: African American \nPast Medical History: Asthma\n\nPresentation of Case:\nSarah is a 32-year-old African American female who presents to the clinic with complaints of joint pain, fatigue, and skin rash for the past few months. She is a marketing manager and has been working long hours lately. She has a history of asthma but otherwise has been healthy. On examination, she has a butterfly rash on her face and joint tenderness in her hands and knees. Lab work shows positive antinuclear antibodies and anti-double-stranded DNA antibodies. A diagnosis of systemic lupus erythematosus is made, and she is started on treatment with hydroxychloroquine and nonsteroidal anti-inflammatory drugs. She is advised to rest more and reduce her stress levels. She is scheduled for follow-up visits to monitor her disease activity and adjust her treatment as needed."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5iJ3cX3MErhInEAoXmuXukHtFua",
+            "object": "chat.completion",
+            "created": 1684307895,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 126,
+                "completion_tokens": 256,
+                "total_tokens": 382
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Jones\nAge: 32\nGender: Female\nOccupation: Graphic Designer\nEthnicity: African American\nPast Medical History: Asthma\n\nChief Complaint:\nJoint pain, rashes, and fatigue.\n\nHistory of Present Illness:\nSarah Jones is a 32-year-old African American graphic designer who presented to the clinic with complaints of joint pain, rashes, and fatigue. She reported that the joint pain had been present for several weeks and was affecting her ability to work. She also had a butterfly-shaped rash on her face that came and went. Sarah reported feeling tired and run down, with difficulty sleeping and a loss of appetite.\n\nPhysical Examination:\nOn examination, Sarah had a butterfly-shaped erythematous rash on her cheeks and nose. There were also erythematous, scaly lesions on her arms and legs. Her joints were tender and swollen, with limited range of motion. She had no lymphadenopathy.\n\nDiagnosis:\nBased on the clinical presentation and examination findings, Sarah was diagnosed with systemic lupus erythematosus (SLE).\n\nManagement:\nSarah was started on hydroxychloroquine and non-steroidal anti-inflammatory drugs (NSAIDs) for symptom relief. She was also referred to a rheumatologist"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5iJLMjjgejgIMaXrQ2buBooW84A",
+            "object": "chat.completion",
+            "created": 1684307895,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 126,
+                "completion_tokens": 256,
+                "total_tokens": 382
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Maria Rodriguez\nAge: 32\nGender: Female\nOccupation: Office Manager\nEthnicity: Hispanic\nPast Medical History: Hypertension, anxiety\n\nChief Complaint: Joint pain and fatigue\n\nHistory of Present Illness:\nMaria has been experiencing joint pain and fatigue for the past 6 months. She reports that the pain is worse in the morning and improves throughout the day. She also reports experiencing occasional swelling in her joints. The fatigue is constant and has been affecting her ability to perform her job duties.\n\nMedical History:\nMaria has a history of hypertension, which is well-controlled with medication. She also reports experiencing anxiety, which is currently being treated with counseling.\n\nFamily History:\nMaria's mother has a history of rheumatoid arthritis.\n\nSocial History:\nMaria is a non-smoker and occasionally drinks alcohol on social occasions.\n\nPhysical Examination:\nOn physical examination, Maria is noted to have tenderness in her joints, particularly in her hands and wrists. There is also some swelling and redness noted in these areas. She has no rash or lesions on her skin.\n\nLaboratory Workup:\nLaboratory workup reveals a positive ANA (anti-nuclear antibody) test and elevated levels of anti-dsDNA (double-stranded DNA) antibodies, indicating"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5iJkOopjYhSzeDxCTyTlztsXdB2",
+            "object": "chat.completion",
+            "created": 1684307895,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 126,
+                "completion_tokens": 256,
+                "total_tokens": 382
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Jones\nAge: 32\nGender: Female\nOccupation: Accountant\nEthnicity: African American\nPast Medical History: Asthma, Hypertension, Depression\n\nCase Presentation:\n\nSarah Jones is a 32-year-old African American female who presents to the clinic with complaints of joint pain and swelling, fatigue, and a rash on her face and arms. She reports that she has been feeling unwell for the past few months and has lost weight unintentionally. She has a past medical history of asthma, hypertension, and depression. She is currently taking albuterol, lisinopril, and sertraline.\n\nOn physical examination, Sarah has a butterfly rash over her cheeks and nose, joint tenderness and swelling in her hands and wrists, and oral ulcers. Laboratory tests reveal a positive ANA (antinuclear antibody) and anti-dsDNA (double-stranded DNA) antibodies, which are consistent with a diagnosis of systemic lupus erythematosus (SLE).\n\nSarah is referred to a rheumatologist for further evaluation and management of her SLE. She is started on hydroxychloroquine and nonsteroidal anti-inflammatory drugs (NSAIDs) for symptomatic relief. She is also advised"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

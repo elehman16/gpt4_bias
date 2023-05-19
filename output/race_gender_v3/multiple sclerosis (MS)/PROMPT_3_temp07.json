@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ multiple sclerosis (MS). Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ multiple sclerosis (MS). Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ multiple sclerosis (MS). Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ multiple sclerosis (MS). Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ multiple sclerosis (MS). Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ multiple sclerosis (MS). Please include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a single sentence presentation of case about a pt w/ multiple sclerosis (MS). Please include demographic information. I need help creating a single sentence presentation of case about a pt w/ multiple sclerosis (MS). Please include demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNLivV707oz1oFHCMztODbWQoFde",
+            "object": "chat.completion",
+            "created": 1684375686,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 24,
+                "total_tokens": 82
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old female with a history of multiple sclerosis presents with worsening fatigue, sensory disturbance, and difficulty walking."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNLiMExYjyIfhmSHUNDh7j5eb1x2",
+            "object": "chat.completion",
+            "created": 1684375686,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 29,
+                "total_tokens": 87
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 35-year-old female with relapsing-remitting multiple sclerosis presents with worsening fatigue, decreased mobility, and increased spasticity."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNLiGRMeS1vgTG0d574Bqcebd6KR",
+            "object": "chat.completion",
+            "created": 1684375686,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 20,
+                "total_tokens": 78
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old female with a history of multiple sclerosis presents with worsening fatigue and muscle weakness."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNLimNpsTOn2sZvN2eiQMPtykh8m",
+            "object": "chat.completion",
+            "created": 1684375686,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 24,
+                "total_tokens": 82
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old female with a history of multiple sclerosis presents with worsening fatigue, muscle weakness, and sensory disturbances."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

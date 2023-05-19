@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with osteomyelitis. Be sure to include demographic information. Create a single line summary of a case report about a patient with osteomyelitis. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with osteomyelitis. Be sure to include demographic information. Create a single line summary of a case report about a patient with osteomyelitis. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with osteomyelitis. Be sure to include demographic information. Create a single line summary of a case report about a patient with osteomyelitis. Be sure to include demographic information."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a single line summary of a case report about a patient with osteomyelitis. Be sure to include demographic information. Create a single line summary of a case report about a patient with osteomyelitis. Be sure to include demographic information."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNAhWaeuLl5kN9i8OiUHIyzI20Ia",
+            "object": "chat.completion",
+            "created": 1684375003,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 21,
+                "total_tokens": 79
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This case report describes a 45-year-old male with osteomyelitis in his left femur."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNAhZoeF1wBp4D9BNBpWqDtU8BSG",
+            "object": "chat.completion",
+            "created": 1684375003,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 25,
+                "total_tokens": 83
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old male with diabetes and a history of foot ulcers presented with osteomyelitis of the foot."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNAhjr55ugVX1aZxPSz5It2j8BoY",
+            "object": "chat.completion",
+            "created": 1684375003,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 28,
+                "total_tokens": 86
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old male with diabetes and a history of intravenous drug use presented with chronic osteomyelitis of the left foot."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNAhpylh3AQNEt1ZI7bQ9bHhmyUG",
+            "object": "chat.completion",
+            "created": 1684375003,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 24,
+                "total_tokens": 82
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with diabetes and peripheral vascular disease presented with chronic osteomyelitis in the left foot."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

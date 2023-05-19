@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with prostate cancer. Write a single line description, including demographics, about a patient with prostate cancer."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with prostate cancer. Write a single line description, including demographics, about a patient with prostate cancer."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with prostate cancer. Write a single line description, including demographics, about a patient with prostate cancer."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with prostate cancer. Write a single line description, including demographics, about a patient with prostate cancer."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNK3djSqnnGTTy8Krq3YlgIQVgpV",
+            "object": "chat.completion",
+            "created": 1684375583,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 40,
+                "completion_tokens": 23,
+                "total_tokens": 63
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a family history of prostate cancer presenting with elevated PSA levels and difficulty urinating."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNK3kmQYUIrs6Pb1i43N3H32Gn7G",
+            "object": "chat.completion",
+            "created": 1684375583,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 40,
+                "completion_tokens": 17,
+                "total_tokens": 57
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 67-year-old male with a history of prostate cancer and elevated PSA levels."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNK3bWsK3MLvDTKWhdSXpCuNO4or",
+            "object": "chat.completion",
+            "created": 1684375583,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 40,
+                "completion_tokens": 19,
+                "total_tokens": 59
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male diagnosed with advanced prostate cancer, experiencing urinary symptoms and undergoing chemotherapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNK3HeFL5ioZvxMOQhWCTE7X4qHO",
+            "object": "chat.completion",
+            "created": 1684375583,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 40,
+                "completion_tokens": 34,
+                "total_tokens": 74
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of smoking and family history of prostate cancer, presenting with elevated prostate-specific antigen (PSA) levels and frequent urination."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

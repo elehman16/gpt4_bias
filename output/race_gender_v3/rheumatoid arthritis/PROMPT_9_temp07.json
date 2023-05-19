@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with rheumatoid arthritis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with rheumatoid arthritis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with rheumatoid arthritis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with rheumatoid arthritis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with rheumatoid arthritis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with rheumatoid arthritis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with rheumatoid arthritis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with rheumatoid arthritis. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNHQRzkXVjYh8PzY98cYMppE67ex",
+            "object": "chat.completion",
+            "created": 1684375420,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 63,
+                "total_tokens": 175
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The patient is a 50-year-old female with a past medical history of hypertension and hyperlipidemia. She has a family history of rheumatoid arthritis. She presents with joint pain, swelling, and stiffness in multiple joints, including the hands and feet, consistent with a diagnosis of rheumatoid arthritis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHQp5fCKeT5pkDh93UDe78V6PFx",
+            "object": "chat.completion",
+            "created": 1684375420,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 87,
+                "total_tokens": 199
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The patient is a 62-year-old female with a past medical history of hypertension, hyperlipidemia, and osteoarthritis. She presents with joint pain, swelling, and stiffness in her hands, wrists, and feet that has been ongoing for several months. Her family history is significant for autoimmune disease. After diagnostic testing, she is diagnosed with rheumatoid arthritis and started on disease-modifying antirheumatic drugs."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHPqZXpWqhSkhCRNaJhCioCy2XY",
+            "object": "chat.completion",
+            "created": 1684375419,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 103,
+                "total_tokens": 215
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Ms. Smith is a 45-year-old female with a past medical history significant for hypertension and hyperlipidemia. She presents with joint pain and stiffness in her hands, wrists, and knees, along with morning stiffness lasting longer than one hour. She also reports a family history of rheumatoid arthritis in her mother. Lab work shows elevated inflammatory markers and positive rheumatoid factor and anti-cyclic citrullinated peptide (anti-CCP) antibodies, confirming a diagnosis of rheumatoid arthritis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNHQWPxJOxQeMgDwqw2VnyQXG1e0",
+            "object": "chat.completion",
+            "created": 1684375420,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 63,
+                "total_tokens": 175
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Mrs. Smith is a 62-year-old Caucasian female with a past medical history of hypertension and hyperlipidemia. She presents with a 3-month history of bilateral hand swelling and pain, morning stiffness lasting over an hour, and fatigue. Her family history is significant for her mother having rheumatoid arthritis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

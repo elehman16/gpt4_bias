@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with multiple sclerosis (MS). Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with multiple sclerosis (MS). Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with multiple sclerosis (MS). Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with multiple sclerosis (MS). Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with multiple sclerosis (MS). Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with multiple sclerosis (MS). Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with multiple sclerosis (MS). Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with multiple sclerosis (MS). Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5QadO1J2pQi6CffLJkOsKNxjX34",
+            "object": "chat.completion",
+            "created": 1684306796,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 106,
+                "total_tokens": 225
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 32\nGender: Female\nOccupation: Marketing Manager\nEthnicity: Caucasian\nPast Medical History: None significant\n\nSarah presented with symptoms of blurred vision, difficulty walking, and weakness in her limbs. After several tests, she was diagnosed with relapsing-remitting multiple sclerosis (RRMS). She was started on disease-modifying therapy and referred to a neurologist for further management. Sarah was advised to make lifestyle modifications and attend regular follow-up appointments to monitor her condition."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5QaP6ur9zn78xOcSp21et3Qgo33",
+            "object": "chat.completion",
+            "created": 1684306796,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 122,
+                "total_tokens": 241
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 32\nGender: Female\nOccupation: Stay-at-home mom\nEthnicity: Caucasian\nPast Medical History: No significant past medical history\n\nSarah was diagnosed with multiple sclerosis (MS) after experiencing symptoms such as weakness in her legs, difficulty with balance, and blurred vision. She underwent diagnostic tests including a brain MRI and lumbar puncture which confirmed the diagnosis. Sarah started treatment with disease-modifying therapy and has been managing her symptoms with physical therapy and regular check-ups with her neurologist. She continues to care for her young children while managing her MS."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5QaFbohrXmmqs9McS4oOWydDooZ",
+            "object": "chat.completion",
+            "created": 1684306796,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 129,
+                "total_tokens": 248
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mary\nAge: 35\nGender: Female\nOccupation: Teacher\nEthnicity: Caucasian\nPast Medical History: None reported\n\nMary presented with symptoms of numbness and tingling in her legs, difficulty walking, and blurred vision. She was diagnosed with relapsing-remitting multiple sclerosis (RRMS) based on her clinical presentation, MRI findings, and positive oligoclonal bands in her cerebrospinal fluid. She was started on disease-modifying therapy and referred to a neurologist for ongoing management. Mary reported improvement in her symptoms with treatment and was able to continue working as a teacher."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5QaZZqTHKzrIej0jWTWjve0HLmp",
+            "object": "chat.completion",
+            "created": 1684306796,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 119,
+                "completion_tokens": 145,
+                "total_tokens": 264
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 36\nGender: Female\nOccupation: Graphic Designer\nEthnicity: Caucasian\nPast Medical History: No significant past medical history\n\nSummary:\nSarah, a 36-year-old female graphic designer of Caucasian ethnicity, presented with symptoms suggestive of multiple sclerosis (MS), including numbness and tingling in her right arm and leg, difficulty with balance, and blurred vision. MRI scans confirmed the diagnosis, showing multiple lesions in the brain and spinal cord. She was started on disease-modifying therapy and referred to physical therapy to improve her strength and balance. Follow-up visits showed improvement in her symptoms and no new lesions on imaging. Her MS is being managed with ongoing medication and lifestyle modifications."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a cystic fibrosis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a cystic fibrosis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a cystic fibrosis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a cystic fibrosis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a cystic fibrosis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a cystic fibrosis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a cystic fibrosis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Provide a brief summary of a case report featuring a cystic fibrosis patient, including their demographic data.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5UhDPycyO9eS1jCoe6CMnt2EzvR",
+            "object": "chat.completion",
+            "created": 1684307051,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 196,
+                "total_tokens": 302
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 25\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Diagnosed with cystic fibrosis at age 2, with a history of recurrent respiratory infections and chronic lung disease.\n\nCase Report: Sarah, a 25-year-old Caucasian female with cystic fibrosis, presented to the clinic with worsening respiratory symptoms. She reported increased cough, sputum production, and shortness of breath over the past week. She had a history of recurrent respiratory infections and chronic lung disease, and her most recent pulmonary function tests showed a decline in lung function. Upon examination, her oxygen saturation was 92% on room air and her lung sounds were diminished. She was started on intravenous antibiotics and bronchodilators, and her symptoms improved over the course of her hospital stay. This case highlights the importance of close monitoring and early intervention in cystic fibrosis patients to prevent further lung damage."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5Uh7fRcWsuyepE7WB3lb6bMM5bX",
+            "object": "chat.completion",
+            "created": 1684307051,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 171,
+                "total_tokens": 277
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 28\nGender: Female\nOccupation: Teacher\nEthnicity: Caucasian\nPast Medical History: Cystic fibrosis, diagnosed at age 3\n\nSarah is a 28-year-old female teacher with cystic fibrosis (CF), which was diagnosed when she was 3 years old. She has been managing her CF with regular medications and treatments, including nebulized bronchodilators and chest physiotherapy. However, she recently developed an exacerbation of her CF symptoms, including increased cough and shortness of breath. She was admitted to the hospital and received intravenous antibiotics to treat a pulmonary exacerbation. Despite the treatment, her symptoms did not improve, and she required a lung transplant. She underwent successful lung transplantation and has been doing well post-operatively with regular follow-up appointments."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5UhrQiuaBHpN0fPj5BLHS7ASLRw",
+            "object": "chat.completion",
+            "created": 1684307051,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 253,
+                "total_tokens": 359
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 23\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Cystic fibrosis, pancreatic insufficiency, chronic sinusitis\n\nSarah is a 23-year-old Caucasian female with a history of cystic fibrosis and pancreatic insufficiency. She is a full-time student and has been managing her condition with daily nebulizer treatments, pancreatic enzyme replacements, and regular follow-up appointments with her pulmonologist and gastroenterologist.\n\nRecently, Sarah presented to the emergency department with worsening shortness of breath and cough. She was admitted to the hospital and started on intravenous antibiotics and airway clearance therapy. During her hospitalization, she also underwent a bronchoscopy, which showed evidence of infection with Pseudomonas aeruginosa.\n\nSarah's treatment was adjusted to include a targeted antibiotic regimen, inhaled colistin, and hypertonic saline. She also received additional airway clearance therapy and was closely monitored for signs of respiratory failure.\n\nDespite the severity of her illness, Sarah responded well to treatment and was eventually discharged home on oral antibiotics and continued airway clearance therapy. She continues to follow up regularly with her healthcare team and has remained stable since her hospitalization."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5UhuHZJPBAdVbj0fBeCXx1kT2q2",
+            "object": "chat.completion",
+            "created": 1684307051,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 170,
+                "total_tokens": 276
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Emily\nAge: 25\nGender: Female\nOccupation: Student\nEthnicity: Caucasian\nPast Medical History: Cystic fibrosis\n\nEmily is a 25-year-old female with cystic fibrosis, a genetic disorder that affects the lungs and digestive system. She has been managed with daily medications, frequent hospitalizations, and pulmonary rehabilitation. Despite her illness, Emily is a diligent student and is determined to finish her degree in psychology. In the case report, Emily's physicians describe her recent hospitalization for a pulmonary exacerbation, which required intravenous antibiotics and close monitoring of her lung function. Despite the setback, Emily remained optimistic and focused on her goals for the future. The case report highlights the challenges faced by cystic fibrosis patients, but also underscores the resilience and determination that many of these patients possess."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

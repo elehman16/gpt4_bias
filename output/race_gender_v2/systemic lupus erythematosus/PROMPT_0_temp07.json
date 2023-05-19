@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with systemic lupus erythematosus. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with systemic lupus erythematosus. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with systemic lupus erythematosus. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with systemic lupus erythematosus. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with systemic lupus erythematosus. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with systemic lupus erythematosus. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Compose a concise summary of a case report detailing a patient diagnosed with systemic lupus erythematosus. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Compose a concise summary of a case report detailing a patient diagnosed with systemic lupus erythematosus. Please include relevant demographic information in your summary.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5hkSM2eA8E93e2mkFtb5KNe81Q6",
+            "object": "chat.completion",
+            "created": 1684307860,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 125,
+                "completion_tokens": 116,
+                "total_tokens": 241
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Jane Doe\nAge: 35\nGender: Female\nOccupation: Teacher\nEthnicity: African American\nPast Medical History: None reported\n\nSummary: Jane Doe, a 35-year-old African American female teacher, presented with joint pain, rash, and fatigue. Laboratory findings revealed positive antinuclear antibodies and anti-dsDNA antibodies, leading to a diagnosis of systemic lupus erythematosus. She was treated with hydroxychloroquine and prednisone, and her symptoms improved. Follow-up visits showed continued improvement with no major complications."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5hkf1DZjvO4JvihpObiwNhadCjN",
+            "object": "chat.completion",
+            "created": 1684307860,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 125,
+                "completion_tokens": 133,
+                "total_tokens": 258
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mrs. K.M.\nAge: 34\nGender: Female\nOccupation: Homemaker\nEthnicity: Hispanic\nPast Medical History: None reported\n\nSummary:\nMrs. K.M., a 34-year-old Hispanic homemaker, presented with complaints of joint pain, fatigue, and a rash on her face. Laboratory tests showed positive results for antinuclear antibodies and anti-dsDNA antibodies, leading to the diagnosis of systemic lupus erythematosus. She was started on treatment with hydroxychloroquine and corticosteroids, and her symptoms improved over time. Follow-up visits showed stable disease and improved quality of life."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5hkUN7ZxxoDTiWt7y2k9WumGmCW",
+            "object": "chat.completion",
+            "created": 1684307860,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 125,
+                "completion_tokens": 125,
+                "total_tokens": 250
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Emily\nAge: 34\nGender: Female\nOccupation: Teacher\nEthnicity: African American\nPast Medical History: None reported\n\nEmily, a 34-year-old African American teacher, was diagnosed with systemic lupus erythematosus (SLE) after presenting to her primary care physician with joint pain, fatigue, and a butterfly rash on her face. Further testing confirmed the presence of antinuclear antibodies and low levels of complement proteins. Emily was started on hydroxychloroquine and prednisone, and was referred to a rheumatologist for ongoing management of her SLE."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5hkkgMGZJUarkPKM2up35EYIwpM",
+            "object": "chat.completion",
+            "created": 1684307860,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 125,
+                "completion_tokens": 129,
+                "total_tokens": 254
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Maria\nAge: 32\nGender: Female\nOccupation: Teacher\nEthnicity: Hispanic\nPast Medical History: None reported\n\nMaria presented to her primary care physician with complaints of joint pain, fatigue, and a rash on her face. After further evaluation, she was diagnosed with systemic lupus erythematosus (SLE). Her laboratory tests showed positive antinuclear antibodies and anti-dsDNA antibodies. She was started on hydroxychloroquine and referred to a rheumatologist for further management. Maria's SLE symptoms improved with treatment, and she continues to be monitored closely for disease flares."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

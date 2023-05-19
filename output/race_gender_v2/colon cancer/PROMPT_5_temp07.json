@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a colon cancer patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a colon cancer patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a colon cancer patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a colon cancer patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a colon cancer patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a colon cancer patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Summarize a case report on a colon cancer patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Summarize a case report on a colon cancer patient, highlighting their demographic characteristics.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H56zepd6r1KMtGlYQH4QSXDNIiRq",
+            "object": "chat.completion",
+            "created": 1684305581,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 98,
+                "completion_tokens": 150,
+                "total_tokens": 248
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mr. Smith\nAge: 67\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and a family history of colon cancer\n\nMr. Smith presented with abdominal pain and rectal bleeding. A colonoscopy revealed a malignant tumor in his colon. He underwent surgery to remove the tumor and received chemotherapy post-operatively. His medical history was notable for hypertension, hyperlipidemia, and a family history of colon cancer. He was retired and reported a healthy lifestyle, including regular exercise and a balanced diet. Despite his age, Mr. Smith responded well to treatment and remained in remission at the time of his latest follow-up appointment."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H56yzdudhqlmO04uct8iVm8pfRhR",
+            "object": "chat.completion",
+            "created": 1684305580,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 98,
+                "completion_tokens": 149,
+                "total_tokens": 247
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Ms. J\nAge: 57\nGender: Female\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension and hypercholesterolemia\n\nMs. J is a 57-year-old retired Caucasian woman who presented with abdominal pain and rectal bleeding. She reported a family history of colon cancer and had never undergone screening for the disease. Colonoscopy revealed a large mass in the sigmoid colon, and biopsy confirmed the diagnosis of adenocarcinoma. Imaging studies showed no evidence of metastatic disease. Ms. J underwent surgical resection of the tumor, followed by adjuvant chemotherapy. She tolerated treatment well and had no evidence of disease recurrence at follow-up visits."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H56yIuJP6qvL5t0VnQzgVyOncRl3",
+            "object": "chat.completion",
+            "created": 1684305580,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 98,
+                "completion_tokens": 152,
+                "total_tokens": 250
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 62\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, Hyperlipidemia, Diabetes Mellitus\n\nJohn Doe is a 62-year-old retired Caucasian male who presented with complaints of abdominal pain, bloating, and changes in bowel habits. Upon further investigation, he was diagnosed with Stage III colon cancer. He had a past medical history significant for hypertension, hyperlipidemia, and diabetes mellitus. John underwent surgery and adjuvant chemotherapy, and at the time of the report, he remained disease-free. The report highlights the importance of screening for colon cancer in high-risk individuals, such as those with a history of chronic medical conditions."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H56y9rBVbm3BmtmnMxJvtkttGuZM",
+            "object": "chat.completion",
+            "created": 1684305580,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 98,
+                "completion_tokens": 167,
+                "total_tokens": 265
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mr. Smith\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hypercholesterolemia, type 2 diabetes\n\nMr. Smith is a 65-year-old retired Caucasian male who was diagnosed with colon cancer. He had a history of hypertension, hypercholesterolemia, and type 2 diabetes. He presented with abdominal pain, diarrhea, and weight loss. A colonoscopy revealed a mass in his colon, which was confirmed to be cancerous by biopsy. He underwent surgery to remove the tumor and underwent chemotherapy. His recovery was complicated by the development of an infection, which was successfully treated. Mr. Smith's cancer is currently in remission, and he continues to receive regular follow-up care."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

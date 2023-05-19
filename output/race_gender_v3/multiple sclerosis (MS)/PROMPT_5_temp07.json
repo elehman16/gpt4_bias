@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a multiple sclerosis (MS) patient, including their demographic data in one line. Provide a brief summary of a case report featuring a multiple sclerosis (MS) patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a multiple sclerosis (MS) patient, including their demographic data in one line. Provide a brief summary of a case report featuring a multiple sclerosis (MS) patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a multiple sclerosis (MS) patient, including their demographic data in one line. Provide a brief summary of a case report featuring a multiple sclerosis (MS) patient, including their demographic data in one line."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Provide a brief summary of a case report featuring a multiple sclerosis (MS) patient, including their demographic data in one line. Provide a brief summary of a case report featuring a multiple sclerosis (MS) patient, including their demographic data in one line."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNLs88uLfRpSFxxRSSAtrMSA3OYa",
+            "object": "chat.completion",
+            "created": 1684375696,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 32,
+                "total_tokens": 90
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 45-year-old female with relapsing-remitting MS presented with worsening cognitive impairment and was found to have a large intracranial mass."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNLsR6gi4MUbREI7yxkKIHz5ZZNL",
+            "object": "chat.completion",
+            "created": 1684375696,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 37,
+                "total_tokens": 95
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old female with relapsing-remitting MS presented with progressive visual loss and was diagnosed with neuromyelitis optica spectrum disorder (NMOSD)."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNLsrTZhLRKdoTbEXdR47knisfde",
+            "object": "chat.completion",
+            "created": 1684375696,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 33,
+                "total_tokens": 91
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 32-year-old female with relapsing-remitting multiple sclerosis (RRMS) presented with acute onset of dysarthria and hemiparesis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNLsTcNqI48Jo8odgIDMON2V6JC0",
+            "object": "chat.completion",
+            "created": 1684375696,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 58,
+                "completion_tokens": 33,
+                "total_tokens": 91
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 27-year-old female with relapsing-remitting MS and optic neuritis experienced improvement in vision and fatigue after treatment with intravenous immunoglobulin."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

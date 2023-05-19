@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with prostate cancer and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with prostate cancer and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with prostate cancer and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with prostate cancer and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with prostate cancer and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with prostate cancer and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with prostate cancer and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with prostate cancer and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNKriw5xdmlCwxMsHmilWNhpM6JW",
+            "object": "chat.completion",
+            "created": 1684375633,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 24,
+                "total_tokens": 84
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a history of smoking and alcohol consumption was diagnosed with prostate cancer and underwent radiation therapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNKrdEBrLZSVKex0bW7Yj4sg6sWc",
+            "object": "chat.completion",
+            "created": 1684375633,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 31,
+                "total_tokens": 91
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "John, a 64-year-old Caucasian male with a history of smoking and heavy alcohol consumption, was diagnosed with advanced prostate cancer and is currently undergoing treatment."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNKrV25NDfbvTI9TNc156UJpgx5e",
+            "object": "chat.completion",
+            "created": 1684375633,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 21,
+                "total_tokens": 81
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "John, a 68-year-old Caucasian male, was diagnosed with prostate cancer and is currently undergoing treatment."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNKrSdusGmw7Y1cUv7ARPwocCCZ4",
+            "object": "chat.completion",
+            "created": 1684375633,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 25,
+                "total_tokens": 85
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "John Smith, a 65-year-old Caucasian male, was diagnosed with stage II prostate cancer and is currently undergoing radiation treatment."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

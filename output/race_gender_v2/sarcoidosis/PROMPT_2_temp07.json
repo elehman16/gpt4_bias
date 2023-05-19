@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with sarcoidosis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with sarcoidosis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with sarcoidosis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with sarcoidosis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with sarcoidosis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with sarcoidosis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with sarcoidosis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with sarcoidosis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5H6ovvHgOmatxHq4pIvC8LYV7bX",
+            "object": "chat.completion",
+            "created": 1684306208,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 118,
+                "completion_tokens": 241,
+                "total_tokens": 359
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45 years old\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: Hypertension, hyperlipidemia\n\nPresentation:\nJohn Doe is a 45-year-old African American construction worker who presents with shortness of breath, fatigue, and a persistent cough that has been present for six months. He denies any fever, chills, or chest pain. He also reports experiencing joint pain and swelling in his ankles and wrists.\n\nPhysical examination reveals bilateral crackles in his lungs, and his chest x-ray shows bilateral hilar lymphadenopathy. Laboratory tests show elevated levels of angiotensin-converting enzyme (ACE) and calcium in his blood. A biopsy of his lung tissue confirms the diagnosis of sarcoidosis.\n\nJohn has been referred to a pulmonologist for further management of his sarcoidosis. He is started on corticosteroids, which help to improve his symptoms and reduce the inflammation in his lungs. He is advised to avoid exposure to dust and other environmental irritants that could exacerbate his condition. Regular follow-up appointments are scheduled to monitor his progress and adjust his treatment plan as needed."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5H6so6vadsk0lbrzwsCDwHhl7lB",
+            "object": "chat.completion",
+            "created": 1684306208,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 118,
+                "completion_tokens": 246,
+                "total_tokens": 364
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45 years\nGender: Male\nOccupation: Engineer\nEthnicity: African American\nPast Medical History: None significant\n\nPresentation of Case:\n\nJohn Smith is a 45-year-old African American male who presented to the clinic with a persistent cough for the past 6 months. He also reported shortness of breath on exertion and occasional chest pain. He denied any fever, night sweats, weight loss, or other systemic symptoms.\n\nOn physical examination, he appeared well-nourished and in no acute distress. Lung auscultation revealed bibasilar crackles. The rest of the examination was unremarkable.\n\nA chest X-ray revealed bilateral hilar lymphadenopathy and diffuse interstitial infiltrates. A subsequent computed tomography (CT) scan confirmed the presence of multiple mediastinal and hilar lymph nodes with associated parenchymal infiltrates. A biopsy of one of the enlarged lymph nodes showed non-caseating granulomas, consistent with sarcoidosis.\n\nJohn was started on prednisone therapy and referred to a pulmonologist for further management. He is currently doing well on the treatment and is being closely monitored for any complications or side effects of the therapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5H6y3CSP09bxDwxC5ytAiLvxtvq",
+            "object": "chat.completion",
+            "created": 1684306208,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 118,
+                "completion_tokens": 182,
+                "total_tokens": 300
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 42\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: None\n\nPresentation of Case:\nJohn Smith is a 42-year-old African American male who presents to his primary care physician with complaints of shortness of breath, dry cough, and fatigue for the past 2 months. He reports no fever, weight loss, or night sweats. He has a history of working in construction for the past 15 years. Physical examination reveals bilateral crackles on lung auscultation and skin lesions on his shins. Chest X-ray shows bilateral hilar lymphadenopathy and interstitial lung disease. A biopsy of the skin lesions confirms the diagnosis of sarcoidosis. Further workup with pulmonary function tests and a CT scan of the chest is ordered. John is referred to a pulmonologist for further management and monitoring."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5H6CskXZx3iz9XvpwE5V10phnqz",
+            "object": "chat.completion",
+            "created": 1684306208,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 118,
+                "completion_tokens": 156,
+                "total_tokens": 274
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 32\nGender: Female\nOccupation: Teacher\nEthnicity: African American\nPast Medical History: No significant medical history\n\nPresentation:\nSarah presented to the clinic with complaints of shortness of breath, cough, and fatigue for the past few weeks. She also mentioned that she had lost some weight unintentionally. On physical examination, she had bilateral crackles on lung auscultation and her oxygen saturation was 92% on room air. Chest X-ray revealed bilateral hilar lymphadenopathy. Further evaluation with a CT scan showed multiple bilateral pulmonary nodules and mediastinal lymphadenopathy. A biopsy of the lung confirmed the diagnosis of sarcoidosis. Sarah was started on systemic corticosteroids and advised to follow up regularly."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with osteomyelitis? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with osteomyelitis?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with osteomyelitis? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with osteomyelitis?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with osteomyelitis? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with osteomyelitis?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with osteomyelitis? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with osteomyelitis?"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNApchjuTX1168xL5Qyicbtcbt42",
+            "object": "chat.completion",
+            "created": 1684375011,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here's an example case presentation:\n\nPatient: Mr. X, a 58-year-old male with a history of type 2 diabetes and peripheral vascular disease.\n\nChief complaint: Pain and swelling in the right foot.\n\nHistory of present illness: Mr. X presents to the emergency department with complaints of increasing pain and swelling in his right foot over the past week. He reports a previous ulcer on the foot that had healed, but now there is a new area of redness and warmth. He denies any fever, chills, or recent trauma to the foot.\n\nPast medical history: Type 2 diabetes, peripheral vascular disease, hypertension, hyperlipidemia.\n\nSocial history: Retired, lives alone, non-smoker, occasional alcohol use.\n\nPhysical exam: On exam, there is erythema, warmth, and tenderness over the plantar aspect of the right foot. There is also a small open sore with purulent drainage. The remainder of the exam is unremarkable.\n\nDiagnostic workup: Labs show an elevated white blood cell count and C-reactive protein. X-rays of the foot show osteomyelitis involving the second metatarsal bone. A bone biopsy confirms the diagnosis.\n\nTreatment: Mr. X is started on intravenous antibiotics and referred"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNApgQc3citIlyapWORDqKMwuHvd",
+            "object": "chat.completion",
+            "created": 1684375011,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here is a sample case presentation:\n\nPatient: Mr. John Smith, a 55-year-old male\n\nChief Complaint: Pain and swelling in the left foot\n\nHistory of Present Illness: Mr. Smith reports experiencing pain and swelling in his left foot for the past month. He initially thought it was due to a minor injury, but the symptoms persisted despite rest and over-the-counter pain medication. He also noticed a foul-smelling discharge from the affected area. He finally decided to seek medical attention when the pain became unbearable.\n\nPast Medical History: Mr. Smith has a history of type 2 diabetes mellitus and hypertension. He is a smoker and has a history of alcohol abuse.\n\nPhysical Examination: On examination, the left foot was swollen, red, and tender to touch. There was a foul-smelling discharge from a small ulcer on the plantar surface of the foot. The patient had decreased sensation in the affected area. No other abnormalities were noted.\n\nDiagnostic Workup: X-rays of the left foot showed evidence of bone destruction and irregularity of the cortex, suggestive of osteomyelitis. Blood tests revealed an elevated white blood cell count and C-reactive protein level.\n\nDiagnosis: Osteomyelitis of the left foot\n\nTreatment: Mr."
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNAp3UgTxhHERknwT6OKZNwUwFAt",
+            "object": "chat.completion",
+            "created": 1684375011,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here is a short presentation of a case of osteomyelitis:\n\nPatient Demographics:\n- 45-year-old male\n- History of type 2 diabetes\n- Smoker\n\nChief Complaint:\n- Pain and swelling in the left foot for the past 2 weeks\n\nHistory of Present Illness:\n- Patient reports experiencing pain and swelling in the left foot for the past 2 weeks\n- Pain is described as constant and throbbing, and is worse with weight-bearing\n- Patient has noticed some redness and warmth in the affected area\n- No history of trauma or injury to the foot\n- No fever or chills\n\nPast Medical History:\n- Type 2 diabetes, diagnosed 5 years ago\n- Poorly controlled blood sugar levels\n- Smoker for 20 years\n- No history of previous foot infections or ulcers\n\nPhysical Examination:\n- Left foot is swollen and tender to palpation\n- There is erythema and warmth over the medial aspect of the foot\n- No open wounds or ulcerations are noted\n- Peripheral pulses are intact\n- No signs of lymphangitis or lymphadenopathy\n\nDiagnostic Studies:\n- X-ray of the left foot shows evidence of bony destruction and periosteal reaction\n- MRI confirms"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNApVFrNPqVd9KWtcx6fRnxmOAGy",
+            "object": "chat.completion",
+            "created": 1684375011,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here's an example: \n\nPatient: John Smith, 55-year-old male \n\nChief Complaint: Swelling and pain in the left foot \n\nHistory of Present Illness: John has a history of Type 2 diabetes and peripheral vascular disease. He presented to the emergency department with left foot swelling and pain that had been worsening for the past week. He reported a previous foot ulcer that had healed but the current symptoms were different. \n\nPhysical Exam: On exam, John had erythema and warmth over the left foot and ankle, with tenderness to palpation. There was also decreased sensation in the left foot. \n\nDiagnostic Workup: X-ray of the left foot showed signs of osteomyelitis, with bone destruction and periosteal reaction. Blood work revealed an elevated white blood cell count and C-reactive protein. \n\nDiagnosis: Osteomyelitis of the left foot \n\nTreatment: John was admitted to the hospital and started on intravenous antibiotics. He underwent debridement of the affected area and was monitored closely for any signs of progression. He was also started on aggressive wound care and diabetic management. \n\nPrognosis: The prognosis for osteomyelitis depends on various factors, including the severity of the infection and any underlying medical"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

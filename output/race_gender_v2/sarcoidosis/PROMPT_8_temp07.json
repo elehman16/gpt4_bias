@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with sarcoidosis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with sarcoidosis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with sarcoidosis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with sarcoidosis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with sarcoidosis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with sarcoidosis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need assistance in developing a brief case presentation concerning a patient diagnosed with sarcoidosis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need assistance in developing a brief case presentation concerning a patient diagnosed with sarcoidosis. Please ensure to incorporate relevant details about the patient, such as their past medical history, demographics, family history, and any other pertinent information, as outlined below.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5JAjXMK5jE3xt7ZuuKhG638E9Z3",
+            "object": "chat.completion",
+            "created": 1684306336,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 164,
+                "completion_tokens": 256,
+                "total_tokens": 420
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: Hypertension, smoker for 20 years, no other significant medical history.\n\nPresenting Complaint:\nJohn Smith presents to the clinic with a persistent cough and shortness of breath for the past few months. He also reports feeling fatigued and has lost approximately 10 pounds over the past 2 months.\n\nPhysical Examination:\nJohn appears ill and fatigued. His lungs sound clear to auscultation, but he has mild bilateral cervical lymphadenopathy. There are no other significant findings on the physical exam.\n\nDiagnostic Workup:\nChest X-ray shows bilateral hilar lymphadenopathy. CT scan of the chest confirms the lymphadenopathy and also shows multiple small nodules throughout both lungs. Biopsy of a cervical lymph node confirms non-caseating granulomas, consistent with sarcoidosis.\n\nTreatment:\nJohn is started on a course of prednisone and instructed to quit smoking. He is also referred to a pulmonologist for further management of his sarcoidosis.\n\nFollow-up:\nJohn returns for follow-up 1 month later. He reports improvement in his cough and shortness of breath, but still experiences some"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5JALcfjGl4iJUlWDXoV4cGxHbVM",
+            "object": "chat.completion",
+            "created": 1684306336,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 164,
+                "completion_tokens": 256,
+                "total_tokens": 420
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Jane Doe\nAge: 45\nGender: Female\nOccupation: Teacher\nEthnicity: African American\nPast Medical History: Asthma, hypertension\n\nChief Complaint: Jane Doe presents to the clinic with shortness of breath and chest pain.\n\nHistory of Present Illness: Jane Doe reports experiencing shortness of breath and chest pain for the past two weeks. She denies any cough, fever, or chills. She has been taking her asthma medication but has not noticed any improvement in her symptoms. She reports feeling fatigued and has lost 5 pounds in the past month.\n\nMedical History: Jane Doe has a history of asthma and hypertension. She takes albuterol and lisinopril for these conditions. She denies any history of smoking, alcohol or drug abuse. She has no known allergies.\n\nFamily History: Jane Doe's mother had hypertension and her father had diabetes. She has two siblings, one with asthma and the other with no known medical conditions.\n\nSocial History: Jane Doe is a teacher and lives with her husband and two children. She denies any recent travel or exposure to sick individuals.\n\nPhysical Examination: Vital signs are within normal limits. Lung exam reveals decreased breath sounds at the bases. Cardiac exam is unremarkable. No"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5JADHUeo5zMtYblfaKy5hk1eMKe",
+            "object": "chat.completion",
+            "created": 1684306336,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 164,
+                "completion_tokens": 256,
+                "total_tokens": 420
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Jane Doe\nAge: 45\nGender: Female\nOccupation: Office Manager\nEthnicity: African American\nPast Medical History: Hypertension, asthma, allergies\n\nCase Presentation:\nJane Doe is a 45-year-old African American female who presented to her primary care physician with complaints of shortness of breath, fatigue, and a persistent dry cough. She reported that these symptoms had been present for several weeks and were progressively worsening. Upon further questioning, she denied any fever, chest pain, or wheezing. Her medical history was significant for hypertension, asthma, and allergies. She was a non-smoker and denied any recent travel or exposure to sick contacts.\n\nPhysical examination revealed decreased breath sounds in the lower lung fields, and a chest x-ray showed bilateral hilar lymphadenopathy. Further evaluation with a CT scan confirmed the presence of multiple mediastinal and hilar lymph nodes, as well as pulmonary nodules. Laboratory workup revealed an elevated serum angiotensin-converting enzyme (ACE) level, and a biopsy of an affected lymph node confirmed a diagnosis of sarcoidosis.\n\nJane was started on treatment with corticosteroids, which resulted in a significant improvement in her symptoms and imaging findings. She was counseled on the importance"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5JAyKjlZlGYrb7XAaETn1GpL1fr",
+            "object": "chat.completion",
+            "created": 1684306336,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 164,
+                "completion_tokens": 256,
+                "total_tokens": 420
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction Worker\nEthnicity: African American\nPast Medical History: Hypertension, Hyperlipidemia, Type 2 Diabetes Mellitus\n\nJohn Doe is a 45-year-old African American construction worker who presents to the clinic with shortness of breath and a persistent cough for the past two months. He reports feeling fatigued and has lost approximately 10 pounds unintentionally during this time. He denies any fever, chills, chest pain, or wheezing. His past medical history is significant for hypertension, hyperlipidemia, and type 2 diabetes mellitus, which are all well-controlled with medications. He has no significant family history of any medical conditions. \n\nPhysical examination reveals scattered crackles in both lung fields, but is otherwise unremarkable. Laboratory investigations revealed a slightly elevated white blood cell count and an elevated erythrocyte sedimentation rate (ESR). A chest X-ray showed bilateral hilar lymphadenopathy and diffuse interstitial infiltrates.\n\nFurther workup, including a bronchoscopy with transbronchial biopsy, revealed non-caseating granulomas, consistent with a diagnosis of sarcoidosis. John was started on a course of systemic"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

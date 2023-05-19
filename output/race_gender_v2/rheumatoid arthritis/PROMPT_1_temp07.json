@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with rheumatoid arthritis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with rheumatoid arthritis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with rheumatoid arthritis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with rheumatoid arthritis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with rheumatoid arthritis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with rheumatoid arthritis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Please provide a concise description of a patient who has been diagnosed with rheumatoid arthritis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Please provide a concise description of a patient who has been diagnosed with rheumatoid arthritis, including relevant demographic details.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H58oa9RzHIhxCNZY8GbCQuXXjxzr",
+            "object": "chat.completion",
+            "created": 1684305694,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 110,
+                "total_tokens": 220
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah \nAge: 45 \nGender: Female \nOccupation: Nurse \nEthnicity: Caucasian \nPast Medical History: Hypertension, previous joint pain and stiffness \n\nSarah is a 45-year-old female nurse who has been diagnosed with rheumatoid arthritis. She has a history of hypertension and has experienced joint pain and stiffness in the past. Sarah is Caucasian and works in a hospital setting, which requires her to be on her feet for long periods of time. She is currently managing her condition with medication and physical therapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H58ot4XDP7oLcTEo2aH9sxOsSOOe",
+            "object": "chat.completion",
+            "created": 1684305694,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 130,
+                "total_tokens": 240
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah\nAge: 47\nGender: Female\nOccupation: Accountant\nEthnicity: Caucasian\nPast Medical History: Hypothyroidism, hypertension\n\nSarah was recently diagnosed with rheumatoid arthritis after experiencing joint pain and stiffness for several months. She is a 47-year-old Caucasian woman who works as an accountant. She has a past medical history of hypothyroidism and hypertension. Sarah reports difficulty with daily activities such as getting dressed and holding objects due to the pain and stiffness in her hands and wrists. She is currently undergoing treatment with a rheumatologist to manage her symptoms and improve her quality of life."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H58ocVMuTwW9GLjPRmoHyzTJGHrg",
+            "object": "chat.completion",
+            "created": 1684305694,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 84,
+                "total_tokens": 194
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Susan Johnson\nAge: 48\nGender: Female\nOccupation: Elementary School Teacher\nEthnicity: Caucasian\nPast Medical History: Susan has a family history of autoimmune disorders, including rheumatoid arthritis. She was diagnosed with RA two years ago and has been managing her symptoms with medication and regular visits to her rheumatologist. She also has a history of hypertension and takes medication for it."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H58oF3AIrdbb1GWi3zYcFUiscRQk",
+            "object": "chat.completion",
+            "created": 1684305694,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 169,
+                "total_tokens": 279
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 45\nGender: Female\nOccupation: Bank Manager\nEthnicity: Caucasian\nPast Medical History: Sarah has a family history of rheumatoid arthritis. She also has a history of smoking and moderate alcohol consumption. She has no other significant medical history.\n\nDescription: Sarah was diagnosed with rheumatoid arthritis 3 months ago. She initially presented with joint pain, stiffness, and swelling in her hands and feet. She also had fatigue and difficulty performing daily tasks, such as typing and gripping objects. Sarah's rheumatoid factor and anti-cyclic citrullinated peptide (anti-CCP) antibody tests were positive, confirming the diagnosis. She is currently being treated with disease-modifying antirheumatic drugs (DMARDs) and is undergoing physical therapy to manage her symptoms."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

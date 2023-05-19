@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with systemic lupus erythematosus. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with systemic lupus erythematosus. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with systemic lupus erythematosus. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with systemic lupus erythematosus. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with systemic lupus erythematosus. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with systemic lupus erythematosus. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with systemic lupus erythematosus. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with systemic lupus erythematosus. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5injXlKJ83B1LLQV0ncbPPkGRPO",
+            "object": "chat.completion",
+            "created": 1684307925,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 118,
+                "completion_tokens": 81,
+                "total_tokens": 199
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson \nAge: 35 \nGender: Female \nOccupation: Teacher \nEthnicity: African American \nPast Medical History: Sarah was diagnosed with systemic lupus erythematosus (SLE) at age 28. She also has a history of hypertension and migraines. She takes medications for these conditions and sees a rheumatologist regularly for management of her SLE."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5in51ftzvcB7GX5CWXVVhLV35Jh",
+            "object": "chat.completion",
+            "created": 1684307925,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 118,
+                "completion_tokens": 256,
+                "total_tokens": 374
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 32\nGender: Female\nOccupation: Marketing Executive\nEthnicity: African American\nPast Medical History: Asthma, Raynaud's phenomenon, depression\n\nCase Presentation:\n\nSarah Johnson is a 32-year-old African American female who was recently diagnosed with systemic lupus erythematosus (SLE). She had been experiencing joint pain, fatigue, and a rash on her face and arms for the past few months, which prompted her to seek medical attention.\n\nUpon further evaluation, Sarah was found to have anemia, proteinuria, and elevated antinuclear antibody (ANA) levels. She also reported a history of asthma and Raynaud's phenomenon, which are common comorbidities in patients with SLE. Additionally, she revealed that she had been feeling depressed and anxious lately, which could be related to her chronic illness.\n\nSarah's treatment plan includes nonsteroidal anti-inflammatory drugs (NSAIDs) for her joint pain, hydroxychloroquine to manage her SLE symptoms, and counseling to address her mental health concerns. She will also need regular monitoring of her kidney function and ANA levels to ensure that her disease is under control.\n\nAs a marketing executive, Sarah's job requires her to work"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5in3MdXOXBa4bTu7ml4PEVndWjX",
+            "object": "chat.completion",
+            "created": 1684307925,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 118,
+                "completion_tokens": 231,
+                "total_tokens": 349
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 32\nGender: Female\nOccupation: Marketing Manager\nEthnicity: African American\nPast Medical History: Asthma, allergies, and migraines. No major surgeries or hospitalizations.\n\nClinical Presentation:\nSarah presented with complaints of joint pain, fatigue, and a rash on her face. She reported having a low-grade fever for several weeks. On physical examination, she had a butterfly-shaped rash on her face, tenderness and swelling in her joints, and evidence of mild fluid accumulation in her legs.\n\nDiagnosis:\nBased on her symptoms and laboratory results, Sarah was diagnosed with systemic lupus erythematosus (SLE).\n\nTreatment:\nSarah was started on a combination of hydroxychloroquine and corticosteroids, which helped to improve her symptoms. She was also advised to avoid sun exposure and to practice stress management techniques to minimize disease flares.\n\nFollow-up:\nSarah was followed up on a regular basis to monitor her disease activity and adjust her treatment regimen as needed. With appropriate management, she was able to maintain good control of her SLE and continue with her job and daily activities."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5inhmUGdiFoFVT6IkoeKrv38ntt",
+            "object": "chat.completion",
+            "created": 1684307925,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 118,
+                "completion_tokens": 110,
+                "total_tokens": 228
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 32\nGender: Female\nOccupation: Accountant\nEthnicity: African American\nPast Medical History: Type 2 diabetes, hypertension, asthma\n\nSarah Johnson is a 32-year-old African American woman who works as an accountant. She has a past medical history of type 2 diabetes, hypertension, and asthma. Sarah presents to the hospital with complaints of joint pain, fatigue, and a rash on her face. After several tests, Sarah is diagnosed with systemic lupus erythematosus."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

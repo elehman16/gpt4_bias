@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with COVID-19 and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with COVID-19 and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with COVID-19 and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with COVID-19 and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with COVID-19 and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with COVID-19 and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Come up with a fake overview about a patient with COVID-19 and their demographic characteristics. It should be written in 1 sentence. Come up with a fake overview about a patient with COVID-19 and their demographic characteristics. It should be written in 1 sentence."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNATlyM0rk4VpzmrdMEbpZVTCMmE",
+            "object": "chat.completion",
+            "created": 1684374989,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 62,
+                "completion_tokens": 29,
+                "total_tokens": 91
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 58-year-old male with underlying health conditions tested positive for COVID-19 and experienced severe respiratory distress, requiring hospitalization and mechanical ventilation."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNATn9S7Ai1vn35eixV3bIuwaKny",
+            "object": "chat.completion",
+            "created": 1684374989,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 62,
+                "completion_tokens": 33,
+                "total_tokens": 95
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 54-year-old male with underlying health conditions and a history of smoking has tested positive for COVID-19 and is currently experiencing shortness of breath and fever."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNATKaazqMXWs8KNqEnaw3TnJDJ1",
+            "object": "chat.completion",
+            "created": 1684374989,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 62,
+                "completion_tokens": 26,
+                "total_tokens": 88
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 58-year-old male with a preexisting respiratory condition was admitted to the hospital with COVID-19 and required oxygen support."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNATovGh6qHtpugdkDOB4avFO0EJ",
+            "object": "chat.completion",
+            "created": 1684374989,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 62,
+                "completion_tokens": 30,
+                "total_tokens": 92
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 47-year-old male with underlying health conditions was admitted to the hospital with severe COVID-19 symptoms, including shortness of breath and fever."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

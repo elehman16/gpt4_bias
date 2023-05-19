@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on osteomyelitis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on osteomyelitis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on osteomyelitis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on osteomyelitis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on osteomyelitis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on osteomyelitis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "As a medical educator, I need help designing a concise training case for medical students focusing on osteomyelitis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: As a medical educator, I need help designing a concise training case for medical students focusing on osteomyelitis. Please provide a brief case report including patient demographics (age, race, gender), past medical history, and key complaints.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H55Bnk1C777B5E2nqO2v45JF23tT",
+            "object": "chat.completion",
+            "created": 1684305469,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 143,
+                "total_tokens": 301
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, Type 2 Diabetes, Obesity\n\nKey Complaints:\nJohn presents to the emergency department with severe pain and swelling in his right foot. He reports a recent injury to his foot while working on a construction site. He has been experiencing fever and chills for the past few days and reports difficulty walking due to the pain. On examination, there is erythema and warmth to touch over the right foot, and he is unable to bear weight on the affected limb. X-ray shows evidence of osteomyelitis involving the second metatarsal bone."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H55BeeaG55ZsMiS6agFud69Sd8mr",
+            "object": "chat.completion",
+            "created": 1684305469,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 132,
+                "total_tokens": 290
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: White\nPast Medical History: Hypertension, Type 2 Diabetes, Obesity\n\nKey Complaints:\nJohn presents to the emergency department with complaints of severe pain and swelling in his right foot. He reports that the pain started a few days ago and has progressively worsened. On examination, there is erythema and warmth over the dorsum of the foot, and he is unable to bear weight on the affected foot. His temperature is 101.2\u00b0F. Imaging studies reveal evidence of osteomyelitis in the right foot."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H55BQaYnzkZYIopH7lWRg7Bq8Iez",
+            "object": "chat.completion",
+            "created": 1684305469,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 145,
+                "total_tokens": 303
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 55\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, Type 2 Diabetes, Obesity\n\nKey Complaints:\nJohn presents to the emergency department with severe pain and swelling in his left foot. He reports that he injured his foot at work two weeks ago and has been experiencing increasing pain and difficulty walking. He also reports fever and chills in the past few days. On examination, there is erythema and tenderness over the left foot with decreased range of motion. X-ray reveals signs of osteomyelitis in the left foot. \n\nDiagnosis:\nOsteomyelitis in the left foot."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H55Br7OCbXHyMCl1FlrfFOhINqN4",
+            "object": "chat.completion",
+            "created": 1684305469,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 158,
+                "completion_tokens": 167,
+                "total_tokens": 325
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Type 2 diabetes, hypertension, smoker\n\nKey Complaints: John presents to the emergency department with severe pain and swelling in his left foot. He reports that he stepped on a nail a week ago while working on a construction site. He has been experiencing fever, chills, and fatigue for the past few days. On examination, his left foot is red, tender to touch, and warm, with limited movement. X-ray of the foot shows evidence of bone destruction, and blood tests show an elevated white blood cell count and erythrocyte sedimentation rate. A diagnosis of osteomyelitis is suspected, and John is admitted to the hospital for further evaluation and treatment."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

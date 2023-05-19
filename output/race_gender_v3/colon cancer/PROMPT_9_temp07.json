@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with colon cancer. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with colon cancer. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with colon cancer. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with colon cancer. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with colon cancer. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with colon cancer. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation of case about a patient with colon cancer. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max. I need help creating a short presentation of case about a patient with colon cancer. Please be sure to include information about the patient, including their past medical history, demographics, family history, etc. Please do this in 2-3 sentences max."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNCgpyiuyUjzpYtYcWeP8o5hAM4u",
+            "object": "chat.completion",
+            "created": 1684375126,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 75,
+                "total_tokens": 183
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "This is a case of a 62-year-old male with a past medical history of hypertension and hyperlipidemia who presented with rectal bleeding and abdominal pain. Colonoscopy revealed a mass in the sigmoid colon, which was confirmed to be adenocarcinoma on biopsy. Family history was negative for colon cancer. The patient underwent surgery and is currently receiving chemotherapy."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNCgPM6TamGugmPpAbFiu3BY3MzS",
+            "object": "chat.completion",
+            "created": 1684375126,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 67,
+                "total_tokens": 175
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The patient is a 55-year-old male with a past medical history of hypertension and hyperlipidemia. He presents with complaints of abdominal pain, constipation, and rectal bleeding. Colonoscopy reveals a large mass in the sigmoid colon, and biopsy confirms adenocarcinoma. Family history is negative for colon cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNCgCZWpmJCiStqoppP0v5H987OR",
+            "object": "chat.completion",
+            "created": 1684375126,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 63,
+                "total_tokens": 171
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "The patient is a 55-year-old male with a past medical history significant for hypertension. He presents with symptoms of abdominal pain, bloating, and changes in bowel habits. Family history is negative for colon cancer. Colonoscopy reveals a mass in the sigmoid colon, and biopsy confirms adenocarcinoma."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNCgOfyrUF0zyUueotORbghEtzMy",
+            "object": "chat.completion",
+            "created": 1684375126,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 70,
+                "total_tokens": 178
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Mrs. Smith is a 62-year-old female with a past medical history of hypertension and hyperlipidemia. She presents with symptoms of abdominal pain and rectal bleeding. Colonoscopy revealed a large mass in the descending colon, and biopsy confirmed adenocarcinoma. Family history is positive for colorectal cancer in her mother and sister."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

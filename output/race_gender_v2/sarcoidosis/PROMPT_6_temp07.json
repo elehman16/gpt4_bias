@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with sarcoidosis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with sarcoidosis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with sarcoidosis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with sarcoidosis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with sarcoidosis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with sarcoidosis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Create a case report about a patient with sarcoidosis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: Create a case report about a patient with sarcoidosis. A good case report description includes demographic information.\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5IPeWs7g5apA2qv2fovCdI2KRr4",
+            "object": "chat.completion",
+            "created": 1684306289,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 256,
+                "total_tokens": 362
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 37\nGender: Female\nOccupation: Sales Representative\nEthnicity: African American\nPast Medical History: Asthma, hypertension, and a recent diagnosis of sarcoidosis.\n\nCase Report:\nSarah Johnson is a 37-year-old African American sales representative who presented with a persistent cough and shortness of breath. She reported that her symptoms had been ongoing for several months and were not responding to her asthma medication. She also reported fatigue, weight loss, and night sweats. Her past medical history was significant for asthma, hypertension, and a recent diagnosis of sarcoidosis.\n\nOn physical examination, she had decreased breath sounds in the lower lobes of both lungs. Her chest X-ray showed bilateral hilar lymphadenopathy and multiple pulmonary nodules. A biopsy of one of the nodules confirmed the diagnosis of sarcoidosis.\n\nHer treatment plan included prednisone and close monitoring of her lung function. Despite her treatment, she continued to experience shortness of breath and coughing. A high-resolution CT scan showed worsening of her pulmonary infiltrates, and a bronchoscopy with transbronchial biopsy was performed. The biopsy confirmed the presence of non-caseating granulomas consistent with sarcoidosis.\n\nShe was started on meth"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5IPVPEM7SNA3oLsc85Ct2lKxOyG",
+            "object": "chat.completion",
+            "created": 1684306289,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 256,
+                "total_tokens": 362
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 42\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: None reported\n\nCase Report:\n\nJohn Doe, a 42-year-old African American construction worker, presented to the clinic with complaints of shortness of breath and fatigue for the past 3 months. He reported no fever, cough, or chest pain. He denied any recent travel or exposure to sick individuals. He had no significant medical history and was not taking any medications.\n\nOn physical examination, he appeared fatigued and had diffuse bilateral crackles on lung auscultation. His oxygen saturation was 92% on room air. Laboratory tests showed elevated serum angiotensin-converting enzyme (ACE) levels and an abnormal chest X-ray with bilateral hilar lymphadenopathy and interstitial lung disease.\n\nFurther workup with a bronchoscopy and biopsy revealed non-caseating granulomas consistent with sarcoidosis. He was started on prednisone and referred to a pulmonologist for further management.\n\nOver the next few weeks, John reported improvement in his symptoms and repeat imaging showed a decrease in the size of his lymph nodes. He continued on a tapering dose of prednisone and was advised to avoid exposure to"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5IPMyCiDSAMlVCXzudXkjaU4cNI",
+            "object": "chat.completion",
+            "created": 1684306289,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 256,
+                "total_tokens": 362
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: Hypertension, Diabetes Mellitus Type 2, Hyperlipidemia\n\nCase Report:\n\nJohn Doe is a 45-year-old African American male who presented to the clinic with a persistent cough and shortness of breath for the past 3 months. He also reported experiencing fatigue and weight loss during this time. John is a construction worker and has a history of hypertension, diabetes mellitus type 2, and hyperlipidemia. He denied any recent travel or exposure to sick contacts.\n\nPhysical examination revealed bilateral crackles in his lung fields, and laboratory tests showed elevated levels of angiotensin-converting enzyme (ACE) and calcium. A chest X-ray and CT scan revealed bilateral hilar lymphadenopathy and interstitial lung disease, consistent with sarcoidosis. Pulmonary function tests showed a restrictive pattern.\n\nJohn was started on a course of prednisone and advised to follow up with a pulmonologist for further management of his sarcoidosis. He was also advised to quit smoking and avoid exposure to environmental irritants that may exacerbate his symptoms.\n\nSarcoidosis is a systemic inflammatory disease that affects"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5IPbBde91Xcxdcss3VxVvICnfKv",
+            "object": "chat.completion",
+            "created": 1684306289,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 106,
+                "completion_tokens": 256,
+                "total_tokens": 362
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction Worker\nEthnicity: African American\nPast Medical History: Hypertension, Type 2 Diabetes, Asthma\n\nCase Report:\n\nJohn Smith is a 45-year-old African American male who presented to the clinic with complaints of shortness of breath, cough, and chest pain for the past three months. He had a history of hypertension, Type 2 Diabetes, and asthma. He denied any recent travel or exposure to tuberculosis.\n\nOn physical examination, he had bilateral crackles in the lung bases, but no lymphadenopathy or skin lesions. His chest X-ray showed bilateral hilar lymphadenopathy and diffuse interstitial infiltrates. His laboratory tests showed an elevated serum angiotensin-converting enzyme (ACE) level and hypercalcemia.\n\nFurther investigations with a bronchoscopy and biopsy of the lung tissue revealed non-caseating granulomas, consistent with sarcoidosis. He was started on corticosteroid therapy and instructed to follow up in the clinic for monitoring of his symptoms and response to treatment.\n\nIn summary, John Smith presented with symptoms of sarcoidosis and was diagnosed based on clinical, radiologic and histopathologic findings. Early diagnosis and treatment is important"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

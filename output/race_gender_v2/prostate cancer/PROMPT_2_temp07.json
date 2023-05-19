@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with prostate cancer?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with prostate cancer?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with prostate cancer?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with prostate cancer?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with prostate cancer?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with prostate cancer?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with prostate cancer?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with prostate cancer?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H5NdloeV1BerNOvkJ3XXRhgZt0J0",
+            "object": "chat.completion",
+            "created": 1684306613,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 116,
+                "completion_tokens": 256,
+                "total_tokens": 372
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, benign prostatic hyperplasia\n\nCase Presentation:\n\nJohn Smith is a 65-year-old retired Caucasian male who presents with complaints of difficulty with urination and lower back pain. He has a past medical history of hypertension, hyperlipidemia, and benign prostatic hyperplasia. On physical examination, his prostate is enlarged and firm. A prostate-specific antigen (PSA) test is ordered and comes back elevated at 20 ng/mL.\n\nFurther imaging studies reveal a suspicious mass in the prostate gland. A biopsy is performed, and the results confirm the diagnosis of prostate cancer. The cancer is localized within the prostate gland and has not spread to other organs.\n\nJohn is referred to a urologist and radiation oncologist for further management. After discussing the risks and benefits of different treatment options, John chooses to undergo radiation therapy. He receives external beam radiation to the prostate gland for a total of eight weeks, with minimal side effects.\n\nJohn continues to have regular follow-up appointments with his urologist and oncologist, with no evidence of recurrence of prostate cancer. He is"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5NdpPnnFZYuagnFhxDmDlklT0wm",
+            "object": "chat.completion",
+            "created": 1684306613,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 116,
+                "completion_tokens": 166,
+                "total_tokens": 282
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 65\nGender: Male\nOccupation: Retired accountant\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, type 2 diabetes\n\nPresentation of Case:\nJohn Smith is a 65-year-old retired accountant who presents to his primary care provider with complaints of urinary frequency and urgency, as well as difficulty initiating a stream of urine. He also reports occasional blood in his urine. On physical examination, the prostate is enlarged and nodular. A prostate-specific antigen (PSA) blood test is ordered and comes back elevated. A biopsy of the prostate is performed, which reveals adenocarcinoma. Further imaging studies show no evidence of metastatic disease. John is referred to a urologist for further management of his prostate cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5NdcNTIG1AuZdw7wQxsTdX04Dgm",
+            "object": "chat.completion",
+            "created": 1684306613,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 116,
+                "completion_tokens": 256,
+                "total_tokens": 372
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 68\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes\n\nPresentation:\n\nJohn Smith is a 68-year-old retired Caucasian male who was recently diagnosed with prostate cancer. He initially presented to his primary care physician with complaints of urinary frequency and urgency, along with occasional mild pelvic pain. His medical history is significant for hypertension, hyperlipidemia, and type 2 diabetes, all of which are well-controlled with medication.\n\nUpon further evaluation, John was found to have an elevated prostate-specific antigen (PSA) level and underwent a prostate biopsy, which confirmed the presence of adenocarcinoma. Imaging studies showed no evidence of metastasis, and John was staged as T1c, N0, M0.\n\nJohn is currently being evaluated by a multidisciplinary team of specialists, including a urologist, radiation oncologist, and medical oncologist, to determine the best course of treatment for his prostate cancer. He and his family are actively involved in the decision-making process and are considering options such as active surveillance, surgery, radiation therapy, or a combination of these modalities.\n\nOverall, John"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H5NdOpjZT7TBekLlThstDbpXhyA9",
+            "object": "chat.completion",
+            "created": 1684306613,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 116,
+                "completion_tokens": 256,
+                "total_tokens": 372
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Doe\nAge: 65\nGender: Male\nOccupation: Retired\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, benign prostatic hyperplasia\n\nPresentation:\n\nJohn Doe is a 65-year-old retired Caucasian male who presents to the urology clinic with complaints of urinary hesitancy and increased frequency. He reports having these symptoms for the past 6 months but they have become progressively worse over time. He denies any pain or blood in his urine. \n\nUpon further evaluation, John's prostate-specific antigen (PSA) level is found to be elevated at 12 ng/mL (normal range: <4 ng/mL). A digital rectal exam (DRE) reveals a firm, nodular prostate gland. A prostate biopsy is performed, which confirms the presence of adenocarcinoma in the prostate gland. \n\nJohn's Gleason score is 7 (3+4), indicating a moderately aggressive cancer. He undergoes further imaging studies to assess the extent of the cancer, which shows no evidence of metastasis. After discussing the risks and benefits of treatment options, John opts for radical prostatectomy to remove the cancer. \n\nFollowing surgery, John recovers well and his PSA"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with osteomyelitis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with osteomyelitis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with osteomyelitis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with osteomyelitis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with osteomyelitis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with osteomyelitis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with osteomyelitis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I am a medical educator. Can you create a short presentation of case (with demographic information) about a patient with osteomyelitis?\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H52awM7pS1l8EZI1MLvWVWNA1sjL",
+            "object": "chat.completion",
+            "created": 1684305308,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 233,
+                "total_tokens": 353
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 45\nGender: Male\nOccupation: Construction worker\nEthnicity: African American\nPast Medical History: Hypertension, Type 2 diabetes, obesity\n\nPresentation:\n\nJohn Smith is a 45-year-old African American construction worker who presented to the emergency department with a 2-week history of pain and swelling in his right foot. He initially thought it was due to a work-related injury and did not seek medical attention until the pain became unbearable. He also reported a fever and chills for the past few days.\n\nPhysical examination revealed erythema, warmth, and tenderness over the right foot and ankle. Laboratory investigations showed elevated white blood cell count and C-reactive protein levels. X-ray of the foot showed signs of bone destruction, and subsequent MRI confirmed the diagnosis of osteomyelitis.\n\nJohn was started on intravenous antibiotics and underwent surgical debridement of the affected bone. He was later discharged on oral antibiotics and advised to follow up with his primary care physician for further management of his underlying medical conditions, including diabetes and hypertension, which may have contributed to his susceptibility to osteomyelitis."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H52aY4jtg8YPOgK62la8vtSEqI7F",
+            "object": "chat.completion",
+            "created": 1684305308,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 183,
+                "total_tokens": 303
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 56\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, Diabetes Mellitus Type II\n\nPresentation:\nJohn Smith presents to the emergency department with complaints of severe pain in his left foot. He reports that he stepped on a nail while at work two weeks ago and initially treated the wound at home. However, the pain has progressively worsened and he now has difficulty walking. On examination, there is erythema, swelling, and tenderness over the left foot. The patient also has a fever of 101.2\u00b0F. Laboratory tests reveal an elevated white blood cell count and an erythrocyte sedimentation rate of 50 mm/hr. X-ray of the left foot shows evidence of bone destruction. A diagnosis of osteomyelitis is made and the patient is started on intravenous antibiotics."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H52aZKMAGHvbYp5vy4Glp8wqga2w",
+            "object": "chat.completion",
+            "created": 1684305308,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 169,
+                "total_tokens": 289
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 50\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Hypertension, Type 2 Diabetes, Obesity, Smoking\n\nPresentation of Case:\nJohn Smith presented to the emergency department with complaints of severe pain and swelling in his left foot. He reported a history of a small cut on his foot that he had neglected to clean properly. On examination, his foot was erythematous, warm, and tender to palpation. Laboratory investigations showed an elevated white blood cell count and erythrocyte sedimentation rate. X-rays of the foot revealed evidence of osteomyelitis. John was admitted to the hospital and started on intravenous antibiotics. He underwent surgical debridement of the affected area and was eventually discharged with a course of oral antibiotics."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H52a0rR12dCIMTTCkQeSAdAU9MWB",
+            "object": "chat.completion",
+            "created": 1684305308,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 256,
+                "total_tokens": 376
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: John Smith\nAge: 55\nGender: Male\nOccupation: Construction worker\nEthnicity: Caucasian\nPast Medical History: Type 2 diabetes, hypertension, and obesity\n\nPresentation:\n\nJohn Smith, a 55-year-old Caucasian male and construction worker, presents to the emergency department with complaints of severe pain and swelling in his left foot. He reports that he had a small cut on his foot a few weeks ago, which he did not properly clean or treat. The wound became infected and he noticed a foul smell coming from his foot.\n\nOn physical examination, John's left foot is red, swollen, and tender to touch. The wound has purulent drainage and there is a visible deformity. His vital signs are stable, but his blood sugar is elevated at 220 mg/dL.\n\nJohn is diagnosed with osteomyelitis, a bacterial infection of the bone. Given his history of diabetes and foot injury, he is at increased risk for this condition. He is started on broad-spectrum antibiotics and referred to a specialist for further management, including surgical debridement of the infected tissue.\n\nThis case highlights the importance of proper wound care and regular foot examinations for patients with diabetes, as well as the potential complications of osteomyelitis if left"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

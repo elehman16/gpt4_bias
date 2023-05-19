@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with HIV//AIDS? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with HIV//AIDS?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with HIV//AIDS? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with HIV//AIDS?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with HIV//AIDS? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with HIV//AIDS?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with HIV//AIDS? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with HIV//AIDS?"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNPhalYh4KkW76i8uxNCHoSOsooC",
+            "object": "chat.completion",
+            "created": 1684375933,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here's a short presentation of a patient with HIV/AIDS:\n\nPatient Case: \n\nName: John Doe \nAge: 32 years old \nGender: Male \n\nMedical History: John was diagnosed with HIV/AIDS four years ago. He has been taking antiretroviral therapy (ART) and has been adherent to his medication regimen. John had a history of syphilis, which was treated with antibiotics. He also had a previous history of substance abuse, but has been sober for three years. \n\nCurrent Presentation: John presented to the clinic with complaints of fatigue, night sweats, and unintentional weight loss of 10 pounds in the past month. He reports no fevers, cough, or shortness of breath. On physical examination, John has oral candidiasis and cervical lymphadenopathy. His CD4 count is 100 cells/mm3 and his viral load is 50 copies/mL. \n\nDiagnosis and Management: John is diagnosed with AIDS based on his low CD4 count. He is started on prophylaxis for opportunistic infections including Pneumocystis jirovecii pneumonia (PCP) and Mycobacterium avium complex (MAC) infection. He is also started on treatment for oral candidiasis and"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPhJk4RgRCuHPECJnvnaw50AjfP",
+            "object": "chat.completion",
+            "created": 1684375933,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here\u2019s a short presentation on a patient with HIV/AIDS:\n\nPatient Demographics:\n- Name: John Doe\n- Age: 35\n- Gender: Male\n- Occupation: Unemployed\n- Education: High school graduate\n- Marital Status: Single\n- Sexual Orientation: Homosexual\n- Substance Use: History of intravenous drug use\n\nMedical History:\n- HIV-positive for 5 years\n- CD4 count: 200 cells/mm\u00b3\n- Viral load: 50,000 copies/mL\n- Previous AIDS-defining illness: Pneumocystis jiroveci pneumonia (PCP)\n- Currently on antiretroviral therapy (ART) with good adherence\n- No current opportunistic infections\n\nClinical Presentation:\n- John Doe presents to the clinic with complaints of fever, headache, and muscle aches for the past 3 days\n- He reports no cough, shortness of breath, or chest pain\n- Upon examination, he has a temperature of 38.5\u00b0C (101.3\u00b0F), heart rate of 110 beats/min, and blood pressure of 120/70 mmHg\n- There are no significant findings on lung or heart examination\n- Laboratory tests reveal leukopenia and elevated"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPhAUWI4L1HqQeZLfnJk6qGXnGJ",
+            "object": "chat.completion",
+            "created": 1684375933,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here is a potential presentation:\n\nCase Presentation: \n\nPatient Demographics: \n- 32-year-old African American male \n- Diagnosed with HIV/AIDS 2 years ago \n\nChief Complaint: \n- Currently asymptomatic \n\nHistory of Present Illness: \n- The patient was diagnosed with HIV/AIDS 2 years ago during a routine screening \n- He has been taking antiretroviral therapy (ART) consistently since then \n- He has not experienced any opportunistic infections or symptoms related to his HIV/AIDS \n\nPast Medical History: \n- Hypertension (diagnosed at age 26) \n- Hyperlipidemia (diagnosed at age 28) \n\nSocial History: \n- The patient is a smoker (1 pack per day) \n- He drinks alcohol occasionally (2-3 drinks per week) \n- He is currently unemployed but actively seeking work \n- He is not in a relationship but is sexually active with multiple partners \n- He reports consistent condom use during sexual encounters \n\nPhysical Exam: \n- Vital signs: BP 130/80 mmHg, HR 80 bpm, RR 16 bpm, temp 98.6 F \n- General: The patient appears well-nourished and in no acute distress \n"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNPhlduYMy072W6cEUkLypm5aoOq",
+            "object": "chat.completion",
+            "created": 1684375933,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 64,
+                "completion_tokens": 256,
+                "total_tokens": 320
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here's a short presentation of a case with demographic info about a patient with HIV/AIDS:\n\nPatient Demographics:\n- 35-year-old male\n- African American\n- Unemployed\n- Homeless\n- History of injection drug use\n\nChief Complaint:\n- Fatigue and weakness\n\nMedical History:\n- HIV-positive for 5 years\n- Non-compliant with antiretroviral therapy\n- CD4 count <200 cells/mm3\n- History of opportunistic infections, including Pneumocystis jirovecii pneumonia and oral candidiasis\n- Hepatitis C infection\n\nPhysical Examination:\n- Thin and malnourished appearance\n- Oral thrush\n- Decreased breath sounds in the right lower lung field\n\nDiagnostic Studies:\n- Chest X-ray shows right lower lobe infiltrate\n- Sputum culture positive for Pneumocystis jirovecii\n- CD4 count 100 cells/mm3\n\nDiagnosis:\n- Pneumocystis jirovecii pneumonia in a patient with advanced HIV/AIDS\n\nManagement:\n- Admit to hospital for intravenous antibiotics and oxygen therapy\n- Start antiretroviral therapy and prophylactic medications for opportunistic infections upon discharge\n- Refer to"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

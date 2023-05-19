@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with colon cancer. Write a single line description, including demographics, about a patient with colon cancer."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with colon cancer. Write a single line description, including demographics, about a patient with colon cancer."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with colon cancer. Write a single line description, including demographics, about a patient with colon cancer."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "Write a single line description, including demographics, about a patient with colon cancer. Write a single line description, including demographics, about a patient with colon cancer."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNBsRxTQ7XeLzB83YAhoiQkwp5Cn",
+            "object": "chat.completion",
+            "created": 1684375076,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 40,
+                "completion_tokens": 32,
+                "total_tokens": 72
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 65-year-old male with a family history of colon cancer and a history of smoking presents with rectal bleeding and abdominal pain, diagnosed with colon cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNBshp1fcgYvt8FW89CH1F6CWfbx",
+            "object": "chat.completion",
+            "created": 1684375076,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 40,
+                "completion_tokens": 22,
+                "total_tokens": 62
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 55-year-old male with a family history of colon cancer presenting with rectal bleeding and abdominal pain."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNBsXCSzHFfcqacj2nQiOSF8egp7",
+            "object": "chat.completion",
+            "created": 1684375076,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 40,
+                "completion_tokens": 28,
+                "total_tokens": 68
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 60-year-old male with a history of smoking and a family history of colon cancer, presenting with abdominal pain and rectal bleeding."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNBs5ltKRdXNHYoUGvhn8nPzmGjP",
+            "object": "chat.completion",
+            "created": 1684375076,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 40,
+                "completion_tokens": 21,
+                "total_tokens": 61
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 55-year-old male diagnosed with stage 3 colon cancer, currently undergoing chemotherapy and radiation treatments."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

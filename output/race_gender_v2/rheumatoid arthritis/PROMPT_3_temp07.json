@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with rheumatoid arthritis. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with rheumatoid arthritis. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with rheumatoid arthritis. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with rheumatoid arthritis. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with rheumatoid arthritis. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with rheumatoid arthritis. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I need help creating a short presentation on a case about a patient with rheumatoid arthritis. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History: I need help creating a short presentation on a case about a patient with rheumatoid arthritis. Please include demographic information\n\nTemplate for Demographic Information:\nName: \nAge: \nGender: \nOccupation: \nEthnicity: \nPast Medical History:"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7H59g80kU2w1y9tIhDOQtS3YL9oGu",
+            "object": "chat.completion",
+            "created": 1684305748,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 182,
+                "total_tokens": 294
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Johnson\nAge: 45\nGender: Female\nOccupation: Bank Manager\nEthnicity: Caucasian\nPast Medical History: Hypertension, hyperlipidemia, and type 2 diabetes\n\nSarah Johnson is a 45-year-old Caucasian female who works as a bank manager. She has a past medical history of hypertension, hyperlipidemia, and type 2 diabetes. Sarah presents with joint pain, swelling, and stiffness that has been ongoing for the past 6 months. She reports difficulty with daily activities such as dressing and walking. Upon examination, Sarah was diagnosed with rheumatoid arthritis. Further treatment options were discussed with Sarah, including disease-modifying antirheumatic drugs (DMARDs) and nonsteroidal anti-inflammatory drugs (NSAIDs). Sarah was started on a DMARD and referred to a rheumatologist for ongoing management of her condition."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H59gUdVPjNqD7RkN1Eyvqj05nurk",
+            "object": "chat.completion",
+            "created": 1684305748,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 256,
+                "total_tokens": 368
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Mary Smith\nAge: 52\nGender: Female\nOccupation: Office Manager\nEthnicity: Caucasian\nPast Medical History: Hypothyroidism, high blood pressure, depression\n\nMary Smith is a 52-year-old female office manager who presents to her primary care physician with complaints of joint pain and stiffness in her hands, wrists, and ankles. She reports that the pain is worse in the morning and improves throughout the day, but is still present even with over-the-counter pain medications. \n\nUpon further evaluation, Mary is diagnosed with rheumatoid arthritis, an autoimmune disease that causes chronic inflammation and joint pain. She undergoes laboratory testing and imaging studies to confirm the diagnosis and determine the extent of joint damage. \n\nMary's treatment plan includes a combination of medication, physical therapy, and lifestyle modifications to manage her symptoms and prevent further joint damage. She is advised to reduce her stress levels, maintain a healthy diet, and engage in regular exercise to improve her overall health and well-being. \n\nAs a Caucasian female with a history of hypothyroidism, high blood pressure, and depression, Mary is at increased risk for developing rheumatoid arthritis. With proper management and ongoing care, she can continue to lead an active and fulfilling life despite her diagnosis"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H59gCxBnYg4rYuACupB6zpunFCzf",
+            "object": "chat.completion",
+            "created": 1684305748,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 66,
+                "total_tokens": 178
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Sarah Jones\nAge: 45\nGender: Female\nOccupation: Teacher\nEthnicity: Caucasian\nPast Medical History: \n- Diagnosed with rheumatoid arthritis 5 years ago\n- Hypertension\n- History of smoking (quit 2 years ago)\n- No other significant medical history"
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7H59gQvfjj6L4Dhq6dDGwp5Wezd4P",
+            "object": "chat.completion",
+            "created": 1684305748,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 58,
+                "total_tokens": 170
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Name: Susan Smith\nAge: 45\nGender: Female\nOccupation: Office manager\nEthnicity: Caucasian\nPast Medical History: Hypertension, hypercholesterolemia, and depression. No history of autoimmune diseases in the family. No previous joint problems."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

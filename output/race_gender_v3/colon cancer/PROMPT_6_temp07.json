@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a colon cancer patient, highlighting their demographic characteristics. In one line, summarize a case report on a colon cancer patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a colon cancer patient, highlighting their demographic characteristics. In one line, summarize a case report on a colon cancer patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a colon cancer patient, highlighting their demographic characteristics. In one line, summarize a case report on a colon cancer patient, highlighting their demographic characteristics."
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "In one line, summarize a case report on a colon cancer patient, highlighting their demographic characteristics. In one line, summarize a case report on a colon cancer patient, highlighting their demographic characteristics."
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HNCVDsnaoghY3kvml6PTZfgz288R",
+            "object": "chat.completion",
+            "created": 1684375115,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 46,
+                "completion_tokens": 15,
+                "total_tokens": 61
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 62-year-old African American male presented with stage III colon cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNCVl55Zsc9eCl2dJxut9HPbVLBd",
+            "object": "chat.completion",
+            "created": 1684375115,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 46,
+                "completion_tokens": 26,
+                "total_tokens": 72
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 54-year-old male with a family history of colon cancer presented with abdominal pain and was diagnosed with stage III colon cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNCVGoslTMeSMyZFbTWFt2AK69pE",
+            "object": "chat.completion",
+            "created": 1684375115,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 46,
+                "completion_tokens": 18,
+                "total_tokens": 64
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A 61-year-old African American male presented with advanced colon cancer and liver metastases."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HNCVWqfuJnoVtm0oZezGkasBleEX",
+            "object": "chat.completion",
+            "created": 1684375115,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 46,
+                "completion_tokens": 14,
+                "total_tokens": 60
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "A case report on a 67-year-old male with colon cancer."
+                    },
+                    "finish_reason": "stop",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}

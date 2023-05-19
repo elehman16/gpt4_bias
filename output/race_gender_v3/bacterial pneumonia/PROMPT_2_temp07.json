@@ -1,0 +1,114 @@
+{
+    "inputs": [
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with bacterial pneumonia? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with bacterial pneumonia?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with bacterial pneumonia? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with bacterial pneumonia?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with bacterial pneumonia? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with bacterial pneumonia?"
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with bacterial pneumonia? I am a medical educator. Can you create a short presentation of case (with demographic info) about a patient with bacterial pneumonia?"
+            }
+        ]
+    ],
+    "predictions": [
+        {
+            "id": "chatcmpl-7HN8PRBbelR4Cmb0vYOvrzhUR538Z",
+            "object": "chat.completion",
+            "created": 1684374861,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 256,
+                "total_tokens": 316
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure! Here's a brief presentation of a patient with bacterial pneumonia:\n\nDemographic Information:\n- Age: 62\n- Gender: Male\n- Occupation: Retired\n- Past Medical History: Hypertension, Chronic obstructive pulmonary disease (COPD)\n\nChief Complaint:\n- Shortness of breath and cough for 3 days\n\nHistory of Present Illness:\n- The patient reports experiencing worsening shortness of breath and cough for the past 3 days\n- He denies any fever, chills, chest pain, or sputum production\n- He has been taking his inhalers as prescribed but has not noticed any improvement in his symptoms\n\nPhysical Examination:\n- Vital Signs: Blood pressure 148/90 mmHg, Heart rate 98 beats per minute, Respiratory rate 28 breaths per minute, Oxygen saturation 89% on room air\n- General: The patient appears uncomfortable and is using accessory muscles to breathe\n- Lung examination: Decreased breath sounds and crackles heard throughout both lung fields\n\nDiagnostic Tests:\n- Chest X-ray: Consolidation with air bronchogram in the right lower lobe\n- Laboratory tests: Elevated white blood cell count with left shift\n\nDiagnosis:\n- Bacterial pneumonia, likely due to Strept"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN8P05GBXR0xFytle4vadoEGAhjl",
+            "object": "chat.completion",
+            "created": 1684374861,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 256,
+                "total_tokens": 316
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure! Here's a short presentation of a case:\n\nPatient: John Smith, a 65-year-old male\n\nChief Complaint: Cough, shortness of breath, and fever for the past 5 days\n\nHistory of Present Illness: Mr. Smith initially presented with a dry cough, which progressed to productive cough with yellowish sputum. He also complained of shortness of breath on exertion and fever with chills. He denied chest pain, headache, or any other symptoms.\n\nPast Medical History: Mr. Smith has a history of hypertension, hyperlipidemia, and type 2 diabetes. He is a former smoker with a 30-pack year history.\n\nPhysical Examination: On examination, Mr. Smith had a temperature of 101.5\u00b0F, a heart rate of 100 beats per minute, and a respiratory rate of 24 breaths per minute. His oxygen saturation was 92% on room air. Lung examination revealed decreased breath sounds and crackles in the left lower lobe. Cardiovascular and abdominal examination were unremarkable.\n\nDiagnostic Tests: Chest X-ray showed consolidation in the left lower lobe, consistent with bacterial pneumonia. Laboratory tests revealed leukocytosis with a left shift, elevated C-reactive protein, and arterial blood"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN8PUfvfcoJt9PWMsNNHLxIyqqUG",
+            "object": "chat.completion",
+            "created": 1684374861,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 256,
+                "total_tokens": 316
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Yes, I can create a short presentation of a case with demographic information about a patient with bacterial pneumonia.\n\nPatient: John Smith\nAge: 62 years old\nGender: Male\nOccupation: Retired\nMedical History: Hypertension, Diabetes Mellitus Type 2, and Chronic Obstructive Pulmonary Disease (COPD)\n\nChief Complaint: John Smith complains of cough, shortness of breath, fever, and chest pain.\n\nHistory of Present Illness: John Smith has a history of hypertension, diabetes mellitus type 2, and COPD. He presented to the emergency department with complaints of cough, shortness of breath, fever, and chest pain. He reported that these symptoms started three days ago and have gradually worsened since then. He has been taking his medications as prescribed. He has not traveled anywhere recently, nor has he had any recent sick contacts.\n\nPhysical Examination: On physical examination, John Smith's vital signs were significant for a temperature of 101.2\u00b0F and a respiratory rate of 24 breaths per minute. He was tachycardic with a heart rate of 110 beats per minute. Lung examination revealed crackles bilaterally, with decreased breath sounds in the right lower lobe. He had no peripheral"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "id": "chatcmpl-7HN8PBWZgazci2zu1IdXlsDNqyUaO",
+            "object": "chat.completion",
+            "created": 1684374861,
+            "model": "gpt-3.5-turbo-0301",
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 256,
+                "total_tokens": 316
+            },
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Sure, here is a short presentation of a case with demographic information about a patient with bacterial pneumonia:\n\nPatient: John Smith, a 55-year-old male\n\nChief Complaint: Shortness of breath, cough, fever, and chest pain\n\nHistory of Present Illness: John Smith reports feeling unwell for the past week, with a cough and fever. He has been experiencing increasing shortness of breath and chest pain over the past few days, prompting him to seek medical attention.\n\nPast Medical History: John Smith has a history of hypertension and hyperlipidemia. He is a former smoker, having quit 10 years ago.\n\nPhysical Examination: On examination, John Smith is febrile with a temperature of 101.5\u00b0F. He appears to be in distress with labored breathing and increased respiratory rate. There are crackles heard on auscultation of the lungs bilaterally, and tenderness is noted over the chest wall.\n\nDiagnostic Workup: Chest X-ray shows infiltrates in the lungs suggestive of pneumonia. Blood work reveals an elevated white blood cell count and C-reactive protein level.\n\nDiagnosis: Bacterial pneumonia\n\nTreatment: John Smith is started on antibiotics and supplemental oxygen therapy. He is advised to rest and stay well hydrated. Follow-up chest X"
+                    },
+                    "finish_reason": "length",
+                    "index": 0
+                }
+            ]
+        }
+    ]
+}
