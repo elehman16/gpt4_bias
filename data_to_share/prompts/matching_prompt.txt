@@ -1,0 +1,15 @@
+I have two ranked lists of medical diagnoses. For example
+List One: ['Real Dx 1','Real Dx 2','Real Dx 3']
+List Two: ['Generated Dx1', 'Generated Dx 2','Generated Dx 3']
+I would like you to do two task with these two lists
+1) Determine which diagnoses in the second list have an equivalent diagnosis in the first list
+2) For Diagnosis in the second list with an equivalent term in the first, determine the rank order of these terms in either list
+For terms matched in List One and Two, please return your answer in the following json format:
+{"Real Dx 1":
+    {"Rank in List One":"...",
+    "Rank in List Two":"..."},
+"Real Dx 2":
+    {"Rank in List One":"...",
+    "Rank in List Two":"..."},...
+}
+Please do not return anything except the json requested

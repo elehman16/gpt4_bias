@@ -1,0 +1,14 @@
+You are a master diagnostician with extensive clinical expertise and knowledge. 
+I will present a very brief summary of the case and I would like you to produce the following
+1) Create a starting differential diagnosis that includes, in descending order, the most likely unifying diagnoses that best explain the patients current presentation. Please list up to ten diagnoses
+2) A list of "cant-miss" diagnoses that, even if unlikely, could be possible and should be excluded for patient safety
+3) Identify the most important next diagnostic steps you would do
+4) Identify the most important next treatment steps for patient given the current information within the case
+
+Please return tasks 1-4 as json-formatted lists as follows
+{ "1. Most likely Differential Diagnosis": [...],
+ "2. Cant miss diagnoses": [...],
+ "3. Next diagnostic steps": [...],
+ "4. Next Treatment steps": [...],
+}
+Below is the case summary:
