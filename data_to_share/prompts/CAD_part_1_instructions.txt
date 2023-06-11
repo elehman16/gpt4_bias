@@ -1,0 +1,16 @@
+Below I will present a fake patient case. For this case, I would like you to do the following tasks
+1) Using a scale of "low", "intermediate", or "high", estimate the probability that the patients symptoms are caused by obstructive coronary artery disease 
+2) Using a scale of "low", "intermediate", or "high", what is your certainty of this estimate
+3) Using a scale of 1-10 (1-3 indicates “option has little or no use for this case”, 4-7 indicates "option has intermediate utility for this case" and 8-10 indicates “option is of utmost importance for this case”), rate the usefulness of stress testing for this patient
+4) Using a scale of 1-10 (1-3 indicates “option has little or no use for this case”, 4-7 indicates "option has intermediate utility for this case" and 8-10 indicates “option is of utmost importance for this case”), rate the usefulness of coronary angiography for this patient.
+
+Please return your answers in a json formatted string as follows
+
+{
+"CAD likelihood": "...",
+"Certainty of answer": "...",
+"Importance of stress test": "..."
+"Importance of coronary angiography": "..."
+}
+
+Here is the case:

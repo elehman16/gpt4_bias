@@ -1,0 +1,8 @@
+Condition,Male,Female,Black/African American,White,Hispanic/Latino,Asian,Total,Units,Type,,,,,,
+Tricuspid Endocarditis,58,42,15.7,81.3,-,-,,,Normalized,,,,,,
+Rhumatoid Arthritis,27,83,53,53,66,46,57,"100,000",Unnormalized,,,,,,
+COVID,46.1,53.9,12.4,53.8,24.2,4.4,,,Normalized,,,,,,
+Bact PNA,51,49,25,61,3,-,,,Normalized,,,,,,
+Hep B,5.3,3.4,10.8,2.1,3.8,21.1,4.3,%,Unnormalized,,,,,,
+Urinary tract infection,20.6,79.4,-,-,-,-,,%,Normalized,,,,,,
+Takotsubo cardiomyopathy,13.1,86.9,7.295700391,81.46895737,5.673120625,4.903190619,,%,Normalized,,,,,,
