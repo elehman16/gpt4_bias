@@ -8,11 +8,32 @@ from collections import Counter
 import matplotlib.pyplot as plt
 import numpy as np
 
-# For stats tests.
-import scipy.stats as stats
+
+import pandas as pd
 import statsmodels.api as sm
-from statsmodels.formula.api import ols
-import pingouin as pg
+from statsmodels.miscmodels.ordinal_model import OrderedModel
+from statsmodels.sandbox.stats.multicomp import multipletests
+
+
+def run_ordinal_lr(df: pd.DataFrame):
+    # We need to drop one otherwise we will have perfect multicollinearity
+    # in our model. i.e., one variable can be directly predicted by inversing the other.
+    df_encoded = pd.get_dummies(df, columns=['demographics'])
+    del df_encoded['demographics_caucasian_M'] #df.drop(columns=['demographics_caucasian_M'])
+
+    # Our target variable is 'answers'
+    y = df['answers']
+
+    # Remove 'answers' from the DataFrame to create our feature matrix
+    X = df_encoded.drop(columns='answers')
+
+    # Fit the model
+    model = OrderedModel(y, X, distr='logit')
+    result = model.fit(method='bfgs')
+    pvals = result.pvalues.iloc[:7].values
+    _, pvals_corrected, _, _ = multipletests(pvals, method='fdr_bh')
+    import pdb; pdb.set_trace()
+
 
 def parse_with_options(s: str, options: list[str]) -> str:
     """Match to the best fitting option. """
@@ -74,11 +95,11 @@ def load_data(df_path: str, json_path: str) -> Tuple[pd.DataFrame, pd.DataFrame]
     return df, dropped_df
 
 def find_missing_samples(
-        df: pd.DataFrame, 
-        case_to_statement_to_performance: dict[str, dict[str, dict[str, dict[str, int]]]],
-        all_samples: list[int], 
-        ideal_sample: int
-    ):
+    df: pd.DataFrame, 
+    case_to_statement_to_performance: dict[str, dict[str, dict[str, dict[str, int]]]],
+    all_samples: list[int], 
+    ideal_sample: int
+):
     # Now, we need to build a DF containing all samples that failed to run.
     # This means that we have to take the difference between the ideal sample and the actual sample.
     # If ideal_sample is -1, take the maximum in `all_samples`.
@@ -92,6 +113,7 @@ def find_missing_samples(
 
     # Find the missing samples
     missing_samples = []
+    completley_missing_samples = []
     for index, row in df.iterrows():
         demographic_key = f"{row['race']}_{row['gender']}"
         statement = row['statement']
@@ -109,49 +131,17 @@ def find_missing_samples(
                 missing_samples.extend([row_to_add.to_dict()] * missing_count)
                 print(f"Missing {missing_count} for {demographic_key} and {statement}")
 
+        else:
+            row_to_add = df[df.prompt == row.prompt].iloc[0]
+            completley_missing_samples.extend([row_to_add.to_dict() for i in range(ideal_sample)])
+            
 
     # Create a new dataframe with missing samples
     missing_samples_df = pd.DataFrame(missing_samples)
 
     # Save the missing samples dataframe to a CSV file
-    missing_samples_df.to_csv(os.path.join(args.output_dir, "missing_samples.csv"), index=False)
-
-def test_statistical_significance(df: pd.DataFrame, options: list[str]):
-    """Do an ANOVA """
-    # Assuming df is your DataFrame and 'group' is the column with your groups (White, Black, Asian)
-    # and 'score' is the column with the response scores
-
-    # Check normality for each group using Shapiro-Wilk test
-    # Map answer to numbers
-    mapping = {x: i for i, x in enumerate(options)}
-    df['answers'] = df['answers'].map(mapping)
-
-    # if df['answers'].isna().any():
-    #     print("Non-numeric data found in 'answers' column. They were set to NaN.")
-    #     raise ValueError("Error!")
-
-    # for group in df['demographics'].unique():
-    #     _, p = stats.shapiro(df[df['demographics'] == group]['answers'])
-    #     if p < 0.05:
-    #         print(f"The data for group {group} are not normally distributed.")
-    #     else:
-    #         print(f"The data for group {group} are normally distributed.")
-
-    # # Check homogeneity of variance using Levene's test
-    # _, p = stats.levene(*[df[df['demographics'] == group]['answers'] for group in df['demographics'].unique()])
-    # if p < 0.05:
-    #     print("The variances are not equal.")
-    # else:
-    #     print("The variances are equal.")
-
-    # Perform ANOVA or Welch's ANOVA based on the variance check
-    # if p < 0.05: # If variances are not equal
-    #aov = pg.welch_anova(dv='answers', between='demographics', data=df)
-    # else:
-    model = ols('answers ~ C(demographics)', data=df).fit()
-    aov = sm.stats.anova_lm(model, typ=2)
-    print(aov)
-    print()
+    #missing_samples_df.to_csv(os.path.join(args.output_dir, "missing_samples.csv"), index=False)
+    import pdb; pdb.set_trace()
 
 # Sample run: 
 # PYTHONPATH=. python src/analyze_nursing_output.py \
@@ -228,14 +218,6 @@ if __name__ == '__main__':
                 demographics.extend([d] * len(options))
                 all_options.extend(options)
 
-            # Test the statistical significance.
-            # answers_per_dm = pd.DataFrame({'demographics': unnormalized_demographics, 'answers': unnormalized_values})
-            # if len(options) == 5:
-            #     print(f"Statement: {s}")
-            #     test_statistical_significance(answers_per_dm, options)
-            # else:
-            #     print("Skipping non-continuous options.\n\n\n")
-
             # Now do the plot! Should be a bar graph where the hue is the demographic.
             tmp_df = pd.DataFrame({'demographic': demographics, 'option': all_options, 'normalized_count': dist_})
             remap_demographics = {
@@ -263,17 +245,23 @@ if __name__ == '__main__':
 
                 weighted_df.to_csv(f"{args.output_dir}/weighted_{q}_{s}.csv", index=False)
                 std_df.to_csv(f"{args.output_dir}/std_{q}_{s}.csv", index=False)
+            #else:
+            #    answers_per_dm = pd.DataFrame({'demographics': unnormalized_demographics, 'answers': [int(o[0]) for o in unnormalized_values]})
 
+            # Do the test!
+                # run_ordinal_lr(answers_per_dm)
 
             ax = df_pivot.plot(kind='bar')
 
             # To set the labels of x-axis to an angle (e.g., 45 degrees)
-            plt.xticks(rotation=45, ha='right')
+            #plt.xticks(rotation=45, ha='right')
+            #plt.labels([]) # Hide them!
+            ax.set_xticklabels([])
 
             # Setting labels for the axes and the title of the plot
-            plt.xlabel("Option")
-            plt.ylabel("Normalized Count")
-            plt.title(s)
+            plt.xlabel("")
+            plt.ylabel("Proportion of Responses")
+            plt.title("") #s)
 
             # To show the plot
             plt.tight_layout()
@@ -281,18 +269,34 @@ if __name__ == '__main__':
             plt.legend(loc=(1.04, 0))
             ax.get_legend().remove()
 
-            if args.pdf:
-                plt.savefig(f"{args.output_dir}/{q}_{s}.pdf", bbox_inches='tight')
-            else:
-                plt.savefig(f"{args.output_dir}/{q}_{s}.png", dpi=400, bbox_inches='tight')
+            if q == 'Case #1' and s == 'Statement: This patient is exaggerating their level of pain.':
+                print("Case #1")
+                df_pivot.to_csv(f"{args.output_dir}/case1_exaggerating.csv", index=False) 
+                run_ordinal_lr(answers_per_dm)
+            elif q == 'Case #2' and s == 'Statement: This patient is abusing Percocet.':
+                print("Case #2")
+
+                df_pivot.to_csv(f"{args.output_dir}/case2_abusing.csv", index=False)
+                run_ordinal_lr(answers_per_dm)
+            elif q == 'Case #6' and s == "Statement: This patient's family is hiding their alcohol abuse history.":
+                print("Case #6")
+                df_pivot.to_csv(f"{args.output_dir}/case6_hiding.csv", index=False)
+                run_ordinal_lr(answers_per_dm)
+
+            # if args.pdf:
+            #     plt.savefig(f"{args.output_dir}/{q}_{s}.pdf", bbox_inches='tight')
+            # else:
+            #     plt.savefig(f"{args.output_dir}/{q}_{s}.png", dpi=400, bbox_inches='tight')
 
             plt.close()
 
+
     # Now, we want to find the missing samples
     #find_missing_samples(df, case_to_statement_to_performance, all_samples, args.ideal_sample)
+    import pdb; pdb.set_trace()
 
-# PYTHONPATH=. python src/analyze_nursing_output.py 
-# --input_file_df ./output/nursing_bias/csv_outputs/unconscious_bias_nurses_final.csv 
-# --input_file_json ./output/nursing_bias/json_outputs/final_outputs_0.7_25_samples_for_real.json 
-# --pdf
-# --output_dir ./output/figures/nursing_bias/nursing_bias_25_samples_0.7_temp_v6.0/
+# PYTHONPATH=. python src/nursing_bias/analyze_nursing_output.py \
+# --input_file_df ./output/nursing_bias/csv_outputs/unconscious_bias_nurses_final.csv \
+# --input_file_json ./output/nursing_bias/json_outputs/final_outputs_0.7_25_samples_for_real.json \
+# --pdf \ 
+# --output_dir ./output/figures/nursing_bias/nursing_bias_25_samples_0.7_temp_v12.0/
