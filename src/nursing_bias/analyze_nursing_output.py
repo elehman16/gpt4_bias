@@ -28,11 +28,27 @@ def run_ordinal_lr(df: pd.DataFrame):
     X = df_encoded.drop(columns='answers')
 
     # Fit the model
-    model = OrderedModel(y, X, distr='logit')
-    result = model.fit(method='bfgs')
-    pvals = result.pvalues.iloc[:7].values
-    _, pvals_corrected, _, _ = multipletests(pvals, method='fdr_bh')
-    import pdb; pdb.set_trace()
+    try:
+        model = OrderedModel(y, X, distr='logit')
+        result = model.fit(method='bfgs')
+        pvals = result.pvalues.iloc[:7].values
+        demographics = result.pvalues.iloc[:7].index.values
+        _, pvals_corrected, _, _ = multipletests(pvals, method='fdr_bh')
+        
+    except: 
+        default_dem = [
+            'demographics_african-american_F', 
+            'demographics_african-american_M',
+            'demographics_asian_F', 
+            'demographics_asian_M',
+            'demographics_caucasian_F', 
+            'demographics_hispanic_F',
+            'demographics_hispanic_M'
+        ]
+
+        return {x: 1.0 for x in default_dem}
+
+    return {demographic: pval for demographic, pval in zip(demographics, pvals_corrected)}
 
 
 def parse_with_options(s: str, options: list[str]) -> str:
@@ -192,6 +208,7 @@ if __name__ == '__main__':
     # For each statement, we want to compute the bias for each demographic.
     # We have to take into account that we need to normalize by the number of samples.
     all_samples = [] 
+    p_values_map = []
     for q in case_to_statement_to_performance:
         for s in case_to_statement_to_performance[q]:
             # Plot the bias for each demographic
@@ -245,7 +262,8 @@ if __name__ == '__main__':
 
                 weighted_df.to_csv(f"{args.output_dir}/weighted_{q}_{s}.csv", index=False)
                 std_df.to_csv(f"{args.output_dir}/std_{q}_{s}.csv", index=False)
-            #else:
+            else:
+                answers_per_dm = None
             #    answers_per_dm = pd.DataFrame({'demographics': unnormalized_demographics, 'answers': [int(o[0]) for o in unnormalized_values]})
 
             # Do the test!
@@ -272,16 +290,26 @@ if __name__ == '__main__':
             if q == 'Case #1' and s == 'Statement: This patient is exaggerating their level of pain.':
                 print("Case #1")
                 df_pivot.to_csv(f"{args.output_dir}/case1_exaggerating.csv", index=False) 
-                run_ordinal_lr(answers_per_dm)
+                pvals_corrected = run_ordinal_lr(answers_per_dm)
             elif q == 'Case #2' and s == 'Statement: This patient is abusing Percocet.':
                 print("Case #2")
 
                 df_pivot.to_csv(f"{args.output_dir}/case2_abusing.csv", index=False)
-                run_ordinal_lr(answers_per_dm)
+                pvals_corrected = run_ordinal_lr(answers_per_dm)
             elif q == 'Case #6' and s == "Statement: This patient's family is hiding their alcohol abuse history.":
                 print("Case #6")
                 df_pivot.to_csv(f"{args.output_dir}/case6_hiding.csv", index=False)
-                run_ordinal_lr(answers_per_dm)
+                pvals_corrected = run_ordinal_lr(answers_per_dm)
+
+
+            elif answers_per_dm is not None:
+                pvals_corrected = run_ordinal_lr(answers_per_dm)
+                
+            else:
+                pvals_corrected = None
+
+            if pvals_corrected is not None:
+                p_values_map.append({'Statement': s, 'Case': q, 'p-values': pvals_corrected})
 
             # if args.pdf:
             #     plt.savefig(f"{args.output_dir}/{q}_{s}.pdf", bbox_inches='tight')
@@ -293,7 +321,26 @@ if __name__ == '__main__':
 
     # Now, we want to find the missing samples
     #find_missing_samples(df, case_to_statement_to_performance, all_samples, args.ideal_sample)
+    pvals = pd.DataFrame(p_values_map)
+
+    to_cmb = pvals['p-values']
+    pvals.drop(columns=['p-values'], inplace=True)
+
+    demographics_to_perf = {}
+    for x in to_cmb.values:
+        for d in x.keys():
+            if d not in demographics_to_perf:
+                demographics_to_perf[d] = []
+
+            demographics_to_perf[d].append(x[d])
+
+    #all_p_values = [pd.DataFrame({'Demographics': x.keys(), 'P-Values': x.values()}).T for x in to_cmb.values]
+    for key, value in demographics_to_perf.items():
+        pvals[key] = value
+
     import pdb; pdb.set_trace()
+
+    
 
 # PYTHONPATH=. python src/nursing_bias/analyze_nursing_output.py \
 # --input_file_df ./output/nursing_bias/csv_outputs/unconscious_bias_nurses_final.csv \
