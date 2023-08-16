@@ -81,8 +81,6 @@ def graph_kendalltaus(kendall_tau_df: pd.DataFrame, output_dir: str, case_num: i
     sns.violinplot(x='variable', y='value', data=df_melt)
     plt.ylabel('Kendall Tau')
     plt.xlabel('')
-    #plt.title(f'{topic} Case #{case_num} (p = {p_value:.2f})')
-    #plt.title(f'P = {p_value:.2f}')
     plt.xticks(rotation=45)
     sns.despine()
     plt.gca().set_xticklabels([v.split('_')[1] + ' ' + v.split('_')[0] for v in kendall_tau_df.columns])
@@ -101,73 +99,6 @@ def graph_mean_rank(mean_rank_df: pd.DataFrame, output_dir: str, case_num: int):
     # Save the data
     plt.savefig(f'{output_dir}/mean_rank_case_{case_num}.pdf', bbox_inches='tight')
     plt.clf()
-
-# def is_normal(dist: list[float]) -> bool:
-#     shapiro_test = stats.shapiro(dist)
-#     shapiro_stat, shapiro_pvalue = shapiro_test
-#     print("Shapiro Statistic: ", shapiro_stat)
-#     print("P-value: ", shapiro_pvalue, "\n")
-
-# def sex_wise_ttest_on_kendall_tau(df: pd.DataFrame):
-#     male, female = [], []
-#     transposed_df = df.transpose()
-
-#     for i in range(len(transposed_df)):
-#         row = transposed_df.iloc[i]
-#         if 'female' in row.name.lower():
-#             female.extend(row.values)
-#         else:
-#             male.extend(row.values)
-
-#     # Check that the data is normally distributed
-#     is_normal(male)
-#     is_normal(female)
-
-#     assert(len(male) == len(female))
-#     print(stats.chi2_contingency([male, female]).pvalue)
-
-
-# def race_wise_chitest_on_kendall_tau(df: pd.DataFrame):
-#     black, white, asian, hispanic = [], [], [], []
-#     transposed_df = df.transpose()
-
-#     for i in range(len(transposed_df)):
-#         row = transposed_df.iloc[i]
-#         if 'black' in row.name.lower():
-#             black.extend(row.values)
-#         elif 'hispanic' in row.name.lower():
-#             hispanic.extend(row.values)
-#         elif 'caucasian' in row.name.lower():
-#             white.extend(row.values)
-#         elif 'asian' in row.name.lower():
-#             asian.extend(row.values)
-#         else:
-#             raise ValueError("?")
-
-#     assert(len(black) == len(white) == len(asian) == len(hispanic))
-#     # Check that the data is normally distributed
-#     is_normal(black)
-#     is_normal(white)
-#     is_normal(asian)
-#     is_normal(hispanic)
-
-#     distributions = [black, white, asian, hispanic]
-#     for i in range(len(distributions)):
-#         for j in range(len(distributions)):
-#             if i == j: continue
-#             print(stats.chi2_contingency([distributions[i], distributions[j]]).pvalue)
-#             print()
-
-# def all_chitest_kendall_tau(df: pd.DataFrame):
-#     transposed_df = df.transpose()
-#     print("All races + sex: ")
-
-#     for i in range(len(transposed_df)):
-#         for j in range(len(transposed_df)):
-#             if i == j: continue
-#             print(stats.chi2_contingency([transposed_df.iloc[i], transposed_df.iloc[j]]).pvalue)
-#             print()
-
 
 def fill_cell(cell, K: int, default_value: int = 11):
     if isinstance(cell, list):
@@ -248,14 +179,9 @@ if __name__ == '__main__':
     # Turn into DF and rename the columns
     mean_rank_df = pd.DataFrame(demographic_to_mean_rank)
     mean_rank_df.columns = [x.replace('_', ' ').title() for x in mean_rank_df.columns]
-    #graph_mean_rank(mean_rank_df, args.output_dir, args.case_num)
-    #mean_rank_df.to_csv(f'{args.output_dir}/mean_rank_case_{args.case_num}.csv')
 
-    ## Calculate multivariate regression
+    # Calculate multivariate regression
     raw_predictions = pd.DataFrame(demographic_to_ranks)
-    #is_significant = multiwave_anova(raw_predictions, num_samples)
-
-    #raw_predictions.to_csv(f'{args.output_dir}/raw_predictions_case_{args.case_num}.csv')
 
     # Now we want to calculate the kallman tau rank statistic
     dx_to_kendall_tau = {}
@@ -271,8 +197,3 @@ if __name__ == '__main__':
     kendall_tau_df.to_csv(f'{args.output_dir}/kendall_tau_case_{args.case_num}.csv')
     graph_kendalltaus(kendall_tau_df, args.output_dir, args.case_num, args.topic, p_value)
 
-    # # Get the Kendall Tau t-test + anova results
-    # sex_wise_ttest_on_kendall_tau(kendall_tau_df)
-    # race_wise_chitest_on_kendall_tau(kendall_tau_df)
-    # all_chitest_kendall_tau(kendall_tau_df)
-    

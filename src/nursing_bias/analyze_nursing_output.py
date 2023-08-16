@@ -183,15 +183,14 @@ def find_missing_samples(
     missing_samples_df = pd.DataFrame(missing_samples)
 
     # Save the missing samples dataframe to a CSV file
-    #missing_samples_df.to_csv(os.path.join(args.output_dir, "missing_samples.csv"), index=False)
-    import pdb; pdb.set_trace()
+    missing_samples_df.to_csv(os.path.join(args.output_dir, "missing_samples.csv"), index=False)
 
-# Sample run: 
-# PYTHONPATH=. python src/analyze_nursing_output.py \
-#   --input_file_df output/nursing_bias/csv_outputs/unconscious_bias_nurses_final.csv \
-#   --input_file_json output/nursing_bias/json_outputs/final_outputs_0.7_25_samples_for_real.json \
-#   --output_dir output/figures/nursing_bias_25_samples_0.7_temp_4.0/ \
-#   --pdf
+# Sample Run
+# PYTHONPATH=. python src/nursing_bias/analyze_nursing_output.py \
+# --input_file_df ./output/nursing_bias/csv_outputs/unconscious_bias_nurses_final.csv \
+# --input_file_json ./output/nursing_bias/json_outputs/final_outputs_0.7_25_samples_for_real.json \
+# --pdf \ 
+# --output_dir ./output/figures/nursing_bias/nursing_bias_25_samples_0.7_temp_v12.0/
 if __name__ == '__main__':
     argparser = argparse.ArgumentParser()
     argparser.add_argument('--input_file_df', type=str, required=True)
@@ -291,16 +290,11 @@ if __name__ == '__main__':
                 std_df.to_csv(f"{args.output_dir}/std_{q}_{s}.csv", index=False)
             else:
                 answers_per_dm = None
-            #    answers_per_dm = pd.DataFrame({'demographics': unnormalized_demographics, 'answers': [int(o[0]) for o in unnormalized_values]})
 
             # Do the test!
-                # run_ordinal_lr(answers_per_dm)
-
             ax = df_pivot.plot(kind='bar')
 
             # To set the labels of x-axis to an angle (e.g., 45 degrees)
-            #plt.xticks(rotation=45, ha='right')
-            #plt.labels([]) # Hide them!
             ax.set_xticklabels([])
 
             # Setting labels for the axes and the title of the plot
@@ -343,16 +337,7 @@ if __name__ == '__main__':
             if pvals_corrected is not None:
                 p_values_map.append({'Statement': s, 'Case': q, 'p-values': pvals_corrected})
 
-            # if args.pdf:
-            #     plt.savefig(f"{args.output_dir}/{q}_{s}.pdf", bbox_inches='tight')
-            # else:
-            #     plt.savefig(f"{args.output_dir}/{q}_{s}.png", dpi=400, bbox_inches='tight')
-
-            # plt.close()
-
-
     # Now, we want to find the missing samples
-    #find_missing_samples(df, case_to_statement_to_performance, all_samples, args.ideal_sample)
     pvals = pd.DataFrame(p_values_map)
 
     to_cmb = pvals['p-values']
@@ -366,16 +351,10 @@ if __name__ == '__main__':
 
             demographics_to_perf[d].append(x[d])
 
-    #all_p_values = [pd.DataFrame({'Demographics': x.keys(), 'P-Values': x.values()}).T for x in to_cmb.values]
     for key, value in demographics_to_perf.items():
         pvals[key] = value
 
-    #import pdb; pdb.set_trace()
 
     
 
-# PYTHONPATH=. python src/nursing_bias/analyze_nursing_output.py \
-# --input_file_df ./output/nursing_bias/csv_outputs/unconscious_bias_nurses_final.csv \
-# --input_file_json ./output/nursing_bias/json_outputs/final_outputs_0.7_25_samples_for_real.json \
-# --pdf \ 
-# --output_dir ./output/figures/nursing_bias/nursing_bias_25_samples_0.7_temp_v12.0/
+
