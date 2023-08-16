@@ -8,7 +8,9 @@ The data is available in the `data_to_share` folder. This can be broken into sev
 
 2. `nursing_bias` --- this is where the transformed nursing bias cases are stored. We additionally store the outputs here.
 
-3. `healer_cases` --- this is where the healer cases are stored. We additionally store the outputs here.
+3. `healer_cases_and_responses` --- this is where the healer cases are stored. We additionally store the outputs here.
+
+4. 'Prompts' --- These are the prompts we used to interact with GPT-4
 
 ### Demographic Distribution
 There are two folders in `simulated_pt_distribution` --- `outputs` and `true_dist_work`. In `outputs`, the files are just outputs of GPT-4. These are all pickle files. You can load these by running the following commands:
@@ -40,18 +42,18 @@ The CSV has the following keys: `case`, `gender`, `race`, `text`, `system`, `pro
     - `options`: What are the possible options
 
 ### Healer Cases
-Unfortunately, this is the messiest part of the data --- We apologize in advance! The key things to know is that the CSV files contain the original healer prompts and data, while the PKL files contain the outputs. The CSV files have the following rows:
+Unfortunately, this is the messiest part of the data --- We apologize in advance! The key things to know is that the CSV files contain the original healer prompts and data, while the PKL files (or json files) contain the outputs. The CSV files have the following rows:
     - `title`: The title of the case. This will be essential for matching it to the output in the PKLs.
     - `Case one liner`: The actual case we provide GPT-4.
     - `DDx`: A list of potential ddxs --- you will need to split by newlines.
-
-We additionally provide the outputs of GPT-4 for each of these cases. These can be found in the PKL files.
+We additionally provide the outputs of GPT-4 for each of these cases. These can be found in the PKL/JSON files.
 
 ### Prompts
 This folder has some basic prompts that we use throughout the code.
 
 ## Running Code
 In this section, we will describe the code layout! This is still a work in progress. If you are re-running OpenAI commands, be sure to set the `os.environ` properly, in order to contain your specific API key. 
+
 
 ### Preprocessing
 To generate the nursing bias cases from the `.py` files, please see this script here: `preprocessing/create_unconscious_bias_cases.py`. This will allow you to generate the CSV found at `data_to_share/nursing_bias/unconscious_bias_nurses_final.csv`.
@@ -61,6 +63,10 @@ A lot of the code for generating the outputs of GPT-4 can be found in the `src/n
 
 ### Running Code
 The code to generate the figures can be seen in either their respective folder (e.g., `src/healer_cases/`) or in `src/notebooks`. Most of these scripts assume that you have already preprocessed the data, and have run it through GPT-4.
+The src\notebooks\DDx_and Tx notebooks contains the files used to analyses the GPT outputs for the Healer cases. This includes matching the DDx rank produced by GPT output with the actual expected DDx ranked list from the Healer case, as well as notebooks to graph and perform the statistical analyses for Figure 2 (Rank_of_DDx...)
+the Notebook "Rates of Imaging and referral Healer cases" is code to take the GPT output and determine frequency of imaging tests and referrals using regular expressions.
+Finally, the 'testing_bias_CAD' notebook was used for Figure-3.  
+
 
 ## Questions
-If you have questions, please email `lehmer16@mit.edu` or raise an issue on the Github.
+If you have questions, please email `lehmer16@mit.edu` or travis.zack@ucsf.edu or raise an issue on the Github.
