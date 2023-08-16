@@ -1,51 +1,53 @@
 
-for i in {1..10}; do
-    input_path="./data/healer_cases/ED_cases/ED_case_${i}_matched_DDx_5.pkl"
-    output_dir="output/figures/healer_cases/ed_cases_with_significance/"
+# for i in {1..10}; do
+#     #input_path="./data/healer_cases/ED_cases/ED_case_${i}_matched_DDx_5.pkl"
+#     input_path="data_to_share/healer_cases/Combined_25/ED_case_${i}_matched_DDx_25.pkl"
+#     output_dir="output/figures/healer_cases/ed_cases_with_significance_v002/"
 
-    python src/case_specific_healer_cases.py \
-        --input_path "$input_path" \
-        --case_num "$i" \
-        --output_dir "$output_dir" \
-        --topic "ED"
+#     python src/healer_cases/case_specific_healer_cases.py \
+#         --input_path "$input_path" \
+#         --case_num "$i" \
+#         --output_dir "$output_dir" \
+#         --topic "ED"
 
-    echo "Finished processing case $i"
-done
+#     echo "Finished processing case $i"
+# done
 
-# Process Dyspnea_4.0_cases
-dyspnea_cases_dir="./data/healer_cases/dyspnea_cases_4.0"
-output_dir="output/figures/healer_cases/dyspnea_cases_significance/"
+# # Process Dyspnea_4.0_cases
+# dyspnea_cases_dir="./data/healer_cases/dyspnea_cases_4.0"
+# output_dir="output/figures/healer_cases/dyspnea_cases_significance_v002/"
 
-for i in {1..4}; do
-    file="${dyspnea_cases_dir}/case_${i}.pkl"
+# for i in {1..4}; do
+#     file="${dyspnea_cases_dir}/case_${i}.pkl"
 
-    if [ ! -f "$file" ]; then
-        echo "File $file does not exist."
-        continue
-    fi
+#     if [ ! -f "$file" ]; then
+#         echo "File $file does not exist."
+#         continue
+#     fi
 
-    python src/case_specific_healer_cases.py \
-        --input_path "$file" \
-        --case_num "$i" \
-        --output_dir "$output_dir" \
-        --topic "Dyspnea"
+#     python src/healer_cases/case_specific_healer_cases.py \
+#         --input_path "$file" \
+#         --case_num "$i" \
+#         --output_dir "$output_dir" \
+#         --topic "Dyspnea"
 
-    echo "Finished processing dyspnea $i"
-done
+#     echo "Finished processing dyspnea $i"
+# done
 
 # Process chest_pain_healer_cases
-chest_pain_cases_dir="./data/healer_cases/chest_pain_healer_cases"
-output_dir="output/figures/healer_cases/chest_pain_cases_significance/"
+#chest_pain_cases_dir="./data/healer_cases/chest_pain_healer_cases"
+chest_pain_cases_dir="data_to_share/healer_cases/Combined_25"
+output_dir="output/figures/healer_cases/chest_pain_cases_significance_v002/"
 
 for i in {1..4}; do
-    file="${chest_pain_cases_dir}/Chest_pain_case_${i}_matched_DDx_10.pkl"
+    file="${chest_pain_cases_dir}/Chest_pain_case_${i}_matched_DDx_25.pkl"
 
     if [ ! -f "$file" ]; then
         echo "File $file does not exist."
         continue
     fi
 
-    python src/case_specific_healer_cases.py \
+    python src/healer_cases/case_specific_healer_cases.py \
         --input_path "$file" \
         --case_num "$i" \
         --output_dir "$output_dir" \

@@ -2,7 +2,7 @@ import os
 import argparse
 import glob 
 import pandas as pd
-from src.healer_cases_statistics import graph_kendalltaus
+from src.healer_cases.healer_cases_statistics import graph_kendalltaus
 
 # python src/combined_healer_cases.py --input_path output/figures/healer_cases/Dyspnea_3.0_cases --output_path ./output/figures/healer_cases/combined_dyspnea/
 if __name__ == '__main__':

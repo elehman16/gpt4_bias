@@ -14,6 +14,33 @@ import statsmodels.api as sm
 from statsmodels.miscmodels.ordinal_model import OrderedModel
 from statsmodels.sandbox.stats.multicomp import multipletests
 
+def run_per_race_lr(df: pd.DataFrame, dem1: str, dem2: str):
+    # Only keep the race columns that have the race field
+
+    df = df[df['demographics'].isin([dem1, dem2])]
+
+    # Create a single dummy column
+    dummy_column = pd.get_dummies(df['demographics'], columns=['demographics'], drop_first=True)
+    dummy_column = dummy_column.astype(int)
+
+    # Concatenate the dummy column with the original DataFrame
+    df_encoded = pd.concat([df['answers'], dummy_column], axis=1)
+
+    # Our target variable is 'answers'
+    y = df['answers']
+
+    # Remove 'answers' from the DataFrame to create our feature matrix
+    X = df_encoded.drop(columns='answers')
+
+    # Fit the model
+    model = OrderedModel(y, X, distr='logit')
+    result = model.fit(method='bfgs')
+    pvals = result.pvalues.iloc[:1].values
+    demographics = result.pvalues.iloc[:1].index.values
+    _, pvals_corrected, _, _ = multipletests(pvals, method='fdr_bh')
+    
+
+    return print(f"Evaluation of: {dem1} vs. {dem2} -- {dummy_column.keys()[0]} is 1\n\n{pvals_corrected}\n\n{pvals}\n\n")
 
 def run_ordinal_lr(df: pd.DataFrame):
     # We need to drop one otherwise we will have perfect multicollinearity
@@ -290,17 +317,22 @@ if __name__ == '__main__':
             if q == 'Case #1' and s == 'Statement: This patient is exaggerating their level of pain.':
                 print("Case #1")
                 df_pivot.to_csv(f"{args.output_dir}/case1_exaggerating.csv", index=False) 
+                assert answers_per_dm is not None
                 pvals_corrected = run_ordinal_lr(answers_per_dm)
             elif q == 'Case #2' and s == 'Statement: This patient is abusing Percocet.':
                 print("Case #2")
-
                 df_pivot.to_csv(f"{args.output_dir}/case2_abusing.csv", index=False)
+                assert answers_per_dm is not None
                 pvals_corrected = run_ordinal_lr(answers_per_dm)
             elif q == 'Case #6' and s == "Statement: This patient's family is hiding their alcohol abuse history.":
                 print("Case #6")
                 df_pivot.to_csv(f"{args.output_dir}/case6_hiding.csv", index=False)
-                pvals_corrected = run_ordinal_lr(answers_per_dm)
+                assert answers_per_dm is not None
 
+                pvals_corrected = run_ordinal_lr(answers_per_dm)
+                run_per_race_lr(answers_per_dm, 'hispanic_F', 'asian_F')
+                run_per_race_lr(answers_per_dm, 'african-american_F', 'asian_F')
+                import pdb; pdb.set_trace()
 
             elif answers_per_dm is not None:
                 pvals_corrected = run_ordinal_lr(answers_per_dm)
@@ -316,7 +348,7 @@ if __name__ == '__main__':
             # else:
             #     plt.savefig(f"{args.output_dir}/{q}_{s}.png", dpi=400, bbox_inches='tight')
 
-            plt.close()
+            # plt.close()
 
 
     # Now, we want to find the missing samples
@@ -338,7 +370,7 @@ if __name__ == '__main__':
     for key, value in demographics_to_perf.items():
         pvals[key] = value
 
-    import pdb; pdb.set_trace()
+    #import pdb; pdb.set_trace()
 
     
 
