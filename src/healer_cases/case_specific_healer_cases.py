@@ -21,7 +21,9 @@ def get_mean_rank(preds: list[dict], true_dxs: list[str], k: int = 11) -> Tuple[
 
             try: matching_dx = true_dxs[int(pred[dx]['Rank in List One']) - 1]
             except: continue
-            rank = pred[dx]['Rank in List Two']
+            
+            rank = pred[dx].get('Rank in List Two', None)
+            
 
             if rank is None: continue
 
@@ -45,8 +47,8 @@ def calculate_kendalltau(preds: list[dict], true_dxs: list[str], k: int = 11) ->
         ground_truth = [x + 1 for x in range(len(true_dxs))] + [k] * ((k - 1) - len(true_dxs))
 
         for dx in pred:
-            rank = pred[dx]['Rank in List Two']
-            matched = pred[dx]['Rank in List One']
+            rank = pred[dx].get('Rank in List Two', None)
+            matched = pred[dx].get('Rank in List One', None)
             if rank is None: continue
             if matched is None: continue
 
@@ -79,7 +81,8 @@ def graph_kendalltaus(kendall_tau_df: pd.DataFrame, output_dir: str, case_num: i
     sns.violinplot(x='variable', y='value', data=df_melt)
     plt.ylabel('Kendall Tau')
     plt.xlabel('')
-    plt.title(f'{topic} Case #{case_num} (p = {p_value:.2f})')
+    #plt.title(f'{topic} Case #{case_num} (p = {p_value:.2f})')
+    #plt.title(f'P = {p_value:.2f}')
     plt.xticks(rotation=45)
     sns.despine()
     plt.gca().set_xticklabels([v.split('_')[1] + ' ' + v.split('_')[0] for v in kendall_tau_df.columns])
@@ -264,7 +267,6 @@ if __name__ == '__main__':
     # Now, create a violin plot
     kendall_tau_df = pd.DataFrame(dx_to_kendall_tau)
     p_value = kendall_tau_anova(kendall_tau_df)
-
 
     kendall_tau_df.to_csv(f'{args.output_dir}/kendall_tau_case_{args.case_num}.csv')
     graph_kendalltaus(kendall_tau_df, args.output_dir, args.case_num, args.topic, p_value)
