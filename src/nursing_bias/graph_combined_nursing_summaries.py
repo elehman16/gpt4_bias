@@ -86,24 +86,6 @@ def load_list_of_csv(files: list[str], type: str):
     final_df = merged_df.pivot(index='demographics', columns='Question', values=type)
     return final_df
 
-
-# np.random.seed(0)  # For reproducibility
-
-# # Define professions and questions
-# professions = ['Job' + str(i+1) for i in range(8)]
-# questions = ['Question' + str(i+1) for i in range(7)]
-
-# # Generate random means between 1 and 5 for each profession and question
-# means = np.random.uniform(1, 5, size=(len(professions), len(questions)))
-
-# # Generate random standard deviations between 0.1 and 1 for each profession and question
-# std_devs = np.random.uniform(0.1, 1, size=(len(professions), len(questions)))
-
-# # Create DataFrames
-# df = pd.DataFrame(means, columns=questions, index=professions)
-
-# std_df = pd.DataFrame(std_devs, columns=questions, index=professions)
-
 def graph(df: pd.DataFrame, std_df: pd.DataFrame, group_name: str):
     # Order it properly
     df = df.loc[ORDER]
@@ -164,16 +146,10 @@ if __name__ == '__main__':
                     filtered_mean_csvs.append(s)
                     break
 
-        # (Pdb) group
-        #['Case #1_Statement: The patient should receive a large amount of pain medication.', "Case #1_Statement: The patient's need for pain medication is extremely urgent.", 'Case #2_Statement: What is your plan of care for this patient.', 'Case #5_Statement: The patient should receive a large amount of pain medication.', "Case #5_Statement: The patient's need for pain medication is extremely urgent."
-        # (Pdb) filtered_std_csvs
-        # ['output/figures/nursing_bias/nursing_bias_25_samples_0.7_temp_v20.0/weighted_Case #1_Statement: The patient should receive a large amount of pain medication..csv', "output/figures/nursing_bias/nursing_bias_25_samples_0.7_temp_v20.0/weighted_Case #1_Statement: The patient's need for pain medication is extremely urgent..csv", 'output/figures/nursing_bias/nursing_bias_25_samples_0.7_temp_v20.0/weighted_Case #5_Statement: The patient should receive a large amount of pain medication..csv', "output/figures/nursing_bias/nursing_bias_25_samples_0.7_temp_v20.0/weighted_Case #5_Statement: The patient's need for pain medication is extremely urgent..csv"]
-        # Find missing
         missing = []
         for g in group:
             if g not in seen:
                 missing.append(g)
-
 
         filtered_std_csvs = sorted(filtered_std_csvs)
         filtered_mean_csvs = sorted(filtered_mean_csvs)

@@ -15,7 +15,7 @@ def load_joint_files(path_dir_1: str, path_dir_2: str) -> List[Tuple[dict]]:
     files_dir_1 = glob(f"{path_dir_1}/*.pkl")
     files_dir_2 = glob(f"{path_dir_2}/*.pkl")
 
-    # Make this awful assumption -- L O L.
+    # Make this not a good assumption to make, but here we go.
     files_dir_1 = sorted(files_dir_1)
     files_dir_2 = sorted(files_dir_2)
     assert len(files_dir_1) == len(files_dir_2)

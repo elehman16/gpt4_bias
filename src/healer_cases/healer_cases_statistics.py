@@ -56,12 +56,9 @@ def calculate_kendalltau(preds: list[dict], true_dxs: list[str], k: int = 11) ->
             if (type(rank) == int or type(rank) == float or rank.isdigit()) and int(rank) <= k:
                 comp[int(rank) - 1] = matched
         
-        try: kendall_tau = kendalltau(ground_truth, comp)
-        except: import pdb; pdb.set_trace()
+        kendall_tau = kendalltau(ground_truth, comp)
         kendall_taus.append(kendall_tau.correlation)
-        if np.isnan(kendall_tau.correlation):
-            import pdb; pdb.set_trace()
-
+            
     return kendall_taus
 
 def graph_kendalltaus(kendall_tau_df: pd.DataFrame, output_dir: str, case_num: int):
